@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agentic FacilityOps AI Platform — Executive Operations Overview</title>
+    
+    <!-- CSS Dependencies -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/dashboard.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    
+    <!-- Chart.js CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+    <div class="app-container" id="overview-dashboard-identifier">
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar">
+            <div class="brand-header">
+                <div class="brand-icon">⚡</div>
+                <div class="brand-text">
+                    <h1>FacilityOps AI</h1>
+                    <span>Enterprise v1.2</span>
+                </div>
+            </div>
+            
+            <ul class="sidebar-menu">
+                <li class="active"><a href="index.html"><span class="menu-icon">📊</span> Overview Dashboard</a></li>
+                <li><a href="pages/energy.html"><span class="menu-icon">⚡</span> Energy Intelligence</a></li>
+                <li><a href="pages/maintenance.html"><span class="menu-icon">🔧</span> Predictive Maintenance</a></li>
+                <li><a href="pages/alerts.html"><span class="menu-icon">🔔</span> Operations Alerts</a></li>
+            </ul>
+
+            <div class="sidebar-footer">
+                <p>Status: <strong>All Systems Active</strong></p>
+                <p>© 2026 FacilityOps AI</p>
+            </div>
+        </aside>
+
+        <!-- Main Wrapper -->
+        <div class="main-wrapper">
+            <!-- Top Header Bar -->
+            <header class="top-header">
+                <div class="header-title-section">
+                    <h2>Executive Facility Operations Command Center</h2>
+                    <p>Combined Milestone 1 & 2 — Energy Intelligence & Predictive Asset Health</p>
+                </div>
+                <div class="header-controls">
+                    <div class="system-status-indicator">
+                        <div class="status-dot"></div>
+                        <span>Energy & Maintenance Agents Active</span>
+                    </div>
+                    <div class="clock-display" id="live-clock">2026-09-07 18:30</div>
+                </div>
+            </header>
+
+            <!-- Page Content -->
+            <main class="page-content">
+                
+                <!-- Combined Facility Overview KPIs (6 Cards) -->
+                <div class="kpi-grid kpi-grid-6">
+                    <div class="kpi-card">
+                        <div class="kpi-header">
+                            <span class="kpi-title">Total Energy</span>
+                            <div class="kpi-icon">⚡</div>
+                        </div>
+                        <div class="kpi-value" id="exec-total-energy">-- kWh</div>
+                        <div class="kpi-subtext">Utility Telemetry Baseline</div>
+                    </div>
+
+                    <div class="kpi-card">
+                        <div class="kpi-header">
+                            <span class="kpi-title">Energy Cost</span>
+                            <div class="kpi-icon">💵</div>
+                        </div>
+                        <div class="kpi-value" id="exec-energy-cost">$--</div>
+                        <div class="kpi-subtext">Operating Expenditure</div>
+                    </div>
+
+                    <div class="kpi-card">
+                        <div class="kpi-header">
+                            <span class="kpi-title">Monitored Assets</span>
+                            <div class="kpi-icon">🏭</div>
+                        </div>
+                        <div class="kpi-value" id="exec-total-assets">--</div>
+                        <div class="kpi-subtext">IoT Equipment Registry</div>
+                    </div>
+
+                    <div class="kpi-card">
+                        <div class="kpi-header">
+                            <span class="kpi-title">Healthy Assets</span>
+                            <div class="kpi-icon">🟢</div>
+                        </div>
+                        <div class="kpi-value" id="exec-healthy-assets">--</div>
+                        <div class="kpi-subtext">Health Score &gt; 75</div>
+                    </div>
+
+                    <div class="kpi-card">
+                        <div class="kpi-header">
+                            <span class="kpi-title">Maintenance Due</span>
+                            <div class="kpi-icon">🔧</div>
+                        </div>
+                        <div class="kpi-value" id="exec-maint-due">--</div>
+                        <div class="kpi-subtext">Service recommended</div>
+                    </div>
+
+                    <div class="kpi-card">
+                        <div class="kpi-header">
+                            <span class="kpi-title">Active Alerts</span>
+                            <div class="kpi-icon">🚨</div>
+                        </div>
+                        <div class="kpi-value" id="exec-active-alerts">--</div>
+                        <div class="kpi-subtext">Combined M1 & M2 Stream</div>
+                    </div>
+                </div>
+
+                <!-- Dual Overview Charts Row -->
+                <div class="charts-grid-2">
+                    <div class="card-box">
+                        <div class="card-box-header">
+                            <h3 class="card-box-title">⚡ Energy Overview — Daily Consumption Trend</h3>
+                            <a href="pages/energy.html" class="btn btn-secondary" style="font-size:0.75rem;">View Full Energy Module →</a>
+                        </div>
+                        <div class="chart-container chart-container-sm">
+                            <canvas id="chart-exec-energy"></canvas>
+                        </div>
+                    </div>
+
+                    <div class="card-box">
+                        <div class="card-box-header">
+                            <h3 class="card-box-title">🔧 Maintenance Overview — Asset Health Breakdown</h3>
+                            <a href="pages/maintenance.html" class="btn btn-secondary" style="font-size:0.75rem;">View Full Asset Module →</a>
+                        </div>
+                        <div class="chart-container chart-container-sm">
+                            <canvas id="chart-exec-maintenance"></canvas>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Recent Alerts & Top AI Recommendations -->
+                <div class="charts-grid-2">
+                    <div class="card-box">
+                        <div class="card-box-header">
+                            <h3 class="card-box-title">🔔 Operations Command Center — Recent Alerts</h3>
+                            <a href="pages/alerts.html" class="btn btn-secondary" style="font-size:0.75rem;">All Alerts →</a>
+                        </div>
+                        <div id="exec-recent-alerts" class="alert-card-list">
+                            <!-- Populated dynamically by dashboard.js -->
+                        </div>
+                    </div>
+
+                    <div class="card-box">
+                        <div class="card-box-header">
+                            <h3 class="card-box-title">🤖 AI Agent Recommendations</h3>
+                        </div>
+                        <div id="exec-recommendations">
+                            <!-- Populated dynamically by dashboard.js -->
+                        </div>
+                    </div>
+                </div>
+
+            </main>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/dataLoader.js"></script>
+    <script src="js/energy.js"></script>
+    <script src="js/maintenance.js"></script>
+    <script src="js/dashboard.js"></script>
+
+</body>
+</html>

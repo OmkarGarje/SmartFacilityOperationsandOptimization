@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operations Alerts — Agentic FacilityOps AI Platform</title>
+    
+    <!-- CSS Dependencies -->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/dashboard.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+</head>
+<body>
+
+    <div class="app-container" id="alerts-page-identifier">
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar">
+            <div class="brand-header">
+                <div class="brand-icon">⚡</div>
+                <div class="brand-text">
+                    <h1>FacilityOps AI</h1>
+                    <span>Enterprise v1.2</span>
+                </div>
+            </div>
+            
+            <ul class="sidebar-menu">
+                <li><a href="../index.html"><span class="menu-icon">📊</span> Overview Dashboard</a></li>
+                <li><a href="energy.html"><span class="menu-icon">⚡</span> Energy Intelligence</a></li>
+                <li><a href="maintenance.html"><span class="menu-icon">🔧</span> Predictive Maintenance</a></li>
+                <li class="active"><a href="alerts.html"><span class="menu-icon">🔔</span> Operations Alerts</a></li>
+            </ul>
+
+            <div class="sidebar-footer">
+                <p>Status: <strong>Monitoring Active</strong></p>
+                <p>© 2026 FacilityOps AI</p>
+            </div>
+        </aside>
+
+        <!-- Main Wrapper -->
+        <div class="main-wrapper">
+            <!-- Top Header -->
+            <header class="top-header">
+                <div class="header-title-section">
+                    <h2>Operations Alert Center</h2>
+                    <p>Real-Time Unified Anomaly Stream & Predictive Service Alerts</p>
+                </div>
+                <div class="header-controls">
+                    <div class="system-status-indicator">
+                        <div class="status-dot"></div>
+                        <span>Live Stream Active</span>
+                    </div>
+                    <div class="clock-display" id="live-clock">2026-09-07 18:30</div>
+                </div>
+            </header>
+
+            <!-- Page Content -->
+            <main class="page-content">
+                
+                <!-- KPI Grid -->
+                <div class="kpi-grid">
+                    <div class="kpi-card">
+                        <div class="kpi-header">
+                            <span class="kpi-title">Total Active Alerts</span>
+                            <div class="kpi-icon">🔔</div>
+                        </div>
+                        <div class="kpi-value" id="count-total-alerts">--</div>
+                        <div class="kpi-subtext">Combined System Stream</div>
+                    </div>
+
+                    <div class="kpi-card">
+                        <div class="kpi-header">
+                            <span class="kpi-title">Energy Anomalies</span>
+                            <div class="kpi-icon">⚡</div>
+                        </div>
+                        <div class="kpi-value" id="count-energy-alerts">--</div>
+                        <div class="kpi-subtext">Statistical & Off-peak outliers</div>
+                    </div>
+
+                    <div class="kpi-card">
+                        <div class="kpi-header">
+                            <span class="kpi-title">Maintenance Alerts</span>
+                            <div class="kpi-icon">🔧</div>
+                        </div>
+                        <div class="kpi-value" id="count-maint-alerts">--</div>
+                        <div class="kpi-subtext">Telemetry sensor threshold alerts</div>
+                    </div>
+
+                    <div class="kpi-card">
+                        <div class="kpi-header">
+                            <span class="kpi-title">High Priority Alerts</span>
+                            <div class="kpi-icon">🚨</div>
+                        </div>
+                        <div class="kpi-value" id="count-high-alerts">--</div>
+                        <div class="kpi-subtext">Action required within 24-48 hrs</div>
+                    </div>
+                </div>
+
+                <!-- Alert Filter Bar -->
+                <div class="filter-bar">
+                    <div class="filter-group">
+                        <input type="text" id="search-alert" class="form-input" placeholder="🔍 Search alert title or details...">
+                        
+                        <label for="filter-alert-cat">Category:</label>
+                        <select id="filter-alert-cat" class="form-select">
+                            <option value="ALL">All Categories</option>
+                            <option value="ENERGY">⚡ Energy Anomalies</option>
+                            <option value="MAINTENANCE">🔧 Predictive Maintenance</option>
+                        </select>
+
+                        <label for="filter-alert-sev">Severity:</label>
+                        <select id="filter-alert-sev" class="form-select">
+                            <option value="ALL">All Severities</option>
+                            <option value="HIGH">High Severity</option>
+                            <option value="MEDIUM">Medium Severity</option>
+                        </select>
+                    </div>
+
+                    <button class="btn btn-primary" onclick="AlertsEngine.init()">🔄 Refresh Feed</button>
+                </div>
+
+                <!-- Unified Alert Feed Container -->
+                <div class="card-box">
+                    <div class="card-box-header">
+                        <h3 class="card-box-title">🚨 Unified Operational Stream</h3>
+                    </div>
+                    <div id="alerts-feed-container" class="alert-card-list">
+                        <!-- Populated dynamically by alerts.js -->
+                    </div>
+                </div>
+
+            </main>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="../js/dataLoader.js"></script>
+    <script src="../js/energy.js"></script>
+    <script src="../js/maintenance.js"></script>
+    <script src="../js/alerts.js"></script>
+
+</body>
+</html>

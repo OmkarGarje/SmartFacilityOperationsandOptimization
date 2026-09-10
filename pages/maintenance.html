@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Predictive Maintenance — Agentic FacilityOps AI Platform</title>
+    
+    <!-- CSS Dependencies -->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/dashboard.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+    
+    <!-- Chart.js CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+    <div class="app-container" id="maintenance-page-identifier">
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar">
+            <div class="brand-header">
+                <div class="brand-icon">⚡</div>
+                <div class="brand-text">
+                    <h1>FacilityOps AI</h1>
+                    <span>Enterprise v1.2</span>
+                </div>
+            </div>
+            
+            <ul class="sidebar-menu">
+                <li><a href="../index.html"><span class="menu-icon">📊</span> Overview Dashboard</a></li>
+                <li><a href="energy.html"><span class="menu-icon">⚡</span> Energy Intelligence</a></li>
+                <li class="active"><a href="maintenance.html"><span class="menu-icon">🔧</span> Predictive Maintenance</a></li>
+                <li><a href="alerts.html"><span class="menu-icon">🔔</span> Operations Alerts</a></li>
+            </ul>
+
+            <div class="sidebar-footer">
+                <p>Status: <strong>System Online</strong></p>
+                <p>© 2026 FacilityOps AI</p>
+            </div>
+        </aside>
+
+        <!-- Main Wrapper -->
+        <div class="main-wrapper">
+            <!-- Top Header -->
+            <header class="top-header">
+                <div class="header-title-section">
+                    <h2>Predictive Maintenance & Asset Health</h2>
+                    <p>Milestone 2 — Telemetry Monitoring, Health Scoring & Failure Risk Analytics</p>
+                </div>
+                <div class="header-controls">
+                    <div class="system-status-indicator">
+                        <div class="status-dot"></div>
+                        <span>Maintenance Agent Active</span>
+                    </div>
+                    <div class="clock-display" id="live-clock">2026-09-07 18:30</div>
+                </div>
+            </header>
+
+            <!-- Page Content -->
+            <main class="page-content">
+                
+                <!-- KPI Grid (6 Cards) -->
+                <div class="kpi-grid kpi-grid-6">
+                    <div class="kpi-card">
+                        <div class="kpi-header">
+                            <span class="kpi-title">Total Monitored Assets</span>
+                            <div class="kpi-icon">🏭</div>
+                        </div>
+                        <div class="kpi-value" id="kpi-total-assets">--</div>
+                        <div class="kpi-subtext">Across 3 Facility Buildings</div>
+                    </div>
+
+                    <div class="kpi-card">
+                        <div class="kpi-header">
+                            <span class="kpi-title">Healthy Assets</span>
+                            <div class="kpi-icon">🟢</div>
+                        </div>
+                        <div class="kpi-value" id="kpi-healthy-assets">--</div>
+                        <div class="kpi-subtext">Health Score &gt; 75</div>
+                    </div>
+
+                    <div class="kpi-card">
+                        <div class="kpi-header">
+                            <span class="kpi-title">Requires Attention</span>
+                            <div class="kpi-icon">⚠️</div>
+                        </div>
+                        <div class="kpi-value" id="kpi-attention-assets">--</div>
+                        <div class="kpi-subtext">Warning State (50-74)</div>
+                    </div>
+
+                    <div class="kpi-card">
+                        <div class="kpi-header">
+                            <span class="kpi-title">Critical Assets</span>
+                            <div class="kpi-icon">🚨</div>
+                        </div>
+                        <div class="kpi-value" id="kpi-critical-assets">--</div>
+                        <div class="kpi-subtext">Health Score &lt; 50</div>
+                    </div>
+
+                    <div class="kpi-card">
+                        <div class="kpi-header">
+                            <span class="kpi-title">Maintenance Due</span>
+                            <div class="kpi-icon">📅</div>
+                        </div>
+                        <div class="kpi-value" id="kpi-maint-due">--</div>
+                        <div class="kpi-subtext">Scheduled within 30 days</div>
+                    </div>
+
+                    <div class="kpi-card">
+                        <div class="kpi-header">
+                            <span class="kpi-title">Predicted Failures</span>
+                            <div class="kpi-icon">💥</div>
+                        </div>
+                        <div class="kpi-value" id="kpi-predicted-failures">--</div>
+                        <div class="kpi-subtext">High risk telemetry flag</div>
+                    </div>
+                </div>
+
+                <!-- Dashboard Grid: Charts & Maintenance Agent Panel -->
+                <div class="dashboard-grid">
+                    <!-- Left: Equipment Health Distribution Chart -->
+                    <div class="card-box">
+                        <div class="card-box-header">
+                            <h3 class="card-box-title">Equipment Health Score Classification Distribution</h3>
+                        </div>
+                        <div class="chart-container">
+                            <canvas id="chart-health-distribution"></canvas>
+                        </div>
+                    </div>
+
+                    <!-- Right: Maintenance Agent Visual Panel -->
+                    <div class="agent-panel-card">
+                        <div class="agent-header">
+                            <div class="agent-identity">
+                                <div class="agent-avatar">🤖</div>
+                                <div class="agent-name-box">
+                                    <h3>Maintenance Agent</h3>
+                                    <p>Telemetry Risk Engine</p>
+                                </div>
+                            </div>
+                            <span class="badge badge-healthy">ACTIVE</span>
+                        </div>
+
+                        <ul class="agent-tasks-list">
+                            <li><span class="task-check">✓</span> Monitoring equipment sensors</li>
+                            <li><span class="task-check">✓</span> Calculating health scores</li>
+                            <li><span class="task-check">✓</span> Detecting abnormal behavior</li>
+                            <li><span class="task-check">✓</span> Predicting maintenance requirements</li>
+                            <li><span class="task-check">✓</span> Generating maintenance alerts</li>
+                        </ul>
+
+                        <div class="agent-metrics-grid">
+                            <div class="agent-metric-item">
+                                <h4 id="maint-agent-monitored">500</h4>
+                                <p>Monitored</p>
+                            </div>
+                            <div class="agent-metric-item">
+                                <h4 id="maint-agent-highrisk">0</h4>
+                                <p>High Risk</p>
+                            </div>
+                            <div class="agent-metric-item">
+                                <h4 id="maint-agent-failures">0</h4>
+                                <p>Failures</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Risk by Equipment Type Bar Chart -->
+                <div class="card-box">
+                    <div class="card-box-header">
+                        <h3 class="card-box-title">Asset Failure Risk Breakdown by Equipment Category</h3>
+                    </div>
+                    <div class="chart-container">
+                        <canvas id="chart-risk-by-type"></canvas>
+                    </div>
+                </div>
+
+                <!-- Equipment Data Table Section -->
+                <div class="card-box">
+                    <div class="card-box-header">
+                        <h3 class="card-box-title">🔧 Facility Equipment Telemetry & Asset Registry</h3>
+                    </div>
+
+                    <!-- Table Filters & Search -->
+                    <div class="filter-bar">
+                        <div class="filter-group">
+                            <input type="text" id="search-asset" class="form-input" placeholder="🔍 Search Asset ID or Name...">
+                            
+                            <label for="filter-asset-type">Type:</label>
+                            <select id="filter-asset-type" class="form-select">
+                                <option value="ALL">All Types</option>
+                                <option value="HVAC Unit">HVAC Unit</option>
+                                <option value="Chiller">Chiller</option>
+                                <option value="Air Handling Unit">Air Handling Unit</option>
+                                <option value="Generator">Generator</option>
+                                <option value="Elevator">Elevator</option>
+                                <option value="Water Pump">Water Pump</option>
+                                <option value="Cooling Tower">Cooling Tower</option>
+                                <option value="Compressor">Compressor</option>
+                            </select>
+
+                            <label for="filter-asset-status">Status:</label>
+                            <select id="filter-asset-status" class="form-select">
+                                <option value="ALL">All Statuses</option>
+                                <option value="Healthy">Healthy (90-100)</option>
+                                <option value="Good">Good (75-89)</option>
+                                <option value="Warning">Warning (50-74)</option>
+                                <option value="Critical">Critical (0-49)</option>
+                            </select>
+                        </div>
+
+                        <button id="btn-sort-health" class="btn btn-secondary">Sort Health: Low → High</button>
+                    </div>
+
+                    <!-- Responsive Table -->
+                    <div class="table-responsive">
+                        <table class="custom-table">
+                            <thead>
+                                <tr>
+                                    <th>Asset ID</th>
+                                    <th>Asset Name</th>
+                                    <th>Type</th>
+                                    <th>Location</th>
+                                    <th>Health Score</th>
+                                    <th>Status</th>
+                                    <th>Last Maintenance</th>
+                                    <th>Next Due</th>
+                                    <th>Risk Level</th>
+                                </tr>
+                            </thead>
+                            <tbody id="equipment-table-body">
+                                <!-- Populated dynamically by maintenance.js -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- Predictive Maintenance Alerts Section -->
+                <div class="card-box">
+                    <div class="card-box-header">
+                        <h3 class="card-box-title">🚨 Predictive Maintenance Alerts</h3>
+                    </div>
+                    <div id="maintenance-alerts-container" class="alert-card-list">
+                        <!-- Populated dynamically by maintenance.js -->
+                    </div>
+                </div>
+
+            </main>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="../js/dataLoader.js"></script>
+    <script src="../js/maintenance.js"></script>
+
+</body>
+</html>

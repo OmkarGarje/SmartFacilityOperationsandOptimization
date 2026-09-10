@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Energy Intelligence & Monitoring — Agentic FacilityOps AI Platform</title>
+    
+    <!-- CSS Dependencies -->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/dashboard.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+    
+    <!-- Chart.js CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+    <div class="app-container" id="energy-page-identifier">
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar">
+            <div class="brand-header">
+                <div class="brand-icon">⚡</div>
+                <div class="brand-text">
+                    <h1>FacilityOps AI</h1>
+                    <span>Enterprise v1.2</span>
+                </div>
+            </div>
+            
+            <ul class="sidebar-menu">
+                <li><a href="../index.html"><span class="menu-icon">📊</span> Overview Dashboard</a></li>
+                <li class="active"><a href="energy.html"><span class="menu-icon">⚡</span> Energy Intelligence</a></li>
+                <li><a href="maintenance.html"><span class="menu-icon">🔧</span> Predictive Maintenance</a></li>
+                <li><a href="alerts.html"><span class="menu-icon">🔔</span> Operations Alerts</a></li>
+            </ul>
+
+            <div class="sidebar-footer">
+                <p>Status: <strong>System Online</strong></p>
+                <p>© 2026 FacilityOps AI</p>
+            </div>
+        </aside>
+
+        <!-- Main Wrapper -->
+        <div class="main-wrapper">
+            <!-- Top Header -->
+            <header class="top-header">
+                <div class="header-title-section">
+                    <h2>Energy Intelligence & Monitoring</h2>
+                    <p>Milestone 1 — AI-Powered Utility Telemetry & Anomaly Analytics</p>
+                </div>
+                <div class="header-controls">
+                    <div class="system-status-indicator">
+                        <div class="status-dot"></div>
+                        <span>Energy Agent Active</span>
+                    </div>
+                    <div class="clock-display" id="live-clock">2026-09-07 18:30</div>
+                </div>
+            </header>
+
+            <!-- Page Content -->
+            <main class="page-content">
+                
+                <!-- Filter Bar -->
+                <div class="filter-bar">
+                    <div class="filter-group">
+                        <label for="filter-building">Select Building:</label>
+                        <select id="filter-building" class="form-select">
+                            <option value="ALL">All Buildings (B1, B2, B3)</option>
+                            <option value="B1">Building B1</option>
+                            <option value="B2">Building B2</option>
+                            <option value="B3">Building B3</option>
+                        </select>
+
+                        <label for="filter-floor">Select Floor:</label>
+                        <select id="filter-floor" class="form-select">
+                            <option value="ALL">All Floors (1 - 5)</option>
+                            <option value="1">Floor 1</option>
+                            <option value="2">Floor 2</option>
+                            <option value="3">Floor 3</option>
+                            <option value="4">Floor 4</option>
+                            <option value="5">Floor 5</option>
+                        </select>
+                    </div>
+
+                    <button class="btn btn-primary" onclick="EnergyEngine.init()">🔄 Refresh Analysis</button>
+                </div>
+
+                <!-- KPI Grid (6 Cards) -->
+                <div class="kpi-grid kpi-grid-6">
+                    <div class="kpi-card">
+                        <div class="kpi-header">
+                            <span class="kpi-title">Total Electricity</span>
+                            <div class="kpi-icon">⚡</div>
+                        </div>
+                        <div class="kpi-value" id="kpi-total-energy">-- kWh</div>
+                        <div class="kpi-subtext"><span class="kpi-trend-down">↓ 4.2%</span> vs last month</div>
+                    </div>
+
+                    <div class="kpi-card">
+                        <div class="kpi-header">
+                            <span class="kpi-title">Avg Daily Load</span>
+                            <div class="kpi-icon">📊</div>
+                        </div>
+                        <div class="kpi-value" id="kpi-avg-daily">-- kWh</div>
+                        <div class="kpi-subtext"><span class="kpi-trend-up">↑ 1.5%</span> seasonal baseline</div>
+                    </div>
+
+                    <div class="kpi-card">
+                        <div class="kpi-header">
+                            <span class="kpi-title">Energy Cost</span>
+                            <div class="kpi-icon">💵</div>
+                        </div>
+                        <div class="kpi-value" id="kpi-energy-cost">$--</div>
+                        <div class="kpi-subtext">Peak tariff rate applied</div>
+                    </div>
+
+                    <div class="kpi-card">
+                        <div class="kpi-header">
+                            <span class="kpi-title">HVAC Consumption</span>
+                            <div class="kpi-icon">❄️</div>
+                        </div>
+                        <div class="kpi-value" id="kpi-hvac-consumption">-- kWh</div>
+                        <div class="kpi-subtext">52% of total load</div>
+                    </div>
+
+                    <div class="kpi-card">
+                        <div class="kpi-header">
+                            <span class="kpi-title">Lighting Load</span>
+                            <div class="kpi-icon">💡</div>
+                        </div>
+                        <div class="kpi-value" id="kpi-lighting-consumption">-- kWh</div>
+                        <div class="kpi-subtext">Smart schedule enabled</div>
+                    </div>
+
+                    <div class="kpi-card">
+                        <div class="kpi-header">
+                            <span class="kpi-title">Avg Occupancy</span>
+                            <div class="kpi-icon">👥</div>
+                        </div>
+                        <div class="kpi-value" id="kpi-avg-occupancy">-- persons</div>
+                        <div class="kpi-subtext">Peak hours: 12 PM - 4 PM</div>
+                    </div>
+                </div>
+
+                <!-- Dashboard Grid: Charts Left & Energy Agent Panel Right -->
+                <div class="dashboard-grid">
+                    <!-- Left: Main Daily Chart -->
+                    <div class="card-box">
+                        <div class="card-box-header">
+                            <h3 class="card-box-title">Chart 1: Daily Electricity Consumption Trend (kWh)</h3>
+                        </div>
+                        <div class="chart-container">
+                            <canvas id="chart-daily-consumption"></canvas>
+                        </div>
+                    </div>
+
+                    <!-- Right: Energy Agent Visual Panel -->
+                    <div class="agent-panel-card">
+                        <div class="agent-header">
+                            <div class="agent-identity">
+                                <div class="agent-avatar">🤖</div>
+                                <div class="agent-name-box">
+                                    <h3>Energy Agent</h3>
+                                    <p>Rule-Based Statistical Engine</p>
+                                </div>
+                            </div>
+                            <span class="badge badge-healthy">ACTIVE</span>
+                        </div>
+
+                        <ul class="agent-tasks-list">
+                            <li><span class="task-check">✓</span> Monitoring utility consumption</li>
+                            <li><span class="task-check">✓</span> Detecting energy anomalies</li>
+                            <li><span class="task-check">✓</span> Analyzing HVAC efficiency</li>
+                            <li><span class="task-check">✓</span> Analyzing lighting consumption</li>
+                            <li><span class="task-check">✓</span> Generating recommendations</li>
+                        </ul>
+
+                        <div class="agent-metrics-grid">
+                            <div class="agent-metric-item">
+                                <h4 id="agent-last-analysis">18:30:00</h4>
+                                <p>Last Run</p>
+                            </div>
+                            <div class="agent-metric-item">
+                                <h4 id="agent-anomaly-count">0</h4>
+                                <p>Anomalies</p>
+                            </div>
+                            <div class="agent-metric-item">
+                                <h4 id="agent-potential-savings">$0</h4>
+                                <p>Est. Savings</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Charts Row 2: Category Breakdown & Energy vs Occupancy -->
+                <div class="charts-grid-2">
+                    <div class="card-box">
+                        <div class="card-box-header">
+                            <h3 class="card-box-title">Chart 2: Energy Consumption by Category</h3>
+                        </div>
+                        <div class="chart-container">
+                            <canvas id="chart-category-breakdown"></canvas>
+                        </div>
+                    </div>
+
+                    <div class="card-box">
+                        <div class="card-box-header">
+                            <h3 class="card-box-title">Chart 3: Energy Consumption vs Occupancy</h3>
+                        </div>
+                        <div class="chart-container">
+                            <canvas id="chart-energy-vs-occupancy"></canvas>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Charts Row 3: Energy Cost & Consumption by Floor -->
+                <div class="charts-grid-2">
+                    <div class="card-box">
+                        <div class="card-box-header">
+                            <h3 class="card-box-title">Chart 4: Energy Cost Over Time ($)</h3>
+                        </div>
+                        <div class="chart-container">
+                            <canvas id="chart-cost-over-time"></canvas>
+                        </div>
+                    </div>
+
+                    <div class="card-box">
+                        <div class="card-box-header">
+                            <h3 class="card-box-title">Chart 5: Energy Consumption by Floor (Bar Chart)</h3>
+                        </div>
+                        <div class="chart-container">
+                            <canvas id="chart-consumption-by-floor"></canvas>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Anomaly Alerts & AI Recommendations -->
+                <div class="charts-grid-2">
+                    <div class="card-box">
+                        <div class="card-box-header">
+                            <h3 class="card-box-title">⚡ Detected Energy Anomalies</h3>
+                        </div>
+                        <div id="anomalies-list-container" class="alert-card-list">
+                            <!-- Populated dynamically by energy.js -->
+                        </div>
+                    </div>
+
+                    <div class="card-box">
+                        <div class="card-box-header">
+                            <h3 class="card-box-title">💡 AI Energy Recommendations</h3>
+                        </div>
+                        <div id="recommendations-list-container">
+                            <!-- Populated dynamically by energy.js -->
+                        </div>
+                    </div>
+                </div>
+
+            </main>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="../js/dataLoader.js"></script>
+    <script src="../js/energy.js"></script>
+
+</body>
+</html>
