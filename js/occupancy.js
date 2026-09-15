@@ -391,18 +391,7 @@ const OccupancyEngine = {
     },
 
     buildChart(canvasId, config) {
-        const canvas = document.getElementById(canvasId);
-        if (!canvas) return;
-        if (typeof Chart === 'undefined') {
-            setTimeout(() => this.buildChart(canvasId, config), 500);
-            return;
-        }
-        try {
-            if (this.charts[canvasId]) this.charts[canvasId].destroy();
-            this.charts[canvasId] = new Chart(canvas, config);
-        } catch (err) {
-            console.error(`Error building chart ${canvasId}:`, err);
-        }
+        DataLoader.createChart(canvasId, config);
     },
 
     getChartOptions(yTitle) {

@@ -72,84 +72,70 @@ const DashboardEngine = {
     },
 
     renderCharts() {
-        if (typeof Chart === 'undefined') {
-            setTimeout(() => this.renderCharts(), 500);
-            return;
-        }
-
         // 1. Energy Overview Chart
         const eDisplay = this.energyData.slice(-30);
         const eLabels = eDisplay.map(r => r.timestamp.split(' ')[1] || r.timestamp);
-        const canvasEnergy = document.getElementById('chart-exec-energy');
-        if (canvasEnergy) {
-            new Chart(canvasEnergy, {
-                type: 'line',
-                data: {
-                    labels: eLabels,
-                    datasets: [{
-                        label: 'Electricity (kWh)',
-                        data: eDisplay.map(r => r.electricity_kwh),
-                        borderColor: '#3b82f6',
-                        backgroundColor: 'rgba(59, 130, 246, 0.1)',
-                        fill: true,
-                        tension: 0.3
-                    }]
-                },
-                options: {
-                    responsive: true,
-                    maintainAspectRatio: false,
-                    scales: { x: { ticks: { color: '#94a3b8', maxTicksLimit: 6 }, grid: { color: '#1e293b' } }, y: { ticks: { color: '#94a3b8' }, grid: { color: '#334155' } } },
-                    plugins: { legend: { display: false } }
-                }
-            });
-        }
+        DataLoader.createChart('chart-exec-energy', {
+            type: 'line',
+            data: {
+                labels: eLabels,
+                datasets: [{
+                    label: 'Electricity (kWh)',
+                    data: eDisplay.map(r => r.electricity_kwh),
+                    borderColor: '#3b82f6',
+                    backgroundColor: 'rgba(59, 130, 246, 0.1)',
+                    fill: true,
+                    tension: 0.3
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                scales: { x: { ticks: { color: '#94a3b8', maxTicksLimit: 6 }, grid: { color: '#1e293b' } }, y: { ticks: { color: '#94a3b8' }, grid: { color: '#334155' } } },
+                plugins: { legend: { display: false } }
+            }
+        });
 
         // 2. Maintenance Overview Chart
         const mCounts = { Excellent: 0, Good: 0, Warning: 0, Critical: 0 };
         this.maintenanceData.forEach(a => { mCounts[a.health_label] = (mCounts[a.health_label] || 0) + 1; });
-        const canvasMaint = document.getElementById('chart-exec-maintenance');
-        if (canvasMaint) {
-            new Chart(canvasMaint, {
-                type: 'doughnut',
-                data: {
-                    labels: ['Excellent', 'Good', 'Warning', 'Critical'],
-                    datasets: [{
-                        data: [mCounts.Excellent, mCounts.Good, mCounts.Warning, mCounts.Critical],
-                        backgroundColor: ['#10b981', '#3b82f6', '#f59e0b', '#ef4444'],
-                        borderWidth: 0
-                    }]
-                },
-                options: {
-                    responsive: true,
-                    maintainAspectRatio: false,
-                    plugins: { legend: { position: 'right', labels: { color: '#94a3b8' } } }
-                }
-            });
-        }
+        DataLoader.createChart('chart-exec-maintenance', {
+            type: 'doughnut',
+            data: {
+                labels: ['Excellent', 'Good', 'Warning', 'Critical'],
+                datasets: [{
+                    data: [mCounts.Excellent, mCounts.Good, mCounts.Warning, mCounts.Critical],
+                    backgroundColor: ['#10b981', '#3b82f6', '#f59e0b', '#ef4444'],
+                    borderWidth: 0
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: { legend: { position: 'right', labels: { color: '#94a3b8' } } }
+            }
+        });
 
         // 3. Occupancy Overview Chart
         const oDisplay = this.occupancyData.slice(-30);
         const oLabels = oDisplay.map(r => r.timestamp.split(' ')[1] || r.timestamp);
-        const canvasOcc = document.getElementById('chart-exec-occupancy');
-        if (canvasOcc) {
-            new Chart(canvasOcc, {
-                type: 'bar',
-                data: {
-                    labels: oLabels,
-                    datasets: [{
-                        label: 'Occupants',
-                        data: oDisplay.map(r => r.current_occupancy),
-                        backgroundColor: '#10b981'
-                    }]
-                },
-                options: {
-                    responsive: true,
-                    maintainAspectRatio: false,
-                    scales: { x: { ticks: { color: '#94a3b8', maxTicksLimit: 6 }, grid: { color: '#1e293b' } }, y: { ticks: { color: '#94a3b8' }, grid: { color: '#334155' } } },
-                    plugins: { legend: { display: false } }
-                }
-            });
-        }
+        DataLoader.createChart('chart-exec-occupancy', {
+            type: 'bar',
+            data: {
+                labels: oLabels,
+                datasets: [{
+                    label: 'Occupants',
+                    data: oDisplay.map(r => r.current_occupancy),
+                    backgroundColor: '#10b981'
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                scales: { x: { ticks: { color: '#94a3b8', maxTicksLimit: 6 }, grid: { color: '#1e293b' } }, y: { ticks: { color: '#94a3b8' }, grid: { color: '#334155' } } },
+                plugins: { legend: { display: false } }
+            }
+        });
     },
 
     renderRecentAlerts() {

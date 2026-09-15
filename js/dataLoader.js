@@ -1,7 +1,5 @@
 /**
- * Agentic FacilityOps AI Platform - Expanded Data Loader Module (Milestone 1, 2, 3)
- * Handles loading CSV datasets from data/ folder or generates fallback datasets
- * if file:// browser protocol blocks XMLHttpRequest/Fetch CORS.
+ * Agentic FacilityOps AI Platform - Expanded Data Loader & Offline Chart Engine
  */
 
 const DataLoader = {
@@ -9,6 +7,163 @@ const DataLoader = {
     maintenanceData: [],
     occupancyData: [],
     securityData: [],
+    chartInstances: {},
+
+    /**
+     * Universal Defensive Chart Creator
+     * Uses Chart.js CDN when available, or draws native 2D Canvas fallback charts if offline.
+     */
+    createChart(canvasId, config, retryCount = 0) {
+        const canvas = document.getElementById(canvasId);
+        if (!canvas) {
+            console.warn(`Canvas element '${canvasId}' not found in DOM.`);
+            return;
+        }
+
+        // 1. If Chart.js CDN is loaded
+        if (typeof Chart !== 'undefined') {
+            try {
+                if (this.chartInstances[canvasId]) {
+                    this.chartInstances[canvasId].destroy();
+                }
+                this.chartInstances[canvasId] = new Chart(canvas, config);
+                return;
+            } catch (err) {
+                console.error(`Chart.js error on '${canvasId}':`, err);
+            }
+        }
+
+        // 2. Retry up to 2 times for slow CDN loading
+        if (retryCount < 2) {
+            setTimeout(() => this.createChart(canvasId, config, retryCount + 1), 400);
+            return;
+        }
+
+        // 3. Fallback: Draw Native HTML5 Canvas Chart directly if offline or CDN blocked
+        this.drawFallbackChart(canvas, config);
+    },
+
+    /**
+     * Native 2D HTML5 Canvas Fallback Renderer for Offline Mode
+     */
+    drawFallbackChart(canvas, config) {
+        if (!canvas) return;
+        const ctx = canvas.getContext('2d');
+        const width = canvas.parentElement ? canvas.parentElement.clientWidth : (canvas.width || 300);
+        const height = canvas.parentElement ? canvas.parentElement.clientHeight : (canvas.height || 220);
+        
+        canvas.width = width;
+        canvas.height = height;
+        ctx.clearRect(0, 0, width, height);
+
+        const type = config.type || 'bar';
+        const labels = (config.data && config.data.labels) || [];
+        const datasets = (config.data && config.data.datasets) || [];
+
+        if (datasets.length === 0 || !datasets[0].data || datasets[0].data.length === 0) {
+            ctx.fillStyle = '#94a3b8';
+            ctx.font = '13px sans-serif';
+            ctx.textAlign = 'center';
+            ctx.fillText('No data available', width / 2, height / 2);
+            return;
+        }
+
+        if (type === 'doughnut' || type === 'pie') {
+            const data = datasets[0].data;
+            const colors = datasets[0].backgroundColor || ['#3b82f6', '#10b981', '#f59e0b', '#ef4444', '#8b5cf6'];
+            const total = data.reduce((a, b) => a + Number(b), 0) || 1;
+
+            let startAngle = -Math.PI / 2;
+            const centerX = width / 2;
+            const centerY = height / 2 - 12;
+            const radius = Math.min(width, height) / 3.2;
+
+            data.forEach((val, idx) => {
+                const sliceAngle = (Number(val) / total) * 2 * Math.PI;
+                ctx.beginPath();
+                ctx.arc(centerX, centerY, radius, startAngle, startAngle + sliceAngle);
+                if (type === 'doughnut') {
+                    ctx.arc(centerX, centerY, radius * 0.55, startAngle + sliceAngle, startAngle, true);
+                } else {
+                    ctx.lineTo(centerX, centerY);
+                }
+                ctx.closePath();
+                ctx.fillStyle = Array.isArray(colors) ? colors[idx % colors.length] : colors;
+                ctx.fill();
+                startAngle += sliceAngle;
+            });
+
+            ctx.font = '11px sans-serif';
+            ctx.textAlign = 'center';
+            ctx.fillStyle = '#94a3b8';
+            const legendText = labels.map((l, i) => `${l}: ${data[i]}`).join(' | ');
+            ctx.fillText(legendText.substring(0, 60), centerX, height - 10);
+        } else if (type === 'bar') {
+            const data = datasets[0].data;
+            const color = (Array.isArray(datasets[0].backgroundColor) ? datasets[0].backgroundColor[0] : datasets[0].backgroundColor) || '#3b82f6';
+            const maxVal = Math.max(...data.map(v => Number(v) || 0)) || 1;
+
+            const padding = 35;
+            const chartW = width - padding * 2;
+            const chartH = height - padding * 2;
+            const barWidth = Math.max(4, Math.min(36, (chartW / data.length) - 4));
+
+            ctx.strokeStyle = '#334155';
+            ctx.lineWidth = 1;
+            ctx.beginPath();
+            ctx.moveTo(padding, padding);
+            ctx.lineTo(padding, height - padding);
+            ctx.lineTo(width - padding, height - padding);
+            ctx.stroke();
+
+            data.forEach((val, idx) => {
+                const barH = (Number(val) / maxVal) * chartH;
+                const x = padding + idx * (chartW / data.length) + (chartW / data.length - barWidth) / 2;
+                const y = height - padding - barH;
+
+                ctx.fillStyle = Array.isArray(datasets[0].backgroundColor) ? datasets[0].backgroundColor[idx % datasets[0].backgroundColor.length] : color;
+                ctx.fillRect(x, y, barWidth, barH);
+            });
+
+            ctx.font = '10px sans-serif';
+            ctx.fillStyle = '#94a3b8';
+            ctx.textAlign = 'center';
+            ctx.fillText(datasets[0].label || 'Data Bar Chart', width / 2, padding / 2 + 5);
+        } else {
+            const data = datasets[0].data;
+            const color = datasets[0].borderColor || '#3b82f6';
+            const maxVal = Math.max(...data.map(v => Number(v) || 0)) || 1;
+
+            const padding = 35;
+            const chartW = width - padding * 2;
+            const chartH = height - padding * 2;
+
+            ctx.strokeStyle = '#334155';
+            ctx.lineWidth = 1;
+            ctx.beginPath();
+            ctx.moveTo(padding, padding);
+            ctx.lineTo(padding, height - padding);
+            ctx.lineTo(width - padding, height - padding);
+            ctx.stroke();
+
+            ctx.strokeStyle = color;
+            ctx.lineWidth = 2;
+            ctx.beginPath();
+
+            data.forEach((val, idx) => {
+                const x = padding + (idx / Math.max(1, data.length - 1)) * chartW;
+                const y = height - padding - ((Number(val) / maxVal) * chartH);
+                if (idx === 0) ctx.moveTo(x, y);
+                else ctx.lineTo(x, y);
+            });
+            ctx.stroke();
+
+            ctx.font = '10px sans-serif';
+            ctx.fillStyle = '#94a3b8';
+            ctx.textAlign = 'center';
+            ctx.fillText(datasets[0].label || 'Data Line Chart', width / 2, padding / 2 + 5);
+        }
+    },
 
     /**
      * Parses CSV string into array of objects
@@ -36,9 +191,6 @@ const DataLoader = {
         return data;
     },
 
-    /**
-     * Loads Energy Dataset (M1)
-     */
     async loadEnergyData() {
         if (this.energyData.length > 0) return this.energyData;
         try {
@@ -46,17 +198,12 @@ const DataLoader = {
             if (!response.ok) throw new Error('HTTP error ' + response.status);
             const text = await response.text();
             this.energyData = this.parseCSV(text);
-            console.log(`Loaded ${this.energyData.length} energy records from CSV.`);
         } catch (err) {
-            console.warn('CSV fetch failed (likely file:// mode). Generating fallback energy dataset...', err);
             this.energyData = this.generateFallbackEnergyData();
         }
         return this.energyData;
     },
 
-    /**
-     * Loads Maintenance Dataset (M2)
-     */
     async loadMaintenanceData() {
         if (this.maintenanceData.length > 0) return this.maintenanceData;
         try {
@@ -64,17 +211,12 @@ const DataLoader = {
             if (!response.ok) throw new Error('HTTP error ' + response.status);
             const text = await response.text();
             this.maintenanceData = this.parseCSV(text);
-            console.log(`Loaded ${this.maintenanceData.length} maintenance records from CSV.`);
         } catch (err) {
-            console.warn('CSV fetch failed (likely file:// mode). Generating fallback maintenance dataset...', err);
             this.maintenanceData = this.generateFallbackMaintenanceData();
         }
         return this.maintenanceData;
     },
 
-    /**
-     * Loads Occupancy Dataset (M3)
-     */
     async loadOccupancyData() {
         if (this.occupancyData.length > 0) return this.occupancyData;
         try {
@@ -82,17 +224,12 @@ const DataLoader = {
             if (!response.ok) throw new Error('HTTP error ' + response.status);
             const text = await response.text();
             this.occupancyData = this.parseCSV(text);
-            console.log(`Loaded ${this.occupancyData.length} occupancy records from CSV.`);
         } catch (err) {
-            console.warn('CSV fetch failed (likely file:// mode). Generating fallback occupancy dataset...', err);
             this.occupancyData = this.generateFallbackOccupancyData();
         }
         return this.occupancyData;
     },
 
-    /**
-     * Loads Security Dataset (M3)
-     */
     async loadSecurityData() {
         if (this.securityData.length > 0) return this.securityData;
         try {
@@ -100,17 +237,12 @@ const DataLoader = {
             if (!response.ok) throw new Error('HTTP error ' + response.status);
             const text = await response.text();
             this.securityData = this.parseCSV(text);
-            console.log(`Loaded ${this.securityData.length} security records from CSV.`);
         } catch (err) {
-            console.warn('CSV fetch failed (likely file:// mode). Generating fallback security dataset...', err);
             this.securityData = this.generateFallbackSecurityData();
         }
         return this.securityData;
     },
 
-    /**
-     * Dynamic fallback generator for Energy data
-     */
     generateFallbackEnergyData() {
         const buildings = ["B1", "B2", "B3"];
         const floors = [1, 2, 3, 4, 5];
@@ -151,9 +283,6 @@ const DataLoader = {
         return data;
     },
 
-    /**
-     * Dynamic fallback generator for Maintenance data
-     */
     generateFallbackMaintenanceData() {
         const eqTypes = ["HVAC Unit", "Chiller", "Air Handling Unit", "Generator", "Elevator", "Water Pump", "Cooling Tower", "Compressor"];
         const prefixes = ["HVAC", "CHILL", "AHU", "GEN", "ELEV", "PUMP", "CTWR", "COMP"];
@@ -215,9 +344,6 @@ const DataLoader = {
         return data;
     },
 
-    /**
-     * Dynamic fallback generator for Occupancy data (M3)
-     */
     generateFallbackOccupancyData() {
         const buildings = ["B1", "B2", "B3"];
         const floors = [1, 2, 3, 4, 5];
@@ -229,7 +355,7 @@ const DataLoader = {
         let date = new Date(2026, 2, 1, 8, 0);
 
         for (let i = 0; i < 1000; i++) {
-            date = new Date(date.getTime() + (30 * 60 * 1000)); // +30 mins
+            date = new Date(date.getTime() + (30 * 60 * 1000));
             const hour = date.getHours();
             const dayOfWeek = date.getDay();
             const isWeekend = dayOfWeek === 0 || dayOfWeek === 6;
@@ -239,8 +365,8 @@ const DataLoader = {
             const room_id = `${prefix}-${b_id}${fl}${String((i%20)+1).padStart(2,'0')}`;
 
             let base_pct = isWeekend ? (Math.random() * 0.1) : (hour >= 8 && hour <= 18 ? 0.4 + Math.random() * 0.45 : Math.random() * 0.08);
-            if (i % 29 === 0) base_pct = 0.96; // Overcrowded
-            else if (i % 41 === 0 && (hour >= 9 && hour <= 16) && !isWeekend) base_pct = 0.08; // Underutilized
+            if (i % 29 === 0) base_pct = 0.96;
+            else if (i % 41 === 0 && (hour >= 9 && hour <= 16) && !isWeekend) base_pct = 0.08;
 
             const curr_occ = Math.min(Math.floor(capacity * 1.25), Math.floor(capacity * base_pct));
             const occ_pct = Number(((curr_occ / capacity) * 100).toFixed(1));
@@ -265,9 +391,6 @@ const DataLoader = {
         return data;
     },
 
-    /**
-     * Dynamic fallback generator for Security data (M3)
-     */
     generateFallbackSecurityData() {
         const buildings = ["B1", "B2", "B3"];
         const floors = [1, 2, 3, 4, 5];

@@ -326,26 +326,7 @@ const EnergyEngine = {
      * Helper to build/update Chart instance
      */
     buildChart(canvasId, config) {
-        const canvas = document.getElementById(canvasId);
-        if (!canvas) {
-            console.warn(`Canvas element '${canvasId}' not found in DOM.`);
-            return;
-        }
-
-        if (typeof Chart === 'undefined') {
-            console.warn(`Chart.js CDN not available yet. Retrying chart '${canvasId}' in 500ms...`);
-            setTimeout(() => this.buildChart(canvasId, config), 500);
-            return;
-        }
-
-        try {
-            if (this.charts[canvasId]) {
-                this.charts[canvasId].destroy();
-            }
-            this.charts[canvasId] = new Chart(canvas, config);
-        } catch (err) {
-            console.error(`Failed to construct Chart on canvas '${canvasId}':`, err);
-        }
+        DataLoader.createChart(canvasId, config);
     },
 
     getCommonChartOptions(yTitle) {
