@@ -11,32 +11,55 @@ const DataLoader = {
 
     /**
      * Universal Defensive Chart Creator
-     * Uses Chart.js CDN when available, or draws native 2D Canvas fallback charts if offline.
+     * Destroys existing instances, uses Chart.js CDN when available, or draws fallback charts / error overlays.
      */
     createChart(canvasId, config, retryCount = 0) {
         const canvas = document.getElementById(canvasId);
         if (!canvas) {
-            console.warn(`Canvas element '${canvasId}' not found in DOM.`);
+            console.error(`[DataLoader Error] Canvas element '${canvasId}' not found in DOM.`);
             return;
         }
 
+        // Remove any existing error overlay
+        const parent = canvas.parentElement;
+        if (parent) {
+            const existingOverlay = parent.querySelector('.chart-error-overlay');
+            if (existingOverlay) existingOverlay.remove();
+        }
+
+        // Destroy previous instance from window or chartInstances map
+        if (window[canvasId] && typeof window[canvasId].destroy === 'function') {
+            window[canvasId].destroy();
+            window[canvasId] = null;
+        }
+        if (this.chartInstances[canvasId] && typeof this.chartInstances[canvasId].destroy === 'function') {
+            this.chartInstances[canvasId].destroy();
+            this.chartInstances[canvasId] = null;
+        }
+
         // Ensure parent container layout is settled
-        const parentW = canvas.parentElement ? canvas.parentElement.clientWidth : 0;
+        const parentW = parent ? parent.clientWidth : 0;
         if (parentW === 0 && retryCount < 3) {
             setTimeout(() => this.createChart(canvasId, config, retryCount + 1), 150);
+            return;
+        }
+
+        // Check for empty data
+        if (!config || !config.data || !config.data.datasets || config.data.datasets.length === 0) {
+            console.error(`[DataLoader Error] Empty or invalid dataset provided for chart '${canvasId}'.`);
+            this.showChartError(canvasId, "Unable to load chart data", "Dataset is empty or incorrectly formatted.");
             return;
         }
 
         // 1. If Chart.js CDN is loaded
         if (typeof Chart !== 'undefined') {
             try {
-                if (this.chartInstances[canvasId]) {
-                    this.chartInstances[canvasId].destroy();
-                }
-                this.chartInstances[canvasId] = new Chart(canvas, config);
+                const chartInst = new Chart(canvas, config);
+                this.chartInstances[canvasId] = chartInst;
+                window[canvasId] = chartInst;
                 return;
             } catch (err) {
-                console.error(`Chart.js error on '${canvasId}':`, err);
+                console.error(`[DataLoader Error] Chart.js initialization failed for '${canvasId}':`, err);
             }
         }
 
@@ -47,7 +70,28 @@ const DataLoader = {
         }
 
         // 3. Fallback: Draw Native HTML5 Canvas Chart directly if offline or CDN blocked
+        console.warn(`[DataLoader Warning] Chart.js unavailable for '${canvasId}'. Drawing native canvas fallback.`);
         this.drawFallbackChart(canvas, config);
+    },
+
+    /**
+     * Display visible error message overlay inside chart container
+     */
+    showChartError(canvasId, title = "Unable to load chart data", subtitle = "Check the dataset path or run the project using a local server.") {
+        const canvas = document.getElementById(canvasId);
+        if (!canvas || !canvas.parentElement) return;
+
+        const parent = canvas.parentElement;
+        const existingOverlay = parent.querySelector('.chart-error-overlay');
+        if (existingOverlay) existingOverlay.remove();
+
+        const overlay = document.createElement('div');
+        overlay.className = 'chart-error-overlay';
+        overlay.innerHTML = `
+            <h4>⚠️ ${title}</h4>
+            <p>${subtitle}</p>
+        `;
+        parent.appendChild(overlay);
     },
 
     /**

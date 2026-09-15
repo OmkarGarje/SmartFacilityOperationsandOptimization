@@ -43,19 +43,25 @@ facilityops/
 
 ---
 
-## 🚀 How to Run the Application
+## 🚀 How to Run the Application & Fix Local CSV Fetch Issues
 
-### Option A: Local Python Web Server (Recommended)
-1. Open your terminal in the `facilityops` directory:
+### IMPORTANT NOTE ON BROWSER CORS / LOCAL CSV FETCH:
+Modern web browsers block `fetch()` requests to local CSV files (`../data/occupancy_data.csv` and `../data/security_data.csv`) when HTML pages are opened directly using the file protocol (`file:///`).
+
+To ensure Chart.js and all 11 visualizations load the actual CSV datasets correctly without CORS errors:
+
+### Recommended Local HTTP Server Execution:
+1. Open terminal/PowerShell in the project directory:
    ```bash
    cd c:\Users\omkar\OneDrive\Desktop\facilityops
    python -m http.server 8000
    ```
-2. Navigate to: **[http://localhost:8000](http://localhost:8000)**
-
-### Option B: Direct File Execution (`file://`)
-- Double-click `index.html` to open directly in any browser.
-- The built-in dynamic fallback generators in `dataLoader.js` automatically activate if browser `file://` CORS restricts local `fetch()` calls.
+2. Open your web browser and navigate to:
+   **[http://localhost:8000](http://localhost:8000)**
+3. Explore the Milestone 3 dashboards:
+   - Occupancy Dashboard: **`http://localhost:8000/pages/occupancy.html`**
+   - Security Dashboard: **`http://localhost:8000/pages/security.html`**
+   - Unified Alert Command Center: **`http://localhost:8000/pages/alerts.html`**
 
 ---
 

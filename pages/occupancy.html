@@ -64,7 +64,7 @@
                 <!-- Filter Bar -->
                 <div class="filter-bar">
                     <div class="filter-group">
-                        <label for="filter-building">Select Building:</label>
+                        <label for="filter-building">Building:</label>
                         <select id="filter-building" class="form-select">
                             <option value="ALL">All Buildings (B1, B2, B3)</option>
                             <option value="B1">Building B1</option>
@@ -72,7 +72,7 @@
                             <option value="B3">Building B3</option>
                         </select>
 
-                        <label for="filter-floor">Select Floor:</label>
+                        <label for="filter-floor">Floor:</label>
                         <select id="filter-floor" class="form-select">
                             <option value="ALL">All Floors (1 - 5)</option>
                             <option value="1">Floor 1</option>
@@ -80,6 +80,18 @@
                             <option value="3">Floor 3</option>
                             <option value="4">Floor 4</option>
                             <option value="5">Floor 5</option>
+                        </select>
+
+                        <label for="filter-room-type">Room Type:</label>
+                        <select id="filter-room-type" class="form-select">
+                            <option value="ALL">All Types</option>
+                            <option value="Office">Office</option>
+                            <option value="Meeting Room">Meeting Room</option>
+                            <option value="Laboratory">Laboratory</option>
+                            <option value="Classroom">Classroom</option>
+                            <option value="Conference Room">Conference Room</option>
+                            <option value="Cafeteria">Cafeteria</option>
+                            <option value="Common Area">Common Area</option>
                         </select>
                     </div>
 
@@ -148,10 +160,10 @@
                     <!-- Left: Occupancy Over Time Chart -->
                     <div class="card-box">
                         <div class="card-box-header">
-                            <h3 class="card-box-title">Chart 1: Occupancy Over Time (Headcount)</h3>
+                            <h3 class="card-box-title">Chart 1: Occupancy Over Time</h3>
                         </div>
                         <div class="chart-container">
-                            <canvas id="chart-occupancy-over-time"></canvas>
+                            <canvas id="occupancyTimeChart"></canvas>
                         </div>
                     </div>
 
@@ -197,7 +209,7 @@
                 <!-- Occupancy Heatmap Section -->
                 <div class="card-box">
                     <div class="card-box-header">
-                        <h3 class="card-box-title">🔥 Facility Occupancy Heatmap (Days × Peak Hours Utilization)</h3>
+                        <h3 class="card-box-title">🔥 Facility Occupancy Heatmap (Days × Hours Matrix)</h3>
                     </div>
                     <div id="occupancy-heatmap-container">
                         <!-- Populated dynamically by occupancy.js -->
@@ -208,19 +220,19 @@
                 <div class="charts-grid-2">
                     <div class="card-box">
                         <div class="card-box-header">
-                            <h3 class="card-box-title">Chart 2: Occupancy Percentage by Floor</h3>
+                            <h3 class="card-box-title">Chart 2: Average Occupancy by Floor</h3>
                         </div>
                         <div class="chart-container">
-                            <canvas id="chart-occupancy-by-floor"></canvas>
+                            <canvas id="floorOccupancyChart"></canvas>
                         </div>
                     </div>
 
                     <div class="card-box">
                         <div class="card-box-header">
-                            <h3 class="card-box-title">Chart 3: Room Utilization Distribution</h3>
+                            <h3 class="card-box-title">Chart 3: Room Utilization</h3>
                         </div>
                         <div class="chart-container">
-                            <canvas id="chart-room-utilization"></canvas>
+                            <canvas id="roomUtilizationChart"></canvas>
                         </div>
                     </div>
                 </div>
@@ -229,19 +241,19 @@
                 <div class="charts-grid-2">
                     <div class="card-box">
                         <div class="card-box-header">
-                            <h3 class="card-box-title">Chart 4: Average Occupancy by Hour (00:00–23:00)</h3>
+                            <h3 class="card-box-title">Chart 4: Occupancy by Hour (00:00–23:00)</h3>
                         </div>
                         <div class="chart-container">
-                            <canvas id="chart-occupancy-by-hour"></canvas>
+                            <canvas id="hourlyOccupancyChart"></canvas>
                         </div>
                     </div>
 
                     <div class="card-box">
                         <div class="card-box-header">
-                            <h3 class="card-box-title">Chart 5: Room Capacity vs Actual Occupancy</h3>
+                            <h3 class="card-box-title">Chart 5: Capacity vs Actual Occupancy</h3>
                         </div>
                         <div class="chart-container">
-                            <canvas id="chart-capacity-vs-actual"></canvas>
+                            <canvas id="capacityOccupancyChart"></canvas>
                         </div>
                     </div>
                 </div>

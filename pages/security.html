@@ -66,12 +66,31 @@
                     <div class="filter-group">
                         <input type="text" id="search-sec" class="form-input" placeholder="🔍 Search location, badge ID or access point...">
                         
-                        <label for="filter-sec-status">Access Status:</label>
+                        <label for="filter-sec-status">Status:</label>
                         <select id="filter-sec-status" class="form-select">
                             <option value="ALL">All Statuses</option>
                             <option value="Authorized">Authorized</option>
                             <option value="Denied">Denied</option>
                             <option value="Suspicious">Suspicious</option>
+                        </select>
+
+                        <label for="filter-sec-risk">Risk Level:</label>
+                        <select id="filter-sec-risk" class="form-select">
+                            <option value="ALL">All Risk Levels</option>
+                            <option value="Low">Low</option>
+                            <option value="Medium">Medium</option>
+                            <option value="High">High</option>
+                            <option value="Critical">Critical</option>
+                        </select>
+
+                        <label for="filter-sec-person">Person Type:</label>
+                        <select id="filter-sec-person" class="form-select">
+                            <option value="ALL">All Person Types</option>
+                            <option value="Employee">Employee</option>
+                            <option value="Visitor">Visitor</option>
+                            <option value="Contractor">Contractor</option>
+                            <option value="Administrator">Administrator</option>
+                            <option value="Unknown">Unknown</option>
                         </select>
                     </div>
 
@@ -143,7 +162,7 @@
                             <h3 class="card-box-title">Chart 1: Access Events Over Time</h3>
                         </div>
                         <div class="chart-container">
-                            <canvas id="chart-sec-over-time"></canvas>
+                            <canvas id="accessTimeChart"></canvas>
                         </div>
                     </div>
 
@@ -200,19 +219,19 @@
                 <div class="charts-grid-2">
                     <div class="card-box">
                         <div class="card-box-header">
-                            <h3 class="card-box-title">Chart 2: Authorized vs Denied Access Distribution</h3>
+                            <h3 class="card-box-title">Chart 2: Authorized vs Denied Access</h3>
                         </div>
                         <div class="chart-container">
-                            <canvas id="chart-sec-auth-vs-denied"></canvas>
+                            <canvas id="accessStatusChart"></canvas>
                         </div>
                     </div>
 
                     <div class="card-box">
                         <div class="card-box-header">
-                            <h3 class="card-box-title">Chart 3: Access Events by Facility Location</h3>
+                            <h3 class="card-box-title">Chart 3: Access Events by Location</h3>
                         </div>
                         <div class="chart-container">
-                            <canvas id="chart-sec-by-location"></canvas>
+                            <canvas id="locationAccessChart"></canvas>
                         </div>
                     </div>
                 </div>
@@ -221,19 +240,19 @@
                 <div class="charts-grid-2">
                     <div class="card-box">
                         <div class="card-box-header">
-                            <h3 class="card-box-title">Chart 4: Security Events Breakdown by Risk Level</h3>
+                            <h3 class="card-box-title">Chart 4: Security Events by Risk Level</h3>
                         </div>
                         <div class="chart-container">
-                            <canvas id="chart-sec-by-risk"></canvas>
+                            <canvas id="riskLevelChart"></canvas>
                         </div>
                     </div>
 
                     <div class="card-box">
                         <div class="card-box-header">
-                            <h3 class="card-box-title">Chart 5: Access Events by User Category (Person Type)</h3>
+                            <h3 class="card-box-title">Chart 5: Access Events by Person Type</h3>
                         </div>
                         <div class="chart-container">
-                            <canvas id="chart-sec-by-person"></canvas>
+                            <canvas id="personTypeChart"></canvas>
                         </div>
                     </div>
                 </div>
