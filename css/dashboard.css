@@ -234,11 +234,21 @@
 .chart-container {
     position: relative;
     width: 100%;
+    min-height: 280px;
     height: 300px;
+    display: block;
 }
 
 .chart-container-sm {
     height: 220px;
+    min-height: 200px;
+    display: block;
+}
+
+.chart-container canvas {
+    display: block;
+    width: 100% !important;
+    height: 100% !important;
 }
 
 /* Tables */

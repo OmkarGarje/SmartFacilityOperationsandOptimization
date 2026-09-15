@@ -1,5 +1,5 @@
 /**
- * Agentic FacilityOps AI Platform - Expanded Data Loader & Offline Chart Engine
+ * Agentic FacilityOps AI Platform - Expanded Data Loader & Robust Chart Engine (M1-M3)
  */
 
 const DataLoader = {
@@ -20,6 +20,13 @@ const DataLoader = {
             return;
         }
 
+        // Ensure parent container layout is settled
+        const parentW = canvas.parentElement ? canvas.parentElement.clientWidth : 0;
+        if (parentW === 0 && retryCount < 3) {
+            setTimeout(() => this.createChart(canvasId, config, retryCount + 1), 150);
+            return;
+        }
+
         // 1. If Chart.js CDN is loaded
         if (typeof Chart !== 'undefined') {
             try {
@@ -35,7 +42,7 @@ const DataLoader = {
 
         // 2. Retry up to 2 times for slow CDN loading
         if (retryCount < 2) {
-            setTimeout(() => this.createChart(canvasId, config, retryCount + 1), 400);
+            setTimeout(() => this.createChart(canvasId, config, retryCount + 1), 300);
             return;
         }
 
@@ -49,8 +56,11 @@ const DataLoader = {
     drawFallbackChart(canvas, config) {
         if (!canvas) return;
         const ctx = canvas.getContext('2d');
-        const width = canvas.parentElement ? canvas.parentElement.clientWidth : (canvas.width || 300);
-        const height = canvas.parentElement ? canvas.parentElement.clientHeight : (canvas.height || 220);
+        const parentW = canvas.parentElement ? canvas.parentElement.clientWidth : 0;
+        const parentH = canvas.parentElement ? canvas.parentElement.clientHeight : 0;
+        
+        const width = parentW > 50 ? parentW : (canvas.width > 50 ? canvas.width : 360);
+        const height = parentH > 50 ? parentH : (canvas.height > 50 ? canvas.height : 260);
         
         canvas.width = width;
         canvas.height = height;
