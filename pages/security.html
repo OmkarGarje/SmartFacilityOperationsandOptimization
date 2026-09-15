@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Security Intelligence — Agentic FacilityOps AI Platform</title>
+    
+    <!-- CSS Dependencies -->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/dashboard.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+    
+    <!-- Chart.js CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+    <div class="app-container" id="security-page-identifier">
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar">
+            <div class="brand-header">
+                <div class="brand-icon">⚡</div>
+                <div class="brand-text">
+                    <h1>FacilityOps AI</h1>
+                    <span>Enterprise v1.3</span>
+                </div>
+            </div>
+            
+            <ul class="sidebar-menu">
+                <li><a href="../index.html"><span class="menu-icon">📊</span> Overview Dashboard</a></li>
+                <li><a href="energy.html"><span class="menu-icon">⚡</span> Energy Intelligence</a></li>
+                <li><a href="maintenance.html"><span class="menu-icon">🔧</span> Predictive Maintenance</a></li>
+                <li><a href="occupancy.html"><span class="menu-icon">👥</span> Occupancy Intelligence</a></li>
+                <li class="active"><a href="security.html"><span class="menu-icon">🛡️</span> Security Intelligence</a></li>
+                <li><a href="alerts.html"><span class="menu-icon">🔔</span> Operations Alerts</a></li>
+            </ul>
+
+            <div class="sidebar-footer">
+                <p>Status: <strong>Monitoring Active</strong></p>
+                <p>© 2026 FacilityOps AI</p>
+            </div>
+        </aside>
+
+        <!-- Main Wrapper -->
+        <div class="main-wrapper">
+            <!-- Top Header -->
+            <header class="top-header">
+                <div class="header-title-section">
+                    <h2>Security Intelligence & Access Monitoring</h2>
+                    <p>Milestone 3 — Threat Detection, Access Workflows & Security Alerts</p>
+                </div>
+                <div class="header-controls">
+                    <div class="system-status-indicator">
+                        <div class="status-dot"></div>
+                        <span>Security Agent Active</span>
+                    </div>
+                    <div class="clock-display" id="live-clock">2026-09-15 18:30</div>
+                </div>
+            </header>
+
+            <!-- Page Content -->
+            <main class="page-content">
+                
+                <!-- Filter Bar -->
+                <div class="filter-bar">
+                    <div class="filter-group">
+                        <input type="text" id="search-sec" class="form-input" placeholder="🔍 Search location, badge ID or access point...">
+                        
+                        <label for="filter-sec-status">Access Status:</label>
+                        <select id="filter-sec-status" class="form-select">
+                            <option value="ALL">All Statuses</option>
+                            <option value="Authorized">Authorized</option>
+                            <option value="Denied">Denied</option>
+                            <option value="Suspicious">Suspicious</option>
+                        </select>
+                    </div>
+
+                    <button class="btn btn-primary" onclick="SecurityEngine.init()">🔄 Refresh Security Telemetry</button>
+                </div>
+
+                <!-- KPI Grid (6 Cards) -->
+                <div class="kpi-grid kpi-grid-6">
+                    <div class="kpi-card">
+                        <div class="kpi-header">
+                            <span class="kpi-title">Total Access Events</span>
+                            <div class="kpi-icon">🛡️</div>
+                        </div>
+                        <div class="kpi-value" id="kpi-sec-total">--</div>
+                        <div class="kpi-subtext">Monitored transactions</div>
+                    </div>
+
+                    <div class="kpi-card">
+                        <div class="kpi-header">
+                            <span class="kpi-title">Authorized Access</span>
+                            <div class="kpi-icon">🟢</div>
+                        </div>
+                        <div class="kpi-value" id="kpi-sec-authorized">--</div>
+                        <div class="kpi-subtext">Verified credentials</div>
+                    </div>
+
+                    <div class="kpi-card">
+                        <div class="kpi-header">
+                            <span class="kpi-title">Denied Access</span>
+                            <div class="kpi-icon">⛔</div>
+                        </div>
+                        <div class="kpi-value" id="kpi-sec-denied">--</div>
+                        <div class="kpi-subtext">Failed auth attempts</div>
+                    </div>
+
+                    <div class="kpi-card">
+                        <div class="kpi-header">
+                            <span class="kpi-title">Suspicious Events</span>
+                            <div class="kpi-icon">⚠️</div>
+                        </div>
+                        <div class="kpi-value" id="kpi-sec-suspicious">--</div>
+                        <div class="kpi-subtext">Off-hours / unusual badge</div>
+                    </div>
+
+                    <div class="kpi-card">
+                        <div class="kpi-header">
+                            <span class="kpi-title">Active Alerts</span>
+                            <div class="kpi-icon">🔔</div>
+                        </div>
+                        <div class="kpi-value" id="kpi-sec-alerts">--</div>
+                        <div class="kpi-subtext">Security queue</div>
+                    </div>
+
+                    <div class="kpi-card">
+                        <div class="kpi-header">
+                            <span class="kpi-title">High-Risk Events</span>
+                            <div class="kpi-icon">🚨</div>
+                        </div>
+                        <div class="kpi-value" id="kpi-sec-highrisk">--</div>
+                        <div class="kpi-subtext">Restricted zone breaches</div>
+                    </div>
+                </div>
+
+                <!-- Dashboard Grid: Main Chart Left & Security Agent Visual Panel Right -->
+                <div class="dashboard-grid">
+                    <!-- Left: Access Events Over Time Chart -->
+                    <div class="card-box">
+                        <div class="card-box-header">
+                            <h3 class="card-box-title">Chart 1: Access Events Over Time</h3>
+                        </div>
+                        <div class="chart-container">
+                            <canvas id="chart-sec-over-time"></canvas>
+                        </div>
+                    </div>
+
+                    <!-- Right: Security Agent Visual Panel -->
+                    <div class="agent-panel-card">
+                        <div class="agent-header">
+                            <div class="agent-identity">
+                                <div class="agent-avatar">🤖</div>
+                                <div class="agent-name-box">
+                                    <h3>Security Agent</h3>
+                                    <p>Threat Monitoring Engine</p>
+                                </div>
+                            </div>
+                            <span class="badge badge-healthy">ACTIVE</span>
+                        </div>
+
+                        <ul class="agent-tasks-list">
+                            <li><span class="task-check">✓</span> Monitoring access events</li>
+                            <li><span class="task-check">✓</span> Checking authorization</li>
+                            <li><span class="task-check">✓</span> Detecting suspicious activity</li>
+                            <li><span class="task-check">✓</span> Monitoring restricted areas</li>
+                            <li><span class="task-check">✓</span> Calculating risk levels</li>
+                            <li><span class="task-check">✓</span> Generating security alerts</li>
+                        </ul>
+
+                        <div class="agent-metrics-grid">
+                            <div class="agent-metric-item">
+                                <h4 id="sec-agent-monitored">0</h4>
+                                <p>Events</p>
+                            </div>
+                            <div class="agent-metric-item">
+                                <h4 id="sec-agent-denied">0</h4>
+                                <p>Denied</p>
+                            </div>
+                            <div class="agent-metric-item">
+                                <h4 id="sec-agent-critical">0</h4>
+                                <p>Critical</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Access Monitoring Workflow Diagram Section -->
+                <div class="card-box">
+                    <div class="card-box-header">
+                        <h3 class="card-box-title">🔄 Access Monitoring & Threat Evaluation Workflow Diagram</h3>
+                    </div>
+                    <div id="security-workflow-container">
+                        <!-- Populated dynamically by security.js -->
+                    </div>
+                </div>
+
+                <!-- Charts Row 2: Authorized vs Denied & Access by Location -->
+                <div class="charts-grid-2">
+                    <div class="card-box">
+                        <div class="card-box-header">
+                            <h3 class="card-box-title">Chart 2: Authorized vs Denied Access Distribution</h3>
+                        </div>
+                        <div class="chart-container">
+                            <canvas id="chart-sec-auth-vs-denied"></canvas>
+                        </div>
+                    </div>
+
+                    <div class="card-box">
+                        <div class="card-box-header">
+                            <h3 class="card-box-title">Chart 3: Access Events by Facility Location</h3>
+                        </div>
+                        <div class="chart-container">
+                            <canvas id="chart-sec-by-location"></canvas>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Charts Row 3: Security Events by Risk Level & Person Type -->
+                <div class="charts-grid-2">
+                    <div class="card-box">
+                        <div class="card-box-header">
+                            <h3 class="card-box-title">Chart 4: Security Events Breakdown by Risk Level</h3>
+                        </div>
+                        <div class="chart-container">
+                            <canvas id="chart-sec-by-risk"></canvas>
+                        </div>
+                    </div>
+
+                    <div class="card-box">
+                        <div class="card-box-header">
+                            <h3 class="card-box-title">Chart 5: Access Events by User Category (Person Type)</h3>
+                        </div>
+                        <div class="chart-container">
+                            <canvas id="chart-sec-by-person"></canvas>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Security Alerts Feed -->
+                <div class="card-box">
+                    <div class="card-box-header">
+                        <h3 class="card-box-title">🛡️ Security & Access Control Alerts</h3>
+                    </div>
+                    <div id="security-alerts-container" class="alert-card-list">
+                        <!-- Populated dynamically by security.js -->
+                    </div>
+                </div>
+
+            </main>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="../js/dataLoader.js"></script>
+    <script src="../js/security.js"></script>
+
+</body>
+</html>

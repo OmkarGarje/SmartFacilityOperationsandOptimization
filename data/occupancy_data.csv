@@ -1,0 +1,1101 @@
+timestamp,building_id,floor,room_id,room_type,capacity,current_occupancy,occupancy_percentage,entry_count,exit_count,day_type,hour,temperature,utilization_status
+2026-03-01 08:30,B3,3,CAF-B3316,Cafeteria,120,11,9.2,7,9,Weekend,8,22.9,Underutilized
+2026-03-01 09:00,B2,4,OFF-B2442,Office,40,1,2.5,11,6,Weekend,9,22.9,Underutilized
+2026-03-01 09:45,B1,4,CONF-B1436,Conference Room,100,0,0.0,6,3,Weekend,9,23.8,Underutilized
+2026-03-01 10:30,B3,3,CONF-B3358,Conference Room,100,3,3.0,13,0,Weekend,10,24.9,Underutilized
+2026-03-01 11:00,B3,1,CLASS-B3112,Classroom,50,2,4.0,8,4,Weekend,11,25.4,Underutilized
+2026-03-01 12:00,B1,3,OFF-B1329,Office,40,2,5.0,11,15,Weekend,12,21.3,Underutilized
+2026-03-01 12:45,B1,5,OFF-B1520,Office,25,0,0.0,14,3,Weekend,12,23.9,Underutilized
+2026-03-01 13:45,B3,2,MEET-B3235,Meeting Room,12,1,8.3,14,4,Weekend,13,20.9,Underutilized
+2026-03-01 14:15,B2,3,CONF-B2318,Conference Room,100,0,0.0,11,14,Weekend,14,20.8,Underutilized
+2026-03-01 15:00,B3,3,OFF-B3345,Office,40,5,12.5,6,13,Weekend,15,21.1,Underutilized
+2026-03-01 15:45,B1,1,LAB-B1193,Laboratory,15,2,13.3,0,12,Weekend,15,24.8,Underutilized
+2026-03-01 16:45,B3,5,OFF-B3553,Office,25,0,0.0,6,10,Weekend,16,22.2,Underutilized
+2026-03-01 17:15,B2,3,CLASS-B2361,Classroom,50,54,108.0,6,4,Weekend,17,23.8,Overcrowded
+2026-03-01 17:45,B2,1,CLASS-B2113,Classroom,50,3,6.0,11,6,Weekend,17,21.1,Underutilized
+2026-03-01 18:30,B2,3,LAB-B2340,Laboratory,15,1,6.7,9,1,Weekend,18,21.7,Underutilized
+2026-03-01 19:15,B3,4,CAF-B3495,Cafeteria,120,0,0.0,0,0,Weekend,19,24.4,Underutilized
+2026-03-01 20:15,B3,1,OFF-B3162,Office,25,3,12.0,2,0,Weekend,20,22.9,Underutilized
+2026-03-01 20:30,B1,3,OFF-B1398,Office,40,0,0.0,1,1,Weekend,20,23.1,Underutilized
+2026-03-01 20:45,B1,4,CONF-B1423,Conference Room,100,3,3.0,0,2,Weekend,20,24.5,Underutilized
+2026-03-01 21:00,B1,2,MEET-B1232,Meeting Room,12,1,8.3,2,2,Weekend,21,25.0,Underutilized
+2026-03-01 22:00,B1,1,MEET-B1176,Meeting Room,20,2,10.0,2,2,Weekend,22,24.9,Underutilized
+2026-03-01 22:15,B3,5,OFF-B3552,Office,25,3,12.0,0,2,Weekend,22,23.8,Underutilized
+2026-03-01 22:45,B1,1,OFF-B1167,Office,25,2,8.0,2,2,Weekend,22,21.0,Underutilized
+2026-03-01 23:30,B2,2,OFF-B2224,Office,25,1,4.0,0,1,Weekend,23,21.9,Underutilized
+2026-03-02 00:00,B3,4,COM-B3458,Common Area,60,0,0.0,2,2,Weekday,0,25.2,Underutilized
+2026-03-02 00:45,B3,1,MEET-B3149,Meeting Room,20,0,0.0,0,0,Weekday,0,22.5,Underutilized
+2026-03-02 01:15,B2,4,CAF-B2434,Cafeteria,120,10,8.3,0,1,Weekday,1,24.4,Underutilized
+2026-03-02 01:45,B2,5,LAB-B2514,Laboratory,15,1,6.7,1,2,Weekday,1,24.6,Underutilized
+2026-03-02 02:30,B2,5,LAB-B2517,Laboratory,15,0,0.0,0,2,Weekday,2,20.6,Underutilized
+2026-03-02 03:30,B1,4,OFF-B1455,Office,25,27,108.0,1,0,Weekday,3,25.1,Overcrowded
+2026-03-02 04:00,B2,4,LAB-B2457,Laboratory,15,1,6.7,2,2,Weekday,4,21.9,Underutilized
+2026-03-02 05:00,B1,2,COM-B1294,Common Area,60,2,3.3,1,2,Weekday,5,20.7,Underutilized
+2026-03-02 05:15,B3,1,CAF-B3146,Cafeteria,120,5,4.2,1,0,Weekday,5,22.3,Underutilized
+2026-03-02 06:15,B1,2,CAF-B1218,Cafeteria,120,4,3.3,1,0,Weekday,6,25.5,Underutilized
+2026-03-02 06:30,B3,4,LAB-B3454,Laboratory,15,1,6.7,0,2,Weekday,6,24.4,Underutilized
+2026-03-02 07:30,B3,4,MEET-B3498,Meeting Room,12,0,0.0,2,0,Weekday,7,20.6,Underutilized
+2026-03-02 08:15,B3,2,COM-B3226,Common Area,60,39,65.0,7,2,Weekday,8,21.5,Normally Utilized
+2026-03-02 08:30,B3,2,CAF-B3225,Cafeteria,120,80,66.7,9,5,Weekday,8,21.2,Normally Utilized
+2026-03-02 09:00,B2,4,CAF-B2417,Cafeteria,120,57,47.5,2,8,Weekday,9,21.4,Normally Utilized
+2026-03-02 09:15,B1,3,OFF-B1329,Office,25,13,52.0,5,13,Weekday,9,21.7,Normally Utilized
+2026-03-02 09:45,B2,2,CLASS-B2254,Classroom,50,41,82.0,12,10,Weekday,9,21.6,Highly Utilized
+2026-03-02 10:30,B2,3,COM-B2364,Common Area,60,50,83.3,4,0,Weekday,10,22.4,Highly Utilized
+2026-03-02 11:30,B1,3,MEET-B1367,Meeting Room,20,15,75.0,4,3,Weekday,11,20.9,Highly Utilized
+2026-03-02 12:30,B1,3,MEET-B1389,Meeting Room,12,7,58.3,12,1,Weekday,12,25.1,Normally Utilized
+2026-03-02 13:15,B3,1,MEET-B3136,Meeting Room,12,10,83.3,9,0,Weekday,13,21.4,Highly Utilized
+2026-03-02 13:30,B2,3,COM-B2335,Common Area,60,45,75.0,15,4,Weekday,13,21.7,Highly Utilized
+2026-03-02 14:15,B1,1,CAF-B1169,Cafeteria,120,110,91.7,7,9,Weekday,14,24.9,Overcrowded
+2026-03-02 15:00,B1,4,CAF-B1455,Cafeteria,120,85,70.8,11,15,Weekday,15,20.7,Highly Utilized
+2026-03-02 15:15,B2,3,CLASS-B2318,Classroom,50,21,42.0,14,12,Weekday,15,22.0,Normally Utilized
+2026-03-02 16:00,B1,2,COM-B1235,Common Area,60,48,80.0,9,8,Weekday,16,24.4,Highly Utilized
+2026-03-02 16:15,B3,2,CLASS-B3298,Classroom,50,33,66.0,13,10,Weekday,16,23.5,Normally Utilized
+2026-03-02 17:00,B3,3,MEET-B3363,Meeting Room,12,8,66.7,7,13,Weekday,17,25.5,Normally Utilized
+2026-03-02 17:15,B2,3,MEET-B2340,Meeting Room,20,14,70.0,2,9,Weekday,17,20.9,Highly Utilized
+2026-03-02 18:00,B1,3,OFF-B1338,Office,25,25,100.0,12,2,Weekday,18,22.8,Overcrowded
+2026-03-02 18:15,B2,4,CONF-B2452,Conference Room,100,72,72.0,3,8,Weekday,18,22.0,Highly Utilized
+2026-03-02 19:15,B3,1,CONF-B3135,Conference Room,100,1,1.0,0,0,Weekday,19,20.9,Underutilized
+2026-03-02 19:45,B3,5,LAB-B3534,Laboratory,15,1,6.7,1,0,Weekday,19,24.9,Underutilized
+2026-03-02 20:30,B2,2,OFF-B2235,Office,40,2,5.0,2,1,Weekday,20,20.7,Underutilized
+2026-03-02 21:00,B2,5,OFF-B2561,Office,25,0,0.0,2,2,Weekday,21,24.1,Underutilized
+2026-03-02 21:15,B3,2,MEET-B3234,Meeting Room,12,0,0.0,0,1,Weekday,21,21.4,Underutilized
+2026-03-02 22:00,B3,1,OFF-B3175,Office,40,0,0.0,2,1,Weekday,22,23.8,Underutilized
+2026-03-02 22:30,B3,3,COM-B3382,Common Area,60,3,5.0,0,0,Weekday,22,23.8,Underutilized
+2026-03-02 23:00,B1,2,OFF-B1276,Office,25,2,8.0,2,2,Weekday,23,20.5,Underutilized
+2026-03-02 23:45,B1,3,MEET-B1371,Meeting Room,20,22,110.0,2,0,Weekday,23,23.0,Overcrowded
+2026-03-03 00:45,B1,3,OFF-B1341,Office,40,1,2.5,2,1,Weekday,0,24.8,Underutilized
+2026-03-03 01:30,B3,1,OFF-B3114,Office,25,0,0.0,0,2,Weekday,1,24.1,Underutilized
+2026-03-03 02:30,B2,1,OFF-B2126,Office,25,1,4.0,1,2,Weekday,2,21.9,Underutilized
+2026-03-03 02:45,B2,3,MEET-B2353,Meeting Room,12,0,0.0,2,0,Weekday,2,22.1,Underutilized
+2026-03-03 03:15,B1,4,CONF-B1442,Conference Room,100,6,6.0,0,0,Weekday,3,24.5,Underutilized
+2026-03-03 03:30,B1,4,CAF-B1451,Cafeteria,120,6,5.0,0,1,Weekday,3,25.4,Underutilized
+2026-03-03 04:15,B2,3,CONF-B2341,Conference Room,100,4,4.0,2,1,Weekday,4,25.2,Underutilized
+2026-03-03 04:45,B2,2,OFF-B2262,Office,40,3,7.5,2,2,Weekday,4,23.0,Underutilized
+2026-03-03 05:30,B2,2,COM-B2214,Common Area,60,0,0.0,1,0,Weekday,5,22.6,Underutilized
+2026-03-03 05:45,B2,2,CAF-B2211,Cafeteria,120,8,6.7,2,1,Weekday,5,24.5,Underutilized
+2026-03-03 06:30,B3,1,COM-B3123,Common Area,60,4,6.7,2,2,Weekday,6,25.4,Underutilized
+2026-03-03 06:45,B1,4,OFF-B1441,Office,40,3,7.5,1,2,Weekday,6,25.4,Underutilized
+2026-03-03 07:45,B1,2,CAF-B1269,Cafeteria,120,11,9.2,0,1,Weekday,7,23.2,Underutilized
+2026-03-03 08:45,B3,5,CLASS-B3598,Classroom,50,41,82.0,15,3,Weekday,8,21.7,Highly Utilized
+2026-03-03 09:30,B2,5,CAF-B2522,Cafeteria,120,49,40.8,10,11,Weekday,9,24.0,Normally Utilized
+2026-03-03 10:30,B3,2,CLASS-B3226,Classroom,50,35,70.0,3,9,Weekday,10,21.3,Highly Utilized
+2026-03-03 11:30,B3,4,LAB-B3449,Laboratory,15,11,73.3,1,15,Weekday,11,20.8,Highly Utilized
+2026-03-03 12:15,B2,5,MEET-B2568,Meeting Room,20,13,65.0,10,14,Weekday,12,22.4,Normally Utilized
+2026-03-03 13:15,B1,5,CLASS-B1578,Classroom,50,32,64.0,4,13,Weekday,13,21.9,Normally Utilized
+2026-03-03 13:45,B3,5,CONF-B3573,Conference Room,100,71,71.0,12,2,Weekday,13,25.1,Highly Utilized
+2026-03-03 14:00,B1,1,OFF-B1138,Office,40,24,60.0,6,1,Weekday,14,20.5,Normally Utilized
+2026-03-03 14:30,B1,2,LAB-B1273,Laboratory,15,7,46.7,14,2,Weekday,14,25.1,Normally Utilized
+2026-03-03 14:45,B1,5,COM-B1515,Common Area,60,37,61.7,2,13,Weekday,14,22.9,Normally Utilized
+2026-03-03 15:15,B3,5,OFF-B3536,Office,25,21,84.0,5,9,Weekday,15,23.0,Highly Utilized
+2026-03-03 15:45,B2,4,MEET-B2432,Meeting Room,20,12,60.0,15,4,Weekday,15,22.9,Normally Utilized
+2026-03-03 16:30,B2,3,COM-B2331,Common Area,60,41,68.3,8,11,Weekday,16,21.9,Normally Utilized
+2026-03-03 17:30,B3,3,COM-B3387,Common Area,60,29,48.3,15,6,Weekday,17,22.6,Normally Utilized
+2026-03-03 18:30,B3,1,CAF-B3120,Cafeteria,120,48,40.0,14,10,Weekday,18,22.5,Normally Utilized
+2026-03-03 19:00,B2,1,LAB-B2139,Laboratory,15,0,0.0,0,0,Weekday,19,25.4,Underutilized
+2026-03-03 20:00,B3,5,MEET-B3575,Meeting Room,20,1,5.0,1,2,Weekday,20,22.3,Underutilized
+2026-03-03 20:30,B3,5,MEET-B3532,Meeting Room,12,0,0.0,0,2,Weekday,20,22.3,Underutilized
+2026-03-03 21:15,B1,1,MEET-B1156,Meeting Room,12,0,0.0,0,2,Weekday,21,24.1,Underutilized
+2026-03-03 22:15,B2,1,OFF-B2171,Office,40,3,7.5,1,2,Weekday,22,22.4,Underutilized
+2026-03-03 23:15,B2,2,CAF-B2299,Cafeteria,120,10,8.3,0,0,Weekday,23,23.4,Underutilized
+2026-03-04 00:15,B3,3,OFF-B3333,Office,25,1,4.0,1,1,Weekday,0,24.5,Underutilized
+2026-03-04 00:30,B3,1,OFF-B3121,Office,25,1,4.0,1,2,Weekday,0,24.3,Underutilized
+2026-03-04 00:45,B1,1,OFF-B1154,Office,40,3,7.5,0,0,Weekday,0,22.2,Underutilized
+2026-03-04 01:30,B3,4,MEET-B3420,Meeting Room,12,0,0.0,2,2,Weekday,1,20.6,Underutilized
+2026-03-04 02:00,B2,1,COM-B2191,Common Area,60,4,6.7,1,1,Weekday,2,22.3,Underutilized
+2026-03-04 02:15,B3,2,OFF-B3288,Office,40,1,2.5,0,0,Weekday,2,21.5,Underutilized
+2026-03-04 03:15,B1,5,CONF-B1594,Conference Room,100,5,5.0,1,0,Weekday,3,23.7,Underutilized
+2026-03-04 03:30,B2,3,CLASS-B2367,Classroom,50,1,2.0,2,2,Weekday,3,23.0,Underutilized
+2026-03-04 04:15,B3,5,CAF-B3517,Cafeteria,120,5,4.2,1,0,Weekday,4,25.4,Underutilized
+2026-03-04 04:30,B2,3,LAB-B2378,Laboratory,15,0,0.0,0,1,Weekday,4,23.2,Underutilized
+2026-03-04 04:45,B2,3,COM-B2385,Common Area,60,0,0.0,2,2,Weekday,4,22.6,Underutilized
+2026-03-04 05:15,B2,3,OFF-B2348,Office,25,1,4.0,2,2,Weekday,5,21.2,Underutilized
+2026-03-04 06:00,B2,5,CONF-B2547,Conference Room,100,5,5.0,1,0,Weekday,6,24.9,Underutilized
+2026-03-04 06:15,B1,5,OFF-B1512,Office,40,0,0.0,1,0,Weekday,6,21.4,Underutilized
+2026-03-04 06:30,B3,4,MEET-B3466,Meeting Room,20,1,5.0,2,0,Weekday,6,21.8,Underutilized
+2026-03-04 07:00,B1,2,MEET-B1276,Meeting Room,20,0,0.0,1,2,Weekday,7,24.1,Underutilized
+2026-03-04 07:15,B1,2,LAB-B1281,Laboratory,15,0,0.0,0,1,Weekday,7,22.2,Underutilized
+2026-03-04 08:00,B3,5,CAF-B3575,Cafeteria,120,75,62.5,10,4,Weekday,8,25.3,Normally Utilized
+2026-03-04 08:15,B1,4,LAB-B1473,Laboratory,15,10,66.7,13,11,Weekday,8,24.2,Normally Utilized
+2026-03-04 09:00,B2,4,MEET-B2483,Meeting Room,20,11,55.0,12,15,Weekday,9,20.7,Normally Utilized
+2026-03-04 09:30,B1,3,COM-B1365,Common Area,60,44,73.3,2,2,Weekday,9,25.2,Highly Utilized
+2026-03-04 10:00,B1,5,LAB-B1599,Laboratory,15,12,80.0,12,1,Weekday,10,25.0,Highly Utilized
+2026-03-04 10:15,B3,3,MEET-B3324,Meeting Room,12,7,58.3,6,15,Weekday,10,24.1,Normally Utilized
+2026-03-04 10:30,B2,1,CLASS-B2166,Classroom,50,31,62.0,10,2,Weekday,10,25.2,Normally Utilized
+2026-03-04 10:45,B2,3,CLASS-B2331,Classroom,50,40,80.0,3,12,Weekday,10,20.6,Highly Utilized
+2026-03-04 11:45,B3,2,MEET-B3280,Meeting Room,20,16,80.0,14,8,Weekday,11,23.8,Highly Utilized
+2026-03-04 12:15,B3,4,CLASS-B3411,Classroom,50,30,60.0,2,11,Weekday,12,20.8,Normally Utilized
+2026-03-04 13:00,B2,5,MEET-B2530,Meeting Room,12,10,83.3,12,9,Weekday,13,22.2,Highly Utilized
+2026-03-04 14:00,B3,3,COM-B3310,Common Area,60,47,78.3,11,1,Weekday,14,22.7,Highly Utilized
+2026-03-04 14:45,B1,2,LAB-B1270,Laboratory,15,10,66.7,3,10,Weekday,14,20.7,Normally Utilized
+2026-03-04 15:45,B2,4,MEET-B2447,Meeting Room,12,11,91.7,12,1,Weekday,15,22.4,Overcrowded
+2026-03-04 16:00,B3,2,COM-B3263,Common Area,60,49,81.7,12,0,Weekday,16,23.2,Highly Utilized
+2026-03-04 16:45,B2,2,MEET-B2245,Meeting Room,20,15,75.0,15,8,Weekday,16,23.4,Highly Utilized
+2026-03-04 17:30,B3,2,MEET-B3262,Meeting Room,20,8,40.0,1,10,Weekday,17,21.6,Normally Utilized
+2026-03-04 17:45,B3,2,CLASS-B3247,Classroom,50,57,114.0,12,14,Weekday,17,24.0,Overcrowded
+2026-03-04 18:45,B2,1,CONF-B2196,Conference Room,100,48,48.0,7,3,Weekday,18,24.4,Normally Utilized
+2026-03-04 19:30,B2,3,MEET-B2346,Meeting Room,20,0,0.0,1,1,Weekday,19,22.5,Underutilized
+2026-03-04 20:15,B1,4,COM-B1433,Common Area,60,5,8.3,2,1,Weekday,20,24.4,Underutilized
+2026-03-04 20:30,B2,3,OFF-B2368,Office,40,2,5.0,1,1,Weekday,20,21.9,Underutilized
+2026-03-04 21:00,B1,1,CONF-B1150,Conference Room,100,3,3.0,1,1,Weekday,21,24.5,Underutilized
+2026-03-04 21:30,B3,1,MEET-B3150,Meeting Room,20,1,5.0,2,2,Weekday,21,23.0,Underutilized
+2026-03-04 22:15,B1,4,COM-B1451,Common Area,60,1,1.7,0,1,Weekday,22,21.7,Underutilized
+2026-03-04 23:00,B1,5,MEET-B1598,Meeting Room,12,0,0.0,2,2,Weekday,23,23.4,Underutilized
+2026-03-04 23:15,B2,1,OFF-B2191,Office,40,0,0.0,0,2,Weekday,23,23.7,Underutilized
+2026-03-04 23:30,B2,5,COM-B2547,Common Area,60,1,1.7,0,1,Weekday,23,23.9,Underutilized
+2026-03-05 00:00,B3,4,MEET-B3411,Meeting Room,20,1,5.0,1,0,Weekday,0,25.2,Underutilized
+2026-03-05 01:00,B1,3,COM-B1389,Common Area,60,64,106.7,0,2,Weekday,1,24.7,Overcrowded
+2026-03-05 01:45,B2,3,LAB-B2325,Laboratory,15,0,0.0,1,0,Weekday,1,23.3,Underutilized
+2026-03-05 02:00,B2,2,LAB-B2247,Laboratory,15,0,0.0,2,0,Weekday,2,22.5,Underutilized
+2026-03-05 02:30,B1,2,MEET-B1249,Meeting Room,20,0,0.0,0,1,Weekday,2,23.0,Underutilized
+2026-03-05 03:30,B1,3,CAF-B1367,Cafeteria,120,3,2.5,1,2,Weekday,3,23.4,Underutilized
+2026-03-05 04:30,B1,3,CONF-B1367,Conference Room,100,5,5.0,2,0,Weekday,4,24.0,Underutilized
+2026-03-05 04:45,B3,1,OFF-B3192,Office,40,1,2.5,2,1,Weekday,4,21.2,Underutilized
+2026-03-05 05:00,B2,2,CAF-B2257,Cafeteria,120,8,6.7,0,1,Weekday,5,24.4,Underutilized
+2026-03-05 05:45,B1,4,LAB-B1432,Laboratory,15,0,0.0,1,1,Weekday,5,20.9,Underutilized
+2026-03-05 06:15,B3,4,COM-B3440,Common Area,60,4,6.7,0,2,Weekday,6,22.3,Underutilized
+2026-03-05 06:45,B3,3,LAB-B3318,Laboratory,15,0,0.0,1,0,Weekday,6,21.6,Underutilized
+2026-03-05 07:00,B3,3,CLASS-B3372,Classroom,50,0,0.0,1,2,Weekday,7,21.5,Underutilized
+2026-03-05 07:30,B2,2,CAF-B2212,Cafeteria,120,2,1.7,0,1,Weekday,7,25.3,Underutilized
+2026-03-05 08:00,B2,4,MEET-B2428,Meeting Room,12,9,75.0,12,8,Weekday,8,21.6,Highly Utilized
+2026-03-05 08:45,B1,1,MEET-B1120,Meeting Room,12,6,50.0,4,14,Weekday,8,23.4,Normally Utilized
+2026-03-05 09:45,B2,1,CONF-B2120,Conference Room,100,58,58.0,15,15,Weekday,9,25.5,Normally Utilized
+2026-03-05 10:30,B2,2,CONF-B2299,Conference Room,100,79,79.0,2,6,Weekday,10,20.7,Highly Utilized
+2026-03-05 11:00,B3,1,CAF-B3166,Cafeteria,120,54,45.0,14,7,Weekday,11,21.0,Normally Utilized
+2026-03-05 11:30,B2,4,CAF-B2454,Cafeteria,120,89,74.2,13,10,Weekday,11,23.2,Highly Utilized
+2026-03-05 12:30,B3,4,CONF-B3455,Conference Room,100,89,89.0,2,0,Weekday,12,25.4,Highly Utilized
+2026-03-05 13:00,B3,2,COM-B3272,Common Area,60,27,45.0,3,0,Weekday,13,24.8,Normally Utilized
+2026-03-05 14:00,B3,4,CLASS-B3482,Classroom,50,38,76.0,4,3,Weekday,14,24.4,Highly Utilized
+2026-03-05 15:00,B3,4,OFF-B3479,Office,25,20,80.0,1,4,Weekday,15,24.5,Highly Utilized
+2026-03-05 15:30,B2,3,CONF-B2397,Conference Room,100,82,82.0,10,9,Weekday,15,22.4,Highly Utilized
+2026-03-05 16:00,B2,4,CONF-B2455,Conference Room,100,88,88.0,15,13,Weekday,16,23.9,Highly Utilized
+2026-03-05 16:30,B2,5,MEET-B2513,Meeting Room,12,8,66.7,5,3,Weekday,16,21.5,Normally Utilized
+2026-03-05 17:15,B2,5,MEET-B2543,Meeting Room,20,8,40.0,10,3,Weekday,17,22.4,Normally Utilized
+2026-03-05 18:15,B1,1,CLASS-B1113,Classroom,50,36,72.0,9,4,Weekday,18,24.7,Highly Utilized
+2026-03-05 18:30,B3,5,MEET-B3539,Meeting Room,20,10,50.0,3,0,Weekday,18,23.8,Normally Utilized
+2026-03-05 19:00,B1,2,OFF-B1284,Office,40,1,2.5,1,1,Weekday,19,24.8,Underutilized
+2026-03-05 19:30,B2,2,OFF-B2266,Office,25,0,0.0,1,0,Weekday,19,22.8,Underutilized
+2026-03-05 20:00,B2,3,COM-B2399,Common Area,60,1,1.7,0,1,Weekday,20,22.2,Underutilized
+2026-03-05 20:45,B1,3,LAB-B1311,Laboratory,15,0,0.0,0,0,Weekday,20,23.3,Underutilized
+2026-03-05 21:15,B2,1,CONF-B2159,Conference Room,100,5,5.0,0,0,Weekday,21,20.8,Underutilized
+2026-03-05 21:30,B1,1,CLASS-B1194,Classroom,50,3,6.0,1,1,Weekday,21,24.3,Underutilized
+2026-03-05 22:15,B1,4,CONF-B1464,Conference Room,100,1,1.0,0,2,Weekday,22,25.0,Underutilized
+2026-03-05 22:30,B2,4,CLASS-B2446,Classroom,50,2,4.0,0,2,Weekday,22,24.0,Underutilized
+2026-03-05 23:30,B2,3,OFF-B2315,Office,25,0,0.0,0,2,Weekday,23,21.2,Underutilized
+2026-03-06 00:00,B3,3,OFF-B3397,Office,25,1,4.0,1,0,Weekday,0,23.8,Underutilized
+2026-03-06 00:30,B2,4,LAB-B2496,Laboratory,15,1,6.7,0,0,Weekday,0,23.3,Underutilized
+2026-03-06 00:45,B1,4,COM-B1467,Common Area,60,5,8.3,2,2,Weekday,0,20.7,Underutilized
+2026-03-06 01:15,B2,4,CONF-B2464,Conference Room,100,5,5.0,0,2,Weekday,1,25.0,Underutilized
+2026-03-06 01:45,B3,3,OFF-B3395,Office,25,2,8.0,1,1,Weekday,1,24.2,Underutilized
+2026-03-06 02:15,B2,2,LAB-B2244,Laboratory,15,1,6.7,1,1,Weekday,2,25.4,Underutilized
+2026-03-06 02:45,B2,4,LAB-B2499,Laboratory,15,0,0.0,2,0,Weekday,2,25.1,Underutilized
+2026-03-06 03:15,B1,3,CLASS-B1312,Classroom,50,1,2.0,2,0,Weekday,3,24.0,Underutilized
+2026-03-06 03:30,B1,2,CONF-B1261,Conference Room,100,2,2.0,2,1,Weekday,3,24.8,Underutilized
+2026-03-06 04:15,B2,5,CONF-B2518,Conference Room,100,3,3.0,0,2,Weekday,4,24.9,Underutilized
+2026-03-06 04:30,B3,4,LAB-B3417,Laboratory,15,1,6.7,0,0,Weekday,4,22.9,Underutilized
+2026-03-06 05:30,B3,4,CAF-B3495,Cafeteria,120,6,5.0,2,0,Weekday,5,21.6,Underutilized
+2026-03-06 06:15,B1,3,CLASS-B1378,Classroom,50,4,8.0,0,2,Weekday,6,22.9,Underutilized
+2026-03-06 07:00,B1,4,COM-B1465,Common Area,60,5,8.3,2,1,Weekday,7,22.7,Underutilized
+2026-03-06 07:45,B3,1,OFF-B3119,Office,25,0,0.0,0,2,Weekday,7,22.6,Underutilized
+2026-03-06 08:45,B3,2,CLASS-B3261,Classroom,50,29,58.0,11,1,Weekday,8,21.7,Normally Utilized
+2026-03-06 09:00,B3,4,COM-B3463,Common Area,60,39,65.0,8,6,Weekday,9,23.2,Normally Utilized
+2026-03-06 09:30,B2,5,CONF-B2514,Conference Room,100,61,61.0,11,13,Weekday,9,24.0,Normally Utilized
+2026-03-06 10:30,B1,4,OFF-B1470,Office,40,32,80.0,15,12,Weekday,10,21.3,Highly Utilized
+2026-03-06 11:15,B1,5,LAB-B1546,Laboratory,15,12,80.0,4,1,Weekday,11,24.5,Highly Utilized
+2026-03-06 11:30,B3,3,MEET-B3340,Meeting Room,20,17,85.0,1,4,Weekday,11,22.1,Highly Utilized
+2026-03-06 11:45,B3,2,OFF-B3243,Office,40,31,77.5,6,5,Weekday,11,22.7,Highly Utilized
+2026-03-06 12:00,B2,1,OFF-B2154,Office,25,14,56.0,0,9,Weekday,12,21.8,Normally Utilized
+2026-03-06 12:45,B3,3,CLASS-B3386,Classroom,50,41,82.0,9,6,Weekday,12,24.4,Highly Utilized
+2026-03-06 13:15,B3,5,OFF-B3537,Office,40,26,65.0,11,9,Weekday,13,24.5,Normally Utilized
+2026-03-06 14:15,B3,5,MEET-B3539,Meeting Room,12,9,75.0,3,3,Weekday,14,23.7,Highly Utilized
+2026-03-06 15:00,B3,1,OFF-B3116,Office,40,29,72.5,12,4,Weekday,15,24.0,Highly Utilized
+2026-03-06 15:15,B2,5,CONF-B2540,Conference Room,100,71,71.0,9,0,Weekday,15,23.1,Highly Utilized
+2026-03-06 16:15,B3,4,CAF-B3417,Cafeteria,120,94,78.3,11,2,Weekday,16,20.6,Highly Utilized
+2026-03-06 16:30,B2,5,COM-B2575,Common Area,60,26,43.3,12,5,Weekday,16,25.0,Normally Utilized
+2026-03-06 16:45,B3,2,MEET-B3273,Meeting Room,20,12,60.0,7,3,Weekday,16,21.1,Normally Utilized
+2026-03-06 17:30,B2,1,OFF-B2112,Office,40,32,80.0,7,8,Weekday,17,20.8,Highly Utilized
+2026-03-06 18:00,B3,4,OFF-B3422,Office,25,12,48.0,1,4,Weekday,18,20.9,Normally Utilized
+2026-03-06 18:30,B3,1,MEET-B3183,Meeting Room,12,7,58.3,9,8,Weekday,18,21.2,Normally Utilized
+2026-03-06 19:15,B1,5,CONF-B1553,Conference Room,100,2,2.0,0,1,Weekday,19,20.7,Underutilized
+2026-03-06 20:15,B1,3,COM-B1341,Common Area,60,5,8.3,0,0,Weekday,20,22.7,Underutilized
+2026-03-06 20:30,B3,2,COM-B3230,Common Area,60,1,1.7,0,1,Weekday,20,23.8,Underutilized
+2026-03-06 20:45,B2,3,OFF-B2316,Office,25,2,8.0,2,0,Weekday,20,24.0,Underutilized
+2026-03-06 21:00,B3,3,OFF-B3378,Office,25,0,0.0,1,1,Weekday,21,23.6,Underutilized
+2026-03-06 21:15,B2,2,LAB-B2296,Laboratory,15,1,6.7,0,1,Weekday,21,21.2,Underutilized
+2026-03-06 22:15,B3,4,CLASS-B3493,Classroom,50,3,6.0,2,1,Weekday,22,25.0,Underutilized
+2026-03-06 22:45,B3,5,CAF-B3516,Cafeteria,120,10,8.3,1,1,Weekday,22,21.7,Underutilized
+2026-03-06 23:00,B2,4,OFF-B2445,Office,25,0,0.0,1,2,Weekday,23,23.0,Underutilized
+2026-03-06 23:15,B1,4,CLASS-B1487,Classroom,50,4,8.0,1,0,Weekday,23,25.4,Underutilized
+2026-03-06 23:45,B1,1,LAB-B1190,Laboratory,15,1,6.7,0,1,Weekday,23,21.6,Underutilized
+2026-03-07 00:30,B3,2,CLASS-B3262,Classroom,50,6,12.0,0,2,Weekend,0,25.1,Underutilized
+2026-03-07 01:00,B2,1,CONF-B2170,Conference Room,100,2,2.0,1,0,Weekend,1,21.1,Underutilized
+2026-03-07 01:45,B2,5,OFF-B2546,Office,40,5,12.5,0,0,Weekend,1,24.4,Underutilized
+2026-03-07 02:15,B2,3,OFF-B2384,Office,25,3,12.0,2,2,Weekend,2,20.5,Underutilized
+2026-03-07 03:00,B2,3,MEET-B2362,Meeting Room,12,0,0.0,1,1,Weekend,3,21.4,Underutilized
+2026-03-07 03:45,B3,4,CAF-B3468,Cafeteria,120,13,10.8,0,1,Weekend,3,24.4,Underutilized
+2026-03-07 04:15,B2,5,COM-B2583,Common Area,60,5,8.3,1,2,Weekend,4,24.5,Underutilized
+2026-03-07 05:15,B3,3,MEET-B3316,Meeting Room,20,2,10.0,2,0,Weekend,5,21.8,Underutilized
+2026-03-07 06:00,B3,1,CAF-B3180,Cafeteria,120,16,13.3,2,0,Weekend,6,22.0,Underutilized
+2026-03-07 06:30,B3,4,COM-B3465,Common Area,60,0,0.0,0,1,Weekend,6,23.4,Underutilized
+2026-03-07 06:45,B1,3,LAB-B1388,Laboratory,15,1,6.7,0,2,Weekend,6,24.0,Underutilized
+2026-03-07 07:15,B3,3,OFF-B3353,Office,40,3,7.5,1,0,Weekend,7,21.5,Underutilized
+2026-03-07 08:00,B2,2,OFF-B2245,Office,25,2,8.0,13,13,Weekend,8,25.3,Underutilized
+2026-03-07 08:45,B1,2,CLASS-B1245,Classroom,50,6,12.0,5,3,Weekend,8,23.4,Underutilized
+2026-03-07 09:45,B1,3,LAB-B1348,Laboratory,15,1,6.7,1,12,Weekend,9,24.7,Underutilized
+2026-03-07 10:30,B3,2,OFF-B3247,Office,25,2,8.0,13,8,Weekend,10,21.1,Underutilized
+2026-03-07 11:30,B3,2,LAB-B3260,Laboratory,15,1,6.7,4,12,Weekend,11,23.6,Underutilized
+2026-03-07 11:45,B3,1,MEET-B3144,Meeting Room,20,1,5.0,6,1,Weekend,11,25.1,Underutilized
+2026-03-07 12:30,B2,3,CONF-B2320,Conference Room,100,10,10.0,5,9,Weekend,12,24.4,Underutilized
+2026-03-07 13:30,B3,4,MEET-B3418,Meeting Room,12,1,8.3,10,8,Weekend,13,24.2,Underutilized
+2026-03-07 14:30,B2,2,OFF-B2211,Office,25,3,12.0,14,10,Weekend,14,24.0,Underutilized
+2026-03-07 15:30,B2,2,CAF-B2272,Cafeteria,120,9,7.5,14,5,Weekend,15,24.2,Underutilized
+2026-03-07 16:00,B3,4,MEET-B3440,Meeting Room,12,0,0.0,4,8,Weekend,16,24.2,Underutilized
+2026-03-07 16:45,B1,5,COM-B1510,Common Area,60,1,1.7,7,9,Weekend,16,24.1,Underutilized
+2026-03-07 17:15,B3,1,CAF-B3122,Cafeteria,120,3,2.5,15,15,Weekend,17,21.1,Underutilized
+2026-03-07 18:15,B1,3,MEET-B1391,Meeting Room,12,1,8.3,0,9,Weekend,18,25.4,Underutilized
+2026-03-07 18:30,B1,4,LAB-B1463,Laboratory,15,0,0.0,3,12,Weekend,18,24.6,Underutilized
+2026-03-07 18:45,B1,4,CONF-B1476,Conference Room,100,4,4.0,5,11,Weekend,18,23.7,Underutilized
+2026-03-07 19:00,B2,2,CAF-B2217,Cafeteria,120,14,11.7,0,2,Weekend,19,21.7,Underutilized
+2026-03-07 20:00,B1,1,CONF-B1174,Conference Room,100,5,5.0,2,0,Weekend,20,25.3,Underutilized
+2026-03-07 21:00,B3,3,CAF-B3312,Cafeteria,120,3,2.5,1,2,Weekend,21,23.7,Underutilized
+2026-03-07 21:45,B3,4,COM-B3420,Common Area,60,5,8.3,1,1,Weekend,21,22.3,Underutilized
+2026-03-07 22:15,B1,1,COM-B1189,Common Area,60,7,11.7,1,1,Weekend,22,23.9,Underutilized
+2026-03-07 22:30,B2,5,CLASS-B2530,Classroom,50,3,6.0,1,0,Weekend,22,22.1,Underutilized
+2026-03-07 23:30,B2,2,MEET-B2256,Meeting Room,20,2,10.0,1,2,Weekend,23,23.6,Underutilized
+2026-03-08 00:15,B3,1,CAF-B3179,Cafeteria,120,1,0.8,1,2,Weekend,0,23.7,Underutilized
+2026-03-08 01:00,B1,5,LAB-B1533,Laboratory,15,0,0.0,1,2,Weekend,1,23.3,Underutilized
+2026-03-08 01:30,B3,1,MEET-B3187,Meeting Room,12,0,0.0,0,2,Weekend,1,23.4,Underutilized
+2026-03-08 01:45,B2,5,MEET-B2518,Meeting Room,20,2,10.0,0,1,Weekend,1,21.1,Underutilized
+2026-03-08 02:15,B2,4,MEET-B2496,Meeting Room,20,1,5.0,2,1,Weekend,2,22.1,Underutilized
+2026-03-08 03:00,B3,5,CONF-B3580,Conference Room,100,14,14.0,2,2,Weekend,3,25.2,Underutilized
+2026-03-08 04:00,B1,1,COM-B1154,Common Area,60,57,95.0,2,1,Weekend,4,22.8,Overcrowded
+2026-03-08 05:00,B2,4,OFF-B2440,Office,25,3,12.0,1,2,Weekend,5,20.9,Underutilized
+2026-03-08 05:15,B3,4,OFF-B3434,Office,25,0,0.0,0,2,Weekend,5,25.1,Underutilized
+2026-03-08 06:15,B2,2,CAF-B2294,Cafeteria,120,13,10.8,0,1,Weekend,6,24.2,Underutilized
+2026-03-08 06:45,B1,2,COM-B1250,Common Area,60,3,5.0,2,2,Weekend,6,24.0,Underutilized
+2026-03-08 07:30,B3,5,LAB-B3596,Laboratory,15,1,6.7,0,2,Weekend,7,23.2,Underutilized
+2026-03-08 07:45,B2,3,MEET-B2321,Meeting Room,12,1,8.3,1,2,Weekend,7,21.3,Underutilized
+2026-03-08 08:30,B3,3,MEET-B3392,Meeting Room,12,0,0.0,7,7,Weekend,8,21.8,Underutilized
+2026-03-08 08:45,B3,2,COM-B3295,Common Area,60,6,10.0,4,4,Weekend,8,22.6,Underutilized
+2026-03-08 09:30,B2,3,CONF-B2388,Conference Room,100,12,12.0,3,9,Weekend,9,23.9,Underutilized
+2026-03-08 10:15,B2,4,OFF-B2443,Office,25,3,12.0,6,14,Weekend,10,25.3,Underutilized
+2026-03-08 11:00,B1,3,MEET-B1348,Meeting Room,12,0,0.0,8,5,Weekend,11,25.3,Underutilized
+2026-03-08 12:00,B3,1,CONF-B3150,Conference Room,100,5,5.0,1,7,Weekend,12,23.1,Underutilized
+2026-03-08 12:15,B3,2,CLASS-B3265,Classroom,50,3,6.0,14,14,Weekend,12,20.6,Underutilized
+2026-03-08 12:30,B1,4,MEET-B1443,Meeting Room,12,0,0.0,7,8,Weekend,12,22.8,Underutilized
+2026-03-08 12:45,B2,3,OFF-B2328,Office,40,5,12.5,8,8,Weekend,12,24.1,Underutilized
+2026-03-08 13:15,B3,2,OFF-B3241,Office,40,5,12.5,5,15,Weekend,13,22.0,Underutilized
+2026-03-08 13:45,B3,5,MEET-B3530,Meeting Room,12,1,8.3,15,9,Weekend,13,24.6,Underutilized
+2026-03-08 14:30,B1,3,CAF-B1397,Cafeteria,120,10,8.3,15,6,Weekend,14,24.3,Underutilized
+2026-03-08 14:45,B3,4,MEET-B3434,Meeting Room,12,0,0.0,12,3,Weekend,14,22.9,Underutilized
+2026-03-08 15:45,B2,5,OFF-B2588,Office,25,2,8.0,4,3,Weekend,15,22.9,Underutilized
+2026-03-08 16:00,B2,1,MEET-B2191,Meeting Room,20,0,0.0,13,9,Weekend,16,22.7,Underutilized
+2026-03-08 16:15,B1,4,CAF-B1454,Cafeteria,120,0,0.0,14,11,Weekend,16,20.6,Underutilized
+2026-03-08 17:15,B3,1,COM-B3125,Common Area,60,6,10.0,0,14,Weekend,17,21.0,Underutilized
+2026-03-08 17:30,B3,2,OFF-B3262,Office,25,1,4.0,14,7,Weekend,17,21.8,Underutilized
+2026-03-08 17:45,B1,2,CLASS-B1229,Classroom,50,3,6.0,7,3,Weekend,17,22.1,Underutilized
+2026-03-08 18:15,B2,3,OFF-B2351,Office,40,0,0.0,0,9,Weekend,18,20.6,Underutilized
+2026-03-08 19:15,B1,2,OFF-B1219,Office,40,0,0.0,1,2,Weekend,19,24.7,Underutilized
+2026-03-08 20:15,B1,3,MEET-B1359,Meeting Room,12,0,0.0,0,1,Weekend,20,24.5,Underutilized
+2026-03-08 21:15,B3,2,MEET-B3283,Meeting Room,12,1,8.3,2,1,Weekend,21,25.0,Underutilized
+2026-03-08 22:15,B3,5,MEET-B3521,Meeting Room,12,0,0.0,0,2,Weekend,22,23.9,Underutilized
+2026-03-08 23:15,B1,2,CAF-B1264,Cafeteria,120,14,11.7,1,2,Weekend,23,20.8,Underutilized
+2026-03-08 23:45,B1,5,CAF-B1518,Cafeteria,120,16,13.3,0,2,Weekend,23,21.8,Underutilized
+2026-03-09 00:30,B1,4,OFF-B1432,Office,40,1,2.5,2,1,Weekday,0,22.7,Underutilized
+2026-03-09 01:00,B2,1,CAF-B2191,Cafeteria,120,3,2.5,2,1,Weekday,1,22.0,Underutilized
+2026-03-09 01:45,B1,3,OFF-B1370,Office,25,1,4.0,2,1,Weekday,1,23.9,Underutilized
+2026-03-09 02:15,B1,5,CONF-B1552,Conference Room,100,5,5.0,1,2,Weekday,2,24.1,Underutilized
+2026-03-09 03:00,B1,4,OFF-B1453,Office,25,1,4.0,2,2,Weekday,3,22.1,Underutilized
+2026-03-09 03:30,B3,4,MEET-B3475,Meeting Room,12,0,0.0,2,1,Weekday,3,25.1,Underutilized
+2026-03-09 03:45,B1,3,CONF-B1355,Conference Room,100,8,8.0,0,0,Weekday,3,20.5,Underutilized
+2026-03-09 04:45,B3,5,LAB-B3544,Laboratory,15,9,60.0,1,1,Weekday,4,20.9,Normally Utilized
+2026-03-09 05:00,B1,1,COM-B1184,Common Area,60,4,6.7,1,2,Weekday,5,24.4,Underutilized
+2026-03-09 05:30,B1,1,OFF-B1129,Office,40,1,2.5,1,0,Weekday,5,23.3,Underutilized
+2026-03-09 06:00,B1,3,OFF-B1328,Office,40,0,0.0,0,0,Weekday,6,24.0,Underutilized
+2026-03-09 06:45,B2,3,MEET-B2332,Meeting Room,12,0,0.0,1,2,Weekday,6,23.0,Underutilized
+2026-03-09 07:45,B2,3,MEET-B2380,Meeting Room,20,1,5.0,2,0,Weekday,7,22.6,Underutilized
+2026-03-09 08:15,B1,2,CAF-B1282,Cafeteria,120,86,71.7,12,15,Weekday,8,21.0,Highly Utilized
+2026-03-09 08:45,B1,3,MEET-B1397,Meeting Room,20,10,50.0,3,8,Weekday,8,22.9,Normally Utilized
+2026-03-09 09:30,B1,2,CLASS-B1217,Classroom,50,23,46.0,7,0,Weekday,9,21.6,Normally Utilized
+2026-03-09 10:15,B1,4,CONF-B1433,Conference Room,100,78,78.0,14,2,Weekday,10,24.6,Highly Utilized
+2026-03-09 10:45,B1,2,LAB-B1277,Laboratory,15,9,60.0,11,1,Weekday,10,24.3,Normally Utilized
+2026-03-09 11:00,B3,4,MEET-B3454,Meeting Room,12,10,83.3,1,5,Weekday,11,23.7,Highly Utilized
+2026-03-09 11:15,B1,1,CONF-B1138,Conference Room,100,90,90.0,14,9,Weekday,11,24.5,Highly Utilized
+2026-03-09 11:45,B2,2,CLASS-B2259,Classroom,50,20,40.0,11,5,Weekday,11,22.3,Normally Utilized
+2026-03-09 12:45,B3,4,OFF-B3499,Office,40,29,72.5,10,7,Weekday,12,22.4,Highly Utilized
+2026-03-09 13:15,B2,4,LAB-B2456,Laboratory,15,9,60.0,8,10,Weekday,13,21.0,Normally Utilized
+2026-03-09 14:15,B1,5,CONF-B1568,Conference Room,100,71,71.0,13,11,Weekday,14,24.6,Highly Utilized
+2026-03-09 14:45,B2,3,COM-B2331,Common Area,60,49,81.7,14,14,Weekday,14,22.7,Highly Utilized
+2026-03-09 15:00,B3,1,MEET-B3152,Meeting Room,12,9,75.0,13,2,Weekday,15,24.7,Highly Utilized
+2026-03-09 15:45,B1,5,MEET-B1513,Meeting Room,12,8,66.7,2,15,Weekday,15,24.8,Normally Utilized
+2026-03-09 16:45,B3,3,MEET-B3392,Meeting Room,20,15,75.0,9,4,Weekday,16,23.5,Highly Utilized
+2026-03-09 17:45,B2,4,CONF-B2429,Conference Room,100,83,83.0,0,10,Weekday,17,21.0,Highly Utilized
+2026-03-09 18:45,B3,2,COM-B3265,Common Area,60,29,48.3,7,14,Weekday,18,25.3,Normally Utilized
+2026-03-09 19:15,B1,1,CAF-B1120,Cafeteria,120,3,2.5,0,1,Weekday,19,22.9,Underutilized
+2026-03-09 20:00,B2,2,LAB-B2223,Laboratory,15,1,6.7,2,0,Weekday,20,21.2,Underutilized
+2026-03-09 20:15,B2,5,CLASS-B2531,Classroom,50,1,2.0,2,1,Weekday,20,20.6,Underutilized
+2026-03-09 20:45,B2,3,OFF-B2395,Office,40,1,2.5,2,2,Weekday,20,24.9,Underutilized
+2026-03-09 21:30,B2,2,CLASS-B2245,Classroom,50,0,0.0,1,1,Weekday,21,20.6,Underutilized
+2026-03-09 21:45,B3,5,COM-B3598,Common Area,60,0,0.0,0,0,Weekday,21,24.3,Underutilized
+2026-03-09 22:30,B1,4,LAB-B1458,Laboratory,15,0,0.0,1,1,Weekday,22,24.4,Underutilized
+2026-03-09 23:30,B1,4,MEET-B1476,Meeting Room,20,1,5.0,2,1,Weekday,23,25.1,Underutilized
+2026-03-10 00:00,B1,3,OFF-B1369,Office,40,0,0.0,1,2,Weekday,0,23.0,Underutilized
+2026-03-10 00:15,B1,2,MEET-B1264,Meeting Room,12,0,0.0,2,2,Weekday,0,23.6,Underutilized
+2026-03-10 01:00,B1,3,OFF-B1362,Office,25,27,108.0,0,2,Weekday,1,21.9,Overcrowded
+2026-03-10 01:15,B3,4,OFF-B3430,Office,25,29,116.0,1,0,Weekday,1,24.1,Overcrowded
+2026-03-10 02:00,B1,5,CONF-B1556,Conference Room,100,3,3.0,2,1,Weekday,2,22.4,Underutilized
+2026-03-10 02:45,B1,3,LAB-B1364,Laboratory,15,0,0.0,1,2,Weekday,2,23.1,Underutilized
+2026-03-10 03:00,B2,3,OFF-B2350,Office,40,1,2.5,0,0,Weekday,3,24.6,Underutilized
+2026-03-10 03:15,B2,2,CLASS-B2234,Classroom,50,3,6.0,1,2,Weekday,3,21.7,Underutilized
+2026-03-10 03:30,B1,3,CONF-B1394,Conference Room,100,7,7.0,2,2,Weekday,3,21.4,Underutilized
+2026-03-10 03:45,B3,5,CONF-B3567,Conference Room,100,8,8.0,0,1,Weekday,3,22.8,Underutilized
+2026-03-10 04:30,B2,3,LAB-B2325,Laboratory,15,0,0.0,2,1,Weekday,4,21.7,Underutilized
+2026-03-10 05:15,B2,5,CONF-B2590,Conference Room,100,7,7.0,1,0,Weekday,5,22.3,Underutilized
+2026-03-10 06:15,B3,5,MEET-B3544,Meeting Room,12,0,0.0,2,1,Weekday,6,24.4,Underutilized
+2026-03-10 06:30,B1,5,CAF-B1583,Cafeteria,120,3,2.5,2,2,Weekday,6,23.9,Underutilized
+2026-03-10 07:30,B2,1,CAF-B2191,Cafeteria,120,5,4.2,1,0,Weekday,7,22.9,Underutilized
+2026-03-10 08:00,B2,2,CONF-B2252,Conference Room,100,67,67.0,2,0,Weekday,8,23.2,Normally Utilized
+2026-03-10 08:45,B2,5,MEET-B2567,Meeting Room,12,9,75.0,13,8,Weekday,8,24.3,Highly Utilized
+2026-03-10 09:15,B3,3,COM-B3392,Common Area,60,37,61.7,11,9,Weekday,9,21.8,Normally Utilized
+2026-03-10 09:30,B3,2,COM-B3245,Common Area,60,25,41.7,7,8,Weekday,9,22.4,Normally Utilized
+2026-03-10 09:45,B3,5,MEET-B3589,Meeting Room,12,8,66.7,6,4,Weekday,9,23.1,Normally Utilized
+2026-03-10 10:30,B2,1,CLASS-B2181,Classroom,50,39,78.0,0,15,Weekday,10,23.1,Highly Utilized
+2026-03-10 11:30,B2,4,COM-B2451,Common Area,60,39,65.0,10,9,Weekday,11,21.8,Normally Utilized
+2026-03-10 12:30,B3,5,CONF-B3513,Conference Room,100,72,72.0,7,0,Weekday,12,21.9,Highly Utilized
+2026-03-10 13:30,B2,1,OFF-B2128,Office,25,16,64.0,3,1,Weekday,13,24.6,Normally Utilized
+2026-03-10 14:30,B1,5,COM-B1553,Common Area,60,24,40.0,0,9,Weekday,14,21.1,Normally Utilized
+2026-03-10 15:00,B3,1,OFF-B3148,Office,25,20,80.0,4,13,Weekday,15,24.2,Highly Utilized
+2026-03-10 16:00,B2,1,CONF-B2186,Conference Room,100,82,82.0,5,9,Weekday,16,20.6,Highly Utilized
+2026-03-10 16:15,B1,2,CONF-B1297,Conference Room,100,87,87.0,7,3,Weekday,16,22.3,Highly Utilized
+2026-03-10 17:00,B3,3,LAB-B3360,Laboratory,15,12,80.0,8,15,Weekday,17,22.6,Highly Utilized
+2026-03-10 18:00,B2,5,CAF-B2599,Cafeteria,120,70,58.3,8,7,Weekday,18,23.0,Normally Utilized
+2026-03-10 18:30,B3,1,COM-B3111,Common Area,60,37,61.7,13,14,Weekday,18,22.3,Normally Utilized
+2026-03-10 19:30,B2,3,CAF-B2355,Cafeteria,120,7,5.8,2,1,Weekday,19,23.4,Underutilized
+2026-03-10 20:00,B1,1,MEET-B1156,Meeting Room,20,0,0.0,0,1,Weekday,20,21.4,Underutilized
+2026-03-10 20:45,B3,2,COM-B3299,Common Area,60,4,6.7,1,2,Weekday,20,20.6,Underutilized
+2026-03-10 21:15,B3,5,OFF-B3522,Office,25,2,8.0,2,1,Weekday,21,22.7,Underutilized
+2026-03-10 21:45,B1,1,CLASS-B1119,Classroom,50,1,2.0,2,1,Weekday,21,24.1,Underutilized
+2026-03-10 22:15,B3,1,LAB-B3198,Laboratory,15,0,0.0,2,0,Weekday,22,25.4,Underutilized
+2026-03-10 23:00,B2,2,OFF-B2288,Office,25,2,8.0,0,1,Weekday,23,23.3,Underutilized
+2026-03-10 23:15,B1,1,MEET-B1163,Meeting Room,12,0,0.0,0,2,Weekday,23,21.9,Underutilized
+2026-03-10 23:30,B1,4,MEET-B1461,Meeting Room,12,0,0.0,2,1,Weekday,23,24.4,Underutilized
+2026-03-11 00:30,B3,5,CLASS-B3525,Classroom,50,0,0.0,2,1,Weekday,0,24.5,Underutilized
+2026-03-11 01:00,B1,5,COM-B1533,Common Area,60,2,3.3,2,2,Weekday,1,24.5,Underutilized
+2026-03-11 02:00,B1,2,CAF-B1253,Cafeteria,120,8,6.7,2,2,Weekday,2,23.2,Underutilized
+2026-03-11 02:15,B2,1,CLASS-B2137,Classroom,50,1,2.0,0,0,Weekday,2,23.7,Underutilized
+2026-03-11 03:15,B3,5,COM-B3553,Common Area,60,4,6.7,1,2,Weekday,3,21.4,Underutilized
+2026-03-11 03:30,B3,3,MEET-B3317,Meeting Room,12,0,0.0,2,1,Weekday,3,21.1,Underutilized
+2026-03-11 03:45,B1,3,CLASS-B1332,Classroom,50,3,6.0,1,2,Weekday,3,23.0,Underutilized
+2026-03-11 04:30,B1,5,OFF-B1585,Office,40,2,5.0,2,2,Weekday,4,20.9,Underutilized
+2026-03-11 05:15,B2,4,CONF-B2471,Conference Room,100,9,9.0,0,1,Weekday,5,21.8,Underutilized
+2026-03-11 05:30,B2,2,OFF-B2279,Office,25,1,4.0,0,2,Weekday,5,24.9,Underutilized
+2026-03-11 06:30,B3,2,OFF-B3289,Office,40,2,5.0,2,1,Weekday,6,20.7,Underutilized
+2026-03-11 07:15,B3,3,CLASS-B3316,Classroom,50,4,8.0,1,2,Weekday,7,22.0,Underutilized
+2026-03-11 07:30,B2,5,COM-B2560,Common Area,60,5,8.3,1,0,Weekday,7,21.8,Underutilized
+2026-03-11 08:00,B2,4,COM-B2412,Common Area,60,30,50.0,10,6,Weekday,8,21.9,Normally Utilized
+2026-03-11 08:15,B3,1,MEET-B3136,Meeting Room,20,12,60.0,2,11,Weekday,8,23.1,Normally Utilized
+2026-03-11 09:00,B2,1,MEET-B2185,Meeting Room,20,14,70.0,9,13,Weekday,9,24.9,Highly Utilized
+2026-03-11 09:30,B1,4,COM-B1432,Common Area,60,42,70.0,4,13,Weekday,9,25.1,Highly Utilized
+2026-03-11 09:45,B3,3,OFF-B3356,Office,25,17,68.0,13,12,Weekday,9,25.1,Normally Utilized
+2026-03-11 10:00,B1,3,OFF-B1349,Office,25,13,52.0,3,12,Weekday,10,23.0,Normally Utilized
+2026-03-11 10:30,B3,2,MEET-B3214,Meeting Room,12,10,83.3,15,2,Weekday,10,23.4,Highly Utilized
+2026-03-11 11:00,B2,1,MEET-B2147,Meeting Room,12,7,58.3,2,6,Weekday,11,20.9,Normally Utilized
+2026-03-11 11:15,B3,4,OFF-B3497,Office,25,14,56.0,15,9,Weekday,11,22.9,Normally Utilized
+2026-03-11 12:00,B1,4,OFF-B1471,Office,40,26,65.0,11,8,Weekday,12,24.9,Normally Utilized
+2026-03-11 13:00,B3,5,MEET-B3531,Meeting Room,20,14,70.0,6,3,Weekday,13,23.8,Highly Utilized
+2026-03-11 13:30,B2,5,LAB-B2548,Laboratory,15,6,40.0,6,4,Weekday,13,22.6,Normally Utilized
+2026-03-11 14:00,B1,4,MEET-B1419,Meeting Room,12,7,58.3,12,7,Weekday,14,24.9,Normally Utilized
+2026-03-11 14:45,B3,1,OFF-B3157,Office,25,19,76.0,1,5,Weekday,14,23.9,Highly Utilized
+2026-03-11 15:15,B1,3,MEET-B1349,Meeting Room,20,13,65.0,4,10,Weekday,15,23.9,Normally Utilized
+2026-03-11 15:30,B2,1,CONF-B2133,Conference Room,100,84,84.0,13,12,Weekday,15,24.3,Highly Utilized
+2026-03-11 15:45,B2,1,MEET-B2160,Meeting Room,20,12,60.0,4,7,Weekday,15,21.2,Normally Utilized
+2026-03-11 16:30,B3,5,MEET-B3536,Meeting Room,20,15,75.0,7,8,Weekday,16,22.4,Highly Utilized
+2026-03-11 17:30,B1,4,OFF-B1425,Office,40,26,65.0,7,6,Weekday,17,23.2,Normally Utilized
+2026-03-11 18:30,B2,2,MEET-B2255,Meeting Room,20,11,55.0,7,14,Weekday,18,20.7,Normally Utilized
+2026-03-11 19:15,B2,4,OFF-B2482,Office,40,3,7.5,0,1,Weekday,19,21.9,Underutilized
+2026-03-11 19:45,B1,2,COM-B1247,Common Area,60,5,8.3,2,0,Weekday,19,21.3,Underutilized
+2026-03-11 20:15,B2,1,COM-B2178,Common Area,60,5,8.3,2,0,Weekday,20,21.2,Underutilized
+2026-03-11 21:15,B1,1,CAF-B1179,Cafeteria,120,2,1.7,1,1,Weekday,21,23.2,Underutilized
+2026-03-11 22:00,B3,4,MEET-B3469,Meeting Room,20,0,0.0,2,0,Weekday,22,22.6,Underutilized
+2026-03-11 22:15,B2,1,MEET-B2129,Meeting Room,12,0,0.0,0,1,Weekday,22,25.1,Underutilized
+2026-03-11 22:30,B3,1,CLASS-B3197,Classroom,50,1,2.0,1,2,Weekday,22,25.0,Underutilized
+2026-03-11 23:00,B3,1,OFF-B3140,Office,40,0,0.0,0,1,Weekday,23,22.0,Underutilized
+2026-03-11 23:30,B3,3,CLASS-B3355,Classroom,50,1,2.0,1,1,Weekday,23,21.0,Underutilized
+2026-03-12 00:00,B3,4,CLASS-B3442,Classroom,50,3,6.0,0,2,Weekday,0,24.4,Underutilized
+2026-03-12 00:30,B3,4,CAF-B3494,Cafeteria,120,5,4.2,2,2,Weekday,0,22.8,Underutilized
+2026-03-12 01:30,B1,3,COM-B1393,Common Area,60,0,0.0,2,2,Weekday,1,22.7,Underutilized
+2026-03-12 02:15,B1,5,OFF-B1572,Office,40,1,2.5,1,2,Weekday,2,24.3,Underutilized
+2026-03-12 03:00,B1,1,CAF-B1156,Cafeteria,120,3,2.5,1,0,Weekday,3,22.9,Underutilized
+2026-03-12 04:00,B2,4,MEET-B2414,Meeting Room,20,1,5.0,1,0,Weekday,4,23.6,Underutilized
+2026-03-12 04:15,B2,1,CLASS-B2147,Classroom,50,32,64.0,2,0,Weekday,4,21.5,Normally Utilized
+2026-03-12 05:15,B2,3,OFF-B2332,Office,40,1,2.5,0,2,Weekday,5,23.2,Underutilized
+2026-03-12 06:15,B3,3,LAB-B3371,Laboratory,15,0,0.0,2,2,Weekday,6,21.2,Underutilized
+2026-03-12 07:15,B2,3,CAF-B2333,Cafeteria,120,7,5.8,2,2,Weekday,7,23.6,Underutilized
+2026-03-12 08:15,B2,1,CAF-B2179,Cafeteria,120,92,76.7,1,11,Weekday,8,24.0,Highly Utilized
+2026-03-12 09:15,B2,2,LAB-B2249,Laboratory,15,10,66.7,8,2,Weekday,9,22.0,Normally Utilized
+2026-03-12 10:15,B1,4,CAF-B1458,Cafeteria,120,70,58.3,12,2,Weekday,10,20.8,Normally Utilized
+2026-03-12 10:30,B2,1,CONF-B2138,Conference Room,100,103,103.0,15,11,Weekday,10,23.0,Overcrowded
+2026-03-12 11:00,B3,4,LAB-B3451,Laboratory,15,11,73.3,2,7,Weekday,11,22.7,Highly Utilized
+2026-03-12 11:15,B1,5,CAF-B1535,Cafeteria,120,93,77.5,13,12,Weekday,11,23.7,Highly Utilized
+2026-03-12 12:00,B2,3,OFF-B2354,Office,40,16,40.0,13,2,Weekday,12,23.1,Normally Utilized
+2026-03-12 12:30,B3,2,CAF-B3292,Cafeteria,120,109,90.8,14,4,Weekday,12,22.9,Overcrowded
+2026-03-12 13:30,B3,3,CAF-B3361,Cafeteria,120,110,91.7,4,14,Weekday,13,22.8,Overcrowded
+2026-03-12 14:30,B2,4,CLASS-B2496,Classroom,50,35,70.0,15,0,Weekday,14,22.2,Highly Utilized
+2026-03-12 15:00,B2,5,MEET-B2583,Meeting Room,12,9,75.0,3,13,Weekday,15,25.2,Highly Utilized
+2026-03-12 16:00,B3,4,OFF-B3493,Office,25,19,76.0,4,4,Weekday,16,22.2,Highly Utilized
+2026-03-12 16:15,B1,3,CLASS-B1386,Classroom,50,32,64.0,15,15,Weekday,16,22.1,Normally Utilized
+2026-03-12 16:45,B2,3,CLASS-B2347,Classroom,50,21,42.0,2,11,Weekday,16,22.6,Normally Utilized
+2026-03-12 17:15,B3,5,COM-B3535,Common Area,60,42,70.0,2,11,Weekday,17,23.1,Highly Utilized
+2026-03-12 17:30,B2,3,OFF-B2360,Office,25,13,52.0,8,13,Weekday,17,22.6,Normally Utilized
+2026-03-12 18:30,B1,4,LAB-B1467,Laboratory,15,7,46.7,8,0,Weekday,18,24.6,Normally Utilized
+2026-03-12 18:45,B2,3,MEET-B2328,Meeting Room,12,5,41.7,6,14,Weekday,18,24.6,Normally Utilized
+2026-03-12 19:45,B3,5,LAB-B3523,Laboratory,15,0,0.0,2,1,Weekday,19,21.8,Underutilized
+2026-03-12 20:00,B2,5,CAF-B2539,Cafeteria,120,7,5.8,1,2,Weekday,20,22.7,Underutilized
+2026-03-12 20:45,B3,3,CLASS-B3343,Classroom,50,3,6.0,1,2,Weekday,20,24.3,Underutilized
+2026-03-12 21:00,B3,3,OFF-B3373,Office,25,1,4.0,0,1,Weekday,21,21.7,Underutilized
+2026-03-12 21:15,B2,2,MEET-B2297,Meeting Room,20,1,5.0,0,0,Weekday,21,22.0,Underutilized
+2026-03-12 21:30,B3,4,OFF-B3433,Office,25,0,0.0,1,0,Weekday,21,23.2,Underutilized
+2026-03-12 22:00,B1,1,LAB-B1124,Laboratory,15,1,6.7,0,2,Weekday,22,24.1,Underutilized
+2026-03-12 22:45,B3,5,CONF-B3529,Conference Room,100,9,9.0,0,2,Weekday,22,25.5,Underutilized
+2026-03-12 23:00,B2,3,MEET-B2378,Meeting Room,12,0,0.0,1,1,Weekday,23,20.9,Underutilized
+2026-03-12 23:30,B3,4,OFF-B3465,Office,25,2,8.0,1,0,Weekday,23,22.7,Underutilized
+2026-03-13 00:00,B1,5,CAF-B1574,Cafeteria,120,11,9.2,0,2,Weekday,0,23.4,Underutilized
+2026-03-13 01:00,B2,2,CAF-B2250,Cafeteria,120,10,8.3,0,1,Weekday,1,25.0,Underutilized
+2026-03-13 01:45,B3,3,CLASS-B3386,Classroom,50,3,6.0,0,0,Weekday,1,23.2,Underutilized
+2026-03-13 02:45,B1,5,CONF-B1561,Conference Room,100,8,8.0,2,0,Weekday,2,21.5,Underutilized
+2026-03-13 03:00,B2,4,OFF-B2456,Office,25,2,8.0,2,0,Weekday,3,23.1,Underutilized
+2026-03-13 03:15,B2,5,MEET-B2597,Meeting Room,12,0,0.0,2,0,Weekday,3,22.0,Underutilized
+2026-03-13 03:30,B3,4,MEET-B3436,Meeting Room,20,0,0.0,2,0,Weekday,3,25.1,Underutilized
+2026-03-13 03:45,B3,5,CAF-B3595,Cafeteria,120,10,8.3,1,1,Weekday,3,24.7,Underutilized
+2026-03-13 04:00,B2,2,COM-B2283,Common Area,60,1,1.7,1,1,Weekday,4,24.5,Underutilized
+2026-03-13 04:45,B3,2,COM-B3298,Common Area,60,1,1.7,1,2,Weekday,4,22.5,Underutilized
+2026-03-13 05:00,B3,3,MEET-B3384,Meeting Room,12,1,8.3,0,1,Weekday,5,22.6,Underutilized
+2026-03-13 05:15,B1,5,CONF-B1585,Conference Room,100,8,8.0,1,2,Weekday,5,20.7,Underutilized
+2026-03-13 06:00,B1,1,CONF-B1192,Conference Room,100,6,6.0,0,1,Weekday,6,22.4,Underutilized
+2026-03-13 07:00,B1,4,MEET-B1414,Meeting Room,12,1,8.3,0,2,Weekday,7,21.5,Underutilized
+2026-03-13 07:30,B3,5,OFF-B3530,Office,40,2,5.0,1,2,Weekday,7,24.4,Underutilized
+2026-03-13 07:45,B2,1,LAB-B2139,Laboratory,15,0,0.0,0,2,Weekday,7,22.8,Underutilized
+2026-03-13 08:45,B2,4,OFF-B2449,Office,25,17,68.0,6,4,Weekday,8,23.6,Normally Utilized
+2026-03-13 09:45,B3,4,MEET-B3413,Meeting Room,12,9,75.0,7,14,Weekday,9,21.6,Highly Utilized
+2026-03-13 10:00,B1,2,LAB-B1217,Laboratory,15,8,53.3,14,0,Weekday,10,23.6,Normally Utilized
+2026-03-13 10:15,B2,5,LAB-B2569,Laboratory,15,9,60.0,13,15,Weekday,10,23.2,Normally Utilized
+2026-03-13 11:15,B1,4,LAB-B1447,Laboratory,15,1,6.7,13,5,Weekday,11,21.9,Underutilized
+2026-03-13 11:45,B2,5,OFF-B2578,Office,25,20,80.0,2,8,Weekday,11,22.7,Highly Utilized
+2026-03-13 12:30,B2,2,OFF-B2237,Office,25,17,68.0,12,13,Weekday,12,23.5,Normally Utilized
+2026-03-13 13:30,B1,1,COM-B1154,Common Area,60,31,51.7,15,2,Weekday,13,21.0,Normally Utilized
+2026-03-13 13:45,B2,5,CONF-B2581,Conference Room,100,85,85.0,7,10,Weekday,13,22.7,Highly Utilized
+2026-03-13 14:30,B3,2,MEET-B3255,Meeting Room,12,10,83.3,1,15,Weekday,14,24.1,Highly Utilized
+2026-03-13 15:00,B1,1,CLASS-B1158,Classroom,50,37,74.0,9,8,Weekday,15,22.3,Highly Utilized
+2026-03-13 15:45,B1,4,CONF-B1462,Conference Room,100,93,93.0,2,9,Weekday,15,22.7,Overcrowded
+2026-03-13 16:00,B3,3,CAF-B3325,Cafeteria,120,77,64.2,14,5,Weekday,16,23.7,Normally Utilized
+2026-03-13 16:15,B3,4,LAB-B3428,Laboratory,15,11,73.3,12,7,Weekday,16,22.1,Highly Utilized
+2026-03-13 16:45,B2,2,COM-B2299,Common Area,60,38,63.3,10,6,Weekday,16,25.0,Normally Utilized
+2026-03-13 17:30,B2,1,MEET-B2127,Meeting Room,12,8,66.7,4,3,Weekday,17,21.4,Normally Utilized
+2026-03-13 18:15,B3,5,OFF-B3567,Office,40,18,45.0,14,15,Weekday,18,21.1,Normally Utilized
+2026-03-13 18:30,B2,4,COM-B2480,Common Area,60,28,46.7,0,3,Weekday,18,21.4,Normally Utilized
+2026-03-13 18:45,B2,1,COM-B2195,Common Area,60,30,50.0,0,12,Weekday,18,24.1,Normally Utilized
+2026-03-13 19:15,B2,1,CLASS-B2171,Classroom,50,4,8.0,2,0,Weekday,19,21.1,Underutilized
+2026-03-13 19:45,B1,2,COM-B1217,Common Area,60,0,0.0,1,0,Weekday,19,22.3,Underutilized
+2026-03-13 20:00,B2,4,CLASS-B2431,Classroom,50,0,0.0,0,1,Weekday,20,22.4,Underutilized
+2026-03-13 20:15,B1,5,LAB-B1530,Laboratory,15,1,6.7,2,2,Weekday,20,20.6,Underutilized
+2026-03-13 21:15,B2,1,CAF-B2133,Cafeteria,120,10,8.3,0,2,Weekday,21,25.1,Underutilized
+2026-03-13 22:00,B2,4,CAF-B2425,Cafeteria,120,9,7.5,0,0,Weekday,22,20.9,Underutilized
+2026-03-13 22:15,B3,4,CLASS-B3487,Classroom,50,1,2.0,2,1,Weekday,22,25.0,Underutilized
+2026-03-13 22:30,B2,2,COM-B2289,Common Area,60,43,71.7,2,2,Weekday,22,21.9,Highly Utilized
+2026-03-13 23:00,B1,2,MEET-B1232,Meeting Room,12,1,8.3,1,1,Weekday,23,22.9,Underutilized
+2026-03-13 23:30,B1,4,OFF-B1468,Office,40,0,0.0,2,0,Weekday,23,23.1,Underutilized
+2026-03-14 00:15,B2,3,CAF-B2376,Cafeteria,120,10,8.3,2,0,Weekend,0,24.0,Underutilized
+2026-03-14 00:45,B1,4,CONF-B1411,Conference Room,100,1,1.0,1,1,Weekend,0,22.0,Underutilized
+2026-03-14 01:30,B2,2,COM-B2247,Common Area,60,6,10.0,1,2,Weekend,1,23.9,Underutilized
+2026-03-14 02:15,B3,1,CAF-B3136,Cafeteria,120,3,2.5,1,2,Weekend,2,23.0,Underutilized
+2026-03-14 03:00,B3,1,MEET-B3170,Meeting Room,12,0,0.0,2,0,Weekend,3,20.9,Underutilized
+2026-03-14 03:45,B1,4,CAF-B1424,Cafeteria,120,10,8.3,0,0,Weekend,3,23.0,Underutilized
+2026-03-14 04:00,B2,4,MEET-B2466,Meeting Room,12,1,8.3,2,0,Weekend,4,20.8,Underutilized
+2026-03-14 05:00,B2,3,OFF-B2320,Office,25,1,4.0,0,0,Weekend,5,21.7,Underutilized
+2026-03-14 06:00,B2,1,LAB-B2168,Laboratory,15,1,6.7,2,0,Weekend,6,24.4,Underutilized
+2026-03-14 06:30,B1,1,OFF-B1198,Office,25,2,8.0,0,2,Weekend,6,21.2,Underutilized
+2026-03-14 07:15,B2,1,CLASS-B2145,Classroom,50,2,4.0,1,1,Weekend,7,22.2,Underutilized
+2026-03-14 07:45,B1,3,MEET-B1390,Meeting Room,12,0,0.0,0,0,Weekend,7,24.6,Underutilized
+2026-03-14 08:00,B1,3,OFF-B1384,Office,25,2,8.0,1,12,Weekend,8,24.5,Underutilized
+2026-03-14 08:45,B2,2,MEET-B2244,Meeting Room,12,1,8.3,6,13,Weekend,8,24.0,Underutilized
+2026-03-14 09:45,B3,4,COM-B3443,Common Area,60,0,0.0,7,0,Weekend,9,21.6,Underutilized
+2026-03-14 10:00,B1,2,CLASS-B1229,Classroom,50,4,8.0,12,9,Weekend,10,22.9,Underutilized
+2026-03-14 11:00,B3,1,MEET-B3138,Meeting Room,20,0,0.0,5,13,Weekend,11,20.5,Underutilized
+2026-03-14 11:45,B3,2,OFF-B3299,Office,40,4,10.0,9,1,Weekend,11,21.4,Underutilized
+2026-03-14 12:30,B3,5,CAF-B3534,Cafeteria,120,6,5.0,3,1,Weekend,12,21.3,Underutilized
+2026-03-14 13:00,B3,3,CONF-B3367,Conference Room,100,5,5.0,2,4,Weekend,13,25.4,Underutilized
+2026-03-14 13:45,B2,5,OFF-B2533,Office,25,1,4.0,9,5,Weekend,13,23.6,Underutilized
+2026-03-14 14:15,B3,4,COM-B3444,Common Area,60,2,3.3,15,15,Weekend,14,21.2,Underutilized
+2026-03-14 14:45,B1,5,LAB-B1549,Laboratory,15,0,0.0,7,11,Weekend,14,24.9,Underutilized
+2026-03-14 15:30,B2,3,MEET-B2396,Meeting Room,12,1,8.3,11,6,Weekend,15,22.2,Underutilized
+2026-03-14 16:15,B1,4,COM-B1499,Common Area,60,7,11.7,11,14,Weekend,16,23.0,Underutilized
+2026-03-14 16:45,B1,3,CLASS-B1351,Classroom,50,1,2.0,7,11,Weekend,16,21.2,Underutilized
+2026-03-14 17:45,B1,3,CLASS-B1397,Classroom,50,0,0.0,0,0,Weekend,17,22.4,Underutilized
+2026-03-14 18:30,B2,1,CLASS-B2120,Classroom,50,5,10.0,4,6,Weekend,18,22.3,Underutilized
+2026-03-14 19:30,B3,2,CLASS-B3241,Classroom,50,4,8.0,0,1,Weekend,19,22.5,Underutilized
+2026-03-14 19:45,B3,1,MEET-B3143,Meeting Room,20,2,10.0,0,1,Weekend,19,24.9,Underutilized
+2026-03-14 20:45,B2,5,LAB-B2597,Laboratory,15,1,6.7,1,1,Weekend,20,22.3,Underutilized
+2026-03-14 21:30,B3,3,MEET-B3344,Meeting Room,12,1,8.3,1,1,Weekend,21,22.0,Underutilized
+2026-03-14 21:45,B2,1,CLASS-B2161,Classroom,50,0,0.0,2,0,Weekend,21,24.3,Underutilized
+2026-03-14 22:00,B1,1,CONF-B1156,Conference Room,100,3,3.0,0,1,Weekend,22,23.9,Underutilized
+2026-03-14 23:00,B1,5,LAB-B1579,Laboratory,15,0,0.0,2,0,Weekend,23,25.1,Underutilized
+2026-03-14 23:45,B1,4,CLASS-B1416,Classroom,50,4,8.0,0,0,Weekend,23,21.4,Underutilized
+2026-03-15 00:45,B1,4,LAB-B1417,Laboratory,15,2,13.3,2,0,Weekend,0,23.7,Underutilized
+2026-03-15 01:15,B2,5,CONF-B2553,Conference Room,100,0,0.0,0,1,Weekend,1,21.3,Underutilized
+2026-03-15 01:45,B2,1,OFF-B2119,Office,40,3,7.5,0,2,Weekend,1,24.5,Underutilized
+2026-03-15 02:30,B2,2,CLASS-B2288,Classroom,50,1,2.0,2,0,Weekend,2,20.7,Underutilized
+2026-03-15 03:00,B2,5,OFF-B2515,Office,25,2,8.0,1,0,Weekend,3,21.0,Underutilized
+2026-03-15 03:30,B1,1,MEET-B1148,Meeting Room,12,0,0.0,1,0,Weekend,3,24.5,Underutilized
+2026-03-15 04:30,B1,3,MEET-B1372,Meeting Room,12,0,0.0,2,0,Weekend,4,21.0,Underutilized
+2026-03-15 05:30,B3,3,MEET-B3385,Meeting Room,20,2,10.0,0,2,Weekend,5,25.4,Underutilized
+2026-03-15 06:15,B3,2,OFF-B3253,Office,40,4,10.0,1,0,Weekend,6,24.6,Underutilized
+2026-03-15 06:45,B3,5,OFF-B3514,Office,25,2,8.0,1,0,Weekend,6,23.2,Underutilized
+2026-03-15 07:45,B2,1,OFF-B2190,Office,25,1,4.0,0,0,Weekend,7,24.6,Underutilized
+2026-03-15 08:00,B3,4,OFF-B3495,Office,25,2,8.0,3,5,Weekend,8,22.9,Underutilized
+2026-03-15 08:30,B1,3,MEET-B1383,Meeting Room,12,1,8.3,15,15,Weekend,8,22.4,Underutilized
+2026-03-15 09:15,B1,3,MEET-B1393,Meeting Room,12,1,8.3,10,9,Weekend,9,25.4,Underutilized
+2026-03-15 09:30,B3,4,COM-B3442,Common Area,60,7,11.7,7,13,Weekend,9,22.3,Underutilized
+2026-03-15 10:00,B2,5,OFF-B2585,Office,25,3,12.0,14,7,Weekend,10,23.2,Underutilized
+2026-03-15 10:15,B2,1,COM-B2198,Common Area,60,0,0.0,1,3,Weekend,10,22.9,Underutilized
+2026-03-15 10:30,B1,3,CONF-B1375,Conference Room,100,3,3.0,0,2,Weekend,10,25.5,Underutilized
+2026-03-15 11:30,B2,4,CLASS-B2483,Classroom,50,0,0.0,10,5,Weekend,11,23.4,Underutilized
+2026-03-15 12:15,B2,5,CONF-B2535,Conference Room,100,14,14.0,6,0,Weekend,12,24.9,Underutilized
+2026-03-15 13:00,B3,5,CONF-B3526,Conference Room,100,9,9.0,12,6,Weekend,13,21.0,Underutilized
+2026-03-15 13:45,B3,1,CONF-B3149,Conference Room,100,9,9.0,4,1,Weekend,13,21.5,Underutilized
+2026-03-15 14:15,B1,3,CLASS-B1323,Classroom,50,2,4.0,13,12,Weekend,14,23.7,Underutilized
+2026-03-15 14:30,B2,3,MEET-B2341,Meeting Room,12,0,0.0,0,3,Weekend,14,24.0,Underutilized
+2026-03-15 15:00,B1,4,CLASS-B1425,Classroom,50,54,108.0,15,13,Weekend,15,21.1,Overcrowded
+2026-03-15 15:45,B3,2,CONF-B3217,Conference Room,100,5,5.0,4,5,Weekend,15,21.2,Underutilized
+2026-03-15 16:00,B1,3,MEET-B1344,Meeting Room,20,2,10.0,3,5,Weekend,16,25.2,Underutilized
+2026-03-15 17:00,B3,3,OFF-B3310,Office,25,1,4.0,7,11,Weekend,17,24.7,Underutilized
+2026-03-15 17:30,B2,5,COM-B2570,Common Area,60,2,3.3,3,10,Weekend,17,20.9,Underutilized
+2026-03-15 18:00,B2,3,MEET-B2365,Meeting Room,20,1,5.0,2,2,Weekend,18,20.6,Underutilized
+2026-03-15 19:00,B2,3,CAF-B2338,Cafeteria,120,10,8.3,2,1,Weekend,19,23.8,Underutilized
+2026-03-15 19:30,B1,2,MEET-B1272,Meeting Room,20,1,5.0,2,0,Weekend,19,21.3,Underutilized
+2026-03-15 20:15,B2,4,MEET-B2424,Meeting Room,12,1,8.3,2,1,Weekend,20,20.8,Underutilized
+2026-03-15 20:30,B2,4,OFF-B2424,Office,25,2,8.0,1,1,Weekend,20,25.0,Underutilized
+2026-03-15 20:45,B2,4,MEET-B2445,Meeting Room,20,0,0.0,1,2,Weekend,20,24.3,Underutilized
+2026-03-15 21:15,B3,2,MEET-B3297,Meeting Room,12,0,0.0,1,0,Weekend,21,21.4,Underutilized
+2026-03-15 21:30,B1,3,COM-B1310,Common Area,60,5,8.3,2,1,Weekend,21,25.4,Underutilized
+2026-03-15 22:30,B1,5,LAB-B1546,Laboratory,15,2,13.3,0,1,Weekend,22,23.8,Underutilized
+2026-03-15 22:45,B1,4,CLASS-B1453,Classroom,50,0,0.0,1,2,Weekend,22,22.8,Underutilized
+2026-03-15 23:30,B3,4,OFF-B3416,Office,25,3,12.0,2,2,Weekend,23,24.6,Underutilized
+2026-03-16 00:00,B2,3,CLASS-B2380,Classroom,50,59,118.0,2,0,Weekday,0,22.4,Overcrowded
+2026-03-16 00:45,B1,3,MEET-B1316,Meeting Room,20,1,5.0,0,0,Weekday,0,24.5,Underutilized
+2026-03-16 01:30,B3,2,OFF-B3245,Office,40,0,0.0,1,2,Weekday,1,22.1,Underutilized
+2026-03-16 02:15,B2,4,LAB-B2419,Laboratory,15,0,0.0,0,2,Weekday,2,24.0,Underutilized
+2026-03-16 02:30,B1,1,OFF-B1159,Office,25,0,0.0,2,2,Weekday,2,24.2,Underutilized
+2026-03-16 03:15,B1,1,MEET-B1196,Meeting Room,20,0,0.0,1,0,Weekday,3,25.3,Underutilized
+2026-03-16 03:45,B3,4,COM-B3499,Common Area,60,1,1.7,1,0,Weekday,3,24.1,Underutilized
+2026-03-16 04:30,B3,1,OFF-B3170,Office,25,2,8.0,1,1,Weekday,4,21.0,Underutilized
+2026-03-16 05:00,B3,5,MEET-B3559,Meeting Room,20,1,5.0,0,1,Weekday,5,22.0,Underutilized
+2026-03-16 05:30,B1,5,MEET-B1518,Meeting Room,20,1,5.0,2,1,Weekday,5,22.2,Underutilized
+2026-03-16 05:45,B1,2,LAB-B1298,Laboratory,15,0,0.0,0,1,Weekday,5,23.3,Underutilized
+2026-03-16 06:15,B2,4,MEET-B2416,Meeting Room,20,0,0.0,1,1,Weekday,6,20.8,Underutilized
+2026-03-16 07:15,B1,4,OFF-B1460,Office,40,0,0.0,1,1,Weekday,7,22.6,Underutilized
+2026-03-16 08:00,B1,5,COM-B1516,Common Area,60,48,80.0,13,5,Weekday,8,22.0,Highly Utilized
+2026-03-16 08:45,B3,3,OFF-B3358,Office,25,16,64.0,4,1,Weekday,8,21.2,Normally Utilized
+2026-03-16 09:00,B2,1,COM-B2164,Common Area,60,25,41.7,4,10,Weekday,9,24.7,Normally Utilized
+2026-03-16 09:15,B1,3,MEET-B1395,Meeting Room,12,5,41.7,10,3,Weekday,9,23.1,Normally Utilized
+2026-03-16 09:30,B3,3,CONF-B3398,Conference Room,100,81,81.0,12,7,Weekday,9,25.4,Highly Utilized
+2026-03-16 10:00,B3,4,CLASS-B3461,Classroom,50,33,66.0,12,12,Weekday,10,23.8,Normally Utilized
+2026-03-16 10:45,B3,4,CLASS-B3493,Classroom,50,26,52.0,3,4,Weekday,10,21.7,Normally Utilized
+2026-03-16 11:30,B3,1,MEET-B3147,Meeting Room,12,10,83.3,13,2,Weekday,11,21.6,Highly Utilized
+2026-03-16 11:45,B1,1,OFF-B1182,Office,25,12,48.0,8,11,Weekday,11,21.8,Normally Utilized
+2026-03-16 12:15,B3,5,CLASS-B3575,Classroom,50,37,74.0,0,15,Weekday,12,21.4,Highly Utilized
+2026-03-16 13:00,B3,4,CONF-B3437,Conference Room,100,84,84.0,1,2,Weekday,13,22.0,Highly Utilized
+2026-03-16 13:45,B1,2,CAF-B1264,Cafeteria,120,90,75.0,12,11,Weekday,13,22.1,Highly Utilized
+2026-03-16 14:45,B3,2,COM-B3263,Common Area,60,35,58.3,5,10,Weekday,14,21.5,Normally Utilized
+2026-03-16 15:45,B3,5,OFF-B3548,Office,25,13,52.0,1,14,Weekday,15,22.8,Normally Utilized
+2026-03-16 16:15,B2,2,CONF-B2245,Conference Room,100,81,81.0,13,2,Weekday,16,24.5,Highly Utilized
+2026-03-16 17:00,B2,5,OFF-B2526,Office,40,30,75.0,9,9,Weekday,17,21.2,Highly Utilized
+2026-03-16 17:15,B1,4,OFF-B1423,Office,40,23,57.5,10,12,Weekday,17,21.5,Normally Utilized
+2026-03-16 18:15,B2,4,CONF-B2420,Conference Room,100,66,66.0,0,15,Weekday,18,21.6,Normally Utilized
+2026-03-16 19:15,B3,5,OFF-B3530,Office,25,2,8.0,2,2,Weekday,19,23.3,Underutilized
+2026-03-16 19:45,B3,3,CONF-B3360,Conference Room,100,6,6.0,0,2,Weekday,19,23.3,Underutilized
+2026-03-16 20:15,B1,5,OFF-B1573,Office,25,1,4.0,0,0,Weekday,20,24.7,Underutilized
+2026-03-16 21:15,B1,3,OFF-B1366,Office,40,1,2.5,0,2,Weekday,21,24.8,Underutilized
+2026-03-16 22:00,B1,2,OFF-B1242,Office,25,0,0.0,2,2,Weekday,22,21.9,Underutilized
+2026-03-16 22:45,B1,5,OFF-B1542,Office,40,3,7.5,0,2,Weekday,22,25.2,Underutilized
+2026-03-16 23:45,B3,5,COM-B3557,Common Area,60,1,1.7,2,1,Weekday,23,22.8,Underutilized
+2026-03-17 00:30,B2,1,MEET-B2140,Meeting Room,20,0,0.0,2,1,Weekday,0,21.1,Underutilized
+2026-03-17 01:15,B2,2,CAF-B2276,Cafeteria,120,5,4.2,0,1,Weekday,1,21.4,Underutilized
+2026-03-17 02:15,B1,5,MEET-B1528,Meeting Room,20,0,0.0,0,0,Weekday,2,22.9,Underutilized
+2026-03-17 03:15,B3,5,MEET-B3580,Meeting Room,20,1,5.0,0,2,Weekday,3,21.1,Underutilized
+2026-03-17 03:30,B3,2,CONF-B3280,Conference Room,100,9,9.0,1,0,Weekday,3,24.0,Underutilized
+2026-03-17 04:00,B3,2,MEET-B3213,Meeting Room,12,0,0.0,1,2,Weekday,4,22.3,Underutilized
+2026-03-17 04:15,B1,3,CAF-B1398,Cafeteria,120,2,1.7,1,0,Weekday,4,25.4,Underutilized
+2026-03-17 04:30,B2,1,MEET-B2111,Meeting Room,12,0,0.0,2,2,Weekday,4,24.2,Underutilized
+2026-03-17 05:30,B3,4,OFF-B3476,Office,40,1,2.5,1,2,Weekday,5,21.3,Underutilized
+2026-03-17 05:45,B3,2,LAB-B3242,Laboratory,15,0,0.0,1,2,Weekday,5,22.2,Underutilized
+2026-03-17 06:00,B1,1,MEET-B1162,Meeting Room,12,0,0.0,0,1,Weekday,6,20.7,Underutilized
+2026-03-17 06:15,B3,3,OFF-B3389,Office,40,2,5.0,0,1,Weekday,6,24.6,Underutilized
+2026-03-17 07:00,B2,2,MEET-B2294,Meeting Room,20,1,5.0,2,2,Weekday,7,20.6,Underutilized
+2026-03-17 07:15,B2,1,CAF-B2132,Cafeteria,120,4,3.3,2,2,Weekday,7,24.1,Underutilized
+2026-03-17 07:45,B1,3,OFF-B1325,Office,40,48,120.0,2,1,Weekday,7,24.1,Overcrowded
+2026-03-17 08:30,B3,2,CLASS-B3253,Classroom,50,37,74.0,4,15,Weekday,8,24.4,Highly Utilized
+2026-03-17 08:45,B1,4,CAF-B1460,Cafeteria,120,74,61.7,3,15,Weekday,8,22.0,Normally Utilized
+2026-03-17 09:15,B1,5,CAF-B1534,Cafeteria,120,49,40.8,14,15,Weekday,9,22.6,Normally Utilized
+2026-03-17 10:00,B1,2,CAF-B1255,Cafeteria,120,63,52.5,7,15,Weekday,10,22.1,Normally Utilized
+2026-03-17 11:00,B1,5,OFF-B1513,Office,25,17,68.0,2,8,Weekday,11,21.0,Normally Utilized
+2026-03-17 12:00,B1,5,MEET-B1518,Meeting Room,12,7,58.3,8,3,Weekday,12,22.4,Normally Utilized
+2026-03-17 12:30,B1,4,MEET-B1491,Meeting Room,20,17,85.0,0,2,Weekday,12,24.1,Highly Utilized
+2026-03-17 13:30,B2,5,MEET-B2515,Meeting Room,12,7,58.3,9,15,Weekday,13,23.4,Normally Utilized
+2026-03-17 14:30,B1,3,MEET-B1377,Meeting Room,20,15,75.0,7,11,Weekday,14,20.5,Highly Utilized
+2026-03-17 14:45,B2,1,CONF-B2121,Conference Room,100,67,67.0,4,14,Weekday,14,20.5,Normally Utilized
+2026-03-17 15:15,B2,5,OFF-B2555,Office,40,24,60.0,1,12,Weekday,15,21.1,Normally Utilized
+2026-03-17 16:00,B1,5,CLASS-B1523,Classroom,50,26,52.0,14,15,Weekday,16,23.9,Normally Utilized
+2026-03-17 16:15,B3,4,MEET-B3444,Meeting Room,20,16,80.0,6,10,Weekday,16,23.7,Highly Utilized
+2026-03-17 17:15,B1,4,MEET-B1437,Meeting Room,12,5,41.7,13,9,Weekday,17,21.9,Normally Utilized
+2026-03-17 17:45,B3,4,MEET-B3434,Meeting Room,20,10,50.0,2,3,Weekday,17,22.6,Normally Utilized
+2026-03-17 18:45,B3,1,LAB-B3112,Laboratory,15,6,40.0,13,0,Weekday,18,24.1,Normally Utilized
+2026-03-17 19:15,B3,1,OFF-B3190,Office,25,1,4.0,2,2,Weekday,19,24.6,Underutilized
+2026-03-17 20:00,B2,2,CAF-B2220,Cafeteria,120,3,2.5,0,1,Weekday,20,20.9,Underutilized
+2026-03-17 20:45,B2,1,OFF-B2192,Office,40,2,5.0,0,0,Weekday,20,23.3,Underutilized
+2026-03-17 21:00,B1,1,CLASS-B1187,Classroom,50,1,2.0,1,1,Weekday,21,22.1,Underutilized
+2026-03-17 22:00,B3,3,MEET-B3384,Meeting Room,20,0,0.0,1,2,Weekday,22,23.4,Underutilized
+2026-03-17 22:45,B3,3,CLASS-B3383,Classroom,50,3,6.0,0,2,Weekday,22,22.3,Underutilized
+2026-03-17 23:30,B2,2,OFF-B2245,Office,25,1,4.0,0,0,Weekday,23,22.3,Underutilized
+2026-03-18 00:15,B1,3,LAB-B1343,Laboratory,15,0,0.0,0,0,Weekday,0,24.2,Underutilized
+2026-03-18 00:30,B3,2,MEET-B3228,Meeting Room,12,1,8.3,1,1,Weekday,0,20.9,Underutilized
+2026-03-18 01:00,B3,3,OFF-B3396,Office,25,0,0.0,1,2,Weekday,1,24.6,Underutilized
+2026-03-18 01:15,B3,4,LAB-B3491,Laboratory,15,1,6.7,1,0,Weekday,1,22.6,Underutilized
+2026-03-18 01:30,B3,1,OFF-B3159,Office,25,1,4.0,1,0,Weekday,1,22.7,Underutilized
+2026-03-18 01:45,B2,1,LAB-B2147,Laboratory,15,1,6.7,0,1,Weekday,1,20.9,Underutilized
+2026-03-18 02:45,B2,3,OFF-B2388,Office,25,2,8.0,0,2,Weekday,2,22.7,Underutilized
+2026-03-18 03:30,B3,5,CAF-B3534,Cafeteria,120,10,8.3,2,1,Weekday,3,23.1,Underutilized
+2026-03-18 03:45,B3,1,MEET-B3152,Meeting Room,12,7,58.3,1,0,Weekday,3,22.5,Normally Utilized
+2026-03-18 04:15,B3,2,LAB-B3238,Laboratory,15,0,0.0,1,2,Weekday,4,22.8,Underutilized
+2026-03-18 05:15,B2,5,OFF-B2573,Office,25,1,4.0,1,0,Weekday,5,25.2,Underutilized
+2026-03-18 05:45,B1,4,CLASS-B1445,Classroom,50,4,8.0,1,1,Weekday,5,21.1,Underutilized
+2026-03-18 06:45,B3,1,COM-B3141,Common Area,60,5,8.3,1,0,Weekday,6,21.6,Underutilized
+2026-03-18 07:45,B3,1,CONF-B3178,Conference Room,100,6,6.0,0,1,Weekday,7,23.3,Underutilized
+2026-03-18 08:15,B1,4,MEET-B1433,Meeting Room,12,7,58.3,0,5,Weekday,8,23.9,Normally Utilized
+2026-03-18 08:30,B1,4,MEET-B1491,Meeting Room,12,5,41.7,9,8,Weekday,8,21.4,Normally Utilized
+2026-03-18 09:30,B3,5,MEET-B3560,Meeting Room,20,12,60.0,1,4,Weekday,9,25.1,Normally Utilized
+2026-03-18 10:30,B2,1,OFF-B2153,Office,25,18,72.0,13,0,Weekday,10,21.1,Highly Utilized
+2026-03-18 11:15,B1,2,OFF-B1232,Office,40,20,50.0,6,10,Weekday,11,24.9,Normally Utilized
+2026-03-18 12:00,B1,4,CAF-B1458,Cafeteria,120,110,91.7,13,0,Weekday,12,23.3,Overcrowded
+2026-03-18 12:45,B1,1,MEET-B1136,Meeting Room,12,10,83.3,6,7,Weekday,12,20.5,Highly Utilized
+2026-03-18 13:45,B1,4,CONF-B1455,Conference Room,100,69,69.0,2,0,Weekday,13,23.4,Normally Utilized
+2026-03-18 14:00,B1,5,MEET-B1585,Meeting Room,20,17,85.0,6,10,Weekday,14,25.1,Highly Utilized
+2026-03-18 14:30,B1,3,CONF-B1341,Conference Room,100,82,82.0,6,9,Weekday,14,21.6,Highly Utilized
+2026-03-18 14:45,B1,5,CAF-B1578,Cafeteria,120,95,79.2,12,5,Weekday,14,21.5,Highly Utilized
+2026-03-18 15:45,B2,1,COM-B2141,Common Area,60,44,73.3,1,10,Weekday,15,21.1,Highly Utilized
+2026-03-18 16:00,B2,5,LAB-B2576,Laboratory,15,6,40.0,14,12,Weekday,16,22.4,Normally Utilized
+2026-03-18 16:30,B3,1,MEET-B3132,Meeting Room,12,8,66.7,9,10,Weekday,16,25.0,Normally Utilized
+2026-03-18 16:45,B1,2,OFF-B1220,Office,25,27,108.0,3,10,Weekday,16,23.6,Overcrowded
+2026-03-18 17:00,B3,1,OFF-B3165,Office,40,18,45.0,6,2,Weekday,17,22.6,Normally Utilized
+2026-03-18 17:45,B3,1,LAB-B3183,Laboratory,15,9,60.0,8,8,Weekday,17,20.9,Normally Utilized
+2026-03-18 18:15,B2,4,OFF-B2491,Office,40,18,45.0,2,13,Weekday,18,24.6,Normally Utilized
+2026-03-18 19:15,B2,5,COM-B2593,Common Area,60,5,8.3,0,2,Weekday,19,23.7,Underutilized
+2026-03-18 20:00,B1,2,LAB-B1264,Laboratory,15,1,6.7,2,0,Weekday,20,21.8,Underutilized
+2026-03-18 20:30,B2,1,LAB-B2148,Laboratory,15,0,0.0,1,2,Weekday,20,21.4,Underutilized
+2026-03-18 21:15,B3,5,CONF-B3525,Conference Room,100,0,0.0,0,0,Weekday,21,22.0,Underutilized
+2026-03-18 21:45,B3,1,OFF-B3145,Office,40,0,0.0,2,2,Weekday,21,24.5,Underutilized
+2026-03-18 22:45,B2,2,LAB-B2221,Laboratory,15,1,6.7,0,0,Weekday,22,25.0,Underutilized
+2026-03-18 23:00,B1,3,CLASS-B1354,Classroom,50,0,0.0,2,0,Weekday,23,20.7,Underutilized
+2026-03-19 00:00,B3,5,COM-B3594,Common Area,60,1,1.7,0,1,Weekday,0,21.3,Underutilized
+2026-03-19 01:00,B2,5,OFF-B2591,Office,40,1,2.5,0,0,Weekday,1,22.0,Underutilized
+2026-03-19 02:00,B3,1,OFF-B3188,Office,25,2,8.0,2,0,Weekday,2,23.7,Underutilized
+2026-03-19 02:15,B2,4,MEET-B2428,Meeting Room,12,0,0.0,0,1,Weekday,2,23.1,Underutilized
+2026-03-19 03:00,B2,1,COM-B2185,Common Area,60,2,3.3,0,2,Weekday,3,25.3,Underutilized
+2026-03-19 03:30,B3,5,MEET-B3523,Meeting Room,12,0,0.0,0,1,Weekday,3,24.6,Underutilized
+2026-03-19 04:30,B1,4,OFF-B1481,Office,40,1,2.5,1,0,Weekday,4,23.2,Underutilized
+2026-03-19 04:45,B3,1,LAB-B3111,Laboratory,15,0,0.0,1,1,Weekday,4,23.6,Underutilized
+2026-03-19 05:30,B3,1,CAF-B3196,Cafeteria,120,0,0.0,1,1,Weekday,5,23.2,Underutilized
+2026-03-19 05:45,B2,2,CONF-B2210,Conference Room,100,9,9.0,0,1,Weekday,5,21.6,Underutilized
+2026-03-19 06:30,B3,1,CONF-B3180,Conference Room,100,4,4.0,2,2,Weekday,6,24.1,Underutilized
+2026-03-19 07:30,B3,5,CAF-B3539,Cafeteria,120,5,4.2,2,2,Weekday,7,25.1,Underutilized
+2026-03-19 08:15,B2,3,MEET-B2396,Meeting Room,20,12,60.0,12,11,Weekday,8,23.9,Normally Utilized
+2026-03-19 09:00,B1,1,LAB-B1159,Laboratory,15,10,66.7,6,8,Weekday,9,23.4,Normally Utilized
+2026-03-19 09:15,B2,2,MEET-B2255,Meeting Room,12,8,66.7,4,6,Weekday,9,23.6,Normally Utilized
+2026-03-19 10:00,B2,4,MEET-B2458,Meeting Room,20,17,85.0,9,5,Weekday,10,22.4,Highly Utilized
+2026-03-19 10:45,B1,5,OFF-B1527,Office,25,20,80.0,9,7,Weekday,10,25.2,Highly Utilized
+2026-03-19 11:30,B3,3,CLASS-B3368,Classroom,50,24,48.0,13,10,Weekday,11,20.8,Normally Utilized
+2026-03-19 12:15,B2,2,MEET-B2235,Meeting Room,12,7,58.3,7,9,Weekday,12,23.3,Normally Utilized
+2026-03-19 12:45,B1,5,LAB-B1557,Laboratory,15,11,73.3,2,15,Weekday,12,24.7,Highly Utilized
+2026-03-19 13:30,B1,2,COM-B1295,Common Area,60,48,80.0,10,10,Weekday,13,20.7,Highly Utilized
+2026-03-19 14:00,B1,5,MEET-B1525,Meeting Room,20,17,85.0,3,13,Weekday,14,22.5,Highly Utilized
+2026-03-19 14:30,B1,3,LAB-B1323,Laboratory,15,10,66.7,9,5,Weekday,14,24.1,Normally Utilized
+2026-03-19 14:45,B3,5,CONF-B3560,Conference Room,100,10,10.0,11,14,Weekday,14,21.2,Underutilized
+2026-03-19 15:45,B2,2,CONF-B2213,Conference Room,100,62,62.0,4,9,Weekday,15,21.0,Normally Utilized
+2026-03-19 16:45,B2,3,OFF-B2336,Office,40,28,70.0,4,6,Weekday,16,25.2,Highly Utilized
+2026-03-19 17:45,B3,4,MEET-B3425,Meeting Room,20,9,45.0,0,11,Weekday,17,21.3,Normally Utilized
+2026-03-19 18:30,B2,3,CAF-B2322,Cafeteria,120,101,84.2,12,0,Weekday,18,22.4,Highly Utilized
+2026-03-19 19:15,B2,4,MEET-B2485,Meeting Room,12,0,0.0,2,0,Weekday,19,21.1,Underutilized
+2026-03-19 19:45,B1,1,OFF-B1118,Office,40,2,5.0,2,2,Weekday,19,21.0,Underutilized
+2026-03-19 20:00,B3,2,CONF-B3247,Conference Room,100,3,3.0,1,2,Weekday,20,22.3,Underutilized
+2026-03-19 20:15,B2,2,OFF-B2226,Office,25,0,0.0,0,0,Weekday,20,23.0,Underutilized
+2026-03-19 20:30,B2,2,MEET-B2296,Meeting Room,12,0,0.0,2,2,Weekday,20,22.9,Underutilized
+2026-03-19 21:00,B2,5,OFF-B2568,Office,25,2,8.0,1,0,Weekday,21,23.5,Underutilized
+2026-03-19 21:30,B3,1,CAF-B3146,Cafeteria,120,6,5.0,0,0,Weekday,21,21.7,Underutilized
+2026-03-19 22:15,B3,1,MEET-B3161,Meeting Room,20,1,5.0,1,2,Weekday,22,22.8,Underutilized
+2026-03-19 22:45,B3,3,CONF-B3381,Conference Room,100,8,8.0,0,0,Weekday,22,21.2,Underutilized
+2026-03-19 23:15,B3,1,CLASS-B3154,Classroom,50,4,8.0,2,0,Weekday,23,22.0,Underutilized
+2026-03-19 23:45,B3,4,COM-B3490,Common Area,60,3,5.0,2,0,Weekday,23,24.6,Underutilized
+2026-03-20 00:30,B1,3,CLASS-B1335,Classroom,50,3,6.0,2,2,Weekday,0,21.9,Underutilized
+2026-03-20 01:30,B3,5,CONF-B3545,Conference Room,100,1,1.0,2,1,Weekday,1,24.5,Underutilized
+2026-03-20 02:15,B1,5,MEET-B1515,Meeting Room,12,1,8.3,2,1,Weekday,2,23.9,Underutilized
+2026-03-20 02:30,B1,2,CONF-B1241,Conference Room,100,3,3.0,2,1,Weekday,2,21.0,Underutilized
+2026-03-20 03:15,B3,4,COM-B3437,Common Area,60,4,6.7,1,0,Weekday,3,25.5,Underutilized
+2026-03-20 03:30,B3,4,CONF-B3481,Conference Room,100,3,3.0,1,0,Weekday,3,22.0,Underutilized
+2026-03-20 04:00,B3,5,OFF-B3522,Office,25,1,4.0,1,0,Weekday,4,25.4,Underutilized
+2026-03-20 04:30,B3,4,CAF-B3498,Cafeteria,120,9,7.5,1,2,Weekday,4,22.3,Underutilized
+2026-03-20 05:00,B3,1,MEET-B3175,Meeting Room,20,1,5.0,1,0,Weekday,5,22.3,Underutilized
+2026-03-20 05:45,B2,2,OFF-B2270,Office,25,1,4.0,0,2,Weekday,5,23.9,Underutilized
+2026-03-20 06:30,B3,2,MEET-B3214,Meeting Room,20,0,0.0,1,2,Weekday,6,23.9,Underutilized
+2026-03-20 07:30,B1,4,CLASS-B1438,Classroom,50,1,2.0,0,1,Weekday,7,20.7,Underutilized
+2026-03-20 08:15,B1,1,OFF-B1144,Office,25,17,68.0,12,14,Weekday,8,21.1,Normally Utilized
+2026-03-20 09:15,B3,1,CLASS-B3179,Classroom,50,33,66.0,2,2,Weekday,9,22.1,Normally Utilized
+2026-03-20 10:15,B2,1,MEET-B2141,Meeting Room,12,7,58.3,11,12,Weekday,10,23.7,Normally Utilized
+2026-03-20 10:30,B3,1,OFF-B3139,Office,40,19,47.5,3,7,Weekday,10,24.2,Normally Utilized
+2026-03-20 11:30,B2,5,CONF-B2535,Conference Room,100,67,67.0,9,15,Weekday,11,22.5,Normally Utilized
+2026-03-20 12:30,B3,2,OFF-B3271,Office,25,10,40.0,1,2,Weekday,12,24.7,Normally Utilized
+2026-03-20 12:45,B1,2,CAF-B1259,Cafeteria,120,96,80.0,4,5,Weekday,12,24.1,Highly Utilized
+2026-03-20 13:30,B2,1,OFF-B2136,Office,25,25,100.0,9,14,Weekday,13,23.6,Overcrowded
+2026-03-20 13:45,B2,5,CLASS-B2537,Classroom,50,37,74.0,0,14,Weekday,13,21.6,Highly Utilized
+2026-03-20 14:30,B2,3,CLASS-B2365,Classroom,50,36,72.0,10,10,Weekday,14,22.2,Highly Utilized
+2026-03-20 15:30,B3,2,CLASS-B3213,Classroom,50,40,80.0,14,11,Weekday,15,21.4,Highly Utilized
+2026-03-20 16:00,B3,5,OFF-B3584,Office,25,13,52.0,3,13,Weekday,16,23.9,Normally Utilized
+2026-03-20 17:00,B1,3,CAF-B1369,Cafeteria,120,94,78.3,11,15,Weekday,17,25.4,Highly Utilized
+2026-03-20 17:15,B1,4,OFF-B1485,Office,25,19,76.0,1,9,Weekday,17,22.4,Highly Utilized
+2026-03-20 18:00,B3,1,MEET-B3182,Meeting Room,20,10,50.0,7,3,Weekday,18,23.1,Normally Utilized
+2026-03-20 19:00,B1,1,OFF-B1170,Office,25,0,0.0,0,2,Weekday,19,21.4,Underutilized
+2026-03-20 20:00,B3,3,CAF-B3365,Cafeteria,120,11,9.2,2,1,Weekday,20,21.6,Underutilized
+2026-03-20 20:30,B2,1,MEET-B2114,Meeting Room,12,0,0.0,1,1,Weekday,20,21.1,Underutilized
+2026-03-20 21:15,B3,2,MEET-B3225,Meeting Room,20,1,5.0,1,0,Weekday,21,22.3,Underutilized
+2026-03-20 22:15,B2,4,CONF-B2499,Conference Room,100,0,0.0,2,1,Weekday,22,21.9,Underutilized
+2026-03-20 22:30,B2,1,OFF-B2175,Office,25,1,4.0,0,1,Weekday,22,22.0,Underutilized
+2026-03-20 23:30,B1,4,COM-B1486,Common Area,60,0,0.0,0,0,Weekday,23,20.6,Underutilized
+2026-03-21 00:00,B1,4,MEET-B1415,Meeting Room,12,0,0.0,2,1,Weekend,0,21.8,Underutilized
+2026-03-21 01:00,B2,2,COM-B2272,Common Area,60,4,6.7,2,1,Weekend,1,23.8,Underutilized
+2026-03-21 01:30,B2,2,MEET-B2215,Meeting Room,20,1,5.0,0,2,Weekend,1,23.8,Underutilized
+2026-03-21 02:30,B1,5,CLASS-B1519,Classroom,50,6,12.0,0,0,Weekend,2,23.2,Underutilized
+2026-03-21 03:15,B1,2,CAF-B1261,Cafeteria,120,8,6.7,2,1,Weekend,3,20.6,Underutilized
+2026-03-21 04:00,B2,2,LAB-B2261,Laboratory,15,1,6.7,1,0,Weekend,4,22.8,Underutilized
+2026-03-21 05:00,B1,4,OFF-B1448,Office,40,2,5.0,1,0,Weekend,5,23.5,Underutilized
+2026-03-21 05:45,B1,3,CAF-B1322,Cafeteria,120,16,13.3,1,1,Weekend,5,22.8,Underutilized
+2026-03-21 06:45,B3,3,MEET-B3335,Meeting Room,20,1,5.0,1,1,Weekend,6,23.3,Underutilized
+2026-03-21 07:00,B1,2,CAF-B1256,Cafeteria,120,16,13.3,0,2,Weekend,7,23.5,Underutilized
+2026-03-21 07:30,B1,3,OFF-B1318,Office,25,1,4.0,2,0,Weekend,7,25.3,Underutilized
+2026-03-21 07:45,B1,5,MEET-B1535,Meeting Room,12,0,0.0,1,2,Weekend,7,23.6,Underutilized
+2026-03-21 08:00,B1,5,MEET-B1579,Meeting Room,20,2,10.0,1,13,Weekend,8,22.3,Underutilized
+2026-03-21 08:30,B2,1,COM-B2145,Common Area,60,1,1.7,4,15,Weekend,8,25.3,Underutilized
+2026-03-21 08:45,B2,2,LAB-B2216,Laboratory,15,0,0.0,14,1,Weekend,8,24.3,Underutilized
+2026-03-21 09:30,B3,5,MEET-B3522,Meeting Room,20,2,10.0,7,9,Weekend,9,22.4,Underutilized
+2026-03-21 10:15,B1,4,OFF-B1424,Office,40,4,10.0,7,5,Weekend,10,25.0,Underutilized
+2026-03-21 11:00,B1,2,OFF-B1214,Office,25,1,4.0,14,11,Weekend,11,20.9,Underutilized
+2026-03-21 12:00,B1,1,MEET-B1184,Meeting Room,20,2,10.0,8,7,Weekend,12,20.8,Underutilized
+2026-03-21 13:00,B3,4,CLASS-B3460,Classroom,50,3,6.0,5,5,Weekend,13,23.9,Underutilized
+2026-03-21 13:15,B1,5,OFF-B1540,Office,25,0,0.0,2,11,Weekend,13,22.4,Underutilized
+2026-03-21 13:30,B1,3,CLASS-B1390,Classroom,50,5,10.0,2,7,Weekend,13,21.7,Underutilized
+2026-03-21 13:45,B2,1,OFF-B2119,Office,25,1,4.0,9,7,Weekend,13,23.9,Underutilized
+2026-03-21 14:00,B3,2,OFF-B3285,Office,25,2,8.0,14,9,Weekend,14,23.2,Underutilized
+2026-03-21 14:45,B2,1,CLASS-B2191,Classroom,50,5,10.0,0,1,Weekend,14,21.4,Underutilized
+2026-03-21 15:15,B2,5,COM-B2533,Common Area,60,7,11.7,4,13,Weekend,15,21.0,Underutilized
+2026-03-21 15:45,B3,5,COM-B3513,Common Area,60,6,10.0,0,2,Weekend,15,21.4,Underutilized
+2026-03-21 16:15,B3,2,OFF-B3261,Office,40,0,0.0,14,6,Weekend,16,24.4,Underutilized
+2026-03-21 16:45,B3,1,OFF-B3161,Office,40,0,0.0,9,3,Weekend,16,21.0,Underutilized
+2026-03-21 17:45,B3,3,OFF-B3362,Office,40,1,2.5,10,1,Weekend,17,24.6,Underutilized
+2026-03-21 18:45,B3,4,CONF-B3426,Conference Room,100,11,11.0,15,1,Weekend,18,25.1,Underutilized
+2026-03-21 19:15,B2,1,CONF-B2125,Conference Room,100,3,3.0,0,2,Weekend,19,21.2,Underutilized
+2026-03-21 20:15,B3,2,OFF-B3255,Office,25,1,4.0,1,0,Weekend,20,25.3,Underutilized
+2026-03-21 21:15,B2,1,CONF-B2139,Conference Room,100,7,7.0,2,2,Weekend,21,24.7,Underutilized
+2026-03-21 22:00,B3,3,CONF-B3375,Conference Room,100,11,11.0,0,1,Weekend,22,22.0,Underutilized
+2026-03-21 22:15,B2,4,COM-B2485,Common Area,60,0,0.0,2,1,Weekend,22,22.0,Underutilized
+2026-03-21 22:30,B2,1,LAB-B2195,Laboratory,15,0,0.0,1,0,Weekend,22,23.8,Underutilized
+2026-03-21 23:15,B3,4,MEET-B3438,Meeting Room,20,0,0.0,2,0,Weekend,23,22.7,Underutilized
+2026-03-22 00:00,B2,3,COM-B2337,Common Area,60,6,10.0,2,0,Weekend,0,21.8,Underutilized
+2026-03-22 00:45,B1,1,CONF-B1164,Conference Room,100,5,5.0,0,0,Weekend,0,22.6,Underutilized
+2026-03-22 01:15,B2,4,OFF-B2469,Office,40,2,5.0,0,1,Weekend,1,22.7,Underutilized
+2026-03-22 02:00,B1,3,COM-B1355,Common Area,60,6,10.0,2,1,Weekend,2,24.8,Underutilized
+2026-03-22 03:00,B3,4,LAB-B3463,Laboratory,15,2,13.3,1,2,Weekend,3,24.3,Underutilized
+2026-03-22 03:45,B1,3,MEET-B1388,Meeting Room,12,1,8.3,0,2,Weekend,3,21.9,Underutilized
+2026-03-22 04:15,B2,5,CAF-B2568,Cafeteria,120,3,2.5,2,0,Weekend,4,22.0,Underutilized
+2026-03-22 05:15,B3,2,COM-B3258,Common Area,60,5,8.3,2,1,Weekend,5,23.6,Underutilized
+2026-03-22 06:15,B1,4,MEET-B1440,Meeting Room,12,1,8.3,2,0,Weekend,6,21.5,Underutilized
+2026-03-22 06:45,B2,3,OFF-B2365,Office,25,0,0.0,0,0,Weekend,6,23.2,Underutilized
+2026-03-22 07:30,B2,3,OFF-B2328,Office,25,1,4.0,1,2,Weekend,7,23.1,Underutilized
+2026-03-22 07:45,B1,1,LAB-B1182,Laboratory,15,1,6.7,1,0,Weekend,7,23.6,Underutilized
+2026-03-22 08:30,B2,3,CLASS-B2377,Classroom,50,4,8.0,1,12,Weekend,8,22.4,Underutilized
+2026-03-22 09:00,B3,2,CONF-B3225,Conference Room,100,5,5.0,0,6,Weekend,9,23.4,Underutilized
+2026-03-22 09:45,B3,4,CONF-B3446,Conference Room,100,14,14.0,0,14,Weekend,9,24.4,Underutilized
+2026-03-22 10:30,B1,3,MEET-B1378,Meeting Room,20,1,5.0,11,13,Weekend,10,24.3,Underutilized
+2026-03-22 10:45,B3,1,MEET-B3128,Meeting Room,20,2,10.0,4,13,Weekend,10,22.8,Underutilized
+2026-03-22 11:45,B1,5,CLASS-B1534,Classroom,50,6,12.0,5,12,Weekend,11,25.5,Underutilized
+2026-03-22 12:15,B1,1,LAB-B1194,Laboratory,15,0,0.0,8,11,Weekend,12,23.8,Underutilized
+2026-03-22 13:15,B3,5,CAF-B3577,Cafeteria,120,1,0.8,0,1,Weekend,13,25.3,Underutilized
+2026-03-22 14:00,B1,5,COM-B1597,Common Area,60,4,6.7,12,1,Weekend,14,21.3,Underutilized
+2026-03-22 15:00,B2,3,MEET-B2392,Meeting Room,12,0,0.0,12,2,Weekend,15,21.5,Underutilized
+2026-03-22 16:00,B2,1,OFF-B2183,Office,25,2,8.0,7,13,Weekend,16,24.4,Underutilized
+2026-03-22 17:00,B2,3,CLASS-B2326,Classroom,50,4,8.0,7,12,Weekend,17,23.1,Underutilized
+2026-03-22 17:45,B2,1,MEET-B2121,Meeting Room,12,0,0.0,1,11,Weekend,17,23.7,Underutilized
+2026-03-22 18:30,B1,5,MEET-B1567,Meeting Room,12,0,0.0,0,8,Weekend,18,21.0,Underutilized
+2026-03-22 19:30,B3,4,OFF-B3452,Office,40,1,2.5,1,0,Weekend,19,20.8,Underutilized
+2026-03-22 20:00,B3,2,LAB-B3215,Laboratory,15,1,6.7,2,2,Weekend,20,20.6,Underutilized
+2026-03-22 20:30,B3,4,LAB-B3418,Laboratory,15,1,6.7,2,1,Weekend,20,25.2,Underutilized
+2026-03-22 20:45,B3,3,CONF-B3395,Conference Room,100,1,1.0,2,0,Weekend,20,25.2,Underutilized
+2026-03-22 21:45,B2,3,CONF-B2332,Conference Room,100,8,8.0,2,1,Weekend,21,21.7,Underutilized
+2026-03-22 22:45,B1,3,CAF-B1387,Cafeteria,120,2,1.7,0,0,Weekend,22,21.8,Underutilized
+2026-03-22 23:30,B2,1,CAF-B2136,Cafeteria,120,8,6.7,0,1,Weekend,23,21.2,Underutilized
+2026-03-22 23:45,B1,4,MEET-B1469,Meeting Room,20,0,0.0,1,2,Weekend,23,22.1,Underutilized
+2026-03-23 00:45,B2,3,MEET-B2338,Meeting Room,20,0,0.0,0,0,Weekday,0,25.5,Underutilized
+2026-03-23 01:15,B2,2,MEET-B2245,Meeting Room,20,0,0.0,0,0,Weekday,1,23.5,Underutilized
+2026-03-23 02:00,B3,4,CONF-B3421,Conference Room,100,9,9.0,0,2,Weekday,2,22.0,Underutilized
+2026-03-23 03:00,B3,2,OFF-B3295,Office,40,1,2.5,0,2,Weekday,3,21.6,Underutilized
+2026-03-23 03:30,B2,2,LAB-B2257,Laboratory,15,1,6.7,2,2,Weekday,3,22.6,Underutilized
+2026-03-23 04:30,B3,2,OFF-B3277,Office,25,1,4.0,1,1,Weekday,4,23.6,Underutilized
+2026-03-23 05:00,B2,5,OFF-B2525,Office,25,1,4.0,0,2,Weekday,5,21.3,Underutilized
+2026-03-23 06:00,B2,3,OFF-B2386,Office,25,1,4.0,2,0,Weekday,6,25.0,Underutilized
+2026-03-23 06:45,B3,5,OFF-B3584,Office,25,0,0.0,1,2,Weekday,6,22.3,Underutilized
+2026-03-23 07:00,B2,3,CAF-B2382,Cafeteria,120,8,6.7,0,0,Weekday,7,22.2,Underutilized
+2026-03-23 08:00,B3,2,CLASS-B3285,Classroom,50,26,52.0,11,0,Weekday,8,21.8,Normally Utilized
+2026-03-23 08:45,B3,1,OFF-B3146,Office,40,32,80.0,3,1,Weekday,8,22.5,Highly Utilized
+2026-03-23 09:00,B3,4,CONF-B3477,Conference Room,100,44,44.0,10,13,Weekday,9,20.7,Normally Utilized
+2026-03-23 09:45,B2,3,MEET-B2395,Meeting Room,12,8,66.7,8,4,Weekday,9,24.7,Normally Utilized
+2026-03-23 10:00,B2,4,COM-B2469,Common Area,60,34,56.7,2,1,Weekday,10,22.3,Normally Utilized
+2026-03-23 11:00,B2,2,LAB-B2259,Laboratory,15,0,0.0,13,3,Weekday,11,22.5,Underutilized
+2026-03-23 11:30,B2,4,CONF-B2463,Conference Room,100,73,73.0,1,4,Weekday,11,21.5,Highly Utilized
+2026-03-23 12:30,B1,2,OFF-B1225,Office,25,17,68.0,15,5,Weekday,12,23.4,Normally Utilized
+2026-03-23 13:15,B1,5,OFF-B1599,Office,40,16,40.0,15,14,Weekday,13,21.7,Normally Utilized
+2026-03-23 13:30,B1,1,OFF-B1196,Office,40,19,47.5,15,8,Weekday,13,23.4,Normally Utilized
+2026-03-23 13:45,B2,2,LAB-B2221,Laboratory,15,6,40.0,11,5,Weekday,13,25.3,Normally Utilized
+2026-03-23 14:15,B3,2,LAB-B3290,Laboratory,15,6,40.0,2,3,Weekday,14,20.7,Normally Utilized
+2026-03-23 15:00,B1,2,OFF-B1259,Office,40,21,52.5,8,12,Weekday,15,20.6,Normally Utilized
+2026-03-23 15:45,B1,4,CONF-B1456,Conference Room,100,79,79.0,0,9,Weekday,15,25.0,Highly Utilized
+2026-03-23 16:30,B2,5,CONF-B2524,Conference Room,100,90,90.0,9,8,Weekday,16,20.9,Highly Utilized
+2026-03-23 17:00,B3,2,MEET-B3277,Meeting Room,12,4,33.3,7,10,Weekday,17,23.1,Normally Utilized
+2026-03-23 17:45,B1,1,LAB-B1135,Laboratory,15,7,46.7,4,10,Weekday,17,25.0,Normally Utilized
+2026-03-23 18:00,B2,2,COM-B2231,Common Area,60,44,73.3,6,12,Weekday,18,24.1,Highly Utilized
+2026-03-23 19:00,B3,1,MEET-B3175,Meeting Room,12,0,0.0,0,2,Weekday,19,25.4,Underutilized
+2026-03-23 19:45,B3,4,CLASS-B3430,Classroom,50,4,8.0,0,0,Weekday,19,21.6,Underutilized
+2026-03-23 20:45,B3,5,OFF-B3532,Office,40,3,7.5,0,2,Weekday,20,23.3,Underutilized
+2026-03-23 21:45,B3,5,OFF-B3565,Office,25,0,0.0,2,2,Weekday,21,23.7,Underutilized
+2026-03-23 22:45,B2,1,CONF-B2146,Conference Room,100,7,7.0,1,1,Weekday,22,24.9,Underutilized
+2026-03-23 23:45,B1,1,COM-B1187,Common Area,60,2,3.3,1,0,Weekday,23,25.2,Underutilized
+2026-03-24 00:00,B1,4,COM-B1426,Common Area,60,3,5.0,1,1,Weekday,0,22.8,Underutilized
+2026-03-24 01:00,B1,4,MEET-B1474,Meeting Room,20,0,0.0,1,1,Weekday,1,23.2,Underutilized
+2026-03-24 02:00,B3,1,MEET-B3183,Meeting Room,12,0,0.0,2,2,Weekday,2,23.0,Underutilized
+2026-03-24 02:45,B2,3,LAB-B2390,Laboratory,15,1,6.7,2,2,Weekday,2,21.5,Underutilized
+2026-03-24 03:45,B1,4,COM-B1425,Common Area,60,2,3.3,1,2,Weekday,3,20.6,Underutilized
+2026-03-24 04:00,B2,5,CAF-B2533,Cafeteria,120,1,0.8,2,0,Weekday,4,22.7,Underutilized
+2026-03-24 04:30,B1,1,OFF-B1192,Office,25,0,0.0,0,0,Weekday,4,22.8,Underutilized
+2026-03-24 05:30,B1,1,COM-B1196,Common Area,60,2,3.3,0,2,Weekday,5,25.2,Underutilized
+2026-03-24 06:15,B1,5,OFF-B1561,Office,25,0,0.0,0,0,Weekday,6,21.6,Underutilized
+2026-03-24 06:45,B3,2,CAF-B3210,Cafeteria,120,8,6.7,2,2,Weekday,6,22.8,Underutilized
+2026-03-24 07:30,B1,3,CLASS-B1329,Classroom,50,1,2.0,1,2,Weekday,7,23.4,Underutilized
+2026-03-24 08:15,B3,2,CLASS-B3268,Classroom,50,41,82.0,11,0,Weekday,8,25.1,Highly Utilized
+2026-03-24 09:15,B3,3,LAB-B3359,Laboratory,15,14,93.3,9,11,Weekday,9,24.5,Overcrowded
+2026-03-24 09:45,B3,2,OFF-B3241,Office,25,19,76.0,12,11,Weekday,9,20.9,Highly Utilized
+2026-03-24 10:00,B3,4,COM-B3491,Common Area,60,36,60.0,15,9,Weekday,10,20.6,Normally Utilized
+2026-03-24 10:15,B2,5,CAF-B2562,Cafeteria,120,90,75.0,13,2,Weekday,10,20.7,Highly Utilized
+2026-03-24 11:00,B2,1,MEET-B2153,Meeting Room,20,13,65.0,9,14,Weekday,11,20.9,Normally Utilized
+2026-03-24 11:45,B2,3,MEET-B2385,Meeting Room,20,13,65.0,8,6,Weekday,11,25.3,Normally Utilized
+2026-03-24 12:15,B2,3,OFF-B2339,Office,40,31,77.5,13,8,Weekday,12,20.6,Highly Utilized
+2026-03-24 12:45,B1,4,LAB-B1469,Laboratory,15,12,80.0,1,9,Weekday,12,25.2,Highly Utilized
+2026-03-24 13:00,B2,5,OFF-B2567,Office,40,22,55.0,4,8,Weekday,13,24.4,Normally Utilized
+2026-03-24 13:15,B2,2,CONF-B2237,Conference Room,100,78,78.0,2,6,Weekday,13,24.6,Highly Utilized
+2026-03-24 13:45,B3,2,CONF-B3239,Conference Room,100,77,77.0,6,12,Weekday,13,24.3,Highly Utilized
+2026-03-24 14:15,B1,2,COM-B1241,Common Area,60,34,56.7,6,6,Weekday,14,23.4,Normally Utilized
+2026-03-24 14:30,B3,4,MEET-B3488,Meeting Room,12,8,66.7,1,4,Weekday,14,20.6,Normally Utilized
+2026-03-24 15:15,B3,5,MEET-B3520,Meeting Room,20,12,60.0,4,12,Weekday,15,23.9,Normally Utilized
+2026-03-24 16:00,B1,5,OFF-B1558,Office,40,23,57.5,13,15,Weekday,16,24.2,Normally Utilized
+2026-03-24 16:30,B1,5,OFF-B1514,Office,25,10,40.0,1,3,Weekday,16,23.9,Normally Utilized
+2026-03-24 16:45,B2,4,CLASS-B2489,Classroom,50,27,54.0,11,6,Weekday,16,22.0,Normally Utilized
+2026-03-24 17:30,B2,4,CONF-B2412,Conference Room,100,48,48.0,10,10,Weekday,17,24.5,Normally Utilized
+2026-03-24 18:15,B3,5,CAF-B3540,Cafeteria,120,97,80.8,6,0,Weekday,18,24.7,Highly Utilized
+2026-03-24 19:00,B1,3,CONF-B1326,Conference Room,100,4,4.0,2,1,Weekday,19,20.9,Underutilized
+2026-03-24 19:15,B1,2,LAB-B1286,Laboratory,15,1,6.7,1,0,Weekday,19,24.6,Underutilized
+2026-03-24 20:00,B1,3,LAB-B1323,Laboratory,15,0,0.0,0,2,Weekday,20,22.6,Underutilized
+2026-03-24 21:00,B3,3,MEET-B3346,Meeting Room,12,0,0.0,2,1,Weekday,21,23.1,Underutilized
+2026-03-24 22:00,B2,1,COM-B2170,Common Area,60,3,5.0,1,1,Weekday,22,22.8,Underutilized
+2026-03-24 22:45,B1,5,CLASS-B1587,Classroom,50,4,8.0,1,1,Weekday,22,22.6,Underutilized
+2026-03-24 23:45,B1,4,CLASS-B1456,Classroom,50,3,6.0,2,0,Weekday,23,21.1,Underutilized
+2026-03-25 00:15,B2,1,CONF-B2138,Conference Room,100,8,8.0,2,1,Weekday,0,21.0,Underutilized
+2026-03-25 00:30,B2,5,OFF-B2582,Office,40,1,2.5,0,2,Weekday,0,24.7,Underutilized
+2026-03-25 01:00,B1,4,CAF-B1492,Cafeteria,120,11,9.2,2,2,Weekday,1,23.7,Underutilized
+2026-03-25 01:15,B1,4,CAF-B1421,Cafeteria,120,6,5.0,2,1,Weekday,1,21.5,Underutilized
+2026-03-25 01:45,B3,4,OFF-B3410,Office,25,0,0.0,0,0,Weekday,1,22.0,Underutilized
+2026-03-25 02:30,B3,4,MEET-B3487,Meeting Room,12,0,0.0,2,1,Weekday,2,22.7,Underutilized
+2026-03-25 02:45,B2,1,CONF-B2113,Conference Room,100,8,8.0,1,1,Weekday,2,21.9,Underutilized
+2026-03-25 03:30,B1,5,OFF-B1548,Office,40,3,7.5,1,2,Weekday,3,23.1,Underutilized
+2026-03-25 04:00,B3,1,CLASS-B3191,Classroom,50,2,4.0,0,1,Weekday,4,23.2,Underutilized
+2026-03-25 04:30,B2,1,OFF-B2121,Office,40,2,5.0,1,0,Weekday,4,22.8,Underutilized
+2026-03-25 04:45,B3,2,OFF-B3257,Office,40,3,7.5,0,1,Weekday,4,24.1,Underutilized
+2026-03-25 05:15,B2,4,CLASS-B2489,Classroom,50,4,8.0,2,2,Weekday,5,20.9,Underutilized
+2026-03-25 06:15,B2,2,MEET-B2213,Meeting Room,12,1,8.3,2,2,Weekday,6,21.4,Underutilized
+2026-03-25 07:15,B2,3,MEET-B2325,Meeting Room,12,0,0.0,1,0,Weekday,7,20.9,Underutilized
+2026-03-25 08:15,B1,3,MEET-B1387,Meeting Room,20,10,50.0,12,12,Weekday,8,22.2,Normally Utilized
+2026-03-25 09:15,B2,5,OFF-B2537,Office,40,29,72.5,0,0,Weekday,9,23.2,Highly Utilized
+2026-03-25 10:00,B3,2,CONF-B3216,Conference Room,100,81,81.0,3,8,Weekday,10,24.5,Highly Utilized
+2026-03-25 10:30,B2,5,COM-B2546,Common Area,60,49,81.7,8,1,Weekday,10,24.5,Highly Utilized
+2026-03-25 11:15,B2,2,CAF-B2282,Cafeteria,120,70,58.3,3,13,Weekday,11,20.5,Normally Utilized
+2026-03-25 11:30,B3,3,CLASS-B3387,Classroom,50,35,70.0,10,13,Weekday,11,21.2,Highly Utilized
+2026-03-25 11:45,B1,3,COM-B1372,Common Area,60,26,43.3,5,6,Weekday,11,22.5,Normally Utilized
+2026-03-25 12:45,B2,3,CAF-B2332,Cafeteria,120,93,77.5,7,0,Weekday,12,24.5,Highly Utilized
+2026-03-25 13:00,B2,1,LAB-B2110,Laboratory,15,8,53.3,2,9,Weekday,13,21.1,Normally Utilized
+2026-03-25 13:30,B3,1,LAB-B3149,Laboratory,15,7,46.7,7,10,Weekday,13,23.9,Normally Utilized
+2026-03-25 14:30,B1,1,CLASS-B1186,Classroom,50,20,40.0,12,4,Weekday,14,22.4,Normally Utilized
+2026-03-25 15:00,B3,2,MEET-B3272,Meeting Room,12,8,66.7,4,15,Weekday,15,22.3,Normally Utilized
+2026-03-25 15:45,B2,4,LAB-B2496,Laboratory,15,6,40.0,10,4,Weekday,15,25.2,Normally Utilized
+2026-03-25 16:15,B1,5,LAB-B1599,Laboratory,15,11,73.3,8,10,Weekday,16,20.9,Highly Utilized
+2026-03-25 17:00,B1,1,CLASS-B1114,Classroom,50,24,48.0,13,6,Weekday,17,23.3,Normally Utilized
+2026-03-25 18:00,B3,4,OFF-B3484,Office,25,14,56.0,3,6,Weekday,18,25.1,Normally Utilized
+2026-03-25 18:15,B1,1,COM-B1165,Common Area,60,31,51.7,15,4,Weekday,18,21.7,Normally Utilized
+2026-03-25 18:45,B1,2,CLASS-B1295,Classroom,50,25,50.0,8,9,Weekday,18,21.1,Normally Utilized
+2026-03-25 19:45,B2,5,CONF-B2545,Conference Room,100,8,8.0,1,2,Weekday,19,21.7,Underutilized
+2026-03-25 20:15,B3,4,CONF-B3497,Conference Room,100,2,2.0,0,2,Weekday,20,22.0,Underutilized
+2026-03-25 20:45,B3,2,MEET-B3212,Meeting Room,20,1,5.0,1,0,Weekday,20,23.3,Underutilized
+2026-03-25 21:30,B2,5,MEET-B2594,Meeting Room,12,0,0.0,2,2,Weekday,21,24.5,Underutilized
+2026-03-25 22:15,B3,5,MEET-B3553,Meeting Room,20,1,5.0,2,0,Weekday,22,24.6,Underutilized
+2026-03-25 22:45,B1,4,OFF-B1479,Office,25,0,0.0,1,2,Weekday,22,25.1,Underutilized
+2026-03-25 23:00,B2,5,OFF-B2557,Office,40,0,0.0,2,0,Weekday,23,23.4,Underutilized
+2026-03-25 23:30,B2,4,CONF-B2420,Conference Room,100,0,0.0,1,0,Weekday,23,21.1,Underutilized
+2026-03-26 00:00,B1,5,CAF-B1518,Cafeteria,120,8,6.7,1,2,Weekday,0,22.7,Underutilized
+2026-03-26 00:45,B2,2,CLASS-B2289,Classroom,50,3,6.0,2,0,Weekday,0,23.3,Underutilized
+2026-03-26 01:45,B2,3,CLASS-B2322,Classroom,50,0,0.0,2,0,Weekday,1,25.2,Underutilized
+2026-03-26 02:45,B2,3,OFF-B2352,Office,40,2,5.0,0,2,Weekday,2,22.5,Underutilized
+2026-03-26 03:15,B2,1,OFF-B2139,Office,25,0,0.0,1,0,Weekday,3,23.0,Underutilized
+2026-03-26 03:30,B3,4,COM-B3435,Common Area,60,3,5.0,2,2,Weekday,3,24.5,Underutilized
+2026-03-26 04:00,B3,2,CLASS-B3296,Classroom,50,4,8.0,2,0,Weekday,4,23.8,Underutilized
+2026-03-26 05:00,B1,2,MEET-B1282,Meeting Room,20,1,5.0,1,1,Weekday,5,24.9,Underutilized
+2026-03-26 05:15,B1,1,MEET-B1156,Meeting Room,12,0,0.0,0,1,Weekday,5,22.3,Underutilized
+2026-03-26 05:45,B3,1,MEET-B3179,Meeting Room,20,1,5.0,2,0,Weekday,5,22.6,Underutilized
+2026-03-26 06:30,B2,4,MEET-B2484,Meeting Room,20,1,5.0,1,1,Weekday,6,20.9,Underutilized
+2026-03-26 06:45,B1,1,OFF-B1137,Office,25,1,4.0,2,2,Weekday,6,22.4,Underutilized
+2026-03-26 07:45,B1,4,COM-B1446,Common Area,60,3,5.0,2,0,Weekday,7,22.2,Underutilized
+2026-03-26 08:45,B2,5,CAF-B2567,Cafeteria,120,50,41.7,13,5,Weekday,8,25.1,Normally Utilized
+2026-03-26 09:30,B3,4,MEET-B3474,Meeting Room,20,10,50.0,12,5,Weekday,9,24.6,Normally Utilized
+2026-03-26 10:30,B3,3,CLASS-B3316,Classroom,50,27,54.0,11,6,Weekday,10,22.8,Normally Utilized
+2026-03-26 10:45,B3,2,CAF-B3228,Cafeteria,120,74,61.7,10,3,Weekday,10,25.0,Normally Utilized
+2026-03-26 11:30,B2,4,OFF-B2468,Office,40,32,80.0,10,13,Weekday,11,22.6,Highly Utilized
+2026-03-26 12:00,B1,5,LAB-B1556,Laboratory,15,6,40.0,12,8,Weekday,12,23.3,Normally Utilized
+2026-03-26 12:15,B2,2,OFF-B2245,Office,25,21,84.0,5,11,Weekday,12,22.7,Highly Utilized
+2026-03-26 13:00,B3,5,CONF-B3592,Conference Room,100,70,70.0,12,11,Weekday,13,25.2,Highly Utilized
+2026-03-26 13:15,B1,5,CAF-B1551,Cafeteria,120,110,91.7,1,6,Weekday,13,24.7,Overcrowded
+2026-03-26 14:15,B1,2,OFF-B1216,Office,25,4,16.0,9,13,Weekday,14,20.9,Underutilized
+2026-03-26 15:15,B3,3,MEET-B3324,Meeting Room,20,18,90.0,14,8,Weekday,15,24.8,Highly Utilized
+2026-03-26 16:00,B1,3,MEET-B1370,Meeting Room,12,10,83.3,12,14,Weekday,16,20.9,Highly Utilized
+2026-03-26 17:00,B3,3,MEET-B3358,Meeting Room,20,16,80.0,11,7,Weekday,17,21.7,Highly Utilized
+2026-03-26 17:45,B3,2,OFF-B3255,Office,25,3,12.0,15,1,Weekday,17,23.9,Underutilized
+2026-03-26 18:30,B3,1,CLASS-B3159,Classroom,50,28,56.0,7,7,Weekday,18,25.0,Normally Utilized
+2026-03-26 19:00,B1,2,MEET-B1228,Meeting Room,20,1,5.0,2,2,Weekday,19,22.8,Underutilized
+2026-03-26 19:30,B3,1,CLASS-B3116,Classroom,50,4,8.0,2,2,Weekday,19,23.7,Underutilized
+2026-03-26 20:15,B2,1,CLASS-B2142,Classroom,50,1,2.0,0,0,Weekday,20,21.4,Underutilized
+2026-03-26 21:00,B2,3,CONF-B2320,Conference Room,100,2,2.0,1,0,Weekday,21,20.7,Underutilized
+2026-03-26 21:30,B3,1,COM-B3176,Common Area,60,4,6.7,1,2,Weekday,21,21.2,Underutilized
+2026-03-26 22:30,B1,2,MEET-B1248,Meeting Room,20,1,5.0,0,1,Weekday,22,23.5,Underutilized
+2026-03-26 22:45,B2,2,CONF-B2219,Conference Room,100,4,4.0,1,2,Weekday,22,24.3,Underutilized
+2026-03-26 23:30,B3,4,CAF-B3463,Cafeteria,120,0,0.0,2,2,Weekday,23,25.1,Underutilized
+2026-03-27 00:15,B1,2,CLASS-B1278,Classroom,50,4,8.0,1,1,Weekday,0,22.4,Underutilized
+2026-03-27 01:00,B1,1,CAF-B1182,Cafeteria,120,11,9.2,2,1,Weekday,1,22.8,Underutilized
+2026-03-27 02:00,B1,5,MEET-B1585,Meeting Room,20,1,5.0,2,2,Weekday,2,21.1,Underutilized
+2026-03-27 02:45,B1,2,COM-B1238,Common Area,60,2,3.3,1,2,Weekday,2,25.3,Underutilized
+2026-03-27 03:30,B1,4,MEET-B1459,Meeting Room,12,0,0.0,2,0,Weekday,3,24.5,Underutilized
+2026-03-27 03:45,B1,5,MEET-B1576,Meeting Room,12,0,0.0,2,1,Weekday,3,23.8,Underutilized
+2026-03-27 04:30,B3,4,OFF-B3459,Office,25,13,52.0,1,0,Weekday,4,24.0,Normally Utilized
+2026-03-27 05:15,B3,5,CLASS-B3510,Classroom,50,0,0.0,0,1,Weekday,5,22.4,Underutilized
+2026-03-27 06:15,B2,2,CONF-B2281,Conference Room,100,6,6.0,0,2,Weekday,6,25.3,Underutilized
+2026-03-27 07:15,B2,4,LAB-B2479,Laboratory,15,0,0.0,0,0,Weekday,7,25.4,Underutilized
+2026-03-27 08:00,B1,2,COM-B1214,Common Area,60,47,78.3,11,8,Weekday,8,24.0,Highly Utilized
+2026-03-27 08:15,B3,1,MEET-B3128,Meeting Room,20,12,60.0,4,0,Weekday,8,21.4,Normally Utilized
+2026-03-27 09:00,B1,1,MEET-B1195,Meeting Room,20,13,65.0,5,10,Weekday,9,24.5,Normally Utilized
+2026-03-27 09:45,B2,3,COM-B2386,Common Area,60,28,46.7,9,3,Weekday,9,23.3,Normally Utilized
+2026-03-27 10:15,B1,3,LAB-B1363,Laboratory,15,6,40.0,4,12,Weekday,10,21.2,Normally Utilized
+2026-03-27 11:15,B3,3,CLASS-B3310,Classroom,50,31,62.0,4,1,Weekday,11,23.3,Normally Utilized
+2026-03-27 12:15,B3,1,OFF-B3167,Office,40,18,45.0,15,15,Weekday,12,24.2,Normally Utilized
+2026-03-27 12:45,B1,3,OFF-B1337,Office,40,24,60.0,14,14,Weekday,12,21.7,Normally Utilized
+2026-03-27 13:45,B1,4,LAB-B1464,Laboratory,15,12,80.0,4,1,Weekday,13,21.0,Highly Utilized
+2026-03-27 14:00,B3,4,OFF-B3427,Office,40,28,70.0,10,7,Weekday,14,25.4,Highly Utilized
+2026-03-27 14:30,B1,1,OFF-B1176,Office,40,29,72.5,4,11,Weekday,14,20.8,Highly Utilized
+2026-03-27 15:30,B2,2,MEET-B2245,Meeting Room,12,7,58.3,15,13,Weekday,15,21.0,Normally Utilized
+2026-03-27 16:15,B1,5,MEET-B1523,Meeting Room,12,7,58.3,13,15,Weekday,16,22.9,Normally Utilized
+2026-03-27 17:15,B3,1,CLASS-B3163,Classroom,50,41,82.0,8,8,Weekday,17,21.3,Highly Utilized
+2026-03-27 18:15,B1,2,LAB-B1233,Laboratory,15,11,73.3,6,4,Weekday,18,25.1,Highly Utilized
+2026-03-27 18:45,B1,5,OFF-B1562,Office,25,11,44.0,12,6,Weekday,18,24.0,Normally Utilized
+2026-03-27 19:30,B2,5,OFF-B2556,Office,40,2,5.0,1,0,Weekday,19,20.8,Underutilized
+2026-03-27 19:45,B2,3,CLASS-B2310,Classroom,50,0,0.0,2,1,Weekday,19,23.2,Underutilized
+2026-03-27 20:15,B3,1,LAB-B3139,Laboratory,15,0,0.0,0,2,Weekday,20,24.1,Underutilized
+2026-03-27 20:30,B2,5,OFF-B2598,Office,25,0,0.0,1,2,Weekday,20,24.5,Underutilized
+2026-03-27 21:30,B2,3,CAF-B2343,Cafeteria,120,8,6.7,1,0,Weekday,21,22.8,Underutilized
+2026-03-27 21:45,B2,3,MEET-B2358,Meeting Room,12,0,0.0,0,0,Weekday,21,23.0,Underutilized
+2026-03-27 22:45,B1,2,OFF-B1223,Office,25,0,0.0,2,1,Weekday,22,21.3,Underutilized
+2026-03-27 23:15,B1,2,OFF-B1267,Office,25,1,4.0,1,1,Weekday,23,22.5,Underutilized
+2026-03-28 00:15,B3,3,OFF-B3357,Office,40,21,52.5,2,1,Weekend,0,23.9,Normally Utilized
+2026-03-28 01:00,B2,2,MEET-B2244,Meeting Room,20,1,5.0,0,2,Weekend,1,23.8,Underutilized
+2026-03-28 01:30,B1,3,LAB-B1333,Laboratory,15,1,6.7,0,1,Weekend,1,21.4,Underutilized
+2026-03-28 01:45,B1,5,OFF-B1566,Office,40,2,5.0,2,2,Weekend,1,24.0,Underutilized
+2026-03-28 02:45,B2,3,OFF-B2374,Office,25,0,0.0,2,2,Weekend,2,23.8,Underutilized
+2026-03-28 03:00,B3,2,CONF-B3285,Conference Room,100,11,11.0,0,2,Weekend,3,22.8,Underutilized
+2026-03-28 04:00,B2,1,CAF-B2155,Cafeteria,120,0,0.0,2,2,Weekend,4,22.6,Underutilized
+2026-03-28 04:45,B1,3,OFF-B1397,Office,40,5,12.5,0,0,Weekend,4,24.7,Underutilized
+2026-03-28 05:45,B2,2,CAF-B2273,Cafeteria,120,4,3.3,0,2,Weekend,5,23.0,Underutilized
+2026-03-28 06:15,B1,2,CONF-B1252,Conference Room,100,0,0.0,0,1,Weekend,6,24.0,Underutilized
+2026-03-28 06:45,B1,5,MEET-B1552,Meeting Room,12,1,8.3,2,2,Weekend,6,24.0,Underutilized
+2026-03-28 07:00,B2,3,MEET-B2348,Meeting Room,12,0,0.0,2,0,Weekend,7,21.9,Underutilized
+2026-03-28 07:30,B3,1,OFF-B3124,Office,25,1,4.0,1,2,Weekend,7,25.3,Underutilized
+2026-03-28 08:00,B1,4,LAB-B1460,Laboratory,15,0,0.0,15,13,Weekend,8,23.4,Underutilized
+2026-03-28 08:30,B3,5,MEET-B3565,Meeting Room,20,1,5.0,11,8,Weekend,8,22.5,Underutilized
+2026-03-28 09:30,B1,4,CAF-B1480,Cafeteria,120,5,4.2,11,8,Weekend,9,23.2,Underutilized
+2026-03-28 10:15,B3,2,LAB-B3212,Laboratory,15,1,6.7,12,11,Weekend,10,24.3,Underutilized
+2026-03-28 11:00,B2,5,MEET-B2534,Meeting Room,20,0,0.0,12,15,Weekend,11,22.3,Underutilized
+2026-03-28 12:00,B1,4,MEET-B1435,Meeting Room,12,0,0.0,7,1,Weekend,12,20.6,Underutilized
+2026-03-28 12:30,B3,1,LAB-B3195,Laboratory,15,0,0.0,11,8,Weekend,12,22.6,Underutilized
+2026-03-28 12:45,B2,3,CONF-B2381,Conference Room,100,4,4.0,4,4,Weekend,12,24.6,Underutilized
+2026-03-28 13:45,B1,4,OFF-B1490,Office,40,1,2.5,4,3,Weekend,13,25.2,Underutilized
+2026-03-28 14:15,B3,2,LAB-B3286,Laboratory,15,1,6.7,2,9,Weekend,14,23.0,Underutilized
+2026-03-28 14:45,B1,2,CONF-B1227,Conference Room,100,8,8.0,14,2,Weekend,14,22.2,Underutilized
+2026-03-28 15:00,B2,4,OFF-B2422,Office,25,2,8.0,3,7,Weekend,15,20.8,Underutilized
+2026-03-28 16:00,B3,1,COM-B3166,Common Area,60,0,0.0,14,10,Weekend,16,21.5,Underutilized
+2026-03-28 16:45,B2,1,CAF-B2140,Cafeteria,120,2,1.7,10,2,Weekend,16,24.4,Underutilized
+2026-03-28 17:15,B1,4,MEET-B1442,Meeting Room,20,0,0.0,15,9,Weekend,17,25.5,Underutilized
+2026-03-28 17:45,B3,1,CLASS-B3126,Classroom,50,4,8.0,12,0,Weekend,17,22.6,Underutilized
+2026-03-28 18:45,B3,4,COM-B3484,Common Area,60,8,13.3,7,15,Weekend,18,20.9,Underutilized
+2026-03-28 19:30,B2,1,CONF-B2153,Conference Room,100,6,6.0,0,0,Weekend,19,21.0,Underutilized
+2026-03-28 20:00,B3,5,OFF-B3550,Office,25,0,0.0,2,1,Weekend,20,23.1,Underutilized
+2026-03-28 20:45,B1,5,MEET-B1569,Meeting Room,12,0,0.0,2,0,Weekend,20,21.1,Underutilized
+2026-03-28 21:15,B1,3,CLASS-B1379,Classroom,50,4,8.0,0,0,Weekend,21,23.6,Underutilized
+2026-03-28 22:00,B1,4,MEET-B1481,Meeting Room,12,1,8.3,1,0,Weekend,22,24.7,Underutilized
+2026-03-28 22:45,B3,5,MEET-B3526,Meeting Room,12,0,0.0,2,1,Weekend,22,24.6,Underutilized
+2026-03-28 23:00,B1,3,MEET-B1338,Meeting Room,12,0,0.0,1,1,Weekend,23,20.6,Underutilized
+2026-03-28 23:15,B2,5,MEET-B2539,Meeting Room,12,0,0.0,2,0,Weekend,23,25.2,Underutilized
+2026-03-29 00:15,B3,4,CAF-B3453,Cafeteria,120,2,1.7,0,2,Weekend,0,24.1,Underutilized
+2026-03-29 01:15,B1,5,OFF-B1578,Office,25,2,8.0,0,0,Weekend,1,21.6,Underutilized
+2026-03-29 01:45,B3,4,COM-B3449,Common Area,60,1,1.7,0,0,Weekend,1,21.8,Underutilized
+2026-03-29 02:00,B2,5,LAB-B2589,Laboratory,15,1,6.7,1,2,Weekend,2,24.0,Underutilized
+2026-03-29 02:45,B2,3,OFF-B2370,Office,25,0,0.0,2,0,Weekend,2,23.5,Underutilized
+2026-03-29 03:30,B2,2,MEET-B2299,Meeting Room,12,1,8.3,0,2,Weekend,3,24.4,Underutilized
+2026-03-29 03:45,B2,3,MEET-B2366,Meeting Room,20,2,10.0,0,1,Weekend,3,21.3,Underutilized
+2026-03-29 04:30,B3,4,MEET-B3491,Meeting Room,12,1,8.3,0,1,Weekend,4,23.9,Underutilized
+2026-03-29 04:45,B1,1,OFF-B1116,Office,25,1,4.0,1,2,Weekend,4,21.7,Underutilized
+2026-03-29 05:00,B3,1,CONF-B3113,Conference Room,100,1,1.0,1,1,Weekend,5,22.8,Underutilized
+2026-03-29 05:15,B1,2,MEET-B1273,Meeting Room,20,0,0.0,2,0,Weekend,5,22.5,Underutilized
+2026-03-29 06:00,B1,4,LAB-B1427,Laboratory,15,1,6.7,1,0,Weekend,6,23.0,Underutilized
+2026-03-29 06:15,B2,2,MEET-B2250,Meeting Room,20,1,5.0,1,0,Weekend,6,20.9,Underutilized
+2026-03-29 06:45,B1,5,COM-B1595,Common Area,60,3,5.0,0,1,Weekend,6,24.7,Underutilized
+2026-03-29 07:45,B2,2,MEET-B2296,Meeting Room,12,1,8.3,1,2,Weekend,7,25.0,Underutilized
+2026-03-29 08:15,B2,3,CLASS-B2317,Classroom,50,0,0.0,15,6,Weekend,8,22.1,Underutilized
+2026-03-29 08:45,B3,5,LAB-B3552,Laboratory,15,0,0.0,0,1,Weekend,8,22.0,Underutilized
+2026-03-29 09:30,B2,4,LAB-B2437,Laboratory,15,2,13.3,7,10,Weekend,9,21.2,Underutilized
+2026-03-29 09:45,B2,1,LAB-B2155,Laboratory,15,0,0.0,4,6,Weekend,9,22.3,Underutilized
+2026-03-29 10:00,B1,3,MEET-B1357,Meeting Room,20,2,10.0,14,11,Weekend,10,21.1,Underutilized
+2026-03-29 10:30,B2,1,COM-B2151,Common Area,60,3,5.0,15,0,Weekend,10,25.3,Underutilized
+2026-03-29 11:00,B2,4,COM-B2451,Common Area,60,4,6.7,15,0,Weekend,11,24.8,Underutilized
+2026-03-29 12:00,B3,2,CAF-B3286,Cafeteria,120,4,3.3,14,6,Weekend,12,23.0,Underutilized
+2026-03-29 13:00,B1,3,MEET-B1381,Meeting Room,12,1,8.3,14,2,Weekend,13,21.1,Underutilized
+2026-03-29 14:00,B2,3,MEET-B2369,Meeting Room,20,2,10.0,5,13,Weekend,14,23.7,Underutilized
+2026-03-29 14:30,B1,4,CLASS-B1457,Classroom,50,7,14.0,3,7,Weekend,14,21.8,Underutilized
+2026-03-29 15:00,B1,2,CONF-B1250,Conference Room,100,0,0.0,4,4,Weekend,15,25.2,Underutilized
+2026-03-29 15:15,B2,1,LAB-B2136,Laboratory,15,1,6.7,15,11,Weekend,15,25.2,Underutilized
+2026-03-29 16:15,B3,2,MEET-B3233,Meeting Room,20,2,10.0,2,9,Weekend,16,21.7,Underutilized
+2026-03-29 16:30,B2,5,OFF-B2575,Office,40,0,0.0,6,11,Weekend,16,21.0,Underutilized
+2026-03-29 17:00,B3,4,MEET-B3445,Meeting Room,12,1,8.3,12,10,Weekend,17,22.7,Underutilized
+2026-03-29 17:45,B2,1,OFF-B2114,Office,25,0,0.0,0,4,Weekend,17,25.3,Underutilized
+2026-03-29 18:45,B1,5,MEET-B1570,Meeting Room,20,1,5.0,5,3,Weekend,18,23.6,Underutilized
+2026-03-29 19:45,B1,2,COM-B1267,Common Area,60,1,1.7,1,0,Weekend,19,23.7,Underutilized
+2026-03-29 20:00,B1,5,CAF-B1567,Cafeteria,120,6,5.0,2,2,Weekend,20,24.4,Underutilized
+2026-03-29 20:45,B1,1,CLASS-B1138,Classroom,50,5,10.0,0,0,Weekend,20,22.1,Underutilized
+2026-03-29 21:00,B1,3,MEET-B1360,Meeting Room,20,1,5.0,2,2,Weekend,21,22.8,Underutilized
+2026-03-29 21:45,B3,3,MEET-B3340,Meeting Room,12,1,8.3,2,1,Weekend,21,24.6,Underutilized
+2026-03-29 22:30,B1,2,LAB-B1242,Laboratory,15,0,0.0,0,0,Weekend,22,24.0,Underutilized
+2026-03-29 22:45,B3,4,COM-B3422,Common Area,60,64,106.7,0,0,Weekend,22,23.2,Overcrowded

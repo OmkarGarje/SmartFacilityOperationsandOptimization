@@ -1,5 +1,5 @@
 /**
- * Agentic FacilityOps AI Platform - Data Loader Module
+ * Agentic FacilityOps AI Platform - Expanded Data Loader Module (Milestone 1, 2, 3)
  * Handles loading CSV datasets from data/ folder or generates fallback datasets
  * if file:// browser protocol blocks XMLHttpRequest/Fetch CORS.
  */
@@ -7,7 +7,8 @@
 const DataLoader = {
     energyData: [],
     maintenanceData: [],
-    isLoaded: false,
+    occupancyData: [],
+    securityData: [],
 
     /**
      * Parses CSV string into array of objects
@@ -25,7 +26,6 @@ const DataLoader = {
             const row = {};
             headers.forEach((header, index) => {
                 let val = values[index];
-                // Convert numeric strings
                 if (val !== undefined && !isNaN(val) && val !== '') {
                     val = Number(val);
                 }
@@ -37,7 +37,7 @@ const DataLoader = {
     },
 
     /**
-     * Loads Energy Dataset
+     * Loads Energy Dataset (M1)
      */
     async loadEnergyData() {
         if (this.energyData.length > 0) return this.energyData;
@@ -48,14 +48,14 @@ const DataLoader = {
             this.energyData = this.parseCSV(text);
             console.log(`Loaded ${this.energyData.length} energy records from CSV.`);
         } catch (err) {
-            console.warn('CSV fetch failed (likely local file:// mode). Generating fallback energy dataset...', err);
+            console.warn('CSV fetch failed (likely file:// mode). Generating fallback energy dataset...', err);
             this.energyData = this.generateFallbackEnergyData();
         }
         return this.energyData;
     },
 
     /**
-     * Loads Maintenance Dataset
+     * Loads Maintenance Dataset (M2)
      */
     async loadMaintenanceData() {
         if (this.maintenanceData.length > 0) return this.maintenanceData;
@@ -66,14 +66,50 @@ const DataLoader = {
             this.maintenanceData = this.parseCSV(text);
             console.log(`Loaded ${this.maintenanceData.length} maintenance records from CSV.`);
         } catch (err) {
-            console.warn('CSV fetch failed (likely local file:// mode). Generating fallback maintenance dataset...', err);
+            console.warn('CSV fetch failed (likely file:// mode). Generating fallback maintenance dataset...', err);
             this.maintenanceData = this.generateFallbackMaintenanceData();
         }
         return this.maintenanceData;
     },
 
     /**
-     * Dynamic fallback generator for Energy data if fetch is restricted
+     * Loads Occupancy Dataset (M3)
+     */
+    async loadOccupancyData() {
+        if (this.occupancyData.length > 0) return this.occupancyData;
+        try {
+            const response = await fetch('../data/occupancy_data.csv').catch(() => fetch('./data/occupancy_data.csv'));
+            if (!response.ok) throw new Error('HTTP error ' + response.status);
+            const text = await response.text();
+            this.occupancyData = this.parseCSV(text);
+            console.log(`Loaded ${this.occupancyData.length} occupancy records from CSV.`);
+        } catch (err) {
+            console.warn('CSV fetch failed (likely file:// mode). Generating fallback occupancy dataset...', err);
+            this.occupancyData = this.generateFallbackOccupancyData();
+        }
+        return this.occupancyData;
+    },
+
+    /**
+     * Loads Security Dataset (M3)
+     */
+    async loadSecurityData() {
+        if (this.securityData.length > 0) return this.securityData;
+        try {
+            const response = await fetch('../data/security_data.csv').catch(() => fetch('./data/security_data.csv'));
+            if (!response.ok) throw new Error('HTTP error ' + response.status);
+            const text = await response.text();
+            this.securityData = this.parseCSV(text);
+            console.log(`Loaded ${this.securityData.length} security records from CSV.`);
+        } catch (err) {
+            console.warn('CSV fetch failed (likely file:// mode). Generating fallback security dataset...', err);
+            this.securityData = this.generateFallbackSecurityData();
+        }
+        return this.securityData;
+    },
+
+    /**
+     * Dynamic fallback generator for Energy data
      */
     generateFallbackEnergyData() {
         const buildings = ["B1", "B2", "B3"];
@@ -82,7 +118,7 @@ const DataLoader = {
         let date = new Date(2026, 2, 1, 8, 0);
 
         for (let i = 0; i < 600; i++) {
-            date = new Date(date.getTime() + (4 * 60 * 60 * 1000)); // add 4 hrs
+            date = new Date(date.getTime() + (4 * 60 * 60 * 1000));
             const hour = date.getHours();
             const b_id = buildings[i % buildings.length];
             const fl = floors[i % floors.length];
@@ -95,14 +131,9 @@ const DataLoader = {
             let equipment = Number((20 + occupancy * 0.3 + Math.random() * 8).toFixed(2));
             let water = Number((50 + occupancy * 8 + Math.random() * 20).toFixed(1));
 
-            // Inject anomalies
-            if (i % 27 === 0) {
-                hvac = Number((hvac * 2.8).toFixed(2)); // HVAC spike
-            } else if (i % 45 === 0) {
-                equipment = Number((equipment * 3.2).toFixed(2)); // Night equipment surge
-            } else if (i % 65 === 0) {
-                water = Number((water * 5.0).toFixed(1)); // Water leak
-            }
+            if (i % 27 === 0) hvac = Number((hvac * 2.8).toFixed(2));
+            else if (i % 45 === 0) equipment = Number((equipment * 3.2).toFixed(2));
+            else if (i % 65 === 0) water = Number((water * 5.0).toFixed(1));
 
             const total = Number((hvac + lighting + equipment).toFixed(2));
             const peak = (hour >= 12 && hour <= 18) ? 1 : 0;
@@ -112,26 +143,16 @@ const DataLoader = {
             const timestamp = `${date.getFullYear()}-${pad(date.getMonth()+1)}-${pad(date.getDate())} ${pad(hour)}:00`;
 
             data.push({
-                timestamp,
-                building_id: b_id,
-                floor: fl,
-                electricity_kwh: total,
-                water_liters: water,
-                hvac_kwh: hvac,
-                lighting_kwh: lighting,
-                equipment_kwh: equipment,
-                occupancy,
-                outdoor_temperature: outdoor_temp,
-                indoor_temperature: indoor_temp,
-                energy_cost: cost,
-                peak_hour: peak
+                timestamp, building_id: b_id, floor: fl, electricity_kwh: total, water_liters: water,
+                hvac_kwh: hvac, lighting_kwh: lighting, equipment_kwh: equipment, occupancy,
+                outdoor_temperature: outdoor_temp, indoor_temperature: indoor_temp, energy_cost: cost, peak_hour: peak
             });
         }
         return data;
     },
 
     /**
-     * Dynamic fallback generator for Maintenance data if fetch is restricted
+     * Dynamic fallback generator for Maintenance data
      */
     generateFallbackMaintenanceData() {
         const eqTypes = ["HVAC Unit", "Chiller", "Air Handling Unit", "Generator", "Elevator", "Water Pump", "Cooling Tower", "Compressor"];
@@ -154,19 +175,16 @@ const DataLoader = {
             let temp, vibration, pressure, energy;
             const rand = Math.random();
             if (rand < 0.78) {
-                // Healthy
                 temp = Number((35 + Math.random() * 18).toFixed(1));
                 vibration = Number((0.6 + Math.random() * 1.8).toFixed(2));
                 pressure = Number((42 + Math.random() * 16).toFixed(1));
                 energy = Number((15 + Math.random() * 30).toFixed(1));
             } else if (rand < 0.92) {
-                // Warning
                 temp = Number((56 + Math.random() * 15).toFixed(1));
                 vibration = Number((2.9 + Math.random() * 1.8).toFixed(2));
                 pressure = Number((30 + Math.random() * 35).toFixed(1));
                 energy = Number((48 + Math.random() * 25).toFixed(1));
             } else {
-                // Critical
                 temp = Number((74 + Math.random() * 20).toFixed(1));
                 vibration = Number((5.1 + Math.random() * 4.5).toFixed(2));
                 pressure = Number((15 + Math.random() * 75).toFixed(1));
@@ -174,7 +192,6 @@ const DataLoader = {
                 failure_count += Math.floor(1 + Math.random() * 3);
             }
 
-            // Health calculation
             const vibPen = Math.min(35, Math.max(0, (vibration - 1.5) * 8.5));
             const tempPen = Math.min(30, Math.max(0, (temp - 45) * 1.1));
             const hoursPen = Math.min(20, (op_hours / 18500) * 18);
@@ -188,23 +205,117 @@ const DataLoader = {
             else if (health_score < 88) status = "Good";
 
             data.push({
-                asset_id,
-                asset_name,
-                asset_type: eqTypes[typeIdx],
-                building_id: b_id,
-                floor: fl,
-                installation_date: `2021-04-15`,
-                operating_hours: op_hours,
-                temperature: temp,
-                vibration: vibration,
-                pressure: pressure,
-                energy_consumption: energy,
-                last_maintenance_date: `2026-04-10`,
-                maintenance_count: maint_count,
-                failure_count: failure_count,
-                current_status: status,
-                health_score: health_score,
+                asset_id, asset_name, asset_type: eqTypes[typeIdx], building_id: b_id, floor: fl,
+                installation_date: `2021-04-15`, operating_hours: op_hours, temperature: temp,
+                vibration, pressure, energy_consumption: energy, last_maintenance_date: `2026-04-10`,
+                maintenance_count: maint_count, failure_count, current_status: status, health_score,
                 next_maintenance_due: status === "Critical" || status === "Warning" ? "2026-09-15" : "2026-11-30"
+            });
+        }
+        return data;
+    },
+
+    /**
+     * Dynamic fallback generator for Occupancy data (M3)
+     */
+    generateFallbackOccupancyData() {
+        const buildings = ["B1", "B2", "B3"];
+        const floors = [1, 2, 3, 4, 5];
+        const roomConfigs = [
+            ["OFF", "Office", 25], ["MEET", "Meeting Room", 15], ["LAB", "Laboratory", 20],
+            ["CLASS", "Classroom", 40], ["CONF", "Conference Room", 80], ["CAF", "Cafeteria", 100], ["COM", "Common Area", 50]
+        ];
+        const data = [];
+        let date = new Date(2026, 2, 1, 8, 0);
+
+        for (let i = 0; i < 1000; i++) {
+            date = new Date(date.getTime() + (30 * 60 * 1000)); // +30 mins
+            const hour = date.getHours();
+            const dayOfWeek = date.getDay();
+            const isWeekend = dayOfWeek === 0 || dayOfWeek === 6;
+            const b_id = buildings[i % buildings.length];
+            const fl = floors[i % floors.length];
+            const [prefix, r_type, capacity] = roomConfigs[i % roomConfigs.length];
+            const room_id = `${prefix}-${b_id}${fl}${String((i%20)+1).padStart(2,'0')}`;
+
+            let base_pct = isWeekend ? (Math.random() * 0.1) : (hour >= 8 && hour <= 18 ? 0.4 + Math.random() * 0.45 : Math.random() * 0.08);
+            if (i % 29 === 0) base_pct = 0.96; // Overcrowded
+            else if (i % 41 === 0 && (hour >= 9 && hour <= 16) && !isWeekend) base_pct = 0.08; // Underutilized
+
+            const curr_occ = Math.min(Math.floor(capacity * 1.25), Math.floor(capacity * base_pct));
+            const occ_pct = Number(((curr_occ / capacity) * 100).toFixed(1));
+            const entries = (hour >= 8 && hour <= 18) ? Math.floor(Math.random() * 12) : Math.floor(Math.random() * 2);
+            const exits = (hour >= 8 && hour <= 18) ? Math.floor(Math.random() * 12) : Math.floor(Math.random() * 2);
+
+            let status = "Normally Utilized";
+            if (occ_pct > 90) status = "Overcrowded";
+            else if (occ_pct >= 70) status = "Highly Utilized";
+            else if (occ_pct < 25) status = "Underutilized";
+
+            const pad = n => n < 10 ? '0' + n : n;
+            const timestamp = `${date.getFullYear()}-${pad(date.getMonth()+1)}-${pad(date.getDate())} ${pad(hour)}:${pad(date.getMinutes())}`;
+
+            data.push({
+                timestamp, building_id: b_id, floor: fl, room_id, room_type: r_type, capacity,
+                current_occupancy: curr_occ, occupancy_percentage: occ_pct, entry_count: entries, exit_count: exits,
+                day_type: isWeekend ? "Weekend" : "Weekday", hour, temperature: Number((21 + Math.random() * 3).toFixed(1)),
+                utilization_status: status
+            });
+        }
+        return data;
+    },
+
+    /**
+     * Dynamic fallback generator for Security data (M3)
+     */
+    generateFallbackSecurityData() {
+        const buildings = ["B1", "B2", "B3"];
+        const floors = [1, 2, 3, 4, 5];
+        const pTypes = ["Employee", "Visitor", "Contractor", "Administrator", "Unknown"];
+        const accTypes = ["Main Entrance", "Server Room", "Laboratory", "Restricted Area", "Parking", "Office", "Emergency Exit"];
+        const authMethods = ["RFID", "Access Card", "Biometric", "PIN", "Visitor Pass"];
+        const data = [];
+        let date = new Date(2026, 2, 1, 8, 0);
+
+        for (let i = 1; i <= 1000; i++) {
+            date = new Date(date.getTime() + (20 * 60 * 1000));
+            const hour = date.getHours();
+            const b_id = buildings[i % buildings.length];
+            const fl = floors[i % floors.length];
+            const acc_type = accTypes[i % accTypes.length];
+            const p_type = pTypes[i % pTypes.length];
+            const acc_point = `${acc_type} #${b_id}-F${fl}`;
+            const location = `Building ${b_id} (Floor ${fl} - ${acc_type})`;
+
+            let p_id = `EMP-${100 + (i%50)}`;
+            let vis_id = "N/A";
+            if (p_type === "Visitor") { p_id = `VIS-${500 + (i%30)}`; vis_id = p_id; }
+            else if (p_type === "Contractor") p_id = `CON-${300 + (i%20)}`;
+            else if (p_type === "Administrator") p_id = `ADM-${10 + (i%10)}`;
+            else if (p_type === "Unknown") p_id = "UNK-999";
+
+            let acc_status = "Authorized";
+            let risk_level = "Low";
+
+            const rand = Math.random();
+            if (rand > 0.84 && rand < 0.94) {
+                acc_status = "Denied";
+                risk_level = (acc_type === "Server Room" || acc_type === "Restricted Area") ? "High" : "Medium";
+            } else if (rand >= 0.94 && rand < 0.98) {
+                acc_status = "Suspicious";
+                risk_level = "High";
+            } else if (rand >= 0.98) {
+                acc_status = "Denied";
+                risk_level = "Critical";
+            }
+
+            const pad = n => n < 10 ? '0' + n : n;
+            const timestamp = `${date.getFullYear()}-${pad(date.getMonth()+1)}-${pad(date.getDate())} ${pad(hour)}:${pad(date.getMinutes())}`;
+
+            data.push({
+                timestamp, event_id: `EVT-${String(i).padStart(5,'0')}`, building_id: b_id, access_point: acc_point,
+                person_id: p_id, person_type: p_type, access_type: acc_type, authentication_method: authMethods[i % authMethods.length],
+                entry_exit: i % 2 === 0 ? "Entry" : "Exit", access_status: acc_status, visitor_id: vis_id, location, risk_level
             });
         }
         return data;

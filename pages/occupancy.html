@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Energy Intelligence & Monitoring — Agentic FacilityOps AI Platform</title>
+    <title>Occupancy Intelligence — Agentic FacilityOps AI Platform</title>
     
     <!-- CSS Dependencies -->
     <link rel="stylesheet" href="../css/style.css">
@@ -15,7 +15,7 @@
 </head>
 <body>
 
-    <div class="app-container" id="energy-page-identifier">
+    <div class="app-container" id="occupancy-page-identifier">
         <!-- Sidebar Navigation -->
         <aside class="sidebar">
             <div class="brand-header">
@@ -28,15 +28,15 @@
             
             <ul class="sidebar-menu">
                 <li><a href="../index.html"><span class="menu-icon">📊</span> Overview Dashboard</a></li>
-                <li class="active"><a href="energy.html"><span class="menu-icon">⚡</span> Energy Intelligence</a></li>
+                <li><a href="energy.html"><span class="menu-icon">⚡</span> Energy Intelligence</a></li>
                 <li><a href="maintenance.html"><span class="menu-icon">🔧</span> Predictive Maintenance</a></li>
-                <li><a href="occupancy.html"><span class="menu-icon">👥</span> Occupancy Intelligence</a></li>
+                <li class="active"><a href="occupancy.html"><span class="menu-icon">👥</span> Occupancy Intelligence</a></li>
                 <li><a href="security.html"><span class="menu-icon">🛡️</span> Security Intelligence</a></li>
                 <li><a href="alerts.html"><span class="menu-icon">🔔</span> Operations Alerts</a></li>
             </ul>
 
             <div class="sidebar-footer">
-                <p>Status: <strong>System Online</strong></p>
+                <p>Status: <strong>Monitoring Active</strong></p>
                 <p>© 2026 FacilityOps AI</p>
             </div>
         </aside>
@@ -46,13 +46,13 @@
             <!-- Top Header -->
             <header class="top-header">
                 <div class="header-title-section">
-                    <h2>Energy Intelligence & Monitoring</h2>
-                    <p>Milestone 1 — AI-Powered Utility Telemetry & Anomaly Analytics</p>
+                    <h2>Occupancy Intelligence & Space Analytics</h2>
+                    <p>Milestone 3 — Room Utilization, Heatmaps & Space Optimization</p>
                 </div>
                 <div class="header-controls">
                     <div class="system-status-indicator">
                         <div class="status-dot"></div>
-                        <span>Energy Agent Active</span>
+                        <span>Occupancy Agent Active</span>
                     </div>
                     <div class="clock-display" id="live-clock">2026-09-15 18:30</div>
                 </div>
@@ -83,175 +83,186 @@
                         </select>
                     </div>
 
-                    <button class="btn btn-primary" onclick="EnergyEngine.init()">🔄 Refresh Analysis</button>
+                    <button class="btn btn-primary" onclick="OccupancyEngine.init()">🔄 Refresh Analytics</button>
                 </div>
 
                 <!-- KPI Grid (6 Cards) -->
                 <div class="kpi-grid kpi-grid-6">
                     <div class="kpi-card">
                         <div class="kpi-header">
-                            <span class="kpi-title">Total Electricity</span>
-                            <div class="kpi-icon">⚡</div>
-                        </div>
-                        <div class="kpi-value" id="kpi-total-energy">-- kWh</div>
-                        <div class="kpi-subtext"><span class="kpi-trend-down">↓ 4.2%</span> vs last month</div>
-                    </div>
-
-                    <div class="kpi-card">
-                        <div class="kpi-header">
-                            <span class="kpi-title">Avg Daily Load</span>
-                            <div class="kpi-icon">📊</div>
-                        </div>
-                        <div class="kpi-value" id="kpi-avg-daily">-- kWh</div>
-                        <div class="kpi-subtext"><span class="kpi-trend-up">↑ 1.5%</span> seasonal baseline</div>
-                    </div>
-
-                    <div class="kpi-card">
-                        <div class="kpi-header">
-                            <span class="kpi-title">Energy Cost</span>
-                            <div class="kpi-icon">💵</div>
-                        </div>
-                        <div class="kpi-value" id="kpi-energy-cost">$--</div>
-                        <div class="kpi-subtext">Peak tariff rate applied</div>
-                    </div>
-
-                    <div class="kpi-card">
-                        <div class="kpi-header">
-                            <span class="kpi-title">HVAC Consumption</span>
-                            <div class="kpi-icon">❄️</div>
-                        </div>
-                        <div class="kpi-value" id="kpi-hvac-consumption">-- kWh</div>
-                        <div class="kpi-subtext">52% of total load</div>
-                    </div>
-
-                    <div class="kpi-card">
-                        <div class="kpi-header">
-                            <span class="kpi-title">Lighting Load</span>
-                            <div class="kpi-icon">💡</div>
-                        </div>
-                        <div class="kpi-value" id="kpi-lighting-consumption">-- kWh</div>
-                        <div class="kpi-subtext">Smart schedule enabled</div>
-                    </div>
-
-                    <div class="kpi-card">
-                        <div class="kpi-header">
-                            <span class="kpi-title">Avg Occupancy</span>
+                            <span class="kpi-title">Total Occupancy</span>
                             <div class="kpi-icon">👥</div>
                         </div>
-                        <div class="kpi-value" id="kpi-avg-occupancy">-- persons</div>
-                        <div class="kpi-subtext">Peak hours: 12 PM - 4 PM</div>
+                        <div class="kpi-value" id="kpi-total-occupancy">--</div>
+                        <div class="kpi-subtext">Active building headcount</div>
+                    </div>
+
+                    <div class="kpi-card">
+                        <div class="kpi-header">
+                            <span class="kpi-title">Average Density</span>
+                            <div class="kpi-icon">📊</div>
+                        </div>
+                        <div class="kpi-value" id="kpi-avg-occupancy">--</div>
+                        <div class="kpi-subtext">Per room average</div>
+                    </div>
+
+                    <div class="kpi-card">
+                        <div class="kpi-header">
+                            <span class="kpi-title">Peak Occupancy</span>
+                            <div class="kpi-icon">📈</div>
+                        </div>
+                        <div class="kpi-value" id="kpi-peak-occupancy">--</div>
+                        <div class="kpi-subtext">Maximum room density</div>
+                    </div>
+
+                    <div class="kpi-card">
+                        <div class="kpi-header">
+                            <span class="kpi-title">Occupied Rooms</span>
+                            <div class="kpi-icon">🏢</div>
+                        </div>
+                        <div class="kpi-value" id="kpi-occupied-rooms">--</div>
+                        <div class="kpi-subtext">In-use spaces</div>
+                    </div>
+
+                    <div class="kpi-card">
+                        <div class="kpi-header">
+                            <span class="kpi-title">Available Rooms</span>
+                            <div class="kpi-icon">🚪</div>
+                        </div>
+                        <div class="kpi-value" id="kpi-available-rooms">--</div>
+                        <div class="kpi-subtext">Ready for allocation</div>
+                    </div>
+
+                    <div class="kpi-card">
+                        <div class="kpi-header">
+                            <span class="kpi-title">Overcrowded Rooms</span>
+                            <div class="kpi-icon">🚨</div>
+                        </div>
+                        <div class="kpi-value" id="kpi-overcrowded-rooms">--</div>
+                        <div class="kpi-subtext">&gt; 90% room capacity</div>
                     </div>
                 </div>
 
-                <!-- Dashboard Grid: Charts Left & Energy Agent Panel Right -->
+                <!-- Dashboard Grid: Main Chart Left & Occupancy Agent Panel Right -->
                 <div class="dashboard-grid">
-                    <!-- Left: Main Daily Chart -->
+                    <!-- Left: Occupancy Over Time Chart -->
                     <div class="card-box">
                         <div class="card-box-header">
-                            <h3 class="card-box-title">Chart 1: Daily Electricity Consumption Trend (kWh)</h3>
+                            <h3 class="card-box-title">Chart 1: Occupancy Over Time (Headcount)</h3>
                         </div>
                         <div class="chart-container">
-                            <canvas id="chart-daily-consumption"></canvas>
+                            <canvas id="chart-occupancy-over-time"></canvas>
                         </div>
                     </div>
 
-                    <!-- Right: Energy Agent Visual Panel -->
+                    <!-- Right: Occupancy Agent Visual Panel -->
                     <div class="agent-panel-card">
                         <div class="agent-header">
                             <div class="agent-identity">
                                 <div class="agent-avatar">🤖</div>
                                 <div class="agent-name-box">
-                                    <h3>Energy Agent</h3>
-                                    <p>Rule-Based Statistical Engine</p>
+                                    <h3>Occupancy Agent</h3>
+                                    <p>Space Utilization Engine</p>
                                 </div>
                             </div>
                             <span class="badge badge-healthy">ACTIVE</span>
                         </div>
 
                         <ul class="agent-tasks-list">
-                            <li><span class="task-check">✓</span> Monitoring utility consumption</li>
-                            <li><span class="task-check">✓</span> Detecting energy anomalies</li>
-                            <li><span class="task-check">✓</span> Analyzing HVAC efficiency</li>
-                            <li><span class="task-check">✓</span> Analyzing lighting consumption</li>
-                            <li><span class="task-check">✓</span> Generating recommendations</li>
+                            <li><span class="task-check">✓</span> Monitoring room occupancy</li>
+                            <li><span class="task-check">✓</span> Analyzing space utilization</li>
+                            <li><span class="task-check">✓</span> Detecting overcrowding</li>
+                            <li><span class="task-check">✓</span> Detecting underutilized spaces</li>
+                            <li><span class="task-check">✓</span> Identifying peak hours</li>
+                            <li><span class="task-check">✓</span> Generating occupancy insights</li>
                         </ul>
 
                         <div class="agent-metrics-grid">
                             <div class="agent-metric-item">
-                                <h4 id="agent-last-analysis">18:30:00</h4>
-                                <p>Last Run</p>
+                                <h4 id="agent-rooms-monitored">0</h4>
+                                <p>Rooms</p>
                             </div>
                             <div class="agent-metric-item">
-                                <h4 id="agent-anomaly-count">0</h4>
-                                <p>Anomalies</p>
+                                <h4 id="agent-current-occ">0</h4>
+                                <p>Occupants</p>
                             </div>
                             <div class="agent-metric-item">
-                                <h4 id="agent-potential-savings">$0</h4>
-                                <p>Est. Savings</p>
+                                <h4 id="agent-overcrowded">0</h4>
+                                <p>Overcrowded</p>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <!-- Charts Row 2: Category Breakdown & Energy vs Occupancy -->
+                <!-- Occupancy Heatmap Section -->
+                <div class="card-box">
+                    <div class="card-box-header">
+                        <h3 class="card-box-title">🔥 Facility Occupancy Heatmap (Days × Peak Hours Utilization)</h3>
+                    </div>
+                    <div id="occupancy-heatmap-container">
+                        <!-- Populated dynamically by occupancy.js -->
+                    </div>
+                </div>
+
+                <!-- Charts Row 2: Occupancy by Floor & Room Utilization -->
                 <div class="charts-grid-2">
                     <div class="card-box">
                         <div class="card-box-header">
-                            <h3 class="card-box-title">Chart 2: Energy Consumption by Category</h3>
+                            <h3 class="card-box-title">Chart 2: Occupancy Percentage by Floor</h3>
                         </div>
                         <div class="chart-container">
-                            <canvas id="chart-category-breakdown"></canvas>
+                            <canvas id="chart-occupancy-by-floor"></canvas>
                         </div>
                     </div>
 
                     <div class="card-box">
                         <div class="card-box-header">
-                            <h3 class="card-box-title">Chart 3: Energy Consumption vs Occupancy</h3>
+                            <h3 class="card-box-title">Chart 3: Room Utilization Distribution</h3>
                         </div>
                         <div class="chart-container">
-                            <canvas id="chart-energy-vs-occupancy"></canvas>
+                            <canvas id="chart-room-utilization"></canvas>
                         </div>
                     </div>
                 </div>
 
-                <!-- Charts Row 3: Energy Cost & Consumption by Floor -->
+                <!-- Charts Row 3: Occupancy by Hour & Room Capacity vs Actual -->
                 <div class="charts-grid-2">
                     <div class="card-box">
                         <div class="card-box-header">
-                            <h3 class="card-box-title">Chart 4: Energy Cost Over Time ($)</h3>
+                            <h3 class="card-box-title">Chart 4: Average Occupancy by Hour (00:00–23:00)</h3>
                         </div>
                         <div class="chart-container">
-                            <canvas id="chart-cost-over-time"></canvas>
+                            <canvas id="chart-occupancy-by-hour"></canvas>
                         </div>
                     </div>
 
                     <div class="card-box">
                         <div class="card-box-header">
-                            <h3 class="card-box-title">Chart 5: Energy Consumption by Floor (Bar Chart)</h3>
+                            <h3 class="card-box-title">Chart 5: Room Capacity vs Actual Occupancy</h3>
                         </div>
                         <div class="chart-container">
-                            <canvas id="chart-consumption-by-floor"></canvas>
+                            <canvas id="chart-capacity-vs-actual"></canvas>
                         </div>
                     </div>
                 </div>
 
-                <!-- Anomaly Alerts & AI Recommendations -->
+                <!-- Insights & AI Recommendations -->
                 <div class="charts-grid-2">
                     <div class="card-box">
                         <div class="card-box-header">
-                            <h3 class="card-box-title">⚡ Detected Energy Anomalies</h3>
+                            <h3 class="card-box-title">📌 Occupancy Intelligence Insights</h3>
                         </div>
-                        <div id="anomalies-list-container" class="alert-card-list">
-                            <!-- Populated dynamically by energy.js -->
+                        <div id="occupancy-insights-container" class="alert-card-list">
+                            <!-- Populated dynamically by occupancy.js -->
                         </div>
                     </div>
 
                     <div class="card-box">
                         <div class="card-box-header">
-                            <h3 class="card-box-title">💡 AI Energy Recommendations</h3>
+                            <h3 class="card-box-title">💡 AI Occupancy Recommendations</h3>
                         </div>
-                        <div id="recommendations-list-container">
-                            <!-- Populated dynamically by energy.js -->
+                        <div id="occupancy-recommendations-container">
+                            <!-- Populated dynamically by occupancy.js -->
                         </div>
                     </div>
                 </div>
@@ -262,7 +273,7 @@
 
     <!-- Scripts -->
     <script src="../js/dataLoader.js"></script>
-    <script src="../js/energy.js"></script>
+    <script src="../js/occupancy.js"></script>
 
 </body>
 </html>

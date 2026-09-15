@@ -326,6 +326,11 @@
     background-color: rgba(245, 158, 11, 0.05);
 }
 
+.alert-item-healthy {
+    border-left-color: var(--accent-emerald);
+    background-color: rgba(16, 185, 129, 0.05);
+}
+
 .alert-icon-box {
     font-size: 1.2rem;
     margin-top: 2px;
@@ -389,4 +394,110 @@
 .savings-tag {
     color: var(--accent-emerald);
     font-weight: 600;
+}
+
+/* Milestone 3: Occupancy Heatmap Component */
+.heatmap-wrapper {
+    width: 100%;
+    overflow-x: auto;
+}
+
+.heatmap-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 4px;
+    text-align: center;
+}
+
+.heatmap-table th {
+    font-size: 0.75rem;
+    color: var(--text-secondary);
+    padding: 6px;
+    font-weight: 600;
+}
+
+.heatmap-table td {
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 0.78rem;
+    font-weight: 600;
+    transition: var(--transition-fast);
+}
+
+.heatmap-low {
+    background-color: rgba(59, 130, 246, 0.15);
+    color: #60a5fa;
+    border: 1px solid rgba(59, 130, 246, 0.3);
+}
+
+.heatmap-mid {
+    background-color: rgba(16, 185, 129, 0.2);
+    color: #34d399;
+    border: 1px solid rgba(16, 185, 129, 0.3);
+}
+
+.heatmap-high {
+    background-color: rgba(245, 158, 11, 0.25);
+    color: #fbbf24;
+    border: 1px solid rgba(245, 158, 11, 0.4);
+}
+
+.heatmap-critical {
+    background-color: rgba(239, 68, 68, 0.3);
+    color: #f87171;
+    border: 1px solid rgba(239, 68, 68, 0.5);
+}
+
+/* Milestone 3: Access Monitoring Workflow Diagram */
+.workflow-flowchart {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    overflow-x: auto;
+    padding: 12px 0;
+}
+
+.workflow-step {
+    background-color: #0f172a;
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+    padding: 16px;
+    text-align: center;
+    flex: 1;
+    min-width: 130px;
+    box-shadow: var(--shadow-card);
+    transition: var(--transition-fast);
+}
+
+.workflow-step:hover {
+    border-color: var(--accent-blue);
+    transform: translateY(-2px);
+}
+
+.step-badge {
+    font-size: 0.68rem;
+    text-transform: uppercase;
+    color: var(--accent-cyan);
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    margin-bottom: 4px;
+}
+
+.step-title {
+    font-size: 0.88rem;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 4px;
+}
+
+.step-desc {
+    font-size: 0.74rem;
+    color: var(--text-secondary);
+}
+
+.workflow-arrow {
+    font-size: 1.4rem;
+    color: var(--accent-blue);
+    font-weight: bold;
 }

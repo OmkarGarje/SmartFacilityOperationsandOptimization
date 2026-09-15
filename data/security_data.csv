@@ -1,0 +1,1151 @@
+timestamp,event_id,building_id,access_point,person_id,person_type,access_type,authentication_method,entry_exit,access_status,visitor_id,location,risk_level
+2026-03-01 08:45,EVT-00001,B1,Parking #B1-F2,EMP-843,Employee,Parking,Access Card,Exit,Authorized,N/A,Building B1 (Floor 2 - Parking),Low
+2026-03-01 09:15,EVT-00002,B1,Main Entrance #B1-F1,ADM-97,Administrator,Main Entrance,Biometric,Exit,Authorized,N/A,Building B1 (Floor 1 - Main Entrance),Low
+2026-03-01 10:00,EVT-00003,B1,Parking #B1-F1,EMP-799,Employee,Parking,Biometric,Exit,Authorized,N/A,Building B1 (Floor 1 - Parking),Low
+2026-03-01 10:20,EVT-00004,B2,Main Entrance #B2-F4,VIS-513,Visitor,Main Entrance,RFID,Exit,Authorized,VIS-513,Building B2 (Floor 4 - Main Entrance),Low
+2026-03-01 10:50,EVT-00005,B2,Laboratory #B2-F5,UNK-999,Unknown,Laboratory,RFID,Entry,Authorized,N/A,Building B2 (Floor 5 - Laboratory),Low
+2026-03-01 11:00,EVT-00006,B2,Main Entrance #B2-F5,VIS-514,Visitor,Main Entrance,RFID,Entry,Authorized,VIS-514,Building B2 (Floor 5 - Main Entrance),Low
+2026-03-01 11:20,EVT-00007,B3,Server Room #B3-F1,EMP-160,Employee,Server Room,Visitor Pass,Exit,Authorized,N/A,Building B3 (Floor 1 - Server Room),Low
+2026-03-01 11:30,EVT-00008,B1,Main Entrance #B1-F4,UNK-999,Unknown,Main Entrance,Access Card,Exit,Denied,N/A,Building B1 (Floor 4 - Main Entrance),Medium
+2026-03-01 11:50,EVT-00009,B2,Laboratory #B2-F4,CON-334,Contractor,Laboratory,RFID,Exit,Authorized,N/A,Building B2 (Floor 4 - Laboratory),Low
+2026-03-01 12:10,EVT-00010,B2,Emergency Exit #B2-F4,VIS-761,Visitor,Emergency Exit,Biometric,Exit,Authorized,VIS-761,Building B2 (Floor 4 - Emergency Exit),Low
+2026-03-01 12:20,EVT-00011,B3,Office #B3-F1,EMP-366,Employee,Office,Visitor Pass,Exit,Authorized,N/A,Building B3 (Floor 1 - Office),Low
+2026-03-01 12:50,EVT-00012,B3,Restricted Area #B3-F5,EMP-858,Employee,Restricted Area,Visitor Pass,Exit,Authorized,N/A,Building B3 (Floor 5 - Restricted Area),Low
+2026-03-01 13:35,EVT-00013,B3,Server Room #B3-F1,CON-380,Contractor,Server Room,RFID,Exit,Authorized,N/A,Building B3 (Floor 1 - Server Room),Low
+2026-03-01 14:20,EVT-00014,B3,Server Room #B3-F3,CON-468,Contractor,Server Room,Biometric,Exit,Authorized,N/A,Building B3 (Floor 3 - Server Room),Low
+2026-03-01 14:30,EVT-00015,B1,Main Entrance #B1-F2,CON-388,Contractor,Main Entrance,Biometric,Exit,Authorized,N/A,Building B1 (Floor 2 - Main Entrance),Low
+2026-03-01 14:50,EVT-00016,B1,Server Room #B1-F2,CON-356,Contractor,Server Room,RFID,Exit,Suspicious,N/A,Building B1 (Floor 2 - Server Room),High
+2026-03-01 15:00,EVT-00017,B1,Server Room #B1-F3,ADM-54,Administrator,Server Room,Access Card,Entry,Suspicious,N/A,Building B1 (Floor 3 - Server Room),High
+2026-03-01 15:30,EVT-00018,B1,Server Room #B1-F3,CON-485,Contractor,Server Room,Biometric,Entry,Authorized,N/A,Building B1 (Floor 3 - Server Room),Low
+2026-03-01 16:15,EVT-00019,B2,Office #B2-F3,EMP-691,Employee,Office,Access Card,Entry,Authorized,N/A,Building B2 (Floor 3 - Office),Low
+2026-03-01 16:35,EVT-00020,B2,Restricted Area #B2-F5,EMP-667,Employee,Restricted Area,PIN,Entry,Authorized,N/A,Building B2 (Floor 5 - Restricted Area),Low
+2026-03-01 16:45,EVT-00021,B2,Server Room #B2-F4,UNK-999,Unknown,Server Room,RFID,Entry,Authorized,N/A,Building B2 (Floor 4 - Server Room),Low
+2026-03-01 17:15,EVT-00022,B1,Restricted Area #B1-F5,ADM-57,Administrator,Restricted Area,Biometric,Exit,Authorized,N/A,Building B1 (Floor 5 - Restricted Area),Low
+2026-03-01 18:00,EVT-00023,B2,Restricted Area #B2-F3,CON-397,Contractor,Restricted Area,PIN,Exit,Authorized,N/A,Building B2 (Floor 3 - Restricted Area),Low
+2026-03-01 18:30,EVT-00024,B2,Restricted Area #B2-F3,ADM-42,Administrator,Restricted Area,Access Card,Entry,Denied,N/A,Building B2 (Floor 3 - Restricted Area),High
+2026-03-01 19:15,EVT-00025,B2,Office #B2-F1,EMP-279,Employee,Office,Access Card,Entry,Authorized,N/A,Building B2 (Floor 1 - Office),Low
+2026-03-01 19:25,EVT-00026,B3,Emergency Exit #B3-F3,EMP-305,Employee,Emergency Exit,PIN,Exit,Authorized,N/A,Building B3 (Floor 3 - Emergency Exit),Low
+2026-03-01 19:45,EVT-00027,B1,Restricted Area #B1-F4,VIS-885,Visitor,Restricted Area,Biometric,Exit,Authorized,VIS-885,Building B1 (Floor 4 - Restricted Area),Low
+2026-03-01 19:55,EVT-00028,B1,Server Room #B1-F5,CON-323,Contractor,Server Room,RFID,Entry,Authorized,N/A,Building B1 (Floor 5 - Server Room),Low
+2026-03-01 20:15,EVT-00029,B1,Parking #B1-F5,CON-352,Contractor,Parking,Access Card,Entry,Authorized,N/A,Building B1 (Floor 5 - Parking),Low
+2026-03-01 20:45,EVT-00030,B3,Restricted Area #B3-F1,UNK-999,Unknown,Restricted Area,Access Card,Entry,Authorized,N/A,Building B3 (Floor 1 - Restricted Area),Low
+2026-03-01 21:30,EVT-00031,B2,Office #B2-F4,EMP-338,Employee,Office,RFID,Exit,Authorized,N/A,Building B2 (Floor 4 - Office),Low
+2026-03-01 22:15,EVT-00032,B1,Laboratory #B1-F2,VIS-543,Visitor,Laboratory,PIN,Exit,Authorized,VIS-543,Building B1 (Floor 2 - Laboratory),Low
+2026-03-01 22:45,EVT-00033,B1,Emergency Exit #B1-F5,UNK-999,Unknown,Emergency Exit,PIN,Entry,Denied,N/A,Building B1 (Floor 5 - Emergency Exit),Medium
+2026-03-01 22:55,EVT-00034,B1,Office #B1-F4,ADM-88,Administrator,Office,Visitor Pass,Exit,Authorized,N/A,Building B1 (Floor 4 - Office),Low
+2026-03-01 23:15,EVT-00035,B3,Server Room #B3-F5,VIS-844,Visitor,Server Room,RFID,Entry,Authorized,VIS-844,Building B3 (Floor 5 - Server Room),Low
+2026-03-02 00:00,EVT-00036,B1,Server Room #B1-F5,CON-433,Contractor,Server Room,PIN,Exit,Suspicious,N/A,Building B1 (Floor 5 - Server Room),High
+2026-03-02 00:45,EVT-00037,B2,Restricted Area #B2-F5,UNK-999,Unknown,Restricted Area,PIN,Entry,Authorized,N/A,Building B2 (Floor 5 - Restricted Area),Low
+2026-03-02 00:55,EVT-00038,B3,Main Entrance #B3-F3,CON-482,Contractor,Main Entrance,Access Card,Exit,Authorized,N/A,Building B3 (Floor 3 - Main Entrance),Low
+2026-03-02 01:40,EVT-00039,B2,Parking #B2-F2,UNK-999,Unknown,Parking,Access Card,Entry,Authorized,N/A,Building B2 (Floor 2 - Parking),Low
+2026-03-02 02:10,EVT-00040,B3,Emergency Exit #B3-F4,ADM-31,Administrator,Emergency Exit,Access Card,Entry,Authorized,N/A,Building B3 (Floor 4 - Emergency Exit),Low
+2026-03-02 02:20,EVT-00041,B1,Emergency Exit #B1-F1,VIS-888,Visitor,Emergency Exit,RFID,Exit,Authorized,VIS-888,Building B1 (Floor 1 - Emergency Exit),Low
+2026-03-02 02:40,EVT-00042,B3,Office #B3-F1,VIS-710,Visitor,Office,PIN,Exit,Authorized,VIS-710,Building B3 (Floor 1 - Office),Low
+2026-03-02 03:00,EVT-00043,B2,Office #B2-F4,CON-402,Contractor,Office,Access Card,Exit,Authorized,N/A,Building B2 (Floor 4 - Office),Low
+2026-03-02 03:45,EVT-00044,B3,Main Entrance #B3-F5,VIS-589,Visitor,Main Entrance,PIN,Entry,Authorized,VIS-589,Building B3 (Floor 5 - Main Entrance),Low
+2026-03-02 04:05,EVT-00045,B1,Laboratory #B1-F4,EMP-615,Employee,Laboratory,RFID,Entry,Authorized,N/A,Building B1 (Floor 4 - Laboratory),Low
+2026-03-02 04:25,EVT-00046,B2,Restricted Area #B2-F5,UNK-999,Unknown,Restricted Area,Biometric,Exit,Authorized,N/A,Building B2 (Floor 5 - Restricted Area),Low
+2026-03-02 05:10,EVT-00047,B1,Office #B1-F5,VIS-522,Visitor,Office,Visitor Pass,Exit,Authorized,VIS-522,Building B1 (Floor 5 - Office),Low
+2026-03-02 05:55,EVT-00048,B1,Parking #B1-F4,EMP-847,Employee,Parking,Biometric,Entry,Suspicious,N/A,Building B1 (Floor 4 - Parking),High
+2026-03-02 06:25,EVT-00049,B1,Office #B1-F1,UNK-999,Unknown,Office,RFID,Entry,Authorized,N/A,Building B1 (Floor 1 - Office),Low
+2026-03-02 06:45,EVT-00050,B3,Server Room #B3-F4,EMP-330,Employee,Server Room,Biometric,Exit,Authorized,N/A,Building B3 (Floor 4 - Server Room),Low
+2026-03-02 07:15,EVT-00051,B1,Emergency Exit #B1-F4,CON-334,Contractor,Emergency Exit,PIN,Entry,Authorized,N/A,Building B1 (Floor 4 - Emergency Exit),Low
+2026-03-02 08:00,EVT-00052,B3,Emergency Exit #B3-F1,ADM-20,Administrator,Emergency Exit,Biometric,Exit,Authorized,N/A,Building B3 (Floor 1 - Emergency Exit),Low
+2026-03-02 08:30,EVT-00053,B1,Emergency Exit #B1-F5,VIS-826,Visitor,Emergency Exit,Visitor Pass,Exit,Authorized,VIS-826,Building B1 (Floor 5 - Emergency Exit),Low
+2026-03-02 08:50,EVT-00054,B1,Parking #B1-F5,CON-353,Contractor,Parking,RFID,Entry,Denied,N/A,Building B1 (Floor 5 - Parking),Medium
+2026-03-02 09:00,EVT-00055,B2,Restricted Area #B2-F2,EMP-802,Employee,Restricted Area,Access Card,Exit,Authorized,N/A,Building B2 (Floor 2 - Restricted Area),Low
+2026-03-02 09:20,EVT-00056,B3,Server Room #B3-F1,EMP-645,Employee,Server Room,Biometric,Exit,Authorized,N/A,Building B3 (Floor 1 - Server Room),Low
+2026-03-02 09:50,EVT-00057,B3,Main Entrance #B3-F5,UNK-999,Unknown,Main Entrance,Access Card,Exit,Authorized,N/A,Building B3 (Floor 5 - Main Entrance),Low
+2026-03-02 10:00,EVT-00058,B1,Main Entrance #B1-F5,CON-494,Contractor,Main Entrance,Biometric,Entry,Authorized,N/A,Building B1 (Floor 5 - Main Entrance),Low
+2026-03-02 10:30,EVT-00059,B1,Office #B1-F3,VIS-822,Visitor,Office,Visitor Pass,Entry,Authorized,VIS-822,Building B1 (Floor 3 - Office),Low
+2026-03-02 10:50,EVT-00060,B3,Server Room #B3-F3,EMP-132,Employee,Server Room,PIN,Exit,Authorized,N/A,Building B3 (Floor 3 - Server Room),Low
+2026-03-02 11:20,EVT-00061,B2,Main Entrance #B2-F5,VIS-724,Visitor,Main Entrance,Access Card,Entry,Authorized,VIS-724,Building B2 (Floor 5 - Main Entrance),Low
+2026-03-02 11:40,EVT-00062,B3,Emergency Exit #B3-F5,CON-480,Contractor,Emergency Exit,Biometric,Entry,Authorized,N/A,Building B3 (Floor 5 - Emergency Exit),Low
+2026-03-02 11:50,EVT-00063,B3,Laboratory #B3-F3,EMP-808,Employee,Laboratory,PIN,Exit,Authorized,N/A,Building B3 (Floor 3 - Laboratory),Low
+2026-03-02 12:00,EVT-00064,B2,Office #B2-F2,UNK-999,Unknown,Office,Biometric,Exit,Authorized,N/A,Building B2 (Floor 2 - Office),Low
+2026-03-02 12:30,EVT-00065,B2,Emergency Exit #B2-F5,UNK-999,Unknown,Emergency Exit,Biometric,Entry,Authorized,N/A,Building B2 (Floor 5 - Emergency Exit),Low
+2026-03-02 13:00,EVT-00066,B3,Main Entrance #B3-F5,CON-438,Contractor,Main Entrance,Visitor Pass,Entry,Authorized,N/A,Building B3 (Floor 5 - Main Entrance),Low
+2026-03-02 13:45,EVT-00067,B1,Parking #B1-F1,UNK-999,Unknown,Parking,PIN,Exit,Authorized,N/A,Building B1 (Floor 1 - Parking),Low
+2026-03-02 13:55,EVT-00068,B1,Laboratory #B1-F3,CON-308,Contractor,Laboratory,RFID,Entry,Denied,N/A,Building B1 (Floor 3 - Laboratory),Medium
+2026-03-02 14:05,EVT-00069,B1,Parking #B1-F1,VIS-646,Visitor,Parking,RFID,Entry,Authorized,VIS-646,Building B1 (Floor 1 - Parking),Low
+2026-03-02 14:15,EVT-00070,B1,Emergency Exit #B1-F4,UNK-999,Unknown,Emergency Exit,RFID,Exit,Authorized,N/A,Building B1 (Floor 4 - Emergency Exit),Low
+2026-03-02 14:45,EVT-00071,B1,Laboratory #B1-F4,ADM-65,Administrator,Laboratory,Access Card,Entry,Denied,N/A,Building B1 (Floor 4 - Laboratory),Medium
+2026-03-02 14:55,EVT-00072,B2,Parking #B2-F4,UNK-999,Unknown,Parking,PIN,Exit,Denied,N/A,Building B2 (Floor 4 - Parking),Medium
+2026-03-02 15:40,EVT-00073,B2,Server Room #B2-F4,ADM-67,Administrator,Server Room,PIN,Entry,Authorized,N/A,Building B2 (Floor 4 - Server Room),Low
+2026-03-02 15:50,EVT-00074,B1,Parking #B1-F3,ADM-26,Administrator,Parking,Access Card,Entry,Denied,N/A,Building B1 (Floor 3 - Parking),Medium
+2026-03-02 16:35,EVT-00075,B1,Server Room #B1-F5,UNK-999,Unknown,Server Room,Access Card,Exit,Suspicious,VIS-631,Building B1 (Floor 5 - Laboratory),Critical
+2026-03-02 17:20,EVT-00076,B3,Parking #B3-F1,UNK-999,Unknown,Parking,PIN,Entry,Authorized,N/A,Building B3 (Floor 1 - Parking),Low
+2026-03-02 17:30,EVT-00077,B3,Emergency Exit #B3-F2,EMP-287,Employee,Emergency Exit,Biometric,Exit,Authorized,N/A,Building B3 (Floor 2 - Emergency Exit),Low
+2026-03-02 18:15,EVT-00078,B2,Main Entrance #B2-F4,VIS-899,Visitor,Main Entrance,Visitor Pass,Exit,Authorized,VIS-899,Building B2 (Floor 4 - Main Entrance),Low
+2026-03-02 18:25,EVT-00079,B2,Parking #B2-F4,ADM-96,Administrator,Parking,RFID,Entry,Authorized,N/A,Building B2 (Floor 4 - Parking),Low
+2026-03-02 18:55,EVT-00080,B2,Office #B2-F2,CON-333,Contractor,Office,PIN,Entry,Authorized,N/A,Building B2 (Floor 2 - Office),Low
+2026-03-02 19:25,EVT-00081,B1,Emergency Exit #B1-F3,CON-411,Contractor,Emergency Exit,RFID,Exit,Authorized,N/A,Building B1 (Floor 3 - Emergency Exit),Low
+2026-03-02 20:10,EVT-00082,B2,Laboratory #B2-F1,UNK-999,Unknown,Laboratory,PIN,Entry,Authorized,N/A,Building B2 (Floor 1 - Laboratory),Low
+2026-03-02 20:55,EVT-00083,B2,Restricted Area #B2-F4,CON-344,Contractor,Restricted Area,Visitor Pass,Exit,Denied,N/A,Building B2 (Floor 4 - Restricted Area),High
+2026-03-02 21:15,EVT-00084,B3,Server Room #B3-F3,CON-333,Contractor,Server Room,Biometric,Exit,Authorized,N/A,Building B3 (Floor 3 - Server Room),Low
+2026-03-02 21:35,EVT-00085,B1,Office #B1-F5,VIS-647,Visitor,Office,Visitor Pass,Exit,Authorized,VIS-647,Building B1 (Floor 5 - Office),Low
+2026-03-02 21:45,EVT-00086,B1,Laboratory #B1-F4,VIS-890,Visitor,Laboratory,Visitor Pass,Exit,Authorized,VIS-890,Building B1 (Floor 4 - Laboratory),Low
+2026-03-02 22:30,EVT-00087,B3,Restricted Area #B3-F1,ADM-20,Administrator,Restricted Area,Access Card,Entry,Authorized,N/A,Building B3 (Floor 1 - Restricted Area),Low
+2026-03-02 22:40,EVT-00088,B1,Laboratory #B1-F5,CON-478,Contractor,Laboratory,PIN,Exit,Authorized,N/A,Building B1 (Floor 5 - Laboratory),Low
+2026-03-02 22:50,EVT-00089,B2,Server Room #B2-F3,EMP-696,Employee,Server Room,PIN,Exit,Authorized,N/A,Building B2 (Floor 3 - Server Room),Low
+2026-03-02 23:10,EVT-00090,B3,Main Entrance #B3-F5,UNK-999,Unknown,Main Entrance,PIN,Exit,Authorized,N/A,Building B3 (Floor 5 - Main Entrance),Low
+2026-03-02 23:40,EVT-00091,B3,Emergency Exit #B3-F4,EMP-342,Employee,Emergency Exit,PIN,Entry,Authorized,N/A,Building B3 (Floor 4 - Emergency Exit),Low
+2026-03-02 23:50,EVT-00092,B2,Restricted Area #B2-F1,ADM-95,Administrator,Restricted Area,Access Card,Entry,Authorized,N/A,Building B2 (Floor 1 - Restricted Area),Low
+2026-03-03 00:10,EVT-00093,B1,Restricted Area #B1-F1,UNK-999,Unknown,Restricted Area,RFID,Exit,Authorized,N/A,Building B1 (Floor 1 - Restricted Area),Low
+2026-03-03 00:20,EVT-00094,B2,Laboratory #B2-F4,UNK-999,Unknown,Laboratory,PIN,Exit,Authorized,N/A,Building B2 (Floor 4 - Laboratory),Low
+2026-03-03 00:30,EVT-00095,B1,Main Entrance #B1-F2,VIS-872,Visitor,Main Entrance,Biometric,Exit,Authorized,VIS-872,Building B1 (Floor 2 - Main Entrance),Low
+2026-03-03 01:15,EVT-00096,B2,Restricted Area #B2-F1,VIS-761,Visitor,Restricted Area,RFID,Entry,Authorized,VIS-761,Building B2 (Floor 1 - Restricted Area),Low
+2026-03-03 01:45,EVT-00097,B2,Office #B2-F3,ADM-14,Administrator,Office,Biometric,Entry,Authorized,N/A,Building B2 (Floor 3 - Office),Low
+2026-03-03 02:30,EVT-00098,B1,Main Entrance #B1-F4,UNK-999,Unknown,Main Entrance,Access Card,Exit,Authorized,N/A,Building B1 (Floor 4 - Main Entrance),Low
+2026-03-03 02:40,EVT-00099,B1,Parking #B1-F2,ADM-71,Administrator,Parking,RFID,Exit,Authorized,N/A,Building B1 (Floor 2 - Parking),Low
+2026-03-03 03:10,EVT-00100,B3,Laboratory #B3-F3,CON-327,Contractor,Laboratory,Visitor Pass,Exit,Authorized,N/A,Building B3 (Floor 3 - Laboratory),Low
+2026-03-03 03:40,EVT-00101,B1,Parking #B1-F4,VIS-674,Visitor,Parking,Biometric,Exit,Authorized,VIS-674,Building B1 (Floor 4 - Parking),Low
+2026-03-03 04:00,EVT-00102,B2,Main Entrance #B2-F5,CON-357,Contractor,Main Entrance,Biometric,Exit,Authorized,N/A,Building B2 (Floor 5 - Main Entrance),Low
+2026-03-03 04:30,EVT-00103,B3,Laboratory #B3-F1,EMP-700,Employee,Laboratory,Access Card,Exit,Authorized,N/A,Building B3 (Floor 1 - Laboratory),Low
+2026-03-03 04:40,EVT-00104,B2,Office #B2-F1,CON-391,Contractor,Office,Access Card,Entry,Denied,N/A,Building B2 (Floor 1 - Office),Medium
+2026-03-03 05:25,EVT-00105,B3,Parking #B3-F4,ADM-14,Administrator,Parking,Biometric,Exit,Authorized,N/A,Building B3 (Floor 4 - Parking),Low
+2026-03-03 05:55,EVT-00106,B3,Server Room #B3-F4,ADM-78,Administrator,Server Room,PIN,Entry,Authorized,N/A,Building B3 (Floor 4 - Server Room),Low
+2026-03-03 06:05,EVT-00107,B2,Parking #B2-F5,EMP-132,Employee,Parking,Biometric,Entry,Authorized,N/A,Building B2 (Floor 5 - Parking),Low
+2026-03-03 06:15,EVT-00108,B2,Laboratory #B2-F4,ADM-19,Administrator,Laboratory,Visitor Pass,Exit,Authorized,N/A,Building B2 (Floor 4 - Laboratory),Low
+2026-03-03 07:00,EVT-00109,B3,Emergency Exit #B3-F5,VIS-545,Visitor,Emergency Exit,PIN,Entry,Authorized,VIS-545,Building B3 (Floor 5 - Emergency Exit),Low
+2026-03-03 07:20,EVT-00110,B1,Parking #B1-F5,UNK-999,Unknown,Parking,Biometric,Exit,Authorized,N/A,Building B1 (Floor 5 - Parking),Low
+2026-03-03 07:30,EVT-00111,B2,Restricted Area #B2-F3,VIS-606,Visitor,Restricted Area,PIN,Exit,Authorized,VIS-606,Building B2 (Floor 3 - Restricted Area),Low
+2026-03-03 07:40,EVT-00112,B1,Office #B1-F5,UNK-999,Unknown,Office,Access Card,Exit,Authorized,N/A,Building B1 (Floor 5 - Office),Low
+2026-03-03 07:50,EVT-00113,B3,Parking #B3-F5,UNK-999,Unknown,Parking,Visitor Pass,Entry,Authorized,N/A,Building B3 (Floor 5 - Parking),Low
+2026-03-03 08:35,EVT-00114,B1,Emergency Exit #B1-F4,CON-327,Contractor,Emergency Exit,Biometric,Entry,Authorized,N/A,Building B1 (Floor 4 - Emergency Exit),Low
+2026-03-03 09:05,EVT-00115,B3,Server Room #B3-F1,VIS-779,Visitor,Server Room,PIN,Entry,Authorized,VIS-779,Building B3 (Floor 1 - Server Room),Low
+2026-03-03 09:35,EVT-00116,B2,Office #B2-F1,EMP-187,Employee,Office,Visitor Pass,Exit,Authorized,N/A,Building B2 (Floor 1 - Office),Low
+2026-03-03 10:20,EVT-00117,B1,Server Room #B1-F1,CON-465,Contractor,Server Room,Biometric,Exit,Authorized,N/A,Building B1 (Floor 1 - Server Room),Low
+2026-03-03 10:40,EVT-00118,B2,Main Entrance #B2-F2,VIS-860,Visitor,Main Entrance,Access Card,Exit,Authorized,VIS-860,Building B2 (Floor 2 - Main Entrance),Low
+2026-03-03 11:25,EVT-00119,B2,Office #B2-F4,VIS-774,Visitor,Office,RFID,Exit,Authorized,VIS-774,Building B2 (Floor 4 - Office),Low
+2026-03-03 11:45,EVT-00120,B3,Server Room #B3-F5,UNK-999,Unknown,Server Room,Access Card,Entry,Authorized,N/A,Building B3 (Floor 5 - Server Room),Low
+2026-03-03 11:55,EVT-00121,B3,Office #B3-F5,UNK-999,Unknown,Office,PIN,Exit,Authorized,N/A,Building B3 (Floor 5 - Office),Low
+2026-03-03 12:40,EVT-00122,B1,Server Room #B1-F2,CON-372,Contractor,Server Room,Biometric,Exit,Authorized,N/A,Building B1 (Floor 2 - Server Room),Low
+2026-03-03 13:10,EVT-00123,B3,Restricted Area #B3-F4,ADM-85,Administrator,Restricted Area,RFID,Entry,Authorized,N/A,Building B3 (Floor 4 - Restricted Area),Low
+2026-03-03 13:20,EVT-00124,B3,Laboratory #B3-F1,UNK-999,Unknown,Laboratory,RFID,Entry,Authorized,N/A,Building B3 (Floor 1 - Laboratory),Low
+2026-03-03 13:40,EVT-00125,B2,Office #B2-F4,UNK-999,Unknown,Office,Access Card,Entry,Authorized,N/A,Building B2 (Floor 4 - Office),Low
+2026-03-03 14:10,EVT-00126,B2,Main Entrance #B2-F5,CON-374,Contractor,Main Entrance,Visitor Pass,Entry,Suspicious,N/A,Building B2 (Floor 5 - Main Entrance),High
+2026-03-03 14:40,EVT-00127,B2,Laboratory #B2-F2,EMP-840,Employee,Laboratory,Biometric,Exit,Authorized,N/A,Building B2 (Floor 2 - Laboratory),Low
+2026-03-03 15:25,EVT-00128,B2,Office #B2-F1,ADM-80,Administrator,Office,Biometric,Exit,Authorized,N/A,Building B2 (Floor 1 - Office),Low
+2026-03-03 15:35,EVT-00129,B2,Server Room #B2-F2,ADM-22,Administrator,Server Room,RFID,Entry,Authorized,N/A,Building B2 (Floor 2 - Server Room),Low
+2026-03-03 16:20,EVT-00130,B3,Restricted Area #B3-F4,VIS-638,Visitor,Restricted Area,Visitor Pass,Entry,Authorized,VIS-638,Building B3 (Floor 4 - Restricted Area),Low
+2026-03-03 16:30,EVT-00131,B2,Laboratory #B2-F4,CON-467,Contractor,Laboratory,Visitor Pass,Exit,Authorized,N/A,Building B2 (Floor 4 - Laboratory),Low
+2026-03-03 16:40,EVT-00132,B2,Server Room #B2-F4,CON-397,Contractor,Server Room,Biometric,Entry,Authorized,N/A,Building B2 (Floor 4 - Server Room),Low
+2026-03-03 16:50,EVT-00133,B3,Parking #B3-F4,EMP-367,Employee,Parking,Access Card,Exit,Authorized,N/A,Building B3 (Floor 4 - Parking),Low
+2026-03-03 17:35,EVT-00134,B2,Main Entrance #B2-F2,UNK-999,Unknown,Main Entrance,Biometric,Exit,Authorized,N/A,Building B2 (Floor 2 - Main Entrance),Low
+2026-03-03 18:05,EVT-00135,B1,Server Room #B1-F4,CON-434,Contractor,Server Room,Access Card,Exit,Authorized,N/A,Building B1 (Floor 4 - Server Room),Low
+2026-03-03 18:25,EVT-00136,B2,Office #B2-F1,VIS-772,Visitor,Office,PIN,Exit,Authorized,VIS-772,Building B2 (Floor 1 - Office),Low
+2026-03-03 18:35,EVT-00137,B2,Emergency Exit #B2-F2,ADM-75,Administrator,Emergency Exit,PIN,Exit,Authorized,N/A,Building B2 (Floor 2 - Emergency Exit),Low
+2026-03-03 18:45,EVT-00138,B2,Parking #B2-F1,EMP-567,Employee,Parking,Biometric,Entry,Denied,N/A,Building B2 (Floor 1 - Parking),Medium
+2026-03-03 18:55,EVT-00139,B1,Main Entrance #B1-F1,EMP-511,Employee,Main Entrance,Biometric,Entry,Authorized,N/A,Building B1 (Floor 1 - Main Entrance),Low
+2026-03-03 19:40,EVT-00140,B1,Laboratory #B1-F1,ADM-37,Administrator,Laboratory,Biometric,Entry,Authorized,N/A,Building B1 (Floor 1 - Laboratory),Low
+2026-03-03 19:50,EVT-00141,B3,Main Entrance #B3-F3,CON-316,Contractor,Main Entrance,Visitor Pass,Entry,Authorized,N/A,Building B3 (Floor 3 - Main Entrance),Low
+2026-03-03 20:35,EVT-00142,B1,Office #B1-F5,VIS-770,Visitor,Office,PIN,Exit,Authorized,VIS-770,Building B1 (Floor 5 - Office),Low
+2026-03-03 21:05,EVT-00143,B1,Office #B1-F4,ADM-76,Administrator,Office,Access Card,Exit,Authorized,N/A,Building B1 (Floor 4 - Office),Low
+2026-03-03 21:25,EVT-00144,B1,Main Entrance #B1-F4,VIS-508,Visitor,Main Entrance,Visitor Pass,Exit,Denied,VIS-508,Building B1 (Floor 4 - Main Entrance),Medium
+2026-03-03 21:45,EVT-00145,B2,Parking #B2-F5,UNK-999,Unknown,Parking,Biometric,Entry,Authorized,N/A,Building B2 (Floor 5 - Parking),Low
+2026-03-03 22:05,EVT-00146,B2,Parking #B2-F5,ADM-51,Administrator,Parking,Visitor Pass,Entry,Authorized,N/A,Building B2 (Floor 5 - Parking),Low
+2026-03-03 22:15,EVT-00147,B1,Parking #B1-F2,CON-448,Contractor,Parking,Visitor Pass,Exit,Suspicious,N/A,Building B1 (Floor 2 - Parking),High
+2026-03-03 22:25,EVT-00148,B3,Restricted Area #B3-F1,EMP-642,Employee,Restricted Area,PIN,Entry,Authorized,N/A,Building B3 (Floor 1 - Restricted Area),Low
+2026-03-03 22:45,EVT-00149,B2,Office #B2-F1,UNK-999,Unknown,Office,RFID,Entry,Authorized,N/A,Building B2 (Floor 1 - Office),Low
+2026-03-03 22:55,EVT-00150,B3,Server Room #B3-F4,CON-428,Contractor,Server Room,PIN,Entry,Authorized,N/A,Building B3 (Floor 4 - Server Room),Low
+2026-03-03 23:40,EVT-00151,B3,Main Entrance #B3-F4,UNK-999,Unknown,Main Entrance,Visitor Pass,Entry,Suspicious,N/A,Building B3 (Floor 4 - Main Entrance),High
+2026-03-04 00:25,EVT-00152,B2,Office #B2-F3,UNK-999,Unknown,Office,Biometric,Entry,Authorized,N/A,Building B2 (Floor 3 - Office),Low
+2026-03-04 01:10,EVT-00153,B3,Office #B3-F1,UNK-999,Unknown,Office,PIN,Entry,Authorized,N/A,Building B3 (Floor 1 - Office),Low
+2026-03-04 01:40,EVT-00154,B3,Laboratory #B3-F4,VIS-870,Visitor,Laboratory,Visitor Pass,Entry,Authorized,VIS-870,Building B3 (Floor 4 - Laboratory),Low
+2026-03-04 02:00,EVT-00155,B3,Server Room #B3-F4,EMP-586,Employee,Server Room,Visitor Pass,Entry,Authorized,N/A,Building B3 (Floor 4 - Server Room),Low
+2026-03-04 02:20,EVT-00156,B2,Server Room #B2-F2,ADM-30,Administrator,Server Room,RFID,Exit,Authorized,N/A,Building B2 (Floor 2 - Server Room),Low
+2026-03-04 02:50,EVT-00157,B1,Restricted Area #B1-F4,VIS-697,Visitor,Restricted Area,Access Card,Exit,Authorized,VIS-697,Building B1 (Floor 4 - Restricted Area),Low
+2026-03-04 03:20,EVT-00158,B2,Laboratory #B2-F2,UNK-999,Unknown,Laboratory,Access Card,Exit,Authorized,N/A,Building B2 (Floor 2 - Laboratory),Low
+2026-03-04 03:30,EVT-00159,B2,Office #B2-F5,VIS-572,Visitor,Office,Visitor Pass,Exit,Authorized,VIS-572,Building B2 (Floor 5 - Office),Low
+2026-03-04 04:00,EVT-00160,B2,Emergency Exit #B2-F4,UNK-999,Unknown,Emergency Exit,PIN,Entry,Authorized,N/A,Building B2 (Floor 4 - Emergency Exit),Low
+2026-03-04 04:20,EVT-00161,B3,Office #B3-F4,UNK-999,Unknown,Office,RFID,Exit,Authorized,N/A,Building B3 (Floor 4 - Office),Low
+2026-03-04 04:50,EVT-00162,B2,Parking #B2-F5,EMP-633,Employee,Parking,Biometric,Entry,Authorized,N/A,Building B2 (Floor 5 - Parking),Low
+2026-03-04 05:10,EVT-00163,B1,Server Room #B1-F4,EMP-728,Employee,Server Room,Access Card,Entry,Authorized,N/A,Building B1 (Floor 4 - Server Room),Low
+2026-03-04 05:55,EVT-00164,B1,Main Entrance #B1-F3,ADM-41,Administrator,Main Entrance,Visitor Pass,Exit,Authorized,N/A,Building B1 (Floor 3 - Main Entrance),Low
+2026-03-04 06:05,EVT-00165,B1,Parking #B1-F1,ADM-55,Administrator,Parking,Access Card,Exit,Authorized,N/A,Building B1 (Floor 1 - Parking),Low
+2026-03-04 06:50,EVT-00166,B1,Emergency Exit #B1-F2,EMP-146,Employee,Emergency Exit,Access Card,Exit,Authorized,N/A,Building B1 (Floor 2 - Emergency Exit),Low
+2026-03-04 07:20,EVT-00167,B3,Laboratory #B3-F5,VIS-537,Visitor,Laboratory,Visitor Pass,Exit,Authorized,VIS-537,Building B3 (Floor 5 - Laboratory),Low
+2026-03-04 08:05,EVT-00168,B1,Restricted Area #B1-F2,VIS-642,Visitor,Restricted Area,RFID,Entry,Authorized,VIS-642,Building B1 (Floor 2 - Restricted Area),Low
+2026-03-04 08:50,EVT-00169,B3,Parking #B3-F5,UNK-999,Unknown,Parking,Biometric,Entry,Authorized,N/A,Building B3 (Floor 5 - Parking),Low
+2026-03-04 09:00,EVT-00170,B3,Emergency Exit #B3-F4,UNK-999,Unknown,Emergency Exit,Access Card,Exit,Authorized,N/A,Building B3 (Floor 4 - Emergency Exit),Low
+2026-03-04 09:10,EVT-00171,B1,Office #B1-F5,UNK-999,Unknown,Office,Access Card,Entry,Authorized,N/A,Building B1 (Floor 5 - Office),Low
+2026-03-04 09:40,EVT-00172,B2,Main Entrance #B2-F4,VIS-676,Visitor,Main Entrance,RFID,Exit,Authorized,VIS-676,Building B2 (Floor 4 - Main Entrance),Low
+2026-03-04 10:00,EVT-00173,B2,Main Entrance #B2-F2,EMP-537,Employee,Main Entrance,RFID,Entry,Denied,N/A,Building B2 (Floor 2 - Main Entrance),Medium
+2026-03-04 10:10,EVT-00174,B2,Main Entrance #B2-F3,EMP-365,Employee,Main Entrance,Biometric,Entry,Authorized,N/A,Building B2 (Floor 3 - Main Entrance),Low
+2026-03-04 10:30,EVT-00175,B2,Main Entrance #B2-F3,CON-363,Contractor,Main Entrance,Access Card,Exit,Authorized,N/A,Building B2 (Floor 3 - Main Entrance),Low
+2026-03-04 10:40,EVT-00176,B3,Laboratory #B3-F4,ADM-45,Administrator,Laboratory,Biometric,Entry,Authorized,N/A,Building B3 (Floor 4 - Laboratory),Low
+2026-03-04 10:50,EVT-00177,B3,Main Entrance #B3-F4,VIS-614,Visitor,Main Entrance,PIN,Exit,Authorized,VIS-614,Building B3 (Floor 4 - Main Entrance),Low
+2026-03-04 11:20,EVT-00178,B3,Main Entrance #B3-F4,UNK-999,Unknown,Main Entrance,Biometric,Entry,Authorized,N/A,Building B3 (Floor 4 - Main Entrance),Low
+2026-03-04 11:40,EVT-00179,B2,Office #B2-F5,ADM-31,Administrator,Office,Access Card,Exit,Authorized,N/A,Building B2 (Floor 5 - Office),Low
+2026-03-04 12:10,EVT-00180,B3,Server Room #B3-F1,ADM-65,Administrator,Server Room,PIN,Entry,Authorized,N/A,Building B3 (Floor 1 - Server Room),Low
+2026-03-04 12:55,EVT-00181,B2,Emergency Exit #B2-F4,ADM-50,Administrator,Emergency Exit,RFID,Exit,Authorized,N/A,Building B2 (Floor 4 - Emergency Exit),Low
+2026-03-04 13:05,EVT-00182,B2,Emergency Exit #B2-F2,CON-414,Contractor,Emergency Exit,PIN,Exit,Authorized,N/A,Building B2 (Floor 2 - Emergency Exit),Low
+2026-03-04 13:35,EVT-00183,B2,Server Room #B2-F1,UNK-999,Unknown,Server Room,RFID,Exit,Authorized,N/A,Building B2 (Floor 1 - Server Room),Low
+2026-03-04 13:45,EVT-00184,B1,Emergency Exit #B1-F5,ADM-28,Administrator,Emergency Exit,RFID,Exit,Authorized,N/A,Building B1 (Floor 5 - Emergency Exit),Low
+2026-03-04 13:55,EVT-00185,B1,Emergency Exit #B1-F2,UNK-999,Unknown,Emergency Exit,Visitor Pass,Exit,Authorized,N/A,Building B1 (Floor 2 - Emergency Exit),Low
+2026-03-04 14:15,EVT-00186,B2,Server Room #B2-F4,VIS-768,Visitor,Server Room,Visitor Pass,Exit,Authorized,VIS-768,Building B2 (Floor 4 - Server Room),Low
+2026-03-04 14:45,EVT-00187,B2,Restricted Area #B2-F2,VIS-771,Visitor,Restricted Area,PIN,Exit,Authorized,VIS-771,Building B2 (Floor 2 - Restricted Area),Low
+2026-03-04 15:05,EVT-00188,B1,Restricted Area #B1-F5,VIS-750,Visitor,Restricted Area,Biometric,Entry,Authorized,VIS-750,Building B1 (Floor 5 - Restricted Area),Low
+2026-03-04 15:15,EVT-00189,B1,Emergency Exit #B1-F5,VIS-833,Visitor,Emergency Exit,RFID,Exit,Suspicious,VIS-833,Building B1 (Floor 5 - Emergency Exit),High
+2026-03-04 15:35,EVT-00190,B1,Emergency Exit #B1-F3,EMP-983,Employee,Emergency Exit,Visitor Pass,Exit,Authorized,N/A,Building B1 (Floor 3 - Emergency Exit),Low
+2026-03-04 15:55,EVT-00191,B1,Office #B1-F5,VIS-533,Visitor,Office,Biometric,Entry,Authorized,VIS-533,Building B1 (Floor 5 - Office),Low
+2026-03-04 16:40,EVT-00192,B1,Parking #B1-F5,EMP-731,Employee,Parking,RFID,Entry,Authorized,N/A,Building B1 (Floor 5 - Parking),Low
+2026-03-04 17:25,EVT-00193,B1,Laboratory #B1-F1,CON-340,Contractor,Laboratory,RFID,Exit,Authorized,N/A,Building B1 (Floor 1 - Laboratory),Low
+2026-03-04 17:55,EVT-00194,B1,Server Room #B1-F5,UNK-999,Unknown,Server Room,Biometric,Entry,Authorized,N/A,Building B1 (Floor 5 - Server Room),Low
+2026-03-04 18:40,EVT-00195,B1,Main Entrance #B1-F1,VIS-717,Visitor,Main Entrance,Biometric,Exit,Authorized,VIS-717,Building B1 (Floor 1 - Main Entrance),Low
+2026-03-04 18:50,EVT-00196,B1,Laboratory #B1-F5,UNK-999,Unknown,Laboratory,RFID,Entry,Authorized,N/A,Building B1 (Floor 5 - Laboratory),Low
+2026-03-04 19:00,EVT-00197,B3,Emergency Exit #B3-F2,EMP-482,Employee,Emergency Exit,PIN,Entry,Authorized,N/A,Building B3 (Floor 2 - Emergency Exit),Low
+2026-03-04 19:45,EVT-00198,B2,Restricted Area #B2-F5,UNK-999,Unknown,Restricted Area,PIN,Exit,Authorized,N/A,Building B2 (Floor 5 - Restricted Area),Low
+2026-03-04 20:15,EVT-00199,B1,Office #B1-F2,CON-415,Contractor,Office,Biometric,Exit,Authorized,N/A,Building B1 (Floor 2 - Office),Low
+2026-03-04 21:00,EVT-00200,B1,Emergency Exit #B1-F3,VIS-824,Visitor,Emergency Exit,Visitor Pass,Exit,Denied,VIS-824,Building B1 (Floor 3 - Emergency Exit),Medium
+2026-03-04 21:20,EVT-00201,B1,Laboratory #B1-F1,VIS-640,Visitor,Laboratory,Visitor Pass,Exit,Authorized,VIS-640,Building B1 (Floor 1 - Laboratory),Low
+2026-03-04 22:05,EVT-00202,B3,Laboratory #B3-F1,ADM-25,Administrator,Laboratory,RFID,Exit,Suspicious,N/A,Building B3 (Floor 1 - Laboratory),High
+2026-03-04 22:35,EVT-00203,B1,Office #B1-F1,CON-336,Contractor,Office,RFID,Exit,Authorized,N/A,Building B1 (Floor 1 - Office),Low
+2026-03-04 22:45,EVT-00204,B1,Office #B1-F2,ADM-80,Administrator,Office,RFID,Exit,Authorized,N/A,Building B1 (Floor 2 - Office),Low
+2026-03-04 22:55,EVT-00205,B1,Office #B1-F5,VIS-754,Visitor,Office,RFID,Entry,Authorized,VIS-754,Building B1 (Floor 5 - Office),Low
+2026-03-04 23:40,EVT-00206,B3,Server Room #B3-F3,EMP-810,Employee,Server Room,Access Card,Entry,Authorized,N/A,Building B3 (Floor 3 - Server Room),Low
+2026-03-05 00:00,EVT-00207,B3,Laboratory #B3-F3,VIS-734,Visitor,Laboratory,PIN,Entry,Denied,VIS-734,Building B3 (Floor 3 - Laboratory),Medium
+2026-03-05 00:45,EVT-00208,B3,Laboratory #B3-F2,UNK-999,Unknown,Laboratory,PIN,Entry,Suspicious,N/A,Building B3 (Floor 2 - Laboratory),High
+2026-03-05 01:05,EVT-00209,B1,Parking #B1-F1,EMP-513,Employee,Parking,Access Card,Exit,Authorized,N/A,Building B1 (Floor 1 - Parking),Low
+2026-03-05 01:50,EVT-00210,B1,Parking #B1-F2,VIS-763,Visitor,Parking,Visitor Pass,Exit,Authorized,VIS-763,Building B1 (Floor 2 - Parking),Low
+2026-03-05 02:10,EVT-00211,B1,Laboratory #B1-F4,CON-346,Contractor,Laboratory,Biometric,Entry,Authorized,N/A,Building B1 (Floor 4 - Laboratory),Low
+2026-03-05 02:20,EVT-00212,B3,Restricted Area #B3-F1,UNK-999,Unknown,Restricted Area,RFID,Entry,Authorized,N/A,Building B3 (Floor 1 - Restricted Area),Low
+2026-03-05 02:40,EVT-00213,B1,Main Entrance #B1-F4,EMP-643,Employee,Main Entrance,Biometric,Exit,Authorized,N/A,Building B1 (Floor 4 - Main Entrance),Low
+2026-03-05 03:00,EVT-00214,B1,Restricted Area #B1-F5,CON-342,Contractor,Restricted Area,Visitor Pass,Entry,Authorized,N/A,Building B1 (Floor 5 - Restricted Area),Low
+2026-03-05 03:30,EVT-00215,B3,Laboratory #B3-F5,CON-482,Contractor,Laboratory,Visitor Pass,Exit,Authorized,N/A,Building B3 (Floor 5 - Laboratory),Low
+2026-03-05 03:40,EVT-00216,B2,Office #B2-F2,ADM-32,Administrator,Office,Access Card,Exit,Authorized,N/A,Building B2 (Floor 2 - Office),Low
+2026-03-05 04:00,EVT-00217,B1,Laboratory #B1-F4,EMP-780,Employee,Laboratory,RFID,Entry,Denied,N/A,Building B1 (Floor 4 - Laboratory),Medium
+2026-03-05 04:45,EVT-00218,B2,Server Room #B2-F5,ADM-80,Administrator,Server Room,PIN,Entry,Authorized,N/A,Building B2 (Floor 5 - Server Room),Low
+2026-03-05 05:15,EVT-00219,B2,Emergency Exit #B2-F4,EMP-372,Employee,Emergency Exit,Biometric,Entry,Suspicious,N/A,Building B2 (Floor 4 - Emergency Exit),High
+2026-03-05 05:45,EVT-00220,B1,Office #B1-F2,CON-463,Contractor,Office,Biometric,Exit,Authorized,N/A,Building B1 (Floor 2 - Office),Low
+2026-03-05 06:15,EVT-00221,B1,Main Entrance #B1-F4,VIS-505,Visitor,Main Entrance,Visitor Pass,Entry,Suspicious,VIS-505,Building B1 (Floor 4 - Main Entrance),High
+2026-03-05 06:35,EVT-00222,B3,Laboratory #B3-F2,EMP-343,Employee,Laboratory,PIN,Exit,Authorized,N/A,Building B3 (Floor 2 - Laboratory),Low
+2026-03-05 06:45,EVT-00223,B2,Emergency Exit #B2-F5,EMP-235,Employee,Emergency Exit,Visitor Pass,Entry,Authorized,N/A,Building B2 (Floor 5 - Emergency Exit),Low
+2026-03-05 06:55,EVT-00224,B1,Emergency Exit #B1-F4,EMP-329,Employee,Emergency Exit,Access Card,Entry,Denied,N/A,Building B1 (Floor 4 - Emergency Exit),Medium
+2026-03-05 07:40,EVT-00225,B3,Parking #B3-F4,ADM-43,Administrator,Parking,PIN,Entry,Denied,N/A,Building B3 (Floor 4 - Parking),Medium
+2026-03-05 07:50,EVT-00226,B3,Parking #B3-F5,UNK-999,Unknown,Parking,Visitor Pass,Entry,Authorized,N/A,Building B3 (Floor 5 - Parking),Low
+2026-03-05 08:20,EVT-00227,B2,Server Room #B2-F4,EMP-762,Employee,Server Room,Visitor Pass,Entry,Authorized,N/A,Building B2 (Floor 4 - Server Room),Low
+2026-03-05 08:40,EVT-00228,B3,Restricted Area #B3-F3,UNK-999,Unknown,Restricted Area,RFID,Exit,Authorized,N/A,Building B3 (Floor 3 - Restricted Area),Low
+2026-03-05 09:25,EVT-00229,B1,Office #B1-F2,VIS-540,Visitor,Office,Biometric,Exit,Authorized,VIS-540,Building B1 (Floor 2 - Office),Low
+2026-03-05 09:45,EVT-00230,B2,Parking #B2-F5,CON-466,Contractor,Parking,Biometric,Exit,Authorized,N/A,Building B2 (Floor 5 - Parking),Low
+2026-03-05 09:55,EVT-00231,B3,Server Room #B3-F1,ADM-49,Administrator,Server Room,RFID,Entry,Authorized,N/A,Building B3 (Floor 1 - Server Room),Low
+2026-03-05 10:15,EVT-00232,B1,Office #B1-F2,CON-322,Contractor,Office,RFID,Exit,Suspicious,N/A,Building B1 (Floor 2 - Office),High
+2026-03-05 10:35,EVT-00233,B1,Main Entrance #B1-F5,VIS-746,Visitor,Main Entrance,RFID,Entry,Authorized,VIS-746,Building B1 (Floor 5 - Main Entrance),Low
+2026-03-05 11:20,EVT-00234,B2,Emergency Exit #B2-F4,UNK-999,Unknown,Emergency Exit,Visitor Pass,Exit,Authorized,N/A,Building B2 (Floor 4 - Emergency Exit),Low
+2026-03-05 12:05,EVT-00235,B2,Server Room #B2-F5,CON-387,Contractor,Server Room,Visitor Pass,Entry,Authorized,N/A,Building B2 (Floor 5 - Server Room),Low
+2026-03-05 12:25,EVT-00236,B3,Laboratory #B3-F1,ADM-47,Administrator,Laboratory,Access Card,Entry,Authorized,N/A,Building B3 (Floor 1 - Laboratory),Low
+2026-03-05 13:10,EVT-00237,B2,Laboratory #B2-F5,CON-467,Contractor,Laboratory,Visitor Pass,Exit,Authorized,N/A,Building B2 (Floor 5 - Laboratory),Low
+2026-03-05 13:55,EVT-00238,B2,Server Room #B2-F2,ADM-31,Administrator,Server Room,Access Card,Exit,Authorized,N/A,Building B2 (Floor 2 - Server Room),Low
+2026-03-05 14:25,EVT-00239,B1,Parking #B1-F5,CON-395,Contractor,Parking,Access Card,Exit,Authorized,N/A,Building B1 (Floor 5 - Parking),Low
+2026-03-05 14:35,EVT-00240,B1,Server Room #B1-F4,CON-445,Contractor,Server Room,Visitor Pass,Entry,Authorized,N/A,Building B1 (Floor 4 - Server Room),Low
+2026-03-05 15:20,EVT-00241,B3,Server Room #B3-F4,ADM-82,Administrator,Server Room,Biometric,Entry,Authorized,N/A,Building B3 (Floor 4 - Server Room),Low
+2026-03-05 15:40,EVT-00242,B2,Laboratory #B2-F1,EMP-928,Employee,Laboratory,RFID,Exit,Authorized,N/A,Building B2 (Floor 1 - Laboratory),Low
+2026-03-05 16:25,EVT-00243,B1,Restricted Area #B1-F2,UNK-999,Unknown,Restricted Area,RFID,Entry,Denied,N/A,Building B1 (Floor 2 - Restricted Area),High
+2026-03-05 16:55,EVT-00244,B1,Laboratory #B1-F5,UNK-999,Unknown,Laboratory,Visitor Pass,Entry,Suspicious,N/A,Building B1 (Floor 5 - Laboratory),High
+2026-03-05 17:40,EVT-00245,B3,Parking #B3-F3,EMP-397,Employee,Parking,RFID,Entry,Denied,N/A,Building B3 (Floor 3 - Parking),Medium
+2026-03-05 17:50,EVT-00246,B3,Laboratory #B3-F4,ADM-78,Administrator,Laboratory,PIN,Entry,Authorized,N/A,Building B3 (Floor 4 - Laboratory),Low
+2026-03-05 18:10,EVT-00247,B1,Main Entrance #B1-F4,ADM-93,Administrator,Main Entrance,PIN,Exit,Denied,N/A,Building B1 (Floor 4 - Main Entrance),Medium
+2026-03-05 18:55,EVT-00248,B1,Server Room #B1-F3,UNK-999,Unknown,Server Room,Access Card,Entry,Suspicious,N/A,Building B1 (Floor 3 - Laboratory),Critical
+2026-03-05 19:15,EVT-00249,B1,Office #B1-F4,ADM-43,Administrator,Office,RFID,Exit,Authorized,N/A,Building B1 (Floor 4 - Office),Low
+2026-03-05 19:45,EVT-00250,B3,Main Entrance #B3-F5,EMP-720,Employee,Main Entrance,Access Card,Exit,Authorized,N/A,Building B3 (Floor 5 - Main Entrance),Low
+2026-03-05 20:30,EVT-00251,B2,Server Room #B2-F3,CON-359,Contractor,Server Room,Biometric,Entry,Authorized,N/A,Building B2 (Floor 3 - Server Room),Low
+2026-03-05 21:00,EVT-00252,B2,Laboratory #B2-F1,VIS-771,Visitor,Laboratory,Biometric,Entry,Authorized,VIS-771,Building B2 (Floor 1 - Laboratory),Low
+2026-03-05 21:10,EVT-00253,B3,Server Room #B3-F4,UNK-999,Unknown,Server Room,PIN,Entry,Authorized,N/A,Building B3 (Floor 4 - Server Room),Low
+2026-03-05 21:55,EVT-00254,B1,Server Room #B1-F3,UNK-999,Unknown,Server Room,Visitor Pass,Entry,Denied,N/A,Building B1 (Floor 3 - Server Room),High
+2026-03-05 22:25,EVT-00255,B1,Server Room #B1-F2,UNK-999,Unknown,Server Room,RFID,Entry,Authorized,N/A,Building B1 (Floor 2 - Server Room),Low
+2026-03-05 22:55,EVT-00256,B1,Emergency Exit #B1-F1,VIS-744,Visitor,Emergency Exit,Biometric,Exit,Authorized,VIS-744,Building B1 (Floor 1 - Emergency Exit),Low
+2026-03-05 23:40,EVT-00257,B1,Restricted Area #B1-F3,EMP-666,Employee,Restricted Area,PIN,Entry,Authorized,N/A,Building B1 (Floor 3 - Restricted Area),Low
+2026-03-06 00:00,EVT-00258,B1,Restricted Area #B1-F3,UNK-999,Unknown,Restricted Area,Access Card,Exit,Denied,N/A,Building B1 (Floor 3 - Office),Critical
+2026-03-06 00:20,EVT-00259,B1,Server Room #B1-F1,EMP-227,Employee,Server Room,Biometric,Entry,Authorized,N/A,Building B1 (Floor 1 - Server Room),Low
+2026-03-06 00:50,EVT-00260,B2,Restricted Area #B2-F1,ADM-31,Administrator,Restricted Area,Biometric,Exit,Authorized,N/A,Building B2 (Floor 1 - Restricted Area),Low
+2026-03-06 01:10,EVT-00261,B2,Main Entrance #B2-F5,CON-417,Contractor,Main Entrance,RFID,Entry,Authorized,N/A,Building B2 (Floor 5 - Main Entrance),Low
+2026-03-06 01:55,EVT-00262,B3,Parking #B3-F4,ADM-15,Administrator,Parking,PIN,Exit,Suspicious,N/A,Building B3 (Floor 4 - Parking),High
+2026-03-06 02:25,EVT-00263,B2,Parking #B2-F2,CON-417,Contractor,Parking,PIN,Exit,Authorized,N/A,Building B2 (Floor 2 - Parking),Low
+2026-03-06 02:35,EVT-00264,B2,Main Entrance #B2-F3,EMP-556,Employee,Main Entrance,Access Card,Entry,Authorized,N/A,Building B2 (Floor 3 - Main Entrance),Low
+2026-03-06 03:20,EVT-00265,B3,Office #B3-F5,UNK-999,Unknown,Office,Access Card,Exit,Authorized,N/A,Building B3 (Floor 5 - Office),Low
+2026-03-06 03:50,EVT-00266,B3,Office #B3-F5,ADM-70,Administrator,Office,Biometric,Entry,Authorized,N/A,Building B3 (Floor 5 - Office),Low
+2026-03-06 04:10,EVT-00267,B2,Parking #B2-F5,EMP-617,Employee,Parking,PIN,Entry,Authorized,N/A,Building B2 (Floor 5 - Parking),Low
+2026-03-06 04:20,EVT-00268,B1,Laboratory #B1-F4,VIS-528,Visitor,Laboratory,Biometric,Entry,Authorized,VIS-528,Building B1 (Floor 4 - Laboratory),Low
+2026-03-06 05:05,EVT-00269,B3,Server Room #B3-F4,ADM-47,Administrator,Server Room,RFID,Entry,Authorized,N/A,Building B3 (Floor 4 - Server Room),Low
+2026-03-06 05:35,EVT-00270,B3,Office #B3-F2,UNK-999,Unknown,Office,RFID,Entry,Authorized,N/A,Building B3 (Floor 2 - Office),Low
+2026-03-06 06:05,EVT-00271,B3,Server Room #B3-F5,EMP-792,Employee,Server Room,PIN,Entry,Authorized,N/A,Building B3 (Floor 5 - Server Room),Low
+2026-03-06 06:35,EVT-00272,B3,Server Room #B3-F4,UNK-999,Unknown,Server Room,PIN,Exit,Suspicious,VIS-826,Building B3 (Floor 4 - Parking),Critical
+2026-03-06 06:55,EVT-00273,B1,Server Room #B1-F5,VIS-646,Visitor,Server Room,PIN,Entry,Authorized,VIS-646,Building B1 (Floor 5 - Server Room),Low
+2026-03-06 07:25,EVT-00274,B1,Main Entrance #B1-F2,EMP-799,Employee,Main Entrance,RFID,Entry,Authorized,N/A,Building B1 (Floor 2 - Main Entrance),Low
+2026-03-06 07:55,EVT-00275,B3,Office #B3-F5,EMP-106,Employee,Office,Access Card,Exit,Authorized,N/A,Building B3 (Floor 5 - Office),Low
+2026-03-06 08:25,EVT-00276,B2,Parking #B2-F2,ADM-27,Administrator,Parking,Biometric,Exit,Suspicious,N/A,Building B2 (Floor 2 - Parking),High
+2026-03-06 09:10,EVT-00277,B3,Restricted Area #B3-F4,UNK-999,Unknown,Restricted Area,Visitor Pass,Entry,Authorized,N/A,Building B3 (Floor 4 - Restricted Area),Low
+2026-03-06 09:40,EVT-00278,B2,Parking #B2-F5,EMP-420,Employee,Parking,RFID,Entry,Authorized,N/A,Building B2 (Floor 5 - Parking),Low
+2026-03-06 10:10,EVT-00279,B3,Office #B3-F5,VIS-704,Visitor,Office,PIN,Entry,Authorized,VIS-704,Building B3 (Floor 5 - Office),Low
+2026-03-06 10:40,EVT-00280,B1,Office #B1-F5,EMP-901,Employee,Office,RFID,Exit,Authorized,N/A,Building B1 (Floor 5 - Office),Low
+2026-03-06 11:10,EVT-00281,B3,Emergency Exit #B3-F3,CON-360,Contractor,Emergency Exit,Visitor Pass,Exit,Authorized,N/A,Building B3 (Floor 3 - Emergency Exit),Low
+2026-03-06 11:30,EVT-00282,B3,Server Room #B3-F4,UNK-999,Unknown,Server Room,RFID,Exit,Authorized,N/A,Building B3 (Floor 4 - Server Room),Low
+2026-03-06 11:50,EVT-00283,B2,Emergency Exit #B2-F2,EMP-860,Employee,Emergency Exit,PIN,Entry,Authorized,N/A,Building B2 (Floor 2 - Emergency Exit),Low
+2026-03-06 12:10,EVT-00284,B3,Laboratory #B3-F1,EMP-406,Employee,Laboratory,Visitor Pass,Entry,Authorized,N/A,Building B3 (Floor 1 - Laboratory),Low
+2026-03-06 12:20,EVT-00285,B2,Office #B2-F5,EMP-149,Employee,Office,RFID,Exit,Authorized,N/A,Building B2 (Floor 5 - Office),Low
+2026-03-06 12:50,EVT-00286,B3,Laboratory #B3-F1,UNK-999,Unknown,Laboratory,Visitor Pass,Entry,Authorized,N/A,Building B3 (Floor 1 - Laboratory),Low
+2026-03-06 13:10,EVT-00287,B2,Laboratory #B2-F3,UNK-999,Unknown,Laboratory,RFID,Exit,Authorized,N/A,Building B2 (Floor 3 - Laboratory),Low
+2026-03-06 13:40,EVT-00288,B3,Main Entrance #B3-F4,VIS-507,Visitor,Main Entrance,Biometric,Exit,Authorized,VIS-507,Building B3 (Floor 4 - Main Entrance),Low
+2026-03-06 14:25,EVT-00289,B3,Main Entrance #B3-F4,VIS-653,Visitor,Main Entrance,Visitor Pass,Entry,Authorized,VIS-653,Building B3 (Floor 4 - Main Entrance),Low
+2026-03-06 15:10,EVT-00290,B2,Parking #B2-F3,VIS-866,Visitor,Parking,Visitor Pass,Entry,Denied,VIS-866,Building B2 (Floor 3 - Parking),Medium
+2026-03-06 15:20,EVT-00291,B3,Office #B3-F1,EMP-234,Employee,Office,PIN,Exit,Authorized,N/A,Building B3 (Floor 1 - Office),Low
+2026-03-06 15:40,EVT-00292,B3,Laboratory #B3-F5,VIS-545,Visitor,Laboratory,Access Card,Entry,Authorized,VIS-545,Building B3 (Floor 5 - Laboratory),Low
+2026-03-06 15:50,EVT-00293,B3,Office #B3-F1,VIS-861,Visitor,Office,PIN,Exit,Authorized,VIS-861,Building B3 (Floor 1 - Office),Low
+2026-03-06 16:00,EVT-00294,B2,Server Room #B2-F1,CON-444,Contractor,Server Room,RFID,Entry,Authorized,N/A,Building B2 (Floor 1 - Server Room),Low
+2026-03-06 16:20,EVT-00295,B3,Restricted Area #B3-F2,VIS-811,Visitor,Restricted Area,Access Card,Exit,Authorized,VIS-811,Building B3 (Floor 2 - Restricted Area),Low
+2026-03-06 16:40,EVT-00296,B3,Main Entrance #B3-F4,UNK-999,Unknown,Main Entrance,Access Card,Entry,Authorized,N/A,Building B3 (Floor 4 - Main Entrance),Low
+2026-03-06 17:10,EVT-00297,B1,Restricted Area #B1-F1,ADM-69,Administrator,Restricted Area,PIN,Exit,Denied,N/A,Building B1 (Floor 1 - Restricted Area),High
+2026-03-06 17:30,EVT-00298,B3,Emergency Exit #B3-F5,CON-463,Contractor,Emergency Exit,Biometric,Entry,Authorized,N/A,Building B3 (Floor 5 - Emergency Exit),Low
+2026-03-06 17:50,EVT-00299,B2,Emergency Exit #B2-F2,ADM-50,Administrator,Emergency Exit,RFID,Exit,Authorized,N/A,Building B2 (Floor 2 - Emergency Exit),Low
+2026-03-06 18:35,EVT-00300,B2,Server Room #B2-F2,UNK-999,Unknown,Server Room,RFID,Entry,Suspicious,N/A,Building B2 (Floor 2 - Office),Critical
+2026-03-06 18:45,EVT-00301,B3,Restricted Area #B3-F2,ADM-95,Administrator,Restricted Area,Visitor Pass,Exit,Authorized,N/A,Building B3 (Floor 2 - Restricted Area),Low
+2026-03-06 19:30,EVT-00302,B1,Emergency Exit #B1-F1,VIS-787,Visitor,Emergency Exit,RFID,Entry,Suspicious,VIS-787,Building B1 (Floor 1 - Emergency Exit),High
+2026-03-06 20:15,EVT-00303,B3,Office #B3-F2,CON-496,Contractor,Office,Access Card,Entry,Authorized,N/A,Building B3 (Floor 2 - Office),Low
+2026-03-06 21:00,EVT-00304,B2,Emergency Exit #B2-F5,VIS-615,Visitor,Emergency Exit,Access Card,Entry,Authorized,VIS-615,Building B2 (Floor 5 - Emergency Exit),Low
+2026-03-06 21:20,EVT-00305,B1,Emergency Exit #B1-F3,VIS-758,Visitor,Emergency Exit,RFID,Exit,Authorized,VIS-758,Building B1 (Floor 3 - Emergency Exit),Low
+2026-03-06 21:30,EVT-00306,B3,Restricted Area #B3-F3,EMP-763,Employee,Restricted Area,Biometric,Entry,Authorized,N/A,Building B3 (Floor 3 - Restricted Area),Low
+2026-03-06 21:40,EVT-00307,B1,Office #B1-F5,VIS-636,Visitor,Office,Visitor Pass,Exit,Denied,VIS-636,Building B1 (Floor 5 - Office),Medium
+2026-03-06 22:10,EVT-00308,B1,Restricted Area #B1-F1,VIS-716,Visitor,Restricted Area,Biometric,Exit,Authorized,VIS-716,Building B1 (Floor 1 - Restricted Area),Low
+2026-03-06 22:20,EVT-00309,B1,Main Entrance #B1-F5,VIS-617,Visitor,Main Entrance,Visitor Pass,Entry,Denied,VIS-617,Building B1 (Floor 5 - Main Entrance),Medium
+2026-03-06 22:50,EVT-00310,B3,Restricted Area #B3-F1,VIS-896,Visitor,Restricted Area,RFID,Exit,Authorized,VIS-896,Building B3 (Floor 1 - Restricted Area),Low
+2026-03-06 23:20,EVT-00311,B2,Laboratory #B2-F5,CON-443,Contractor,Laboratory,RFID,Exit,Authorized,N/A,Building B2 (Floor 5 - Laboratory),Low
+2026-03-07 00:05,EVT-00312,B2,Office #B2-F5,EMP-566,Employee,Office,RFID,Exit,Authorized,N/A,Building B2 (Floor 5 - Office),Low
+2026-03-07 00:15,EVT-00313,B3,Server Room #B3-F4,CON-499,Contractor,Server Room,Access Card,Entry,Authorized,N/A,Building B3 (Floor 4 - Server Room),Low
+2026-03-07 01:00,EVT-00314,B1,Main Entrance #B1-F3,EMP-929,Employee,Main Entrance,RFID,Entry,Authorized,N/A,Building B1 (Floor 3 - Main Entrance),Low
+2026-03-07 01:10,EVT-00315,B1,Server Room #B1-F3,ADM-24,Administrator,Server Room,PIN,Exit,Suspicious,N/A,Building B1 (Floor 3 - Server Room),High
+2026-03-07 01:30,EVT-00316,B1,Parking #B1-F3,EMP-125,Employee,Parking,Biometric,Exit,Authorized,N/A,Building B1 (Floor 3 - Parking),Low
+2026-03-07 01:50,EVT-00317,B1,Parking #B1-F4,EMP-218,Employee,Parking,Visitor Pass,Exit,Denied,N/A,Building B1 (Floor 4 - Parking),Medium
+2026-03-07 02:10,EVT-00318,B1,Emergency Exit #B1-F1,EMP-481,Employee,Emergency Exit,Biometric,Entry,Authorized,N/A,Building B1 (Floor 1 - Emergency Exit),Low
+2026-03-07 02:20,EVT-00319,B2,Parking #B2-F1,EMP-490,Employee,Parking,Access Card,Exit,Authorized,N/A,Building B2 (Floor 1 - Parking),Low
+2026-03-07 02:50,EVT-00320,B1,Laboratory #B1-F4,UNK-999,Unknown,Laboratory,Access Card,Exit,Authorized,N/A,Building B1 (Floor 4 - Laboratory),Low
+2026-03-07 03:20,EVT-00321,B3,Server Room #B3-F4,VIS-688,Visitor,Server Room,RFID,Exit,Authorized,VIS-688,Building B3 (Floor 4 - Server Room),Low
+2026-03-07 04:05,EVT-00322,B1,Parking #B1-F1,UNK-999,Unknown,Parking,PIN,Entry,Authorized,N/A,Building B1 (Floor 1 - Parking),Low
+2026-03-07 04:35,EVT-00323,B3,Restricted Area #B3-F1,ADM-80,Administrator,Restricted Area,Biometric,Entry,Authorized,N/A,Building B3 (Floor 1 - Restricted Area),Low
+2026-03-07 04:45,EVT-00324,B2,Laboratory #B2-F1,CON-343,Contractor,Laboratory,Visitor Pass,Entry,Authorized,N/A,Building B2 (Floor 1 - Laboratory),Low
+2026-03-07 04:55,EVT-00325,B1,Server Room #B1-F2,EMP-163,Employee,Server Room,Visitor Pass,Exit,Authorized,N/A,Building B1 (Floor 2 - Server Room),Low
+2026-03-07 05:05,EVT-00326,B2,Parking #B2-F2,VIS-545,Visitor,Parking,PIN,Entry,Authorized,VIS-545,Building B2 (Floor 2 - Parking),Low
+2026-03-07 05:50,EVT-00327,B1,Emergency Exit #B1-F2,VIS-863,Visitor,Emergency Exit,Biometric,Exit,Denied,VIS-863,Building B1 (Floor 2 - Emergency Exit),Medium
+2026-03-07 06:00,EVT-00328,B2,Office #B2-F4,CON-460,Contractor,Office,Biometric,Entry,Denied,N/A,Building B2 (Floor 4 - Office),Medium
+2026-03-07 06:20,EVT-00329,B2,Office #B2-F1,UNK-999,Unknown,Office,Biometric,Entry,Authorized,N/A,Building B2 (Floor 1 - Office),Low
+2026-03-07 06:40,EVT-00330,B3,Emergency Exit #B3-F5,UNK-999,Unknown,Emergency Exit,Visitor Pass,Entry,Authorized,N/A,Building B3 (Floor 5 - Emergency Exit),Low
+2026-03-07 06:50,EVT-00331,B2,Laboratory #B2-F5,VIS-714,Visitor,Laboratory,Access Card,Entry,Suspicious,VIS-714,Building B2 (Floor 5 - Laboratory),High
+2026-03-07 07:35,EVT-00332,B3,Parking #B3-F1,VIS-773,Visitor,Parking,Biometric,Exit,Suspicious,VIS-773,Building B3 (Floor 1 - Parking),High
+2026-03-07 07:45,EVT-00333,B3,Office #B3-F4,VIS-828,Visitor,Office,PIN,Entry,Authorized,VIS-828,Building B3 (Floor 4 - Office),Low
+2026-03-07 07:55,EVT-00334,B3,Parking #B3-F3,CON-317,Contractor,Parking,Access Card,Entry,Denied,N/A,Building B3 (Floor 3 - Parking),Medium
+2026-03-07 08:05,EVT-00335,B3,Main Entrance #B3-F4,VIS-680,Visitor,Main Entrance,PIN,Entry,Authorized,VIS-680,Building B3 (Floor 4 - Main Entrance),Low
+2026-03-07 08:15,EVT-00336,B3,Server Room #B3-F1,VIS-729,Visitor,Server Room,PIN,Entry,Authorized,VIS-729,Building B3 (Floor 1 - Server Room),Low
+2026-03-07 08:35,EVT-00337,B2,Emergency Exit #B2-F4,VIS-684,Visitor,Emergency Exit,Biometric,Exit,Authorized,VIS-684,Building B2 (Floor 4 - Emergency Exit),Low
+2026-03-07 08:45,EVT-00338,B2,Main Entrance #B2-F5,EMP-748,Employee,Main Entrance,RFID,Entry,Authorized,N/A,Building B2 (Floor 5 - Main Entrance),Low
+2026-03-07 09:30,EVT-00339,B1,Server Room #B1-F5,EMP-158,Employee,Server Room,Access Card,Exit,Authorized,N/A,Building B1 (Floor 5 - Server Room),Low
+2026-03-07 09:40,EVT-00340,B1,Laboratory #B1-F1,EMP-977,Employee,Laboratory,Visitor Pass,Entry,Suspicious,N/A,Building B1 (Floor 1 - Laboratory),High
+2026-03-07 10:10,EVT-00341,B2,Laboratory #B2-F4,CON-495,Contractor,Laboratory,Biometric,Exit,Authorized,N/A,Building B2 (Floor 4 - Laboratory),Low
+2026-03-07 10:30,EVT-00342,B2,Office #B2-F1,UNK-999,Unknown,Office,Visitor Pass,Entry,Authorized,N/A,Building B2 (Floor 1 - Office),Low
+2026-03-07 11:00,EVT-00343,B3,Laboratory #B3-F1,UNK-999,Unknown,Laboratory,Biometric,Exit,Authorized,N/A,Building B3 (Floor 1 - Laboratory),Low
+2026-03-07 11:30,EVT-00344,B1,Server Room #B1-F4,EMP-370,Employee,Server Room,PIN,Exit,Denied,N/A,Building B1 (Floor 4 - Server Room),High
+2026-03-07 12:15,EVT-00345,B2,Main Entrance #B2-F2,VIS-788,Visitor,Main Entrance,RFID,Entry,Authorized,VIS-788,Building B2 (Floor 2 - Main Entrance),Low
+2026-03-07 12:25,EVT-00346,B3,Restricted Area #B3-F2,EMP-666,Employee,Restricted Area,Access Card,Exit,Authorized,N/A,Building B3 (Floor 2 - Restricted Area),Low
+2026-03-07 12:45,EVT-00347,B3,Laboratory #B3-F5,VIS-886,Visitor,Laboratory,Access Card,Entry,Authorized,VIS-886,Building B3 (Floor 5 - Laboratory),Low
+2026-03-07 12:55,EVT-00348,B1,Server Room #B1-F2,CON-394,Contractor,Server Room,Biometric,Exit,Authorized,N/A,Building B1 (Floor 2 - Server Room),Low
+2026-03-07 13:25,EVT-00349,B1,Laboratory #B1-F3,UNK-999,Unknown,Laboratory,Visitor Pass,Entry,Authorized,N/A,Building B1 (Floor 3 - Laboratory),Low
+2026-03-07 13:45,EVT-00350,B3,Restricted Area #B3-F5,EMP-638,Employee,Restricted Area,RFID,Exit,Authorized,N/A,Building B3 (Floor 5 - Restricted Area),Low
+2026-03-07 13:55,EVT-00351,B1,Restricted Area #B1-F5,VIS-601,Visitor,Restricted Area,PIN,Entry,Authorized,VIS-601,Building B1 (Floor 5 - Restricted Area),Low
+2026-03-07 14:05,EVT-00352,B3,Parking #B3-F2,CON-320,Contractor,Parking,PIN,Exit,Denied,N/A,Building B3 (Floor 2 - Parking),Medium
+2026-03-07 14:50,EVT-00353,B2,Parking #B2-F4,ADM-33,Administrator,Parking,Access Card,Exit,Authorized,N/A,Building B2 (Floor 4 - Parking),Low
+2026-03-07 15:20,EVT-00354,B1,Main Entrance #B1-F1,UNK-999,Unknown,Main Entrance,RFID,Entry,Authorized,N/A,Building B1 (Floor 1 - Main Entrance),Low
+2026-03-07 15:50,EVT-00355,B2,Emergency Exit #B2-F3,EMP-381,Employee,Emergency Exit,RFID,Entry,Authorized,N/A,Building B2 (Floor 3 - Emergency Exit),Low
+2026-03-07 16:10,EVT-00356,B2,Restricted Area #B2-F1,UNK-999,Unknown,Restricted Area,Visitor Pass,Exit,Authorized,N/A,Building B2 (Floor 1 - Restricted Area),Low
+2026-03-07 16:20,EVT-00357,B3,Server Room #B3-F4,UNK-999,Unknown,Server Room,Visitor Pass,Exit,Authorized,N/A,Building B3 (Floor 4 - Server Room),Low
+2026-03-07 16:40,EVT-00358,B3,Office #B3-F4,ADM-40,Administrator,Office,RFID,Exit,Authorized,N/A,Building B3 (Floor 4 - Office),Low
+2026-03-07 17:00,EVT-00359,B3,Server Room #B3-F1,ADM-49,Administrator,Server Room,RFID,Entry,Authorized,N/A,Building B3 (Floor 1 - Server Room),Low
+2026-03-07 17:45,EVT-00360,B1,Office #B1-F4,ADM-71,Administrator,Office,Access Card,Entry,Authorized,N/A,Building B1 (Floor 4 - Office),Low
+2026-03-07 18:05,EVT-00361,B2,Server Room #B2-F2,ADM-67,Administrator,Server Room,RFID,Entry,Authorized,N/A,Building B2 (Floor 2 - Server Room),Low
+2026-03-07 18:25,EVT-00362,B2,Main Entrance #B2-F3,CON-305,Contractor,Main Entrance,RFID,Exit,Denied,N/A,Building B2 (Floor 3 - Main Entrance),Medium
+2026-03-07 18:55,EVT-00363,B1,Emergency Exit #B1-F4,CON-439,Contractor,Emergency Exit,Visitor Pass,Entry,Denied,N/A,Building B1 (Floor 4 - Emergency Exit),Medium
+2026-03-07 19:05,EVT-00364,B3,Laboratory #B3-F4,CON-391,Contractor,Laboratory,PIN,Entry,Authorized,N/A,Building B3 (Floor 4 - Laboratory),Low
+2026-03-07 19:15,EVT-00365,B3,Server Room #B3-F2,VIS-607,Visitor,Server Room,Biometric,Entry,Authorized,VIS-607,Building B3 (Floor 2 - Server Room),Low
+2026-03-07 19:25,EVT-00366,B3,Office #B3-F3,VIS-554,Visitor,Office,Visitor Pass,Entry,Authorized,VIS-554,Building B3 (Floor 3 - Office),Low
+2026-03-07 20:10,EVT-00367,B1,Restricted Area #B1-F3,CON-357,Contractor,Restricted Area,PIN,Entry,Authorized,N/A,Building B1 (Floor 3 - Restricted Area),Low
+2026-03-07 20:55,EVT-00368,B3,Parking #B3-F2,UNK-999,Unknown,Parking,Visitor Pass,Entry,Authorized,N/A,Building B3 (Floor 2 - Parking),Low
+2026-03-07 21:25,EVT-00369,B2,Laboratory #B2-F5,EMP-326,Employee,Laboratory,PIN,Exit,Authorized,N/A,Building B2 (Floor 5 - Laboratory),Low
+2026-03-07 21:35,EVT-00370,B3,Server Room #B3-F4,UNK-999,Unknown,Server Room,Access Card,Entry,Suspicious,N/A,Building B3 (Floor 4 - Parking),Critical
+2026-03-07 21:45,EVT-00371,B1,Parking #B1-F2,CON-313,Contractor,Parking,Biometric,Exit,Authorized,N/A,Building B1 (Floor 2 - Parking),Low
+2026-03-07 22:05,EVT-00372,B3,Parking #B3-F4,VIS-893,Visitor,Parking,Access Card,Exit,Denied,VIS-893,Building B3 (Floor 4 - Parking),Medium
+2026-03-07 22:25,EVT-00373,B1,Emergency Exit #B1-F1,EMP-870,Employee,Emergency Exit,RFID,Entry,Authorized,N/A,Building B1 (Floor 1 - Emergency Exit),Low
+2026-03-07 22:35,EVT-00374,B3,Emergency Exit #B3-F1,ADM-59,Administrator,Emergency Exit,RFID,Exit,Authorized,N/A,Building B3 (Floor 1 - Emergency Exit),Low
+2026-03-07 23:05,EVT-00375,B3,Emergency Exit #B3-F4,UNK-999,Unknown,Emergency Exit,Biometric,Entry,Authorized,N/A,Building B3 (Floor 4 - Emergency Exit),Low
+2026-03-07 23:35,EVT-00376,B3,Restricted Area #B3-F5,UNK-999,Unknown,Restricted Area,Access Card,Exit,Authorized,N/A,Building B3 (Floor 5 - Restricted Area),Low
+2026-03-07 23:45,EVT-00377,B2,Office #B2-F5,EMP-645,Employee,Office,Visitor Pass,Entry,Authorized,N/A,Building B2 (Floor 5 - Office),Low
+2026-03-07 23:55,EVT-00378,B2,Emergency Exit #B2-F1,UNK-999,Unknown,Emergency Exit,Biometric,Exit,Authorized,N/A,Building B2 (Floor 1 - Emergency Exit),Low
+2026-03-08 00:40,EVT-00379,B1,Office #B1-F3,CON-392,Contractor,Office,Access Card,Entry,Authorized,N/A,Building B1 (Floor 3 - Office),Low
+2026-03-08 01:25,EVT-00380,B2,Main Entrance #B2-F5,ADM-30,Administrator,Main Entrance,Access Card,Entry,Authorized,N/A,Building B2 (Floor 5 - Main Entrance),Low
+2026-03-08 02:10,EVT-00381,B2,Office #B2-F3,VIS-878,Visitor,Office,PIN,Exit,Denied,VIS-878,Building B2 (Floor 3 - Office),Medium
+2026-03-08 02:30,EVT-00382,B1,Restricted Area #B1-F1,CON-328,Contractor,Restricted Area,PIN,Entry,Authorized,N/A,Building B1 (Floor 1 - Restricted Area),Low
+2026-03-08 03:00,EVT-00383,B3,Office #B3-F2,EMP-440,Employee,Office,Biometric,Exit,Authorized,N/A,Building B3 (Floor 2 - Office),Low
+2026-03-08 03:45,EVT-00384,B2,Office #B2-F3,CON-392,Contractor,Office,Visitor Pass,Exit,Denied,N/A,Building B2 (Floor 3 - Office),Medium
+2026-03-08 04:30,EVT-00385,B3,Main Entrance #B3-F3,CON-363,Contractor,Main Entrance,Biometric,Exit,Authorized,N/A,Building B3 (Floor 3 - Main Entrance),Low
+2026-03-08 04:50,EVT-00386,B3,Office #B3-F5,EMP-407,Employee,Office,Biometric,Entry,Authorized,N/A,Building B3 (Floor 5 - Office),Low
+2026-03-08 05:10,EVT-00387,B3,Main Entrance #B3-F4,UNK-999,Unknown,Main Entrance,RFID,Entry,Authorized,N/A,Building B3 (Floor 4 - Main Entrance),Low
+2026-03-08 05:40,EVT-00388,B1,Restricted Area #B1-F2,EMP-319,Employee,Restricted Area,RFID,Exit,Authorized,N/A,Building B1 (Floor 2 - Restricted Area),Low
+2026-03-08 06:00,EVT-00389,B2,Emergency Exit #B2-F4,ADM-45,Administrator,Emergency Exit,Access Card,Entry,Authorized,N/A,Building B2 (Floor 4 - Emergency Exit),Low
+2026-03-08 06:10,EVT-00390,B3,Emergency Exit #B3-F4,CON-339,Contractor,Emergency Exit,Biometric,Entry,Authorized,N/A,Building B3 (Floor 4 - Emergency Exit),Low
+2026-03-08 06:55,EVT-00391,B1,Emergency Exit #B1-F4,VIS-557,Visitor,Emergency Exit,Biometric,Exit,Authorized,VIS-557,Building B1 (Floor 4 - Emergency Exit),Low
+2026-03-08 07:05,EVT-00392,B3,Server Room #B3-F4,EMP-164,Employee,Server Room,Biometric,Exit,Authorized,N/A,Building B3 (Floor 4 - Server Room),Low
+2026-03-08 07:35,EVT-00393,B1,Laboratory #B1-F3,VIS-831,Visitor,Laboratory,Biometric,Exit,Authorized,VIS-831,Building B1 (Floor 3 - Laboratory),Low
+2026-03-08 07:55,EVT-00394,B3,Server Room #B3-F3,EMP-624,Employee,Server Room,PIN,Exit,Authorized,N/A,Building B3 (Floor 3 - Server Room),Low
+2026-03-08 08:05,EVT-00395,B1,Server Room #B1-F1,VIS-787,Visitor,Server Room,Visitor Pass,Entry,Denied,VIS-787,Building B1 (Floor 1 - Server Room),High
+2026-03-08 08:35,EVT-00396,B1,Server Room #B1-F5,EMP-194,Employee,Server Room,Visitor Pass,Entry,Authorized,N/A,Building B1 (Floor 5 - Server Room),Low
+2026-03-08 09:05,EVT-00397,B1,Emergency Exit #B1-F3,CON-300,Contractor,Emergency Exit,Biometric,Exit,Authorized,N/A,Building B1 (Floor 3 - Emergency Exit),Low
+2026-03-08 09:35,EVT-00398,B3,Server Room #B3-F3,VIS-649,Visitor,Server Room,RFID,Entry,Authorized,VIS-649,Building B3 (Floor 3 - Server Room),Low
+2026-03-08 09:45,EVT-00399,B2,Server Room #B2-F3,VIS-528,Visitor,Server Room,PIN,Entry,Authorized,VIS-528,Building B2 (Floor 3 - Server Room),Low
+2026-03-08 10:15,EVT-00400,B1,Server Room #B1-F4,VIS-613,Visitor,Server Room,Access Card,Entry,Denied,VIS-613,Building B1 (Floor 4 - Server Room),High
+2026-03-08 10:35,EVT-00401,B2,Office #B2-F1,UNK-999,Unknown,Office,Visitor Pass,Entry,Authorized,N/A,Building B2 (Floor 1 - Office),Low
+2026-03-08 10:45,EVT-00402,B2,Laboratory #B2-F5,VIS-818,Visitor,Laboratory,Biometric,Exit,Authorized,VIS-818,Building B2 (Floor 5 - Laboratory),Low
+2026-03-08 11:15,EVT-00403,B2,Server Room #B2-F3,ADM-10,Administrator,Server Room,Biometric,Exit,Authorized,N/A,Building B2 (Floor 3 - Server Room),Low
+2026-03-08 11:45,EVT-00404,B3,Parking #B3-F3,ADM-33,Administrator,Parking,RFID,Exit,Authorized,N/A,Building B3 (Floor 3 - Parking),Low
+2026-03-08 12:30,EVT-00405,B2,Office #B2-F4,EMP-967,Employee,Office,Access Card,Exit,Authorized,N/A,Building B2 (Floor 4 - Office),Low
+2026-03-08 13:00,EVT-00406,B1,Parking #B1-F3,ADM-47,Administrator,Parking,Visitor Pass,Exit,Authorized,N/A,Building B1 (Floor 3 - Parking),Low
+2026-03-08 13:10,EVT-00407,B3,Server Room #B3-F1,VIS-635,Visitor,Server Room,Access Card,Entry,Authorized,VIS-635,Building B3 (Floor 1 - Server Room),Low
+2026-03-08 13:55,EVT-00408,B3,Office #B3-F2,UNK-999,Unknown,Office,Biometric,Entry,Denied,N/A,Building B3 (Floor 2 - Office),Medium
+2026-03-08 14:25,EVT-00409,B1,Office #B1-F4,ADM-77,Administrator,Office,RFID,Exit,Authorized,N/A,Building B1 (Floor 4 - Office),Low
+2026-03-08 14:45,EVT-00410,B2,Restricted Area #B2-F4,VIS-504,Visitor,Restricted Area,Biometric,Entry,Authorized,VIS-504,Building B2 (Floor 4 - Restricted Area),Low
+2026-03-08 15:15,EVT-00411,B1,Main Entrance #B1-F1,UNK-999,Unknown,Main Entrance,Access Card,Entry,Authorized,N/A,Building B1 (Floor 1 - Main Entrance),Low
+2026-03-08 15:25,EVT-00412,B3,Restricted Area #B3-F4,ADM-99,Administrator,Restricted Area,Biometric,Entry,Authorized,N/A,Building B3 (Floor 4 - Restricted Area),Low
+2026-03-08 16:10,EVT-00413,B2,Main Entrance #B2-F3,EMP-675,Employee,Main Entrance,Access Card,Exit,Authorized,N/A,Building B2 (Floor 3 - Main Entrance),Low
+2026-03-08 16:40,EVT-00414,B1,Server Room #B1-F4,UNK-999,Unknown,Server Room,RFID,Exit,Suspicious,N/A,Building B1 (Floor 4 - Office),Critical
+2026-03-08 17:25,EVT-00415,B2,Main Entrance #B2-F3,CON-496,Contractor,Main Entrance,RFID,Exit,Authorized,N/A,Building B2 (Floor 3 - Main Entrance),Low
+2026-03-08 17:35,EVT-00416,B2,Laboratory #B2-F5,VIS-880,Visitor,Laboratory,PIN,Entry,Authorized,VIS-880,Building B2 (Floor 5 - Laboratory),Low
+2026-03-08 17:45,EVT-00417,B3,Office #B3-F3,UNK-999,Unknown,Office,Biometric,Exit,Authorized,N/A,Building B3 (Floor 3 - Office),Low
+2026-03-08 18:05,EVT-00418,B2,Restricted Area #B2-F3,UNK-999,Unknown,Restricted Area,Visitor Pass,Exit,Authorized,N/A,Building B2 (Floor 3 - Restricted Area),Low
+2026-03-08 18:50,EVT-00419,B3,Emergency Exit #B3-F1,EMP-461,Employee,Emergency Exit,Visitor Pass,Exit,Authorized,N/A,Building B3 (Floor 1 - Emergency Exit),Low
+2026-03-08 19:35,EVT-00420,B1,Emergency Exit #B1-F1,EMP-736,Employee,Emergency Exit,RFID,Entry,Authorized,N/A,Building B1 (Floor 1 - Emergency Exit),Low
+2026-03-08 19:45,EVT-00421,B3,Parking #B3-F4,EMP-906,Employee,Parking,Biometric,Exit,Authorized,N/A,Building B3 (Floor 4 - Parking),Low
+2026-03-08 20:05,EVT-00422,B1,Main Entrance #B1-F4,VIS-777,Visitor,Main Entrance,PIN,Entry,Authorized,VIS-777,Building B1 (Floor 4 - Main Entrance),Low
+2026-03-08 20:35,EVT-00423,B3,Emergency Exit #B3-F5,CON-337,Contractor,Emergency Exit,PIN,Entry,Authorized,N/A,Building B3 (Floor 5 - Emergency Exit),Low
+2026-03-08 21:05,EVT-00424,B2,Emergency Exit #B2-F5,UNK-999,Unknown,Emergency Exit,PIN,Entry,Authorized,N/A,Building B2 (Floor 5 - Emergency Exit),Low
+2026-03-08 21:35,EVT-00425,B2,Main Entrance #B2-F1,UNK-999,Unknown,Main Entrance,Visitor Pass,Entry,Authorized,N/A,Building B2 (Floor 1 - Main Entrance),Low
+2026-03-08 22:20,EVT-00426,B2,Parking #B2-F1,CON-479,Contractor,Parking,Visitor Pass,Entry,Suspicious,N/A,Building B2 (Floor 1 - Parking),High
+2026-03-08 22:40,EVT-00427,B3,Parking #B3-F4,EMP-425,Employee,Parking,PIN,Entry,Authorized,N/A,Building B3 (Floor 4 - Parking),Low
+2026-03-08 23:00,EVT-00428,B3,Restricted Area #B3-F4,UNK-999,Unknown,Restricted Area,RFID,Entry,Authorized,N/A,Building B3 (Floor 4 - Restricted Area),Low
+2026-03-08 23:10,EVT-00429,B1,Server Room #B1-F2,UNK-999,Unknown,Server Room,Biometric,Entry,Authorized,N/A,Building B1 (Floor 2 - Server Room),Low
+2026-03-08 23:30,EVT-00430,B1,Main Entrance #B1-F1,ADM-35,Administrator,Main Entrance,Biometric,Entry,Authorized,N/A,Building B1 (Floor 1 - Main Entrance),Low
+2026-03-08 23:40,EVT-00431,B2,Main Entrance #B2-F2,UNK-999,Unknown,Main Entrance,Access Card,Entry,Authorized,N/A,Building B2 (Floor 2 - Main Entrance),Low
+2026-03-09 00:10,EVT-00432,B3,Office #B3-F1,ADM-24,Administrator,Office,Biometric,Exit,Authorized,N/A,Building B3 (Floor 1 - Office),Low
+2026-03-09 00:30,EVT-00433,B3,Emergency Exit #B3-F4,EMP-175,Employee,Emergency Exit,PIN,Entry,Authorized,N/A,Building B3 (Floor 4 - Emergency Exit),Low
+2026-03-09 01:15,EVT-00434,B2,Parking #B2-F4,UNK-999,Unknown,Parking,Biometric,Entry,Authorized,N/A,Building B2 (Floor 4 - Parking),Low
+2026-03-09 02:00,EVT-00435,B2,Emergency Exit #B2-F2,VIS-593,Visitor,Emergency Exit,PIN,Entry,Authorized,VIS-593,Building B2 (Floor 2 - Emergency Exit),Low
+2026-03-09 02:30,EVT-00436,B1,Parking #B1-F5,ADM-41,Administrator,Parking,Biometric,Exit,Authorized,N/A,Building B1 (Floor 5 - Parking),Low
+2026-03-09 02:40,EVT-00437,B3,Main Entrance #B3-F4,UNK-999,Unknown,Main Entrance,RFID,Entry,Authorized,N/A,Building B3 (Floor 4 - Main Entrance),Low
+2026-03-09 03:25,EVT-00438,B1,Restricted Area #B1-F1,CON-389,Contractor,Restricted Area,PIN,Entry,Authorized,N/A,Building B1 (Floor 1 - Restricted Area),Low
+2026-03-09 03:35,EVT-00439,B3,Server Room #B3-F5,VIS-696,Visitor,Server Room,PIN,Exit,Authorized,VIS-696,Building B3 (Floor 5 - Server Room),Low
+2026-03-09 03:45,EVT-00440,B3,Emergency Exit #B3-F5,UNK-999,Unknown,Emergency Exit,Biometric,Entry,Authorized,N/A,Building B3 (Floor 5 - Emergency Exit),Low
+2026-03-09 04:05,EVT-00441,B2,Emergency Exit #B2-F4,VIS-661,Visitor,Emergency Exit,PIN,Exit,Suspicious,VIS-661,Building B2 (Floor 4 - Emergency Exit),High
+2026-03-09 04:25,EVT-00442,B1,Laboratory #B1-F1,EMP-443,Employee,Laboratory,RFID,Entry,Authorized,N/A,Building B1 (Floor 1 - Laboratory),Low
+2026-03-09 04:55,EVT-00443,B3,Restricted Area #B3-F2,VIS-840,Visitor,Restricted Area,PIN,Entry,Authorized,VIS-840,Building B3 (Floor 2 - Restricted Area),Low
+2026-03-09 05:15,EVT-00444,B2,Laboratory #B2-F1,VIS-579,Visitor,Laboratory,PIN,Exit,Authorized,VIS-579,Building B2 (Floor 1 - Laboratory),Low
+2026-03-09 06:00,EVT-00445,B2,Server Room #B2-F2,EMP-273,Employee,Server Room,Visitor Pass,Exit,Authorized,N/A,Building B2 (Floor 2 - Server Room),Low
+2026-03-09 06:10,EVT-00446,B3,Emergency Exit #B3-F1,UNK-999,Unknown,Emergency Exit,Access Card,Exit,Denied,N/A,Building B3 (Floor 1 - Emergency Exit),Medium
+2026-03-09 06:40,EVT-00447,B3,Restricted Area #B3-F5,EMP-774,Employee,Restricted Area,PIN,Entry,Authorized,N/A,Building B3 (Floor 5 - Restricted Area),Low
+2026-03-09 06:50,EVT-00448,B2,Main Entrance #B2-F3,VIS-673,Visitor,Main Entrance,Biometric,Exit,Authorized,VIS-673,Building B2 (Floor 3 - Main Entrance),Low
+2026-03-09 07:20,EVT-00449,B1,Emergency Exit #B1-F3,EMP-317,Employee,Emergency Exit,Visitor Pass,Exit,Authorized,N/A,Building B1 (Floor 3 - Emergency Exit),Low
+2026-03-09 07:50,EVT-00450,B3,Emergency Exit #B3-F5,VIS-831,Visitor,Emergency Exit,Access Card,Exit,Authorized,VIS-831,Building B3 (Floor 5 - Emergency Exit),Low
+2026-03-09 08:35,EVT-00451,B1,Parking #B1-F2,CON-466,Contractor,Parking,Visitor Pass,Entry,Authorized,N/A,Building B1 (Floor 2 - Parking),Low
+2026-03-09 08:45,EVT-00452,B1,Restricted Area #B1-F5,VIS-703,Visitor,Restricted Area,RFID,Exit,Authorized,VIS-703,Building B1 (Floor 5 - Restricted Area),Low
+2026-03-09 09:15,EVT-00453,B3,Restricted Area #B3-F1,CON-302,Contractor,Restricted Area,Access Card,Entry,Authorized,N/A,Building B3 (Floor 1 - Restricted Area),Low
+2026-03-09 09:45,EVT-00454,B3,Parking #B3-F4,CON-306,Contractor,Parking,PIN,Exit,Authorized,N/A,Building B3 (Floor 4 - Parking),Low
+2026-03-09 10:15,EVT-00455,B1,Parking #B1-F2,ADM-15,Administrator,Parking,RFID,Entry,Authorized,N/A,Building B1 (Floor 2 - Parking),Low
+2026-03-09 10:45,EVT-00456,B2,Parking #B2-F4,ADM-22,Administrator,Parking,PIN,Entry,Authorized,N/A,Building B2 (Floor 4 - Parking),Low
+2026-03-09 10:55,EVT-00457,B3,Main Entrance #B3-F2,CON-494,Contractor,Main Entrance,Visitor Pass,Exit,Authorized,N/A,Building B3 (Floor 2 - Main Entrance),Low
+2026-03-09 11:15,EVT-00458,B3,Server Room #B3-F3,VIS-632,Visitor,Server Room,Biometric,Entry,Authorized,VIS-632,Building B3 (Floor 3 - Server Room),Low
+2026-03-09 12:00,EVT-00459,B2,Emergency Exit #B2-F1,ADM-77,Administrator,Emergency Exit,RFID,Exit,Authorized,N/A,Building B2 (Floor 1 - Emergency Exit),Low
+2026-03-09 12:10,EVT-00460,B3,Laboratory #B3-F1,UNK-999,Unknown,Laboratory,RFID,Exit,Suspicious,N/A,Building B3 (Floor 1 - Laboratory),High
+2026-03-09 12:40,EVT-00461,B3,Restricted Area #B3-F2,EMP-747,Employee,Restricted Area,RFID,Entry,Suspicious,N/A,Building B3 (Floor 2 - Restricted Area),High
+2026-03-09 13:00,EVT-00462,B3,Parking #B3-F5,VIS-866,Visitor,Parking,Visitor Pass,Entry,Denied,VIS-866,Building B3 (Floor 5 - Parking),Medium
+2026-03-09 13:30,EVT-00463,B3,Server Room #B3-F5,VIS-702,Visitor,Server Room,PIN,Entry,Authorized,VIS-702,Building B3 (Floor 5 - Server Room),Low
+2026-03-09 13:40,EVT-00464,B1,Emergency Exit #B1-F3,ADM-43,Administrator,Emergency Exit,RFID,Exit,Authorized,N/A,Building B1 (Floor 3 - Emergency Exit),Low
+2026-03-09 13:50,EVT-00465,B3,Laboratory #B3-F4,UNK-999,Unknown,Laboratory,PIN,Entry,Authorized,N/A,Building B3 (Floor 4 - Laboratory),Low
+2026-03-09 14:20,EVT-00466,B1,Server Room #B1-F5,EMP-151,Employee,Server Room,Access Card,Exit,Authorized,N/A,Building B1 (Floor 5 - Server Room),Low
+2026-03-09 14:50,EVT-00467,B3,Emergency Exit #B3-F1,UNK-999,Unknown,Emergency Exit,PIN,Exit,Denied,N/A,Building B3 (Floor 1 - Emergency Exit),Medium
+2026-03-09 15:00,EVT-00468,B1,Restricted Area #B1-F3,CON-368,Contractor,Restricted Area,Access Card,Exit,Authorized,N/A,Building B1 (Floor 3 - Restricted Area),Low
+2026-03-09 15:30,EVT-00469,B3,Emergency Exit #B3-F1,UNK-999,Unknown,Emergency Exit,PIN,Entry,Authorized,N/A,Building B3 (Floor 1 - Emergency Exit),Low
+2026-03-09 16:00,EVT-00470,B1,Parking #B1-F4,CON-415,Contractor,Parking,RFID,Entry,Authorized,N/A,Building B1 (Floor 4 - Parking),Low
+2026-03-09 16:30,EVT-00471,B1,Emergency Exit #B1-F3,CON-488,Contractor,Emergency Exit,PIN,Exit,Authorized,N/A,Building B1 (Floor 3 - Emergency Exit),Low
+2026-03-09 16:50,EVT-00472,B2,Server Room #B2-F4,ADM-65,Administrator,Server Room,Biometric,Exit,Authorized,N/A,Building B2 (Floor 4 - Server Room),Low
+2026-03-09 17:20,EVT-00473,B1,Laboratory #B1-F5,CON-496,Contractor,Laboratory,RFID,Entry,Authorized,N/A,Building B1 (Floor 5 - Laboratory),Low
+2026-03-09 17:40,EVT-00474,B1,Parking #B1-F4,ADM-50,Administrator,Parking,PIN,Entry,Authorized,N/A,Building B1 (Floor 4 - Parking),Low
+2026-03-09 18:00,EVT-00475,B1,Restricted Area #B1-F1,ADM-70,Administrator,Restricted Area,Access Card,Entry,Authorized,N/A,Building B1 (Floor 1 - Restricted Area),Low
+2026-03-09 18:20,EVT-00476,B1,Laboratory #B1-F2,EMP-324,Employee,Laboratory,PIN,Exit,Authorized,N/A,Building B1 (Floor 2 - Laboratory),Low
+2026-03-09 18:50,EVT-00477,B2,Server Room #B2-F1,EMP-883,Employee,Server Room,RFID,Entry,Suspicious,N/A,Building B2 (Floor 1 - Server Room),High
+2026-03-09 19:10,EVT-00478,B3,Office #B3-F2,EMP-420,Employee,Office,RFID,Exit,Authorized,N/A,Building B3 (Floor 2 - Office),Low
+2026-03-09 19:55,EVT-00479,B3,Emergency Exit #B3-F3,CON-418,Contractor,Emergency Exit,PIN,Exit,Authorized,N/A,Building B3 (Floor 3 - Emergency Exit),Low
+2026-03-09 20:05,EVT-00480,B3,Server Room #B3-F2,EMP-574,Employee,Server Room,Access Card,Exit,Authorized,N/A,Building B3 (Floor 2 - Server Room),Low
+2026-03-09 20:35,EVT-00481,B1,Laboratory #B1-F2,VIS-752,Visitor,Laboratory,PIN,Exit,Authorized,VIS-752,Building B1 (Floor 2 - Laboratory),Low
+2026-03-09 21:20,EVT-00482,B1,Restricted Area #B1-F4,CON-482,Contractor,Restricted Area,Biometric,Entry,Suspicious,N/A,Building B1 (Floor 4 - Restricted Area),High
+2026-03-09 21:40,EVT-00483,B3,Server Room #B3-F1,VIS-819,Visitor,Server Room,Access Card,Exit,Authorized,VIS-819,Building B3 (Floor 1 - Server Room),Low
+2026-03-09 22:25,EVT-00484,B3,Laboratory #B3-F1,VIS-812,Visitor,Laboratory,Access Card,Entry,Authorized,VIS-812,Building B3 (Floor 1 - Laboratory),Low
+2026-03-09 23:10,EVT-00485,B3,Server Room #B3-F4,ADM-84,Administrator,Server Room,Access Card,Entry,Authorized,N/A,Building B3 (Floor 4 - Server Room),Low
+2026-03-09 23:30,EVT-00486,B3,Office #B3-F5,CON-461,Contractor,Office,Visitor Pass,Entry,Authorized,N/A,Building B3 (Floor 5 - Office),Low
+2026-03-09 23:40,EVT-00487,B1,Laboratory #B1-F3,VIS-629,Visitor,Laboratory,Access Card,Exit,Suspicious,VIS-629,Building B1 (Floor 3 - Laboratory),High
+2026-03-10 00:10,EVT-00488,B3,Server Room #B3-F5,CON-404,Contractor,Server Room,Access Card,Exit,Authorized,N/A,Building B3 (Floor 5 - Server Room),Low
+2026-03-10 00:30,EVT-00489,B3,Restricted Area #B3-F4,UNK-999,Unknown,Restricted Area,RFID,Entry,Authorized,N/A,Building B3 (Floor 4 - Restricted Area),Low
+2026-03-10 00:50,EVT-00490,B3,Parking #B3-F2,ADM-69,Administrator,Parking,Visitor Pass,Entry,Authorized,N/A,Building B3 (Floor 2 - Parking),Low
+2026-03-10 01:10,EVT-00491,B3,Restricted Area #B3-F2,UNK-999,Unknown,Restricted Area,RFID,Exit,Authorized,N/A,Building B3 (Floor 2 - Restricted Area),Low
+2026-03-10 01:55,EVT-00492,B3,Office #B3-F1,VIS-656,Visitor,Office,Biometric,Exit,Suspicious,VIS-656,Building B3 (Floor 1 - Office),High
+2026-03-10 02:15,EVT-00493,B3,Laboratory #B3-F3,EMP-464,Employee,Laboratory,Visitor Pass,Exit,Suspicious,N/A,Building B3 (Floor 3 - Laboratory),High
+2026-03-10 02:25,EVT-00494,B2,Parking #B2-F5,EMP-190,Employee,Parking,Access Card,Entry,Authorized,N/A,Building B2 (Floor 5 - Parking),Low
+2026-03-10 02:35,EVT-00495,B3,Restricted Area #B3-F1,UNK-999,Unknown,Restricted Area,Visitor Pass,Exit,Authorized,N/A,Building B3 (Floor 1 - Restricted Area),Low
+2026-03-10 03:20,EVT-00496,B2,Office #B2-F5,VIS-794,Visitor,Office,RFID,Exit,Authorized,VIS-794,Building B2 (Floor 5 - Office),Low
+2026-03-10 04:05,EVT-00497,B1,Server Room #B1-F3,VIS-615,Visitor,Server Room,RFID,Exit,Authorized,VIS-615,Building B1 (Floor 3 - Server Room),Low
+2026-03-10 04:15,EVT-00498,B2,Parking #B2-F5,UNK-999,Unknown,Parking,PIN,Entry,Authorized,N/A,Building B2 (Floor 5 - Parking),Low
+2026-03-10 05:00,EVT-00499,B2,Office #B2-F5,EMP-811,Employee,Office,PIN,Exit,Authorized,N/A,Building B2 (Floor 5 - Office),Low
+2026-03-10 05:20,EVT-00500,B2,Restricted Area #B2-F5,CON-403,Contractor,Restricted Area,Access Card,Entry,Authorized,N/A,Building B2 (Floor 5 - Restricted Area),Low
+2026-03-10 06:05,EVT-00501,B1,Emergency Exit #B1-F4,CON-333,Contractor,Emergency Exit,Visitor Pass,Exit,Authorized,N/A,Building B1 (Floor 4 - Emergency Exit),Low
+2026-03-10 06:15,EVT-00502,B3,Office #B3-F1,ADM-71,Administrator,Office,PIN,Exit,Denied,N/A,Building B3 (Floor 1 - Office),Medium
+2026-03-10 06:25,EVT-00503,B2,Laboratory #B2-F4,CON-491,Contractor,Laboratory,Visitor Pass,Entry,Authorized,N/A,Building B2 (Floor 4 - Laboratory),Low
+2026-03-10 06:35,EVT-00504,B1,Server Room #B1-F1,UNK-999,Unknown,Server Room,Biometric,Exit,Authorized,N/A,Building B1 (Floor 1 - Server Room),Low
+2026-03-10 06:55,EVT-00505,B1,Server Room #B1-F1,CON-313,Contractor,Server Room,RFID,Exit,Authorized,N/A,Building B1 (Floor 1 - Server Room),Low
+2026-03-10 07:25,EVT-00506,B3,Laboratory #B3-F5,EMP-440,Employee,Laboratory,Biometric,Exit,Authorized,N/A,Building B3 (Floor 5 - Laboratory),Low
+2026-03-10 07:55,EVT-00507,B1,Office #B1-F1,CON-345,Contractor,Office,RFID,Exit,Denied,N/A,Building B1 (Floor 1 - Office),Medium
+2026-03-10 08:40,EVT-00508,B2,Laboratory #B2-F1,EMP-476,Employee,Laboratory,Visitor Pass,Entry,Authorized,N/A,Building B2 (Floor 1 - Laboratory),Low
+2026-03-10 09:25,EVT-00509,B3,Office #B3-F3,VIS-600,Visitor,Office,Visitor Pass,Exit,Authorized,VIS-600,Building B3 (Floor 3 - Office),Low
+2026-03-10 09:55,EVT-00510,B3,Laboratory #B3-F4,ADM-82,Administrator,Laboratory,RFID,Entry,Denied,N/A,Building B3 (Floor 4 - Laboratory),Medium
+2026-03-10 10:25,EVT-00511,B1,Office #B1-F4,CON-404,Contractor,Office,Access Card,Entry,Denied,N/A,Building B1 (Floor 4 - Office),Medium
+2026-03-10 11:10,EVT-00512,B2,Server Room #B2-F3,CON-318,Contractor,Server Room,Biometric,Entry,Authorized,N/A,Building B2 (Floor 3 - Server Room),Low
+2026-03-10 11:40,EVT-00513,B1,Emergency Exit #B1-F4,UNK-999,Unknown,Emergency Exit,Visitor Pass,Exit,Authorized,N/A,Building B1 (Floor 4 - Emergency Exit),Low
+2026-03-10 12:00,EVT-00514,B1,Office #B1-F3,CON-364,Contractor,Office,Access Card,Entry,Denied,N/A,Building B1 (Floor 3 - Office),Medium
+2026-03-10 12:45,EVT-00515,B1,Emergency Exit #B1-F4,ADM-90,Administrator,Emergency Exit,Visitor Pass,Exit,Authorized,N/A,Building B1 (Floor 4 - Emergency Exit),Low
+2026-03-10 13:05,EVT-00516,B1,Server Room #B1-F3,VIS-619,Visitor,Server Room,RFID,Exit,Authorized,VIS-619,Building B1 (Floor 3 - Server Room),Low
+2026-03-10 13:15,EVT-00517,B3,Emergency Exit #B3-F1,EMP-496,Employee,Emergency Exit,Biometric,Entry,Authorized,N/A,Building B3 (Floor 1 - Emergency Exit),Low
+2026-03-10 13:25,EVT-00518,B2,Laboratory #B2-F2,UNK-999,Unknown,Laboratory,RFID,Exit,Authorized,N/A,Building B2 (Floor 2 - Laboratory),Low
+2026-03-10 13:35,EVT-00519,B2,Office #B2-F5,VIS-669,Visitor,Office,Biometric,Exit,Denied,VIS-669,Building B2 (Floor 5 - Office),Medium
+2026-03-10 14:20,EVT-00520,B1,Main Entrance #B1-F1,EMP-922,Employee,Main Entrance,RFID,Exit,Authorized,N/A,Building B1 (Floor 1 - Main Entrance),Low
+2026-03-10 15:05,EVT-00521,B2,Laboratory #B2-F1,EMP-820,Employee,Laboratory,Biometric,Entry,Authorized,N/A,Building B2 (Floor 1 - Laboratory),Low
+2026-03-10 15:15,EVT-00522,B2,Office #B2-F4,VIS-856,Visitor,Office,Biometric,Entry,Authorized,VIS-856,Building B2 (Floor 4 - Office),Low
+2026-03-10 15:45,EVT-00523,B1,Parking #B1-F1,EMP-616,Employee,Parking,Access Card,Entry,Authorized,N/A,Building B1 (Floor 1 - Parking),Low
+2026-03-10 15:55,EVT-00524,B3,Laboratory #B3-F5,CON-314,Contractor,Laboratory,Biometric,Entry,Authorized,N/A,Building B3 (Floor 5 - Laboratory),Low
+2026-03-10 16:15,EVT-00525,B1,Parking #B1-F1,CON-495,Contractor,Parking,Access Card,Exit,Denied,N/A,Building B1 (Floor 1 - Parking),Medium
+2026-03-10 17:00,EVT-00526,B1,Office #B1-F2,CON-316,Contractor,Office,Biometric,Entry,Authorized,N/A,Building B1 (Floor 2 - Office),Low
+2026-03-10 17:10,EVT-00527,B3,Laboratory #B3-F3,VIS-626,Visitor,Laboratory,Biometric,Entry,Authorized,VIS-626,Building B3 (Floor 3 - Laboratory),Low
+2026-03-10 17:30,EVT-00528,B2,Parking #B2-F5,UNK-999,Unknown,Parking,PIN,Entry,Authorized,N/A,Building B2 (Floor 5 - Parking),Low
+2026-03-10 18:00,EVT-00529,B2,Parking #B2-F3,CON-371,Contractor,Parking,Access Card,Entry,Authorized,N/A,Building B2 (Floor 3 - Parking),Low
+2026-03-10 18:10,EVT-00530,B2,Main Entrance #B2-F5,UNK-999,Unknown,Main Entrance,PIN,Entry,Authorized,N/A,Building B2 (Floor 5 - Main Entrance),Low
+2026-03-10 18:20,EVT-00531,B3,Office #B3-F2,ADM-46,Administrator,Office,Access Card,Entry,Denied,N/A,Building B3 (Floor 2 - Office),Medium
+2026-03-10 18:30,EVT-00532,B2,Parking #B2-F4,EMP-390,Employee,Parking,Biometric,Exit,Authorized,N/A,Building B2 (Floor 4 - Parking),Low
+2026-03-10 18:50,EVT-00533,B1,Main Entrance #B1-F1,EMP-890,Employee,Main Entrance,RFID,Exit,Denied,N/A,Building B1 (Floor 1 - Main Entrance),Medium
+2026-03-10 19:10,EVT-00534,B2,Main Entrance #B2-F3,UNK-999,Unknown,Main Entrance,Visitor Pass,Exit,Authorized,N/A,Building B2 (Floor 3 - Main Entrance),Low
+2026-03-10 19:30,EVT-00535,B3,Parking #B3-F4,VIS-737,Visitor,Parking,PIN,Entry,Authorized,VIS-737,Building B3 (Floor 4 - Parking),Low
+2026-03-10 19:50,EVT-00536,B1,Office #B1-F4,ADM-53,Administrator,Office,RFID,Entry,Authorized,N/A,Building B1 (Floor 4 - Office),Low
+2026-03-10 20:35,EVT-00537,B1,Office #B1-F1,EMP-313,Employee,Office,Visitor Pass,Exit,Authorized,N/A,Building B1 (Floor 1 - Office),Low
+2026-03-10 20:45,EVT-00538,B2,Laboratory #B2-F1,ADM-74,Administrator,Laboratory,Visitor Pass,Entry,Authorized,N/A,Building B2 (Floor 1 - Laboratory),Low
+2026-03-10 20:55,EVT-00539,B3,Server Room #B3-F1,CON-369,Contractor,Server Room,Access Card,Exit,Authorized,N/A,Building B3 (Floor 1 - Server Room),Low
+2026-03-10 21:15,EVT-00540,B3,Parking #B3-F3,VIS-700,Visitor,Parking,Biometric,Exit,Authorized,VIS-700,Building B3 (Floor 3 - Parking),Low
+2026-03-10 21:45,EVT-00541,B1,Parking #B1-F4,VIS-888,Visitor,Parking,Access Card,Entry,Authorized,VIS-888,Building B1 (Floor 4 - Parking),Low
+2026-03-10 21:55,EVT-00542,B3,Parking #B3-F5,UNK-999,Unknown,Parking,PIN,Entry,Authorized,N/A,Building B3 (Floor 5 - Parking),Low
+2026-03-10 22:25,EVT-00543,B2,Main Entrance #B2-F1,UNK-999,Unknown,Main Entrance,Biometric,Exit,Authorized,N/A,Building B2 (Floor 1 - Main Entrance),Low
+2026-03-10 22:45,EVT-00544,B1,Office #B1-F1,ADM-20,Administrator,Office,Biometric,Entry,Denied,N/A,Building B1 (Floor 1 - Office),Medium
+2026-03-10 23:05,EVT-00545,B2,Main Entrance #B2-F1,VIS-835,Visitor,Main Entrance,Biometric,Entry,Authorized,VIS-835,Building B2 (Floor 1 - Main Entrance),Low
+2026-03-10 23:25,EVT-00546,B3,Office #B3-F1,CON-331,Contractor,Office,Biometric,Entry,Authorized,N/A,Building B3 (Floor 1 - Office),Low
+2026-03-11 00:10,EVT-00547,B2,Restricted Area #B2-F3,VIS-698,Visitor,Restricted Area,RFID,Entry,Authorized,VIS-698,Building B2 (Floor 3 - Restricted Area),Low
+2026-03-11 00:40,EVT-00548,B1,Parking #B1-F1,EMP-187,Employee,Parking,PIN,Exit,Authorized,N/A,Building B1 (Floor 1 - Parking),Low
+2026-03-11 00:50,EVT-00549,B2,Parking #B2-F1,EMP-842,Employee,Parking,PIN,Entry,Authorized,N/A,Building B2 (Floor 1 - Parking),Low
+2026-03-11 01:10,EVT-00550,B1,Server Room #B1-F5,CON-303,Contractor,Server Room,Visitor Pass,Entry,Authorized,N/A,Building B1 (Floor 5 - Server Room),Low
+2026-03-11 01:55,EVT-00551,B3,Main Entrance #B3-F4,VIS-553,Visitor,Main Entrance,Access Card,Entry,Authorized,VIS-553,Building B3 (Floor 4 - Main Entrance),Low
+2026-03-11 02:05,EVT-00552,B2,Main Entrance #B2-F2,UNK-999,Unknown,Main Entrance,Visitor Pass,Entry,Authorized,N/A,Building B2 (Floor 2 - Main Entrance),Low
+2026-03-11 02:15,EVT-00553,B1,Emergency Exit #B1-F4,UNK-999,Unknown,Emergency Exit,Access Card,Entry,Authorized,N/A,Building B1 (Floor 4 - Emergency Exit),Low
+2026-03-11 02:25,EVT-00554,B2,Restricted Area #B2-F5,CON-425,Contractor,Restricted Area,Access Card,Exit,Authorized,N/A,Building B2 (Floor 5 - Restricted Area),Low
+2026-03-11 02:45,EVT-00555,B1,Main Entrance #B1-F2,CON-361,Contractor,Main Entrance,Visitor Pass,Exit,Authorized,N/A,Building B1 (Floor 2 - Main Entrance),Low
+2026-03-11 02:55,EVT-00556,B3,Server Room #B3-F1,VIS-507,Visitor,Server Room,Access Card,Exit,Authorized,VIS-507,Building B3 (Floor 1 - Server Room),Low
+2026-03-11 03:25,EVT-00557,B3,Laboratory #B3-F5,ADM-81,Administrator,Laboratory,RFID,Exit,Authorized,N/A,Building B3 (Floor 5 - Laboratory),Low
+2026-03-11 04:10,EVT-00558,B1,Main Entrance #B1-F1,EMP-703,Employee,Main Entrance,RFID,Entry,Authorized,N/A,Building B1 (Floor 1 - Main Entrance),Low
+2026-03-11 04:30,EVT-00559,B1,Server Room #B1-F4,ADM-55,Administrator,Server Room,RFID,Entry,Suspicious,N/A,Building B1 (Floor 4 - Server Room),High
+2026-03-11 05:00,EVT-00560,B2,Parking #B2-F3,EMP-838,Employee,Parking,RFID,Entry,Authorized,N/A,Building B2 (Floor 3 - Parking),Low
+2026-03-11 05:45,EVT-00561,B2,Main Entrance #B2-F3,UNK-999,Unknown,Main Entrance,Visitor Pass,Entry,Authorized,N/A,Building B2 (Floor 3 - Main Entrance),Low
+2026-03-11 06:15,EVT-00562,B3,Emergency Exit #B3-F2,ADM-29,Administrator,Emergency Exit,Biometric,Exit,Authorized,N/A,Building B3 (Floor 2 - Emergency Exit),Low
+2026-03-11 06:25,EVT-00563,B1,Office #B1-F2,VIS-886,Visitor,Office,Biometric,Entry,Suspicious,VIS-886,Building B1 (Floor 2 - Office),High
+2026-03-11 06:35,EVT-00564,B3,Restricted Area #B3-F3,UNK-999,Unknown,Restricted Area,Visitor Pass,Entry,Suspicious,VIS-608,Building B3 (Floor 3 - Emergency Exit),Critical
+2026-03-11 06:45,EVT-00565,B3,Server Room #B3-F4,VIS-660,Visitor,Server Room,PIN,Entry,Authorized,VIS-660,Building B3 (Floor 4 - Server Room),Low
+2026-03-11 06:55,EVT-00566,B1,Emergency Exit #B1-F1,UNK-999,Unknown,Emergency Exit,Biometric,Exit,Authorized,N/A,Building B1 (Floor 1 - Emergency Exit),Low
+2026-03-11 07:05,EVT-00567,B2,Restricted Area #B2-F4,VIS-684,Visitor,Restricted Area,Visitor Pass,Exit,Authorized,VIS-684,Building B2 (Floor 4 - Restricted Area),Low
+2026-03-11 07:25,EVT-00568,B2,Server Room #B2-F2,UNK-999,Unknown,Server Room,PIN,Exit,Authorized,N/A,Building B2 (Floor 2 - Server Room),Low
+2026-03-11 07:55,EVT-00569,B2,Emergency Exit #B2-F2,CON-370,Contractor,Emergency Exit,PIN,Entry,Authorized,N/A,Building B2 (Floor 2 - Emergency Exit),Low
+2026-03-11 08:40,EVT-00570,B2,Restricted Area #B2-F3,CON-304,Contractor,Restricted Area,RFID,Entry,Authorized,N/A,Building B2 (Floor 3 - Restricted Area),Low
+2026-03-11 09:10,EVT-00571,B2,Parking #B2-F5,ADM-55,Administrator,Parking,RFID,Entry,Authorized,N/A,Building B2 (Floor 5 - Parking),Low
+2026-03-11 09:30,EVT-00572,B1,Main Entrance #B1-F1,UNK-999,Unknown,Main Entrance,Biometric,Exit,Authorized,N/A,Building B1 (Floor 1 - Main Entrance),Low
+2026-03-11 09:40,EVT-00573,B1,Parking #B1-F2,VIS-559,Visitor,Parking,Biometric,Entry,Authorized,VIS-559,Building B1 (Floor 2 - Parking),Low
+2026-03-11 10:25,EVT-00574,B1,Restricted Area #B1-F1,EMP-340,Employee,Restricted Area,PIN,Entry,Suspicious,N/A,Building B1 (Floor 1 - Restricted Area),High
+2026-03-11 10:55,EVT-00575,B2,Server Room #B2-F1,UNK-999,Unknown,Server Room,Access Card,Exit,Denied,N/A,Building B2 (Floor 1 - Server Room),High
+2026-03-11 11:05,EVT-00576,B1,Laboratory #B1-F1,CON-443,Contractor,Laboratory,Access Card,Exit,Authorized,N/A,Building B1 (Floor 1 - Laboratory),Low
+2026-03-11 11:25,EVT-00577,B1,Server Room #B1-F2,EMP-656,Employee,Server Room,PIN,Exit,Authorized,N/A,Building B1 (Floor 2 - Server Room),Low
+2026-03-11 12:10,EVT-00578,B3,Emergency Exit #B3-F3,CON-421,Contractor,Emergency Exit,Access Card,Exit,Authorized,N/A,Building B3 (Floor 3 - Emergency Exit),Low
+2026-03-11 12:40,EVT-00579,B2,Laboratory #B2-F5,CON-427,Contractor,Laboratory,PIN,Entry,Authorized,N/A,Building B2 (Floor 5 - Laboratory),Low
+2026-03-11 13:25,EVT-00580,B1,Main Entrance #B1-F3,EMP-224,Employee,Main Entrance,Access Card,Exit,Authorized,N/A,Building B1 (Floor 3 - Main Entrance),Low
+2026-03-11 14:10,EVT-00581,B3,Main Entrance #B3-F4,EMP-924,Employee,Main Entrance,Visitor Pass,Entry,Authorized,N/A,Building B3 (Floor 4 - Main Entrance),Low
+2026-03-11 14:30,EVT-00582,B1,Restricted Area #B1-F1,ADM-82,Administrator,Restricted Area,Visitor Pass,Exit,Authorized,N/A,Building B1 (Floor 1 - Restricted Area),Low
+2026-03-11 14:50,EVT-00583,B3,Office #B3-F2,ADM-24,Administrator,Office,RFID,Entry,Authorized,N/A,Building B3 (Floor 2 - Office),Low
+2026-03-11 15:20,EVT-00584,B3,Laboratory #B3-F4,EMP-943,Employee,Laboratory,Access Card,Entry,Authorized,N/A,Building B3 (Floor 4 - Laboratory),Low
+2026-03-11 16:05,EVT-00585,B2,Parking #B2-F2,EMP-717,Employee,Parking,RFID,Entry,Authorized,N/A,Building B2 (Floor 2 - Parking),Low
+2026-03-11 16:25,EVT-00586,B3,Laboratory #B3-F4,VIS-619,Visitor,Laboratory,RFID,Entry,Authorized,VIS-619,Building B3 (Floor 4 - Laboratory),Low
+2026-03-11 17:10,EVT-00587,B2,Parking #B2-F5,EMP-401,Employee,Parking,RFID,Entry,Authorized,N/A,Building B2 (Floor 5 - Parking),Low
+2026-03-11 17:30,EVT-00588,B2,Emergency Exit #B2-F4,ADM-84,Administrator,Emergency Exit,Biometric,Entry,Authorized,N/A,Building B2 (Floor 4 - Emergency Exit),Low
+2026-03-11 18:15,EVT-00589,B1,Server Room #B1-F4,EMP-749,Employee,Server Room,RFID,Exit,Authorized,N/A,Building B1 (Floor 4 - Server Room),Low
+2026-03-11 18:35,EVT-00590,B1,Parking #B1-F1,ADM-40,Administrator,Parking,Biometric,Exit,Authorized,N/A,Building B1 (Floor 1 - Parking),Low
+2026-03-11 19:05,EVT-00591,B2,Laboratory #B2-F4,ADM-62,Administrator,Laboratory,RFID,Exit,Denied,N/A,Building B2 (Floor 4 - Laboratory),Medium
+2026-03-11 19:35,EVT-00592,B1,Main Entrance #B1-F2,EMP-148,Employee,Main Entrance,Access Card,Exit,Authorized,N/A,Building B1 (Floor 2 - Main Entrance),Low
+2026-03-11 19:55,EVT-00593,B2,Office #B2-F2,ADM-44,Administrator,Office,Biometric,Entry,Denied,N/A,Building B2 (Floor 2 - Office),Medium
+2026-03-11 20:15,EVT-00594,B3,Main Entrance #B3-F1,ADM-89,Administrator,Main Entrance,RFID,Exit,Denied,N/A,Building B3 (Floor 1 - Main Entrance),Medium
+2026-03-11 20:45,EVT-00595,B2,Server Room #B2-F3,EMP-703,Employee,Server Room,Visitor Pass,Exit,Authorized,N/A,Building B2 (Floor 3 - Server Room),Low
+2026-03-11 21:05,EVT-00596,B1,Office #B1-F4,CON-362,Contractor,Office,Biometric,Exit,Authorized,N/A,Building B1 (Floor 4 - Office),Low
+2026-03-11 21:35,EVT-00597,B3,Main Entrance #B3-F5,CON-379,Contractor,Main Entrance,Visitor Pass,Entry,Authorized,N/A,Building B3 (Floor 5 - Main Entrance),Low
+2026-03-11 22:05,EVT-00598,B1,Laboratory #B1-F3,EMP-221,Employee,Laboratory,Biometric,Exit,Authorized,N/A,Building B1 (Floor 3 - Laboratory),Low
+2026-03-11 22:15,EVT-00599,B2,Parking #B2-F5,ADM-29,Administrator,Parking,Access Card,Exit,Authorized,N/A,Building B2 (Floor 5 - Parking),Low
+2026-03-11 23:00,EVT-00600,B3,Server Room #B3-F1,ADM-52,Administrator,Server Room,RFID,Exit,Authorized,N/A,Building B3 (Floor 1 - Server Room),Low
+2026-03-11 23:30,EVT-00601,B2,Main Entrance #B2-F2,EMP-505,Employee,Main Entrance,PIN,Exit,Denied,N/A,Building B2 (Floor 2 - Main Entrance),Medium
+2026-03-11 23:50,EVT-00602,B2,Office #B2-F5,VIS-712,Visitor,Office,RFID,Entry,Authorized,VIS-712,Building B2 (Floor 5 - Office),Low
+2026-03-12 00:10,EVT-00603,B1,Parking #B1-F2,ADM-78,Administrator,Parking,Access Card,Exit,Suspicious,N/A,Building B1 (Floor 2 - Parking),High
+2026-03-12 00:30,EVT-00604,B3,Office #B3-F3,EMP-764,Employee,Office,RFID,Entry,Denied,N/A,Building B3 (Floor 3 - Office),Medium
+2026-03-12 01:15,EVT-00605,B3,Office #B3-F2,CON-358,Contractor,Office,RFID,Exit,Authorized,N/A,Building B3 (Floor 2 - Office),Low
+2026-03-12 01:25,EVT-00606,B3,Emergency Exit #B3-F1,CON-456,Contractor,Emergency Exit,Visitor Pass,Entry,Authorized,N/A,Building B3 (Floor 1 - Emergency Exit),Low
+2026-03-12 02:10,EVT-00607,B3,Server Room #B3-F1,EMP-589,Employee,Server Room,RFID,Entry,Authorized,N/A,Building B3 (Floor 1 - Server Room),Low
+2026-03-12 02:20,EVT-00608,B1,Emergency Exit #B1-F1,CON-455,Contractor,Emergency Exit,RFID,Exit,Authorized,N/A,Building B1 (Floor 1 - Emergency Exit),Low
+2026-03-12 03:05,EVT-00609,B2,Server Room #B2-F2,CON-302,Contractor,Server Room,Biometric,Entry,Authorized,N/A,Building B2 (Floor 2 - Server Room),Low
+2026-03-12 03:50,EVT-00610,B2,Laboratory #B2-F3,EMP-836,Employee,Laboratory,Access Card,Entry,Authorized,N/A,Building B2 (Floor 3 - Laboratory),Low
+2026-03-12 04:10,EVT-00611,B3,Server Room #B3-F2,UNK-999,Unknown,Server Room,Visitor Pass,Exit,Authorized,N/A,Building B3 (Floor 2 - Server Room),Low
+2026-03-12 04:30,EVT-00612,B1,Server Room #B1-F3,UNK-999,Unknown,Server Room,Biometric,Exit,Authorized,N/A,Building B1 (Floor 3 - Server Room),Low
+2026-03-12 05:00,EVT-00613,B1,Restricted Area #B1-F2,UNK-999,Unknown,Restricted Area,Biometric,Exit,Authorized,N/A,Building B1 (Floor 2 - Restricted Area),Low
+2026-03-12 05:30,EVT-00614,B3,Main Entrance #B3-F4,VIS-741,Visitor,Main Entrance,Access Card,Exit,Authorized,VIS-741,Building B3 (Floor 4 - Main Entrance),Low
+2026-03-12 05:50,EVT-00615,B3,Restricted Area #B3-F2,VIS-563,Visitor,Restricted Area,RFID,Entry,Authorized,VIS-563,Building B3 (Floor 2 - Restricted Area),Low
+2026-03-12 06:35,EVT-00616,B2,Restricted Area #B2-F1,UNK-999,Unknown,Restricted Area,PIN,Entry,Authorized,N/A,Building B2 (Floor 1 - Restricted Area),Low
+2026-03-12 06:55,EVT-00617,B2,Emergency Exit #B2-F3,CON-328,Contractor,Emergency Exit,Access Card,Entry,Authorized,N/A,Building B2 (Floor 3 - Emergency Exit),Low
+2026-03-12 07:40,EVT-00618,B1,Parking #B1-F3,UNK-999,Unknown,Parking,Biometric,Exit,Suspicious,N/A,Building B1 (Floor 3 - Parking),High
+2026-03-12 08:25,EVT-00619,B2,Restricted Area #B2-F5,UNK-999,Unknown,Restricted Area,Visitor Pass,Exit,Suspicious,N/A,Building B2 (Floor 5 - Office),Critical
+2026-03-12 08:35,EVT-00620,B2,Laboratory #B2-F4,CON-471,Contractor,Laboratory,Biometric,Exit,Authorized,N/A,Building B2 (Floor 4 - Laboratory),Low
+2026-03-12 09:05,EVT-00621,B3,Laboratory #B3-F1,CON-314,Contractor,Laboratory,Access Card,Exit,Authorized,N/A,Building B3 (Floor 1 - Laboratory),Low
+2026-03-12 09:25,EVT-00622,B2,Emergency Exit #B2-F3,EMP-164,Employee,Emergency Exit,RFID,Exit,Authorized,N/A,Building B2 (Floor 3 - Emergency Exit),Low
+2026-03-12 09:45,EVT-00623,B2,Server Room #B2-F2,UNK-999,Unknown,Server Room,Visitor Pass,Exit,Authorized,N/A,Building B2 (Floor 2 - Server Room),Low
+2026-03-12 10:15,EVT-00624,B2,Office #B2-F3,VIS-524,Visitor,Office,PIN,Entry,Authorized,VIS-524,Building B2 (Floor 3 - Office),Low
+2026-03-12 11:00,EVT-00625,B3,Server Room #B3-F3,CON-469,Contractor,Server Room,PIN,Entry,Authorized,N/A,Building B3 (Floor 3 - Server Room),Low
+2026-03-12 11:30,EVT-00626,B1,Main Entrance #B1-F3,VIS-743,Visitor,Main Entrance,Biometric,Exit,Authorized,VIS-743,Building B1 (Floor 3 - Main Entrance),Low
+2026-03-12 12:00,EVT-00627,B2,Laboratory #B2-F3,CON-352,Contractor,Laboratory,Biometric,Exit,Authorized,N/A,Building B2 (Floor 3 - Laboratory),Low
+2026-03-12 12:20,EVT-00628,B3,Parking #B3-F3,ADM-22,Administrator,Parking,Visitor Pass,Exit,Authorized,N/A,Building B3 (Floor 3 - Parking),Low
+2026-03-12 12:50,EVT-00629,B1,Office #B1-F2,UNK-999,Unknown,Office,PIN,Exit,Authorized,N/A,Building B1 (Floor 2 - Office),Low
+2026-03-12 13:00,EVT-00630,B2,Restricted Area #B2-F1,CON-472,Contractor,Restricted Area,Visitor Pass,Exit,Denied,N/A,Building B2 (Floor 1 - Restricted Area),High
+2026-03-12 13:45,EVT-00631,B1,Restricted Area #B1-F1,CON-376,Contractor,Restricted Area,PIN,Entry,Authorized,N/A,Building B1 (Floor 1 - Restricted Area),Low
+2026-03-12 14:05,EVT-00632,B2,Server Room #B2-F5,EMP-945,Employee,Server Room,Access Card,Entry,Authorized,N/A,Building B2 (Floor 5 - Server Room),Low
+2026-03-12 14:35,EVT-00633,B1,Server Room #B1-F5,UNK-999,Unknown,Server Room,RFID,Entry,Authorized,N/A,Building B1 (Floor 5 - Server Room),Low
+2026-03-12 15:20,EVT-00634,B2,Restricted Area #B2-F2,CON-334,Contractor,Restricted Area,Access Card,Exit,Authorized,N/A,Building B2 (Floor 2 - Restricted Area),Low
+2026-03-12 15:30,EVT-00635,B2,Parking #B2-F5,ADM-76,Administrator,Parking,Biometric,Exit,Authorized,N/A,Building B2 (Floor 5 - Parking),Low
+2026-03-12 15:50,EVT-00636,B3,Restricted Area #B3-F5,VIS-723,Visitor,Restricted Area,RFID,Entry,Suspicious,VIS-723,Building B3 (Floor 5 - Restricted Area),High
+2026-03-12 16:00,EVT-00637,B3,Restricted Area #B3-F4,EMP-744,Employee,Restricted Area,RFID,Exit,Authorized,N/A,Building B3 (Floor 4 - Restricted Area),Low
+2026-03-12 16:20,EVT-00638,B2,Office #B2-F3,CON-319,Contractor,Office,Access Card,Exit,Authorized,N/A,Building B2 (Floor 3 - Office),Low
+2026-03-12 17:05,EVT-00639,B1,Main Entrance #B1-F5,CON-311,Contractor,Main Entrance,Biometric,Entry,Authorized,N/A,Building B1 (Floor 5 - Main Entrance),Low
+2026-03-12 17:50,EVT-00640,B1,Emergency Exit #B1-F4,ADM-71,Administrator,Emergency Exit,Access Card,Entry,Authorized,N/A,Building B1 (Floor 4 - Emergency Exit),Low
+2026-03-12 18:00,EVT-00641,B2,Server Room #B2-F3,VIS-680,Visitor,Server Room,PIN,Exit,Authorized,VIS-680,Building B2 (Floor 3 - Server Room),Low
+2026-03-12 18:45,EVT-00642,B3,Server Room #B3-F3,EMP-736,Employee,Server Room,Access Card,Exit,Authorized,N/A,Building B3 (Floor 3 - Server Room),Low
+2026-03-12 19:15,EVT-00643,B1,Restricted Area #B1-F2,CON-348,Contractor,Restricted Area,Visitor Pass,Exit,Denied,N/A,Building B1 (Floor 2 - Restricted Area),High
+2026-03-12 19:45,EVT-00644,B2,Emergency Exit #B2-F4,EMP-775,Employee,Emergency Exit,PIN,Entry,Authorized,N/A,Building B2 (Floor 4 - Emergency Exit),Low
+2026-03-12 19:55,EVT-00645,B3,Parking #B3-F2,UNK-999,Unknown,Parking,PIN,Exit,Authorized,N/A,Building B3 (Floor 2 - Parking),Low
+2026-03-12 20:15,EVT-00646,B2,Emergency Exit #B2-F4,CON-455,Contractor,Emergency Exit,Biometric,Entry,Authorized,N/A,Building B2 (Floor 4 - Emergency Exit),Low
+2026-03-12 20:45,EVT-00647,B1,Main Entrance #B1-F2,CON-319,Contractor,Main Entrance,RFID,Entry,Authorized,N/A,Building B1 (Floor 2 - Main Entrance),Low
+2026-03-12 21:15,EVT-00648,B1,Emergency Exit #B1-F1,VIS-571,Visitor,Emergency Exit,PIN,Entry,Authorized,VIS-571,Building B1 (Floor 1 - Emergency Exit),Low
+2026-03-12 21:35,EVT-00649,B3,Parking #B3-F3,CON-430,Contractor,Parking,PIN,Entry,Authorized,N/A,Building B3 (Floor 3 - Parking),Low
+2026-03-12 21:45,EVT-00650,B2,Emergency Exit #B2-F1,VIS-544,Visitor,Emergency Exit,PIN,Exit,Authorized,VIS-544,Building B2 (Floor 1 - Emergency Exit),Low
+2026-03-12 22:15,EVT-00651,B2,Parking #B2-F4,VIS-506,Visitor,Parking,Visitor Pass,Entry,Authorized,VIS-506,Building B2 (Floor 4 - Parking),Low
+2026-03-12 23:00,EVT-00652,B3,Office #B3-F2,UNK-999,Unknown,Office,Access Card,Entry,Authorized,N/A,Building B3 (Floor 2 - Office),Low
+2026-03-12 23:45,EVT-00653,B3,Office #B3-F3,EMP-221,Employee,Office,PIN,Exit,Authorized,N/A,Building B3 (Floor 3 - Office),Low
+2026-03-13 00:30,EVT-00654,B3,Office #B3-F3,CON-491,Contractor,Office,PIN,Exit,Authorized,N/A,Building B3 (Floor 3 - Office),Low
+2026-03-13 01:00,EVT-00655,B2,Restricted Area #B2-F2,EMP-786,Employee,Restricted Area,RFID,Exit,Authorized,N/A,Building B2 (Floor 2 - Restricted Area),Low
+2026-03-13 01:30,EVT-00656,B3,Office #B3-F5,UNK-999,Unknown,Office,RFID,Exit,Suspicious,N/A,Building B3 (Floor 5 - Office),High
+2026-03-13 02:00,EVT-00657,B3,Laboratory #B3-F2,CON-484,Contractor,Laboratory,Access Card,Entry,Authorized,N/A,Building B3 (Floor 2 - Laboratory),Low
+2026-03-13 02:45,EVT-00658,B1,Parking #B1-F4,ADM-41,Administrator,Parking,Biometric,Exit,Authorized,N/A,Building B1 (Floor 4 - Parking),Low
+2026-03-13 02:55,EVT-00659,B3,Laboratory #B3-F5,ADM-89,Administrator,Laboratory,PIN,Exit,Authorized,N/A,Building B3 (Floor 5 - Laboratory),Low
+2026-03-13 03:25,EVT-00660,B2,Office #B2-F3,VIS-886,Visitor,Office,Access Card,Entry,Authorized,VIS-886,Building B2 (Floor 3 - Office),Low
+2026-03-13 03:55,EVT-00661,B1,Office #B1-F5,VIS-519,Visitor,Office,Access Card,Exit,Authorized,VIS-519,Building B1 (Floor 5 - Office),Low
+2026-03-13 04:40,EVT-00662,B3,Office #B3-F3,VIS-662,Visitor,Office,PIN,Exit,Authorized,VIS-662,Building B3 (Floor 3 - Office),Low
+2026-03-13 05:10,EVT-00663,B3,Restricted Area #B3-F2,ADM-35,Administrator,Restricted Area,RFID,Exit,Authorized,N/A,Building B3 (Floor 2 - Restricted Area),Low
+2026-03-13 05:55,EVT-00664,B1,Restricted Area #B1-F4,VIS-816,Visitor,Restricted Area,PIN,Exit,Denied,VIS-816,Building B1 (Floor 4 - Restricted Area),High
+2026-03-13 06:15,EVT-00665,B1,Laboratory #B1-F2,UNK-999,Unknown,Laboratory,Visitor Pass,Exit,Authorized,N/A,Building B1 (Floor 2 - Laboratory),Low
+2026-03-13 06:45,EVT-00666,B1,Office #B1-F1,VIS-779,Visitor,Office,Biometric,Entry,Authorized,VIS-779,Building B1 (Floor 1 - Office),Low
+2026-03-13 07:15,EVT-00667,B3,Main Entrance #B3-F4,EMP-909,Employee,Main Entrance,Biometric,Exit,Authorized,N/A,Building B3 (Floor 4 - Main Entrance),Low
+2026-03-13 07:25,EVT-00668,B1,Parking #B1-F4,ADM-98,Administrator,Parking,RFID,Exit,Authorized,N/A,Building B1 (Floor 4 - Parking),Low
+2026-03-13 08:10,EVT-00669,B3,Main Entrance #B3-F5,VIS-726,Visitor,Main Entrance,Visitor Pass,Exit,Authorized,VIS-726,Building B3 (Floor 5 - Main Entrance),Low
+2026-03-13 08:40,EVT-00670,B1,Office #B1-F5,CON-484,Contractor,Office,Biometric,Exit,Authorized,N/A,Building B1 (Floor 5 - Office),Low
+2026-03-13 09:25,EVT-00671,B2,Restricted Area #B2-F1,ADM-41,Administrator,Restricted Area,Biometric,Exit,Authorized,N/A,Building B2 (Floor 1 - Restricted Area),Low
+2026-03-13 09:35,EVT-00672,B1,Laboratory #B1-F3,VIS-794,Visitor,Laboratory,Visitor Pass,Exit,Authorized,VIS-794,Building B1 (Floor 3 - Laboratory),Low
+2026-03-13 10:05,EVT-00673,B1,Server Room #B1-F3,ADM-84,Administrator,Server Room,Access Card,Entry,Authorized,N/A,Building B1 (Floor 3 - Server Room),Low
+2026-03-13 10:50,EVT-00674,B1,Server Room #B1-F3,EMP-943,Employee,Server Room,PIN,Exit,Denied,N/A,Building B1 (Floor 3 - Server Room),High
+2026-03-13 11:00,EVT-00675,B1,Office #B1-F1,CON-359,Contractor,Office,Visitor Pass,Exit,Authorized,N/A,Building B1 (Floor 1 - Office),Low
+2026-03-13 11:30,EVT-00676,B2,Office #B2-F3,ADM-87,Administrator,Office,Visitor Pass,Exit,Authorized,N/A,Building B2 (Floor 3 - Office),Low
+2026-03-13 12:15,EVT-00677,B2,Main Entrance #B2-F3,UNK-999,Unknown,Main Entrance,Access Card,Entry,Authorized,N/A,Building B2 (Floor 3 - Main Entrance),Low
+2026-03-13 12:35,EVT-00678,B1,Laboratory #B1-F3,VIS-881,Visitor,Laboratory,Visitor Pass,Exit,Authorized,VIS-881,Building B1 (Floor 3 - Laboratory),Low
+2026-03-13 13:05,EVT-00679,B2,Office #B2-F5,ADM-29,Administrator,Office,Access Card,Entry,Authorized,N/A,Building B2 (Floor 5 - Office),Low
+2026-03-13 13:35,EVT-00680,B2,Main Entrance #B2-F2,CON-313,Contractor,Main Entrance,Access Card,Exit,Authorized,N/A,Building B2 (Floor 2 - Main Entrance),Low
+2026-03-13 13:45,EVT-00681,B1,Main Entrance #B1-F5,UNK-999,Unknown,Main Entrance,Visitor Pass,Exit,Authorized,N/A,Building B1 (Floor 5 - Main Entrance),Low
+2026-03-13 14:30,EVT-00682,B2,Restricted Area #B2-F3,UNK-999,Unknown,Restricted Area,Access Card,Entry,Denied,N/A,Building B2 (Floor 3 - Restricted Area),High
+2026-03-13 15:15,EVT-00683,B2,Emergency Exit #B2-F2,EMP-649,Employee,Emergency Exit,Biometric,Exit,Authorized,N/A,Building B2 (Floor 2 - Emergency Exit),Low
+2026-03-13 15:35,EVT-00684,B1,Office #B1-F5,EMP-434,Employee,Office,Access Card,Entry,Authorized,N/A,Building B1 (Floor 5 - Office),Low
+2026-03-13 15:55,EVT-00685,B2,Main Entrance #B2-F3,EMP-795,Employee,Main Entrance,Biometric,Entry,Authorized,N/A,Building B2 (Floor 3 - Main Entrance),Low
+2026-03-13 16:15,EVT-00686,B1,Office #B1-F1,VIS-675,Visitor,Office,PIN,Entry,Authorized,VIS-675,Building B1 (Floor 1 - Office),Low
+2026-03-13 16:35,EVT-00687,B2,Laboratory #B2-F5,VIS-610,Visitor,Laboratory,Access Card,Entry,Authorized,VIS-610,Building B2 (Floor 5 - Laboratory),Low
+2026-03-13 16:45,EVT-00688,B3,Server Room #B3-F5,VIS-579,Visitor,Server Room,PIN,Entry,Authorized,VIS-579,Building B3 (Floor 5 - Server Room),Low
+2026-03-13 17:05,EVT-00689,B1,Main Entrance #B1-F1,EMP-824,Employee,Main Entrance,Visitor Pass,Exit,Authorized,N/A,Building B1 (Floor 1 - Main Entrance),Low
+2026-03-13 17:25,EVT-00690,B1,Emergency Exit #B1-F5,UNK-999,Unknown,Emergency Exit,Biometric,Entry,Authorized,N/A,Building B1 (Floor 5 - Emergency Exit),Low
+2026-03-13 17:55,EVT-00691,B2,Server Room #B2-F4,UNK-999,Unknown,Server Room,Biometric,Entry,Authorized,N/A,Building B2 (Floor 4 - Server Room),Low
+2026-03-13 18:05,EVT-00692,B2,Office #B2-F1,CON-457,Contractor,Office,Biometric,Exit,Denied,N/A,Building B2 (Floor 1 - Office),Medium
+2026-03-13 18:25,EVT-00693,B3,Server Room #B3-F2,EMP-485,Employee,Server Room,Visitor Pass,Exit,Authorized,N/A,Building B3 (Floor 2 - Server Room),Low
+2026-03-13 18:55,EVT-00694,B1,Parking #B1-F3,VIS-829,Visitor,Parking,Visitor Pass,Entry,Authorized,VIS-829,Building B1 (Floor 3 - Parking),Low
+2026-03-13 19:15,EVT-00695,B3,Laboratory #B3-F2,VIS-578,Visitor,Laboratory,Biometric,Exit,Authorized,VIS-578,Building B3 (Floor 2 - Laboratory),Low
+2026-03-13 19:25,EVT-00696,B3,Parking #B3-F5,ADM-71,Administrator,Parking,PIN,Exit,Authorized,N/A,Building B3 (Floor 5 - Parking),Low
+2026-03-13 20:10,EVT-00697,B3,Office #B3-F4,EMP-604,Employee,Office,PIN,Exit,Authorized,N/A,Building B3 (Floor 4 - Office),Low
+2026-03-13 20:30,EVT-00698,B2,Laboratory #B2-F1,EMP-750,Employee,Laboratory,Biometric,Entry,Authorized,N/A,Building B2 (Floor 1 - Laboratory),Low
+2026-03-13 20:50,EVT-00699,B3,Restricted Area #B3-F1,UNK-999,Unknown,Restricted Area,PIN,Entry,Suspicious,N/A,Building B3 (Floor 1 - Restricted Area),High
+2026-03-13 21:20,EVT-00700,B1,Office #B1-F2,CON-496,Contractor,Office,Visitor Pass,Entry,Authorized,N/A,Building B1 (Floor 2 - Office),Low
+2026-03-13 22:05,EVT-00701,B1,Office #B1-F1,CON-397,Contractor,Office,Visitor Pass,Entry,Suspicious,N/A,Building B1 (Floor 1 - Office),High
+2026-03-13 22:35,EVT-00702,B3,Parking #B3-F1,EMP-293,Employee,Parking,Access Card,Entry,Authorized,N/A,Building B3 (Floor 1 - Parking),Low
+2026-03-13 23:05,EVT-00703,B2,Office #B2-F3,ADM-98,Administrator,Office,RFID,Exit,Denied,N/A,Building B2 (Floor 3 - Office),Medium
+2026-03-13 23:25,EVT-00704,B3,Emergency Exit #B3-F2,EMP-464,Employee,Emergency Exit,Visitor Pass,Exit,Authorized,N/A,Building B3 (Floor 2 - Emergency Exit),Low
+2026-03-14 00:10,EVT-00705,B3,Emergency Exit #B3-F3,EMP-304,Employee,Emergency Exit,Biometric,Exit,Authorized,N/A,Building B3 (Floor 3 - Emergency Exit),Low
+2026-03-14 00:55,EVT-00706,B3,Restricted Area #B3-F4,CON-306,Contractor,Restricted Area,Access Card,Entry,Authorized,N/A,Building B3 (Floor 4 - Restricted Area),Low
+2026-03-14 01:25,EVT-00707,B1,Parking #B1-F4,VIS-694,Visitor,Parking,PIN,Entry,Authorized,VIS-694,Building B1 (Floor 4 - Parking),Low
+2026-03-14 01:45,EVT-00708,B2,Server Room #B2-F5,UNK-999,Unknown,Server Room,PIN,Entry,Suspicious,N/A,Building B2 (Floor 5 - Laboratory),Critical
+2026-03-14 02:05,EVT-00709,B1,Parking #B1-F4,UNK-999,Unknown,Parking,RFID,Exit,Denied,N/A,Building B1 (Floor 4 - Parking),Medium
+2026-03-14 02:50,EVT-00710,B3,Restricted Area #B3-F3,UNK-999,Unknown,Restricted Area,RFID,Entry,Authorized,N/A,Building B3 (Floor 3 - Restricted Area),Low
+2026-03-14 03:10,EVT-00711,B2,Main Entrance #B2-F4,ADM-48,Administrator,Main Entrance,PIN,Entry,Authorized,N/A,Building B2 (Floor 4 - Main Entrance),Low
+2026-03-14 03:30,EVT-00712,B3,Laboratory #B3-F3,ADM-17,Administrator,Laboratory,Visitor Pass,Exit,Authorized,N/A,Building B3 (Floor 3 - Laboratory),Low
+2026-03-14 04:15,EVT-00713,B3,Laboratory #B3-F5,CON-487,Contractor,Laboratory,Biometric,Exit,Authorized,N/A,Building B3 (Floor 5 - Laboratory),Low
+2026-03-14 04:25,EVT-00714,B3,Laboratory #B3-F2,ADM-90,Administrator,Laboratory,PIN,Exit,Denied,N/A,Building B3 (Floor 2 - Laboratory),Medium
+2026-03-14 05:10,EVT-00715,B3,Server Room #B3-F2,EMP-944,Employee,Server Room,Visitor Pass,Exit,Suspicious,N/A,Building B3 (Floor 2 - Server Room),High
+2026-03-14 05:40,EVT-00716,B1,Server Room #B1-F1,ADM-91,Administrator,Server Room,Visitor Pass,Exit,Authorized,N/A,Building B1 (Floor 1 - Server Room),Low
+2026-03-14 06:00,EVT-00717,B3,Emergency Exit #B3-F4,CON-372,Contractor,Emergency Exit,Access Card,Exit,Authorized,N/A,Building B3 (Floor 4 - Emergency Exit),Low
+2026-03-14 06:45,EVT-00718,B1,Office #B1-F5,VIS-775,Visitor,Office,PIN,Exit,Authorized,VIS-775,Building B1 (Floor 5 - Office),Low
+2026-03-14 06:55,EVT-00719,B2,Restricted Area #B2-F4,UNK-999,Unknown,Restricted Area,PIN,Exit,Authorized,N/A,Building B2 (Floor 4 - Restricted Area),Low
+2026-03-14 07:15,EVT-00720,B1,Restricted Area #B1-F3,CON-475,Contractor,Restricted Area,PIN,Entry,Denied,N/A,Building B1 (Floor 3 - Restricted Area),High
+2026-03-14 07:35,EVT-00721,B3,Laboratory #B3-F5,UNK-999,Unknown,Laboratory,PIN,Entry,Authorized,N/A,Building B3 (Floor 5 - Laboratory),Low
+2026-03-14 07:45,EVT-00722,B2,Restricted Area #B2-F2,UNK-999,Unknown,Restricted Area,PIN,Exit,Suspicious,N/A,Building B2 (Floor 2 - Server Room),Critical
+2026-03-14 07:55,EVT-00723,B2,Parking #B2-F2,VIS-756,Visitor,Parking,Visitor Pass,Exit,Authorized,VIS-756,Building B2 (Floor 2 - Parking),Low
+2026-03-14 08:05,EVT-00724,B1,Emergency Exit #B1-F4,CON-321,Contractor,Emergency Exit,Biometric,Entry,Authorized,N/A,Building B1 (Floor 4 - Emergency Exit),Low
+2026-03-14 08:15,EVT-00725,B1,Emergency Exit #B1-F2,ADM-90,Administrator,Emergency Exit,RFID,Entry,Authorized,N/A,Building B1 (Floor 2 - Emergency Exit),Low
+2026-03-14 09:00,EVT-00726,B3,Office #B3-F3,CON-425,Contractor,Office,Biometric,Exit,Authorized,N/A,Building B3 (Floor 3 - Office),Low
+2026-03-14 09:30,EVT-00727,B3,Parking #B3-F2,EMP-120,Employee,Parking,Visitor Pass,Exit,Authorized,N/A,Building B3 (Floor 2 - Parking),Low
+2026-03-14 09:50,EVT-00728,B2,Parking #B2-F1,UNK-999,Unknown,Parking,PIN,Entry,Authorized,N/A,Building B2 (Floor 1 - Parking),Low
+2026-03-14 10:10,EVT-00729,B1,Server Room #B1-F2,UNK-999,Unknown,Server Room,Biometric,Exit,Authorized,N/A,Building B1 (Floor 2 - Server Room),Low
+2026-03-14 10:20,EVT-00730,B3,Restricted Area #B3-F1,UNK-999,Unknown,Restricted Area,RFID,Entry,Authorized,N/A,Building B3 (Floor 1 - Restricted Area),Low
+2026-03-14 10:40,EVT-00731,B3,Main Entrance #B3-F5,CON-499,Contractor,Main Entrance,Visitor Pass,Exit,Authorized,N/A,Building B3 (Floor 5 - Main Entrance),Low
+2026-03-14 10:50,EVT-00732,B2,Main Entrance #B2-F1,CON-349,Contractor,Main Entrance,Biometric,Exit,Denied,N/A,Building B2 (Floor 1 - Main Entrance),Medium
+2026-03-14 11:35,EVT-00733,B1,Parking #B1-F2,VIS-555,Visitor,Parking,Visitor Pass,Exit,Authorized,VIS-555,Building B1 (Floor 2 - Parking),Low
+2026-03-14 11:45,EVT-00734,B1,Office #B1-F3,ADM-99,Administrator,Office,Visitor Pass,Exit,Denied,N/A,Building B1 (Floor 3 - Office),Medium
+2026-03-14 12:15,EVT-00735,B2,Emergency Exit #B2-F5,CON-325,Contractor,Emergency Exit,PIN,Entry,Authorized,N/A,Building B2 (Floor 5 - Emergency Exit),Low
+2026-03-14 12:35,EVT-00736,B2,Main Entrance #B2-F4,VIS-793,Visitor,Main Entrance,Biometric,Exit,Authorized,VIS-793,Building B2 (Floor 4 - Main Entrance),Low
+2026-03-14 13:05,EVT-00737,B3,Restricted Area #B3-F1,UNK-999,Unknown,Restricted Area,RFID,Exit,Denied,N/A,Building B3 (Floor 1 - Office),Critical
+2026-03-14 13:50,EVT-00738,B1,Parking #B1-F1,EMP-980,Employee,Parking,PIN,Exit,Denied,N/A,Building B1 (Floor 1 - Parking),Medium
+2026-03-14 14:35,EVT-00739,B3,Restricted Area #B3-F2,VIS-688,Visitor,Restricted Area,Access Card,Exit,Denied,VIS-688,Building B3 (Floor 2 - Restricted Area),High
+2026-03-14 14:55,EVT-00740,B2,Server Room #B2-F2,CON-474,Contractor,Server Room,Visitor Pass,Exit,Authorized,N/A,Building B2 (Floor 2 - Server Room),Low
+2026-03-14 15:15,EVT-00741,B2,Parking #B2-F3,UNK-999,Unknown,Parking,Access Card,Exit,Authorized,N/A,Building B2 (Floor 3 - Parking),Low
+2026-03-14 15:45,EVT-00742,B2,Office #B2-F1,UNK-999,Unknown,Office,Biometric,Entry,Authorized,N/A,Building B2 (Floor 1 - Office),Low
+2026-03-14 16:15,EVT-00743,B1,Restricted Area #B1-F3,UNK-999,Unknown,Restricted Area,PIN,Exit,Authorized,N/A,Building B1 (Floor 3 - Restricted Area),Low
+2026-03-14 17:00,EVT-00744,B2,Laboratory #B2-F2,ADM-53,Administrator,Laboratory,Biometric,Exit,Denied,N/A,Building B2 (Floor 2 - Laboratory),Medium
+2026-03-14 17:10,EVT-00745,B1,Parking #B1-F4,VIS-884,Visitor,Parking,PIN,Entry,Authorized,VIS-884,Building B1 (Floor 4 - Parking),Low
+2026-03-14 17:40,EVT-00746,B3,Emergency Exit #B3-F4,VIS-708,Visitor,Emergency Exit,Access Card,Entry,Authorized,VIS-708,Building B3 (Floor 4 - Emergency Exit),Low
+2026-03-14 17:50,EVT-00747,B3,Laboratory #B3-F2,UNK-999,Unknown,Laboratory,Visitor Pass,Exit,Authorized,N/A,Building B3 (Floor 2 - Laboratory),Low
+2026-03-14 18:35,EVT-00748,B2,Restricted Area #B2-F4,ADM-65,Administrator,Restricted Area,Visitor Pass,Exit,Authorized,N/A,Building B2 (Floor 4 - Restricted Area),Low
+2026-03-14 19:20,EVT-00749,B2,Main Entrance #B2-F4,EMP-481,Employee,Main Entrance,RFID,Exit,Authorized,N/A,Building B2 (Floor 4 - Main Entrance),Low
+2026-03-14 19:50,EVT-00750,B3,Restricted Area #B3-F2,VIS-878,Visitor,Restricted Area,RFID,Exit,Authorized,VIS-878,Building B3 (Floor 2 - Restricted Area),Low
+2026-03-14 20:00,EVT-00751,B1,Server Room #B1-F5,VIS-584,Visitor,Server Room,PIN,Exit,Authorized,VIS-584,Building B1 (Floor 5 - Server Room),Low
+2026-03-14 20:45,EVT-00752,B2,Server Room #B2-F1,EMP-656,Employee,Server Room,PIN,Exit,Authorized,N/A,Building B2 (Floor 1 - Server Room),Low
+2026-03-14 20:55,EVT-00753,B1,Main Entrance #B1-F3,VIS-895,Visitor,Main Entrance,Access Card,Entry,Authorized,VIS-895,Building B1 (Floor 3 - Main Entrance),Low
+2026-03-14 21:15,EVT-00754,B3,Server Room #B3-F5,UNK-999,Unknown,Server Room,Biometric,Exit,Authorized,N/A,Building B3 (Floor 5 - Server Room),Low
+2026-03-14 21:35,EVT-00755,B1,Main Entrance #B1-F2,UNK-999,Unknown,Main Entrance,RFID,Entry,Authorized,N/A,Building B1 (Floor 2 - Main Entrance),Low
+2026-03-14 22:20,EVT-00756,B3,Office #B3-F2,CON-308,Contractor,Office,Access Card,Exit,Authorized,N/A,Building B3 (Floor 2 - Office),Low
+2026-03-14 22:50,EVT-00757,B1,Emergency Exit #B1-F1,VIS-751,Visitor,Emergency Exit,Visitor Pass,Exit,Authorized,VIS-751,Building B1 (Floor 1 - Emergency Exit),Low
+2026-03-14 23:10,EVT-00758,B1,Laboratory #B1-F1,VIS-619,Visitor,Laboratory,PIN,Exit,Authorized,VIS-619,Building B1 (Floor 1 - Laboratory),Low
+2026-03-14 23:40,EVT-00759,B2,Main Entrance #B2-F5,EMP-796,Employee,Main Entrance,RFID,Exit,Authorized,N/A,Building B2 (Floor 5 - Main Entrance),Low
+2026-03-15 00:10,EVT-00760,B2,Server Room #B2-F2,CON-327,Contractor,Server Room,Biometric,Entry,Authorized,N/A,Building B2 (Floor 2 - Server Room),Low
+2026-03-15 00:20,EVT-00761,B1,Office #B1-F2,ADM-27,Administrator,Office,PIN,Exit,Authorized,N/A,Building B1 (Floor 2 - Office),Low
+2026-03-15 00:40,EVT-00762,B2,Laboratory #B2-F4,UNK-999,Unknown,Laboratory,Access Card,Entry,Authorized,N/A,Building B2 (Floor 4 - Laboratory),Low
+2026-03-15 01:25,EVT-00763,B2,Emergency Exit #B2-F1,EMP-289,Employee,Emergency Exit,PIN,Entry,Authorized,N/A,Building B2 (Floor 1 - Emergency Exit),Low
+2026-03-15 01:35,EVT-00764,B1,Laboratory #B1-F2,CON-415,Contractor,Laboratory,PIN,Entry,Authorized,N/A,Building B1 (Floor 2 - Laboratory),Low
+2026-03-15 02:20,EVT-00765,B1,Server Room #B1-F3,UNK-999,Unknown,Server Room,Access Card,Entry,Suspicious,N/A,Building B1 (Floor 3 - Main Entrance),Critical
+2026-03-15 02:40,EVT-00766,B3,Office #B3-F3,EMP-504,Employee,Office,PIN,Entry,Denied,N/A,Building B3 (Floor 3 - Office),Medium
+2026-03-15 03:25,EVT-00767,B1,Office #B1-F4,CON-471,Contractor,Office,RFID,Exit,Authorized,N/A,Building B1 (Floor 4 - Office),Low
+2026-03-15 03:55,EVT-00768,B3,Main Entrance #B3-F3,CON-470,Contractor,Main Entrance,Biometric,Exit,Suspicious,N/A,Building B3 (Floor 3 - Main Entrance),High
+2026-03-15 04:25,EVT-00769,B3,Restricted Area #B3-F5,UNK-999,Unknown,Restricted Area,PIN,Exit,Denied,N/A,Building B3 (Floor 5 - Laboratory),Critical
+2026-03-15 04:55,EVT-00770,B3,Laboratory #B3-F2,ADM-56,Administrator,Laboratory,Visitor Pass,Entry,Authorized,N/A,Building B3 (Floor 2 - Laboratory),Low
+2026-03-15 05:15,EVT-00771,B1,Server Room #B1-F5,VIS-796,Visitor,Server Room,PIN,Exit,Authorized,VIS-796,Building B1 (Floor 5 - Server Room),Low
+2026-03-15 05:25,EVT-00772,B1,Office #B1-F1,CON-417,Contractor,Office,PIN,Exit,Authorized,N/A,Building B1 (Floor 1 - Office),Low
+2026-03-15 05:45,EVT-00773,B2,Parking #B2-F1,VIS-540,Visitor,Parking,RFID,Exit,Authorized,VIS-540,Building B2 (Floor 1 - Parking),Low
+2026-03-15 06:15,EVT-00774,B2,Emergency Exit #B2-F1,EMP-315,Employee,Emergency Exit,RFID,Entry,Authorized,N/A,Building B2 (Floor 1 - Emergency Exit),Low
+2026-03-15 06:25,EVT-00775,B2,Server Room #B2-F4,UNK-999,Unknown,Server Room,RFID,Exit,Authorized,N/A,Building B2 (Floor 4 - Server Room),Low
+2026-03-15 06:55,EVT-00776,B3,Office #B3-F3,UNK-999,Unknown,Office,PIN,Entry,Authorized,N/A,Building B3 (Floor 3 - Office),Low
+2026-03-15 07:40,EVT-00777,B3,Server Room #B3-F1,ADM-10,Administrator,Server Room,RFID,Exit,Authorized,N/A,Building B3 (Floor 1 - Server Room),Low
+2026-03-15 08:25,EVT-00778,B1,Emergency Exit #B1-F1,ADM-53,Administrator,Emergency Exit,Visitor Pass,Entry,Suspicious,N/A,Building B1 (Floor 1 - Emergency Exit),High
+2026-03-15 08:35,EVT-00779,B1,Parking #B1-F1,ADM-80,Administrator,Parking,Biometric,Entry,Authorized,N/A,Building B1 (Floor 1 - Parking),Low
+2026-03-15 08:45,EVT-00780,B1,Main Entrance #B1-F1,ADM-72,Administrator,Main Entrance,RFID,Entry,Authorized,N/A,Building B1 (Floor 1 - Main Entrance),Low
+2026-03-15 09:15,EVT-00781,B1,Restricted Area #B1-F1,VIS-549,Visitor,Restricted Area,RFID,Exit,Authorized,VIS-549,Building B1 (Floor 1 - Restricted Area),Low
+2026-03-15 09:45,EVT-00782,B2,Parking #B2-F2,ADM-50,Administrator,Parking,Access Card,Exit,Authorized,N/A,Building B2 (Floor 2 - Parking),Low
+2026-03-15 09:55,EVT-00783,B2,Laboratory #B2-F4,VIS-562,Visitor,Laboratory,RFID,Entry,Authorized,VIS-562,Building B2 (Floor 4 - Laboratory),Low
+2026-03-15 10:25,EVT-00784,B2,Main Entrance #B2-F2,ADM-61,Administrator,Main Entrance,RFID,Exit,Authorized,N/A,Building B2 (Floor 2 - Main Entrance),Low
+2026-03-15 10:55,EVT-00785,B2,Restricted Area #B2-F2,CON-476,Contractor,Restricted Area,Visitor Pass,Exit,Authorized,N/A,Building B2 (Floor 2 - Restricted Area),Low
+2026-03-15 11:25,EVT-00786,B2,Emergency Exit #B2-F4,UNK-999,Unknown,Emergency Exit,PIN,Exit,Authorized,N/A,Building B2 (Floor 4 - Emergency Exit),Low
+2026-03-15 11:55,EVT-00787,B2,Main Entrance #B2-F1,ADM-19,Administrator,Main Entrance,Biometric,Entry,Authorized,N/A,Building B2 (Floor 1 - Main Entrance),Low
+2026-03-15 12:05,EVT-00788,B1,Main Entrance #B1-F1,ADM-93,Administrator,Main Entrance,RFID,Exit,Authorized,N/A,Building B1 (Floor 1 - Main Entrance),Low
+2026-03-15 12:35,EVT-00789,B1,Emergency Exit #B1-F3,ADM-48,Administrator,Emergency Exit,PIN,Entry,Authorized,N/A,Building B1 (Floor 3 - Emergency Exit),Low
+2026-03-15 13:20,EVT-00790,B2,Restricted Area #B2-F3,UNK-999,Unknown,Restricted Area,PIN,Entry,Authorized,N/A,Building B2 (Floor 3 - Restricted Area),Low
+2026-03-15 13:50,EVT-00791,B2,Server Room #B2-F3,CON-481,Contractor,Server Room,Visitor Pass,Entry,Authorized,N/A,Building B2 (Floor 3 - Server Room),Low
+2026-03-15 14:10,EVT-00792,B3,Emergency Exit #B3-F1,ADM-49,Administrator,Emergency Exit,Biometric,Entry,Authorized,N/A,Building B3 (Floor 1 - Emergency Exit),Low
+2026-03-15 14:55,EVT-00793,B1,Main Entrance #B1-F3,UNK-999,Unknown,Main Entrance,RFID,Entry,Authorized,N/A,Building B1 (Floor 3 - Main Entrance),Low
+2026-03-15 15:40,EVT-00794,B3,Restricted Area #B3-F5,EMP-580,Employee,Restricted Area,Biometric,Exit,Authorized,N/A,Building B3 (Floor 5 - Restricted Area),Low
+2026-03-15 16:10,EVT-00795,B2,Laboratory #B2-F4,VIS-598,Visitor,Laboratory,Access Card,Entry,Authorized,VIS-598,Building B2 (Floor 4 - Laboratory),Low
+2026-03-15 16:30,EVT-00796,B3,Parking #B3-F3,VIS-614,Visitor,Parking,Visitor Pass,Exit,Suspicious,VIS-614,Building B3 (Floor 3 - Parking),High
+2026-03-15 17:15,EVT-00797,B3,Server Room #B3-F5,VIS-583,Visitor,Server Room,Biometric,Entry,Denied,VIS-583,Building B3 (Floor 5 - Server Room),High
+2026-03-15 17:35,EVT-00798,B1,Server Room #B1-F1,EMP-111,Employee,Server Room,RFID,Entry,Authorized,N/A,Building B1 (Floor 1 - Server Room),Low
+2026-03-15 18:20,EVT-00799,B1,Laboratory #B1-F3,UNK-999,Unknown,Laboratory,Visitor Pass,Exit,Authorized,N/A,Building B1 (Floor 3 - Laboratory),Low
+2026-03-15 18:50,EVT-00800,B1,Restricted Area #B1-F5,EMP-895,Employee,Restricted Area,Visitor Pass,Exit,Authorized,N/A,Building B1 (Floor 5 - Restricted Area),Low
+2026-03-15 19:00,EVT-00801,B1,Parking #B1-F3,UNK-999,Unknown,Parking,Biometric,Exit,Denied,N/A,Building B1 (Floor 3 - Parking),Medium
+2026-03-15 19:45,EVT-00802,B3,Office #B3-F5,EMP-677,Employee,Office,Access Card,Exit,Authorized,N/A,Building B3 (Floor 5 - Office),Low
+2026-03-15 20:30,EVT-00803,B2,Server Room #B2-F2,CON-339,Contractor,Server Room,Biometric,Exit,Authorized,N/A,Building B2 (Floor 2 - Server Room),Low
+2026-03-15 21:15,EVT-00804,B1,Laboratory #B1-F3,CON-304,Contractor,Laboratory,Access Card,Exit,Authorized,N/A,Building B1 (Floor 3 - Laboratory),Low
+2026-03-15 21:25,EVT-00805,B1,Laboratory #B1-F4,UNK-999,Unknown,Laboratory,Biometric,Entry,Authorized,N/A,Building B1 (Floor 4 - Laboratory),Low
+2026-03-15 21:55,EVT-00806,B1,Main Entrance #B1-F5,VIS-895,Visitor,Main Entrance,PIN,Exit,Authorized,VIS-895,Building B1 (Floor 5 - Main Entrance),Low
+2026-03-15 22:40,EVT-00807,B1,Restricted Area #B1-F1,ADM-67,Administrator,Restricted Area,RFID,Exit,Authorized,N/A,Building B1 (Floor 1 - Restricted Area),Low
+2026-03-15 23:10,EVT-00808,B2,Restricted Area #B2-F3,VIS-662,Visitor,Restricted Area,RFID,Entry,Authorized,VIS-662,Building B2 (Floor 3 - Restricted Area),Low
+2026-03-15 23:40,EVT-00809,B1,Office #B1-F5,EMP-328,Employee,Office,RFID,Exit,Authorized,N/A,Building B1 (Floor 5 - Office),Low
+2026-03-16 00:25,EVT-00810,B2,Server Room #B2-F2,CON-345,Contractor,Server Room,PIN,Entry,Authorized,N/A,Building B2 (Floor 2 - Server Room),Low
+2026-03-16 00:45,EVT-00811,B3,Parking #B3-F3,ADM-78,Administrator,Parking,Access Card,Exit,Authorized,N/A,Building B3 (Floor 3 - Parking),Low
+2026-03-16 01:05,EVT-00812,B2,Server Room #B2-F2,EMP-846,Employee,Server Room,Visitor Pass,Entry,Authorized,N/A,Building B2 (Floor 2 - Server Room),Low
+2026-03-16 01:15,EVT-00813,B1,Emergency Exit #B1-F5,UNK-999,Unknown,Emergency Exit,Access Card,Entry,Authorized,N/A,Building B1 (Floor 5 - Emergency Exit),Low
+2026-03-16 02:00,EVT-00814,B3,Server Room #B3-F4,CON-308,Contractor,Server Room,Access Card,Entry,Authorized,N/A,Building B3 (Floor 4 - Server Room),Low
+2026-03-16 02:10,EVT-00815,B2,Parking #B2-F5,ADM-66,Administrator,Parking,Access Card,Entry,Authorized,N/A,Building B2 (Floor 5 - Parking),Low
+2026-03-16 02:40,EVT-00816,B2,Laboratory #B2-F5,EMP-363,Employee,Laboratory,PIN,Entry,Authorized,N/A,Building B2 (Floor 5 - Laboratory),Low
+2026-03-16 03:00,EVT-00817,B3,Office #B3-F4,CON-474,Contractor,Office,Biometric,Entry,Authorized,N/A,Building B3 (Floor 4 - Office),Low
+2026-03-16 03:45,EVT-00818,B2,Parking #B2-F1,UNK-999,Unknown,Parking,Access Card,Entry,Authorized,N/A,Building B2 (Floor 1 - Parking),Low
+2026-03-16 04:15,EVT-00819,B2,Main Entrance #B2-F5,CON-348,Contractor,Main Entrance,Biometric,Exit,Authorized,N/A,Building B2 (Floor 5 - Main Entrance),Low
+2026-03-16 04:35,EVT-00820,B2,Server Room #B2-F4,UNK-999,Unknown,Server Room,PIN,Exit,Suspicious,VIS-790,Building B2 (Floor 4 - Laboratory),Critical
+2026-03-16 05:05,EVT-00821,B2,Laboratory #B2-F1,UNK-999,Unknown,Laboratory,Visitor Pass,Entry,Authorized,N/A,Building B2 (Floor 1 - Laboratory),Low
+2026-03-16 05:50,EVT-00822,B3,Laboratory #B3-F5,ADM-36,Administrator,Laboratory,Visitor Pass,Exit,Authorized,N/A,Building B3 (Floor 5 - Laboratory),Low
+2026-03-16 06:20,EVT-00823,B2,Parking #B2-F3,VIS-863,Visitor,Parking,RFID,Exit,Authorized,VIS-863,Building B2 (Floor 3 - Parking),Low
+2026-03-16 06:50,EVT-00824,B1,Server Room #B1-F2,EMP-808,Employee,Server Room,PIN,Exit,Authorized,N/A,Building B1 (Floor 2 - Server Room),Low
+2026-03-16 07:00,EVT-00825,B1,Restricted Area #B1-F1,CON-428,Contractor,Restricted Area,PIN,Exit,Authorized,N/A,Building B1 (Floor 1 - Restricted Area),Low
+2026-03-16 07:20,EVT-00826,B1,Office #B1-F4,CON-438,Contractor,Office,PIN,Entry,Authorized,N/A,Building B1 (Floor 4 - Office),Low
+2026-03-16 07:50,EVT-00827,B1,Office #B1-F3,VIS-729,Visitor,Office,Access Card,Exit,Authorized,VIS-729,Building B1 (Floor 3 - Office),Low
+2026-03-16 08:35,EVT-00828,B2,Server Room #B2-F3,CON-435,Contractor,Server Room,Access Card,Exit,Authorized,N/A,Building B2 (Floor 3 - Server Room),Low
+2026-03-16 09:05,EVT-00829,B1,Office #B1-F3,ADM-33,Administrator,Office,PIN,Entry,Suspicious,N/A,Building B1 (Floor 3 - Office),High
+2026-03-16 09:25,EVT-00830,B2,Server Room #B2-F2,ADM-90,Administrator,Server Room,Visitor Pass,Exit,Authorized,N/A,Building B2 (Floor 2 - Server Room),Low
+2026-03-16 09:35,EVT-00831,B1,Restricted Area #B1-F4,VIS-833,Visitor,Restricted Area,RFID,Entry,Authorized,VIS-833,Building B1 (Floor 4 - Restricted Area),Low
+2026-03-16 09:45,EVT-00832,B1,Restricted Area #B1-F3,CON-479,Contractor,Restricted Area,PIN,Entry,Authorized,N/A,Building B1 (Floor 3 - Restricted Area),Low
+2026-03-16 10:15,EVT-00833,B1,Laboratory #B1-F5,CON-386,Contractor,Laboratory,Biometric,Entry,Authorized,N/A,Building B1 (Floor 5 - Laboratory),Low
+2026-03-16 10:35,EVT-00834,B3,Emergency Exit #B3-F3,UNK-999,Unknown,Emergency Exit,RFID,Exit,Authorized,N/A,Building B3 (Floor 3 - Emergency Exit),Low
+2026-03-16 11:05,EVT-00835,B1,Parking #B1-F1,UNK-999,Unknown,Parking,Biometric,Entry,Authorized,N/A,Building B1 (Floor 1 - Parking),Low
+2026-03-16 11:25,EVT-00836,B3,Parking #B3-F5,UNK-999,Unknown,Parking,Biometric,Exit,Authorized,N/A,Building B3 (Floor 5 - Parking),Low
+2026-03-16 11:35,EVT-00837,B1,Parking #B1-F5,CON-421,Contractor,Parking,Access Card,Entry,Authorized,N/A,Building B1 (Floor 5 - Parking),Low
+2026-03-16 11:45,EVT-00838,B2,Laboratory #B2-F5,EMP-588,Employee,Laboratory,Biometric,Entry,Authorized,N/A,Building B2 (Floor 5 - Laboratory),Low
+2026-03-16 12:05,EVT-00839,B2,Main Entrance #B2-F5,CON-386,Contractor,Main Entrance,Biometric,Exit,Denied,N/A,Building B2 (Floor 5 - Main Entrance),Medium
+2026-03-16 12:50,EVT-00840,B3,Server Room #B3-F1,UNK-999,Unknown,Server Room,Visitor Pass,Entry,Authorized,N/A,Building B3 (Floor 1 - Server Room),Low
+2026-03-16 13:00,EVT-00841,B1,Parking #B1-F2,UNK-999,Unknown,Parking,RFID,Entry,Denied,N/A,Building B1 (Floor 2 - Parking),Medium
+2026-03-16 13:20,EVT-00842,B3,Server Room #B3-F2,ADM-75,Administrator,Server Room,Visitor Pass,Entry,Authorized,N/A,Building B3 (Floor 2 - Server Room),Low
+2026-03-16 14:05,EVT-00843,B1,Server Room #B1-F2,ADM-93,Administrator,Server Room,Access Card,Exit,Authorized,N/A,Building B1 (Floor 2 - Server Room),Low
+2026-03-16 14:35,EVT-00844,B1,Restricted Area #B1-F2,CON-418,Contractor,Restricted Area,Biometric,Entry,Authorized,N/A,Building B1 (Floor 2 - Restricted Area),Low
+2026-03-16 15:20,EVT-00845,B3,Restricted Area #B3-F4,VIS-821,Visitor,Restricted Area,Biometric,Exit,Denied,VIS-821,Building B3 (Floor 4 - Restricted Area),High
+2026-03-16 15:30,EVT-00846,B1,Laboratory #B1-F4,EMP-451,Employee,Laboratory,Access Card,Entry,Authorized,N/A,Building B1 (Floor 4 - Laboratory),Low
+2026-03-16 16:00,EVT-00847,B3,Laboratory #B3-F1,UNK-999,Unknown,Laboratory,PIN,Entry,Authorized,N/A,Building B3 (Floor 1 - Laboratory),Low
+2026-03-16 16:20,EVT-00848,B2,Restricted Area #B2-F4,UNK-999,Unknown,Restricted Area,PIN,Exit,Authorized,N/A,Building B2 (Floor 4 - Restricted Area),Low
+2026-03-16 16:50,EVT-00849,B3,Laboratory #B3-F1,VIS-678,Visitor,Laboratory,PIN,Exit,Authorized,VIS-678,Building B3 (Floor 1 - Laboratory),Low
+2026-03-16 17:00,EVT-00850,B1,Restricted Area #B1-F3,EMP-481,Employee,Restricted Area,RFID,Exit,Authorized,N/A,Building B1 (Floor 3 - Restricted Area),Low
+2026-03-16 17:45,EVT-00851,B3,Main Entrance #B3-F4,CON-483,Contractor,Main Entrance,Access Card,Entry,Authorized,N/A,Building B3 (Floor 4 - Main Entrance),Low
+2026-03-16 17:55,EVT-00852,B3,Restricted Area #B3-F4,UNK-999,Unknown,Restricted Area,RFID,Exit,Authorized,N/A,Building B3 (Floor 4 - Restricted Area),Low
+2026-03-16 18:05,EVT-00853,B1,Emergency Exit #B1-F1,UNK-999,Unknown,Emergency Exit,RFID,Exit,Authorized,N/A,Building B1 (Floor 1 - Emergency Exit),Low
+2026-03-16 18:25,EVT-00854,B3,Server Room #B3-F2,UNK-999,Unknown,Server Room,RFID,Entry,Suspicious,VIS-751,Building B3 (Floor 2 - Restricted Area),Critical
+2026-03-16 18:45,EVT-00855,B2,Emergency Exit #B2-F1,EMP-795,Employee,Emergency Exit,PIN,Entry,Authorized,N/A,Building B2 (Floor 1 - Emergency Exit),Low
+2026-03-16 19:30,EVT-00856,B3,Main Entrance #B3-F1,UNK-999,Unknown,Main Entrance,RFID,Entry,Authorized,N/A,Building B3 (Floor 1 - Main Entrance),Low
+2026-03-16 20:00,EVT-00857,B3,Restricted Area #B3-F1,UNK-999,Unknown,Restricted Area,RFID,Exit,Denied,N/A,Building B3 (Floor 1 - Restricted Area),High
+2026-03-16 20:10,EVT-00858,B2,Emergency Exit #B2-F1,UNK-999,Unknown,Emergency Exit,RFID,Entry,Authorized,N/A,Building B2 (Floor 1 - Emergency Exit),Low
+2026-03-16 20:55,EVT-00859,B2,Server Room #B2-F4,CON-377,Contractor,Server Room,Visitor Pass,Entry,Authorized,N/A,Building B2 (Floor 4 - Server Room),Low
+2026-03-16 21:25,EVT-00860,B2,Server Room #B2-F4,EMP-805,Employee,Server Room,PIN,Exit,Authorized,N/A,Building B2 (Floor 4 - Server Room),Low
+2026-03-16 22:10,EVT-00861,B1,Office #B1-F2,CON-447,Contractor,Office,Visitor Pass,Entry,Suspicious,N/A,Building B1 (Floor 2 - Office),High
+2026-03-16 22:40,EVT-00862,B3,Restricted Area #B3-F4,VIS-855,Visitor,Restricted Area,RFID,Exit,Authorized,VIS-855,Building B3 (Floor 4 - Restricted Area),Low
+2026-03-16 23:25,EVT-00863,B3,Main Entrance #B3-F1,EMP-183,Employee,Main Entrance,PIN,Entry,Authorized,N/A,Building B3 (Floor 1 - Main Entrance),Low
+2026-03-16 23:55,EVT-00864,B2,Office #B2-F5,EMP-460,Employee,Office,PIN,Exit,Denied,N/A,Building B2 (Floor 5 - Office),Medium
+2026-03-17 00:05,EVT-00865,B2,Restricted Area #B2-F3,EMP-808,Employee,Restricted Area,RFID,Exit,Suspicious,N/A,Building B2 (Floor 3 - Restricted Area),High
+2026-03-17 00:25,EVT-00866,B3,Emergency Exit #B3-F3,VIS-883,Visitor,Emergency Exit,RFID,Exit,Authorized,VIS-883,Building B3 (Floor 3 - Emergency Exit),Low
+2026-03-17 01:10,EVT-00867,B1,Parking #B1-F1,UNK-999,Unknown,Parking,Access Card,Entry,Authorized,N/A,Building B1 (Floor 1 - Parking),Low
+2026-03-17 01:55,EVT-00868,B2,Emergency Exit #B2-F3,VIS-565,Visitor,Emergency Exit,RFID,Exit,Authorized,VIS-565,Building B2 (Floor 3 - Emergency Exit),Low
+2026-03-17 02:05,EVT-00869,B1,Main Entrance #B1-F2,UNK-999,Unknown,Main Entrance,Biometric,Exit,Authorized,N/A,Building B1 (Floor 2 - Main Entrance),Low
+2026-03-17 02:15,EVT-00870,B2,Server Room #B2-F2,CON-322,Contractor,Server Room,RFID,Exit,Authorized,N/A,Building B2 (Floor 2 - Server Room),Low
+2026-03-17 03:00,EVT-00871,B3,Main Entrance #B3-F1,EMP-717,Employee,Main Entrance,RFID,Entry,Authorized,N/A,Building B3 (Floor 1 - Main Entrance),Low
+2026-03-17 03:10,EVT-00872,B1,Main Entrance #B1-F3,EMP-622,Employee,Main Entrance,Biometric,Exit,Authorized,N/A,Building B1 (Floor 3 - Main Entrance),Low
+2026-03-17 03:40,EVT-00873,B2,Emergency Exit #B2-F5,EMP-458,Employee,Emergency Exit,Access Card,Entry,Authorized,N/A,Building B2 (Floor 5 - Emergency Exit),Low
+2026-03-17 04:25,EVT-00874,B3,Parking #B3-F5,ADM-84,Administrator,Parking,Visitor Pass,Entry,Authorized,N/A,Building B3 (Floor 5 - Parking),Low
+2026-03-17 04:55,EVT-00875,B3,Emergency Exit #B3-F5,ADM-49,Administrator,Emergency Exit,Access Card,Exit,Authorized,N/A,Building B3 (Floor 5 - Emergency Exit),Low
+2026-03-17 05:40,EVT-00876,B2,Emergency Exit #B2-F2,ADM-85,Administrator,Emergency Exit,Visitor Pass,Entry,Authorized,N/A,Building B2 (Floor 2 - Emergency Exit),Low
+2026-03-17 06:00,EVT-00877,B1,Emergency Exit #B1-F4,UNK-999,Unknown,Emergency Exit,Visitor Pass,Exit,Authorized,N/A,Building B1 (Floor 4 - Emergency Exit),Low
+2026-03-17 06:20,EVT-00878,B3,Main Entrance #B3-F3,UNK-999,Unknown,Main Entrance,PIN,Exit,Authorized,N/A,Building B3 (Floor 3 - Main Entrance),Low
+2026-03-17 06:50,EVT-00879,B1,Parking #B1-F5,EMP-567,Employee,Parking,PIN,Exit,Denied,N/A,Building B1 (Floor 5 - Parking),Medium
+2026-03-17 07:35,EVT-00880,B3,Restricted Area #B3-F4,CON-465,Contractor,Restricted Area,Visitor Pass,Entry,Authorized,N/A,Building B3 (Floor 4 - Restricted Area),Low
+2026-03-17 07:55,EVT-00881,B3,Restricted Area #B3-F1,UNK-999,Unknown,Restricted Area,Access Card,Exit,Suspicious,N/A,Building B3 (Floor 1 - Restricted Area),Critical
+2026-03-17 08:15,EVT-00882,B2,Restricted Area #B2-F2,VIS-746,Visitor,Restricted Area,Biometric,Entry,Authorized,VIS-746,Building B2 (Floor 2 - Restricted Area),Low
+2026-03-17 08:25,EVT-00883,B3,Emergency Exit #B3-F3,VIS-676,Visitor,Emergency Exit,Biometric,Entry,Authorized,VIS-676,Building B3 (Floor 3 - Emergency Exit),Low
+2026-03-17 08:55,EVT-00884,B2,Parking #B2-F2,ADM-40,Administrator,Parking,RFID,Entry,Suspicious,N/A,Building B2 (Floor 2 - Parking),High
+2026-03-17 09:25,EVT-00885,B2,Emergency Exit #B2-F1,CON-321,Contractor,Emergency Exit,Biometric,Entry,Authorized,N/A,Building B2 (Floor 1 - Emergency Exit),Low
+2026-03-17 10:10,EVT-00886,B3,Office #B3-F3,EMP-785,Employee,Office,Access Card,Exit,Authorized,N/A,Building B3 (Floor 3 - Office),Low
+2026-03-17 10:55,EVT-00887,B3,Parking #B3-F1,UNK-999,Unknown,Parking,Visitor Pass,Entry,Denied,N/A,Building B3 (Floor 1 - Parking),Medium
+2026-03-17 11:25,EVT-00888,B2,Office #B2-F1,VIS-518,Visitor,Office,Visitor Pass,Entry,Authorized,VIS-518,Building B2 (Floor 1 - Office),Low
+2026-03-17 11:35,EVT-00889,B2,Parking #B2-F5,CON-347,Contractor,Parking,Access Card,Exit,Authorized,N/A,Building B2 (Floor 5 - Parking),Low
+2026-03-17 12:05,EVT-00890,B1,Restricted Area #B1-F4,ADM-67,Administrator,Restricted Area,Visitor Pass,Exit,Denied,N/A,Building B1 (Floor 4 - Restricted Area),High
+2026-03-17 12:50,EVT-00891,B1,Restricted Area #B1-F4,ADM-79,Administrator,Restricted Area,RFID,Entry,Authorized,N/A,Building B1 (Floor 4 - Restricted Area),Low
+2026-03-17 13:35,EVT-00892,B3,Restricted Area #B3-F4,EMP-539,Employee,Restricted Area,RFID,Exit,Authorized,N/A,Building B3 (Floor 4 - Restricted Area),Low
+2026-03-17 14:05,EVT-00893,B3,Emergency Exit #B3-F1,ADM-86,Administrator,Emergency Exit,Access Card,Entry,Authorized,N/A,Building B3 (Floor 1 - Emergency Exit),Low
+2026-03-17 14:25,EVT-00894,B1,Laboratory #B1-F1,VIS-528,Visitor,Laboratory,Biometric,Entry,Authorized,VIS-528,Building B1 (Floor 1 - Laboratory),Low
+2026-03-17 15:10,EVT-00895,B1,Main Entrance #B1-F5,EMP-387,Employee,Main Entrance,PIN,Exit,Authorized,N/A,Building B1 (Floor 5 - Main Entrance),Low
+2026-03-17 15:40,EVT-00896,B2,Laboratory #B2-F2,ADM-18,Administrator,Laboratory,Access Card,Exit,Authorized,N/A,Building B2 (Floor 2 - Laboratory),Low
+2026-03-17 16:00,EVT-00897,B2,Server Room #B2-F3,CON-331,Contractor,Server Room,Biometric,Exit,Suspicious,N/A,Building B2 (Floor 3 - Server Room),High
+2026-03-17 16:30,EVT-00898,B3,Restricted Area #B3-F3,ADM-50,Administrator,Restricted Area,RFID,Entry,Authorized,N/A,Building B3 (Floor 3 - Restricted Area),Low
+2026-03-17 16:50,EVT-00899,B2,Emergency Exit #B2-F3,ADM-43,Administrator,Emergency Exit,Access Card,Entry,Authorized,N/A,Building B2 (Floor 3 - Emergency Exit),Low
+2026-03-17 17:20,EVT-00900,B2,Server Room #B2-F5,CON-422,Contractor,Server Room,RFID,Exit,Authorized,N/A,Building B2 (Floor 5 - Server Room),Low
+2026-03-17 17:30,EVT-00901,B3,Server Room #B3-F4,CON-384,Contractor,Server Room,PIN,Exit,Authorized,N/A,Building B3 (Floor 4 - Server Room),Low
+2026-03-17 17:50,EVT-00902,B3,Restricted Area #B3-F3,ADM-98,Administrator,Restricted Area,Biometric,Entry,Authorized,N/A,Building B3 (Floor 3 - Restricted Area),Low
+2026-03-17 18:20,EVT-00903,B1,Restricted Area #B1-F4,EMP-979,Employee,Restricted Area,RFID,Exit,Authorized,N/A,Building B1 (Floor 4 - Restricted Area),Low
+2026-03-17 19:05,EVT-00904,B2,Server Room #B2-F5,UNK-999,Unknown,Server Room,Biometric,Entry,Authorized,N/A,Building B2 (Floor 5 - Server Room),Low
+2026-03-17 19:15,EVT-00905,B3,Restricted Area #B3-F3,ADM-78,Administrator,Restricted Area,Visitor Pass,Entry,Authorized,N/A,Building B3 (Floor 3 - Restricted Area),Low
+2026-03-17 19:35,EVT-00906,B3,Main Entrance #B3-F3,VIS-633,Visitor,Main Entrance,RFID,Exit,Authorized,VIS-633,Building B3 (Floor 3 - Main Entrance),Low
+2026-03-17 19:55,EVT-00907,B2,Main Entrance #B2-F1,UNK-999,Unknown,Main Entrance,Biometric,Entry,Authorized,N/A,Building B2 (Floor 1 - Main Entrance),Low
+2026-03-17 20:40,EVT-00908,B3,Emergency Exit #B3-F4,EMP-785,Employee,Emergency Exit,Visitor Pass,Exit,Authorized,N/A,Building B3 (Floor 4 - Emergency Exit),Low
+2026-03-17 21:25,EVT-00909,B2,Emergency Exit #B2-F4,VIS-751,Visitor,Emergency Exit,PIN,Exit,Authorized,VIS-751,Building B2 (Floor 4 - Emergency Exit),Low
+2026-03-17 21:45,EVT-00910,B1,Restricted Area #B1-F5,ADM-49,Administrator,Restricted Area,PIN,Exit,Authorized,N/A,Building B1 (Floor 5 - Restricted Area),Low
+2026-03-17 22:15,EVT-00911,B2,Server Room #B2-F2,UNK-999,Unknown,Server Room,Access Card,Entry,Authorized,N/A,Building B2 (Floor 2 - Server Room),Low
+2026-03-17 23:00,EVT-00912,B1,Main Entrance #B1-F3,VIS-625,Visitor,Main Entrance,RFID,Exit,Authorized,VIS-625,Building B1 (Floor 3 - Main Entrance),Low
+2026-03-17 23:30,EVT-00913,B3,Server Room #B3-F4,ADM-41,Administrator,Server Room,Access Card,Exit,Authorized,N/A,Building B3 (Floor 4 - Server Room),Low
+2026-03-18 00:00,EVT-00914,B3,Laboratory #B3-F4,CON-391,Contractor,Laboratory,PIN,Entry,Authorized,N/A,Building B3 (Floor 4 - Laboratory),Low
+2026-03-18 00:45,EVT-00915,B1,Laboratory #B1-F4,EMP-975,Employee,Laboratory,PIN,Exit,Authorized,N/A,Building B1 (Floor 4 - Laboratory),Low
+2026-03-18 01:30,EVT-00916,B1,Emergency Exit #B1-F5,VIS-585,Visitor,Emergency Exit,Visitor Pass,Entry,Denied,VIS-585,Building B1 (Floor 5 - Emergency Exit),Medium
+2026-03-18 01:50,EVT-00917,B3,Restricted Area #B3-F5,ADM-88,Administrator,Restricted Area,Biometric,Entry,Denied,N/A,Building B3 (Floor 5 - Restricted Area),High
+2026-03-18 02:20,EVT-00918,B3,Restricted Area #B3-F2,UNK-999,Unknown,Restricted Area,Visitor Pass,Entry,Authorized,N/A,Building B3 (Floor 2 - Restricted Area),Low
+2026-03-18 03:05,EVT-00919,B1,Emergency Exit #B1-F3,ADM-66,Administrator,Emergency Exit,Access Card,Entry,Authorized,N/A,Building B1 (Floor 3 - Emergency Exit),Low
+2026-03-18 03:50,EVT-00920,B3,Office #B3-F5,VIS-799,Visitor,Office,Visitor Pass,Entry,Authorized,VIS-799,Building B3 (Floor 5 - Office),Low
+2026-03-18 04:20,EVT-00921,B1,Laboratory #B1-F1,CON-452,Contractor,Laboratory,Access Card,Exit,Authorized,N/A,Building B1 (Floor 1 - Laboratory),Low
+2026-03-18 05:05,EVT-00922,B1,Main Entrance #B1-F3,CON-347,Contractor,Main Entrance,RFID,Entry,Authorized,N/A,Building B1 (Floor 3 - Main Entrance),Low
+2026-03-18 05:35,EVT-00923,B1,Emergency Exit #B1-F5,EMP-264,Employee,Emergency Exit,PIN,Exit,Denied,N/A,Building B1 (Floor 5 - Emergency Exit),Medium
+2026-03-18 06:05,EVT-00924,B2,Server Room #B2-F1,CON-357,Contractor,Server Room,Biometric,Exit,Authorized,N/A,Building B2 (Floor 1 - Server Room),Low
+2026-03-18 06:35,EVT-00925,B1,Main Entrance #B1-F4,UNK-999,Unknown,Main Entrance,PIN,Entry,Denied,N/A,Building B1 (Floor 4 - Main Entrance),Medium
+2026-03-18 06:45,EVT-00926,B2,Parking #B2-F4,EMP-338,Employee,Parking,PIN,Entry,Authorized,N/A,Building B2 (Floor 4 - Parking),Low
+2026-03-18 07:15,EVT-00927,B1,Office #B1-F3,EMP-746,Employee,Office,Access Card,Exit,Authorized,N/A,Building B1 (Floor 3 - Office),Low
+2026-03-18 07:45,EVT-00928,B2,Main Entrance #B2-F5,EMP-347,Employee,Main Entrance,RFID,Entry,Denied,N/A,Building B2 (Floor 5 - Main Entrance),Medium
+2026-03-18 07:55,EVT-00929,B1,Server Room #B1-F2,UNK-999,Unknown,Server Room,PIN,Entry,Suspicious,N/A,Building B1 (Floor 2 - Parking),Critical
+2026-03-18 08:25,EVT-00930,B2,Laboratory #B2-F1,UNK-999,Unknown,Laboratory,PIN,Entry,Authorized,N/A,Building B2 (Floor 1 - Laboratory),Low
+2026-03-18 09:10,EVT-00931,B2,Restricted Area #B2-F2,EMP-899,Employee,Restricted Area,Biometric,Entry,Authorized,N/A,Building B2 (Floor 2 - Restricted Area),Low
+2026-03-18 09:30,EVT-00932,B2,Restricted Area #B2-F2,CON-492,Contractor,Restricted Area,Access Card,Exit,Authorized,N/A,Building B2 (Floor 2 - Restricted Area),Low
+2026-03-18 10:15,EVT-00933,B3,Main Entrance #B3-F5,UNK-999,Unknown,Main Entrance,PIN,Exit,Authorized,N/A,Building B3 (Floor 5 - Main Entrance),Low
+2026-03-18 10:25,EVT-00934,B3,Laboratory #B3-F5,ADM-96,Administrator,Laboratory,Biometric,Entry,Authorized,N/A,Building B3 (Floor 5 - Laboratory),Low
+2026-03-18 10:35,EVT-00935,B3,Main Entrance #B3-F5,EMP-623,Employee,Main Entrance,PIN,Entry,Authorized,N/A,Building B3 (Floor 5 - Main Entrance),Low
+2026-03-18 11:05,EVT-00936,B3,Office #B3-F5,CON-371,Contractor,Office,Access Card,Exit,Authorized,N/A,Building B3 (Floor 5 - Office),Low
+2026-03-18 11:15,EVT-00937,B1,Office #B1-F4,EMP-430,Employee,Office,Biometric,Entry,Authorized,N/A,Building B1 (Floor 4 - Office),Low
+2026-03-18 11:35,EVT-00938,B1,Restricted Area #B1-F5,UNK-999,Unknown,Restricted Area,RFID,Entry,Suspicious,N/A,Building B1 (Floor 5 - Server Room),Critical
+2026-03-18 12:20,EVT-00939,B2,Parking #B2-F3,UNK-999,Unknown,Parking,Access Card,Entry,Authorized,N/A,Building B2 (Floor 3 - Parking),Low
+2026-03-18 13:05,EVT-00940,B3,Parking #B3-F3,ADM-78,Administrator,Parking,Visitor Pass,Exit,Authorized,N/A,Building B3 (Floor 3 - Parking),Low
+2026-03-18 13:50,EVT-00941,B2,Main Entrance #B2-F1,ADM-29,Administrator,Main Entrance,Visitor Pass,Entry,Authorized,N/A,Building B2 (Floor 1 - Main Entrance),Low
+2026-03-18 14:00,EVT-00942,B2,Main Entrance #B2-F3,ADM-78,Administrator,Main Entrance,PIN,Exit,Authorized,N/A,Building B2 (Floor 3 - Main Entrance),Low
+2026-03-18 14:45,EVT-00943,B1,Parking #B1-F1,CON-324,Contractor,Parking,Biometric,Exit,Authorized,N/A,Building B1 (Floor 1 - Parking),Low
+2026-03-18 14:55,EVT-00944,B3,Restricted Area #B3-F5,ADM-45,Administrator,Restricted Area,Visitor Pass,Entry,Authorized,N/A,Building B3 (Floor 5 - Restricted Area),Low
+2026-03-18 15:05,EVT-00945,B1,Main Entrance #B1-F2,ADM-51,Administrator,Main Entrance,Visitor Pass,Exit,Authorized,N/A,Building B1 (Floor 2 - Main Entrance),Low
+2026-03-18 15:35,EVT-00946,B2,Office #B2-F4,CON-386,Contractor,Office,PIN,Entry,Authorized,N/A,Building B2 (Floor 4 - Office),Low
+2026-03-18 16:20,EVT-00947,B2,Parking #B2-F1,EMP-450,Employee,Parking,Access Card,Exit,Authorized,N/A,Building B2 (Floor 1 - Parking),Low
+2026-03-18 17:05,EVT-00948,B3,Restricted Area #B3-F3,EMP-478,Employee,Restricted Area,Visitor Pass,Exit,Authorized,N/A,Building B3 (Floor 3 - Restricted Area),Low
+2026-03-18 17:50,EVT-00949,B2,Parking #B2-F5,EMP-225,Employee,Parking,RFID,Exit,Authorized,N/A,Building B2 (Floor 5 - Parking),Low
+2026-03-18 18:00,EVT-00950,B2,Server Room #B2-F4,UNK-999,Unknown,Server Room,Biometric,Exit,Suspicious,N/A,Building B2 (Floor 4 - Server Room),High
+2026-03-18 18:20,EVT-00951,B2,Main Entrance #B2-F1,CON-317,Contractor,Main Entrance,Biometric,Exit,Authorized,N/A,Building B2 (Floor 1 - Main Entrance),Low
+2026-03-18 18:30,EVT-00952,B2,Emergency Exit #B2-F1,VIS-607,Visitor,Emergency Exit,PIN,Exit,Authorized,VIS-607,Building B2 (Floor 1 - Emergency Exit),Low
+2026-03-18 18:50,EVT-00953,B3,Main Entrance #B3-F2,CON-498,Contractor,Main Entrance,Visitor Pass,Entry,Denied,N/A,Building B3 (Floor 2 - Main Entrance),Medium
+2026-03-18 19:35,EVT-00954,B1,Server Room #B1-F2,UNK-999,Unknown,Server Room,Biometric,Entry,Authorized,N/A,Building B1 (Floor 2 - Server Room),Low
+2026-03-18 19:55,EVT-00955,B2,Restricted Area #B2-F3,VIS-865,Visitor,Restricted Area,Visitor Pass,Exit,Authorized,VIS-865,Building B2 (Floor 3 - Restricted Area),Low
+2026-03-18 20:05,EVT-00956,B1,Office #B1-F2,VIS-820,Visitor,Office,RFID,Entry,Authorized,VIS-820,Building B1 (Floor 2 - Office),Low
+2026-03-18 20:25,EVT-00957,B1,Laboratory #B1-F3,VIS-778,Visitor,Laboratory,Visitor Pass,Entry,Authorized,VIS-778,Building B1 (Floor 3 - Laboratory),Low
+2026-03-18 20:45,EVT-00958,B2,Main Entrance #B2-F1,VIS-852,Visitor,Main Entrance,RFID,Exit,Authorized,VIS-852,Building B2 (Floor 1 - Main Entrance),Low
+2026-03-18 21:05,EVT-00959,B3,Restricted Area #B3-F4,ADM-14,Administrator,Restricted Area,RFID,Exit,Authorized,N/A,Building B3 (Floor 4 - Restricted Area),Low
+2026-03-18 21:15,EVT-00960,B1,Restricted Area #B1-F2,EMP-904,Employee,Restricted Area,Visitor Pass,Entry,Authorized,N/A,Building B1 (Floor 2 - Restricted Area),Low
+2026-03-18 21:35,EVT-00961,B3,Office #B3-F4,EMP-347,Employee,Office,Visitor Pass,Exit,Authorized,N/A,Building B3 (Floor 4 - Office),Low
+2026-03-18 22:05,EVT-00962,B3,Laboratory #B3-F4,EMP-211,Employee,Laboratory,Access Card,Entry,Authorized,N/A,Building B3 (Floor 4 - Laboratory),Low
+2026-03-18 22:15,EVT-00963,B1,Emergency Exit #B1-F4,UNK-999,Unknown,Emergency Exit,PIN,Entry,Authorized,N/A,Building B1 (Floor 4 - Emergency Exit),Low
+2026-03-18 23:00,EVT-00964,B1,Emergency Exit #B1-F4,EMP-166,Employee,Emergency Exit,RFID,Entry,Authorized,N/A,Building B1 (Floor 4 - Emergency Exit),Low
+2026-03-18 23:20,EVT-00965,B3,Parking #B3-F3,CON-375,Contractor,Parking,RFID,Exit,Denied,N/A,Building B3 (Floor 3 - Parking),Medium
+2026-03-18 23:40,EVT-00966,B3,Emergency Exit #B3-F5,VIS-888,Visitor,Emergency Exit,Visitor Pass,Exit,Authorized,VIS-888,Building B3 (Floor 5 - Emergency Exit),Low
+2026-03-18 23:50,EVT-00967,B2,Laboratory #B2-F3,ADM-86,Administrator,Laboratory,Visitor Pass,Entry,Authorized,N/A,Building B2 (Floor 3 - Laboratory),Low
+2026-03-19 00:20,EVT-00968,B1,Main Entrance #B1-F3,VIS-647,Visitor,Main Entrance,PIN,Exit,Authorized,VIS-647,Building B1 (Floor 3 - Main Entrance),Low
+2026-03-19 00:50,EVT-00969,B3,Laboratory #B3-F2,VIS-562,Visitor,Laboratory,Access Card,Exit,Authorized,VIS-562,Building B3 (Floor 2 - Laboratory),Low
+2026-03-19 01:35,EVT-00970,B1,Parking #B1-F2,UNK-999,Unknown,Parking,Visitor Pass,Entry,Authorized,N/A,Building B1 (Floor 2 - Parking),Low
+2026-03-19 02:05,EVT-00971,B1,Main Entrance #B1-F2,VIS-611,Visitor,Main Entrance,Visitor Pass,Exit,Authorized,VIS-611,Building B1 (Floor 2 - Main Entrance),Low
+2026-03-19 02:50,EVT-00972,B2,Main Entrance #B2-F1,EMP-387,Employee,Main Entrance,RFID,Entry,Authorized,N/A,Building B2 (Floor 1 - Main Entrance),Low
+2026-03-19 03:00,EVT-00973,B2,Laboratory #B2-F4,ADM-58,Administrator,Laboratory,PIN,Exit,Authorized,N/A,Building B2 (Floor 4 - Laboratory),Low
+2026-03-19 03:45,EVT-00974,B2,Restricted Area #B2-F1,VIS-847,Visitor,Restricted Area,PIN,Exit,Authorized,VIS-847,Building B2 (Floor 1 - Restricted Area),Low
+2026-03-19 04:30,EVT-00975,B1,Main Entrance #B1-F4,UNK-999,Unknown,Main Entrance,PIN,Exit,Denied,N/A,Building B1 (Floor 4 - Main Entrance),Medium
+2026-03-19 04:40,EVT-00976,B2,Main Entrance #B2-F4,UNK-999,Unknown,Main Entrance,RFID,Exit,Authorized,N/A,Building B2 (Floor 4 - Main Entrance),Low
+2026-03-19 04:50,EVT-00977,B2,Main Entrance #B2-F1,EMP-698,Employee,Main Entrance,Visitor Pass,Exit,Authorized,N/A,Building B2 (Floor 1 - Main Entrance),Low
+2026-03-19 05:20,EVT-00978,B1,Server Room #B1-F4,UNK-999,Unknown,Server Room,PIN,Entry,Authorized,N/A,Building B1 (Floor 4 - Server Room),Low
+2026-03-19 05:30,EVT-00979,B2,Server Room #B2-F2,ADM-91,Administrator,Server Room,Biometric,Entry,Authorized,N/A,Building B2 (Floor 2 - Server Room),Low
+2026-03-19 05:40,EVT-00980,B1,Laboratory #B1-F5,VIS-883,Visitor,Laboratory,PIN,Entry,Authorized,VIS-883,Building B1 (Floor 5 - Laboratory),Low
+2026-03-19 06:10,EVT-00981,B3,Parking #B3-F1,VIS-684,Visitor,Parking,Access Card,Entry,Authorized,VIS-684,Building B3 (Floor 1 - Parking),Low
+2026-03-19 06:40,EVT-00982,B3,Laboratory #B3-F1,VIS-849,Visitor,Laboratory,Visitor Pass,Entry,Authorized,VIS-849,Building B3 (Floor 1 - Laboratory),Low
+2026-03-19 07:25,EVT-00983,B3,Server Room #B3-F5,EMP-158,Employee,Server Room,Visitor Pass,Exit,Authorized,N/A,Building B3 (Floor 5 - Server Room),Low
+2026-03-19 08:10,EVT-00984,B1,Parking #B1-F3,EMP-302,Employee,Parking,Access Card,Exit,Authorized,N/A,Building B1 (Floor 3 - Parking),Low
+2026-03-19 08:55,EVT-00985,B3,Restricted Area #B3-F4,UNK-999,Unknown,Restricted Area,Biometric,Entry,Authorized,N/A,Building B3 (Floor 4 - Restricted Area),Low
+2026-03-19 09:05,EVT-00986,B1,Emergency Exit #B1-F3,EMP-521,Employee,Emergency Exit,Visitor Pass,Exit,Suspicious,N/A,Building B1 (Floor 3 - Emergency Exit),High
+2026-03-19 09:50,EVT-00987,B2,Laboratory #B2-F4,UNK-999,Unknown,Laboratory,PIN,Entry,Denied,N/A,Building B2 (Floor 4 - Laboratory),Medium
+2026-03-19 10:35,EVT-00988,B2,Server Room #B2-F4,VIS-532,Visitor,Server Room,Visitor Pass,Entry,Denied,VIS-532,Building B2 (Floor 4 - Server Room),High
+2026-03-19 10:55,EVT-00989,B1,Laboratory #B1-F5,VIS-609,Visitor,Laboratory,Access Card,Exit,Authorized,VIS-609,Building B1 (Floor 5 - Laboratory),Low
+2026-03-19 11:05,EVT-00990,B2,Server Room #B2-F3,ADM-26,Administrator,Server Room,PIN,Exit,Authorized,N/A,Building B2 (Floor 3 - Server Room),Low
+2026-03-19 11:50,EVT-00991,B2,Server Room #B2-F4,CON-394,Contractor,Server Room,Biometric,Exit,Authorized,N/A,Building B2 (Floor 4 - Server Room),Low
+2026-03-19 12:35,EVT-00992,B2,Emergency Exit #B2-F4,VIS-733,Visitor,Emergency Exit,PIN,Exit,Authorized,VIS-733,Building B2 (Floor 4 - Emergency Exit),Low
+2026-03-19 13:20,EVT-00993,B3,Parking #B3-F4,EMP-793,Employee,Parking,PIN,Entry,Authorized,N/A,Building B3 (Floor 4 - Parking),Low
+2026-03-19 13:50,EVT-00994,B3,Server Room #B3-F5,VIS-793,Visitor,Server Room,PIN,Entry,Authorized,VIS-793,Building B3 (Floor 5 - Server Room),Low
+2026-03-19 14:20,EVT-00995,B2,Parking #B2-F1,EMP-535,Employee,Parking,Visitor Pass,Exit,Authorized,N/A,Building B2 (Floor 1 - Parking),Low
+2026-03-19 14:50,EVT-00996,B1,Parking #B1-F1,ADM-29,Administrator,Parking,Biometric,Entry,Authorized,N/A,Building B1 (Floor 1 - Parking),Low
+2026-03-19 15:20,EVT-00997,B3,Main Entrance #B3-F3,VIS-615,Visitor,Main Entrance,Visitor Pass,Entry,Authorized,VIS-615,Building B3 (Floor 3 - Main Entrance),Low
+2026-03-19 15:50,EVT-00998,B2,Parking #B2-F3,EMP-781,Employee,Parking,RFID,Entry,Authorized,N/A,Building B2 (Floor 3 - Parking),Low
+2026-03-19 16:10,EVT-00999,B2,Office #B2-F1,CON-488,Contractor,Office,Access Card,Exit,Authorized,N/A,Building B2 (Floor 1 - Office),Low
+2026-03-19 16:30,EVT-01000,B3,Emergency Exit #B3-F5,VIS-830,Visitor,Emergency Exit,Biometric,Exit,Denied,VIS-830,Building B3 (Floor 5 - Emergency Exit),Medium
+2026-03-19 17:15,EVT-01001,B2,Office #B2-F2,EMP-945,Employee,Office,PIN,Exit,Denied,N/A,Building B2 (Floor 2 - Office),Medium
+2026-03-19 17:25,EVT-01002,B3,Laboratory #B3-F2,UNK-999,Unknown,Laboratory,PIN,Exit,Authorized,N/A,Building B3 (Floor 2 - Laboratory),Low
+2026-03-19 17:55,EVT-01003,B2,Restricted Area #B2-F5,ADM-31,Administrator,Restricted Area,Visitor Pass,Exit,Authorized,N/A,Building B2 (Floor 5 - Restricted Area),Low
+2026-03-19 18:40,EVT-01004,B3,Parking #B3-F5,EMP-381,Employee,Parking,RFID,Entry,Authorized,N/A,Building B3 (Floor 5 - Parking),Low
+2026-03-19 19:10,EVT-01005,B2,Office #B2-F2,EMP-469,Employee,Office,PIN,Exit,Denied,N/A,Building B2 (Floor 2 - Office),Medium
+2026-03-19 19:55,EVT-01006,B2,Server Room #B2-F3,VIS-624,Visitor,Server Room,RFID,Exit,Authorized,VIS-624,Building B2 (Floor 3 - Server Room),Low
+2026-03-19 20:05,EVT-01007,B2,Emergency Exit #B2-F4,UNK-999,Unknown,Emergency Exit,Biometric,Entry,Authorized,N/A,Building B2 (Floor 4 - Emergency Exit),Low
+2026-03-19 20:25,EVT-01008,B2,Office #B2-F2,UNK-999,Unknown,Office,Biometric,Entry,Authorized,N/A,Building B2 (Floor 2 - Office),Low
+2026-03-19 20:35,EVT-01009,B1,Main Entrance #B1-F1,CON-353,Contractor,Main Entrance,Access Card,Exit,Authorized,N/A,Building B1 (Floor 1 - Main Entrance),Low
+2026-03-19 21:20,EVT-01010,B3,Server Room #B3-F5,UNK-999,Unknown,Server Room,RFID,Entry,Authorized,N/A,Building B3 (Floor 5 - Server Room),Low
+2026-03-19 21:50,EVT-01011,B3,Laboratory #B3-F2,UNK-999,Unknown,Laboratory,PIN,Exit,Authorized,N/A,Building B3 (Floor 2 - Laboratory),Low
+2026-03-19 22:10,EVT-01012,B3,Office #B3-F5,VIS-731,Visitor,Office,Biometric,Exit,Denied,VIS-731,Building B3 (Floor 5 - Office),Medium
+2026-03-19 22:20,EVT-01013,B3,Laboratory #B3-F5,VIS-677,Visitor,Laboratory,Access Card,Entry,Authorized,VIS-677,Building B3 (Floor 5 - Laboratory),Low
+2026-03-19 23:05,EVT-01014,B1,Emergency Exit #B1-F1,ADM-83,Administrator,Emergency Exit,Visitor Pass,Entry,Authorized,N/A,Building B1 (Floor 1 - Emergency Exit),Low
+2026-03-19 23:50,EVT-01015,B2,Laboratory #B2-F4,VIS-674,Visitor,Laboratory,Biometric,Exit,Authorized,VIS-674,Building B2 (Floor 4 - Laboratory),Low
+2026-03-20 00:10,EVT-01016,B1,Server Room #B1-F5,CON-431,Contractor,Server Room,Biometric,Exit,Authorized,N/A,Building B1 (Floor 5 - Server Room),Low
+2026-03-20 00:20,EVT-01017,B3,Office #B3-F4,CON-478,Contractor,Office,RFID,Entry,Authorized,N/A,Building B3 (Floor 4 - Office),Low
+2026-03-20 00:50,EVT-01018,B1,Restricted Area #B1-F3,VIS-666,Visitor,Restricted Area,Access Card,Entry,Authorized,VIS-666,Building B1 (Floor 3 - Restricted Area),Low
+2026-03-20 01:00,EVT-01019,B1,Main Entrance #B1-F4,CON-459,Contractor,Main Entrance,Biometric,Entry,Authorized,N/A,Building B1 (Floor 4 - Main Entrance),Low
+2026-03-20 01:20,EVT-01020,B2,Office #B2-F3,EMP-828,Employee,Office,Biometric,Entry,Authorized,N/A,Building B2 (Floor 3 - Office),Low
+2026-03-20 01:50,EVT-01021,B1,Server Room #B1-F3,UNK-999,Unknown,Server Room,Visitor Pass,Entry,Authorized,N/A,Building B1 (Floor 3 - Server Room),Low
+2026-03-20 02:10,EVT-01022,B1,Laboratory #B1-F2,EMP-271,Employee,Laboratory,Visitor Pass,Exit,Authorized,N/A,Building B1 (Floor 2 - Laboratory),Low
+2026-03-20 02:20,EVT-01023,B3,Laboratory #B3-F5,EMP-354,Employee,Laboratory,RFID,Entry,Denied,N/A,Building B3 (Floor 5 - Laboratory),Medium
+2026-03-20 03:05,EVT-01024,B3,Laboratory #B3-F4,UNK-999,Unknown,Laboratory,Access Card,Entry,Authorized,N/A,Building B3 (Floor 4 - Laboratory),Low
+2026-03-20 03:50,EVT-01025,B1,Restricted Area #B1-F1,ADM-65,Administrator,Restricted Area,RFID,Exit,Authorized,N/A,Building B1 (Floor 1 - Restricted Area),Low
+2026-03-20 04:00,EVT-01026,B2,Server Room #B2-F2,UNK-999,Unknown,Server Room,Visitor Pass,Entry,Authorized,N/A,Building B2 (Floor 2 - Server Room),Low
+2026-03-20 04:20,EVT-01027,B3,Server Room #B3-F5,UNK-999,Unknown,Server Room,Visitor Pass,Entry,Authorized,N/A,Building B3 (Floor 5 - Server Room),Low
+2026-03-20 04:50,EVT-01028,B1,Parking #B1-F2,UNK-999,Unknown,Parking,Visitor Pass,Entry,Authorized,N/A,Building B1 (Floor 2 - Parking),Low
+2026-03-20 05:20,EVT-01029,B1,Office #B1-F2,UNK-999,Unknown,Office,RFID,Exit,Authorized,N/A,Building B1 (Floor 2 - Office),Low
+2026-03-20 05:50,EVT-01030,B3,Emergency Exit #B3-F1,UNK-999,Unknown,Emergency Exit,RFID,Entry,Authorized,N/A,Building B3 (Floor 1 - Emergency Exit),Low
+2026-03-20 06:10,EVT-01031,B1,Main Entrance #B1-F3,ADM-96,Administrator,Main Entrance,PIN,Entry,Authorized,N/A,Building B1 (Floor 3 - Main Entrance),Low
+2026-03-20 06:20,EVT-01032,B3,Server Room #B3-F5,CON-418,Contractor,Server Room,Access Card,Exit,Denied,N/A,Building B3 (Floor 5 - Server Room),High
+2026-03-20 07:05,EVT-01033,B1,Server Room #B1-F2,VIS-608,Visitor,Server Room,RFID,Exit,Authorized,VIS-608,Building B1 (Floor 2 - Server Room),Low
+2026-03-20 07:35,EVT-01034,B1,Parking #B1-F1,ADM-58,Administrator,Parking,Visitor Pass,Entry,Denied,N/A,Building B1 (Floor 1 - Parking),Medium
+2026-03-20 08:05,EVT-01035,B3,Server Room #B3-F4,CON-344,Contractor,Server Room,RFID,Entry,Suspicious,N/A,Building B3 (Floor 4 - Server Room),High
+2026-03-20 08:15,EVT-01036,B2,Server Room #B2-F5,VIS-555,Visitor,Server Room,Visitor Pass,Entry,Authorized,VIS-555,Building B2 (Floor 5 - Server Room),Low
+2026-03-20 08:35,EVT-01037,B2,Office #B2-F3,VIS-865,Visitor,Office,PIN,Exit,Authorized,VIS-865,Building B2 (Floor 3 - Office),Low
+2026-03-20 09:20,EVT-01038,B1,Server Room #B1-F4,UNK-999,Unknown,Server Room,RFID,Exit,Authorized,N/A,Building B1 (Floor 4 - Server Room),Low
+2026-03-20 09:30,EVT-01039,B3,Parking #B3-F3,EMP-219,Employee,Parking,Access Card,Exit,Suspicious,N/A,Building B3 (Floor 3 - Parking),High
+2026-03-20 09:40,EVT-01040,B2,Laboratory #B2-F2,UNK-999,Unknown,Laboratory,Biometric,Entry,Authorized,N/A,Building B2 (Floor 2 - Laboratory),Low
+2026-03-20 10:10,EVT-01041,B2,Server Room #B2-F4,ADM-60,Administrator,Server Room,Biometric,Exit,Authorized,N/A,Building B2 (Floor 4 - Server Room),Low
+2026-03-20 10:20,EVT-01042,B3,Parking #B3-F2,ADM-77,Administrator,Parking,Visitor Pass,Exit,Authorized,N/A,Building B3 (Floor 2 - Parking),Low
+2026-03-20 10:30,EVT-01043,B2,Emergency Exit #B2-F5,VIS-527,Visitor,Emergency Exit,Biometric,Entry,Authorized,VIS-527,Building B2 (Floor 5 - Emergency Exit),Low
+2026-03-20 11:00,EVT-01044,B3,Restricted Area #B3-F1,CON-424,Contractor,Restricted Area,Biometric,Exit,Authorized,N/A,Building B3 (Floor 1 - Restricted Area),Low
+2026-03-20 11:20,EVT-01045,B3,Restricted Area #B3-F4,VIS-634,Visitor,Restricted Area,Access Card,Exit,Denied,VIS-634,Building B3 (Floor 4 - Restricted Area),High
+2026-03-20 11:40,EVT-01046,B2,Server Room #B2-F1,ADM-39,Administrator,Server Room,Visitor Pass,Entry,Authorized,N/A,Building B2 (Floor 1 - Server Room),Low
+2026-03-20 12:25,EVT-01047,B2,Parking #B2-F3,EMP-742,Employee,Parking,PIN,Entry,Denied,N/A,Building B2 (Floor 3 - Parking),Medium
+2026-03-20 13:10,EVT-01048,B2,Laboratory #B2-F1,ADM-66,Administrator,Laboratory,Visitor Pass,Exit,Authorized,N/A,Building B2 (Floor 1 - Laboratory),Low
+2026-03-20 13:20,EVT-01049,B1,Parking #B1-F3,UNK-999,Unknown,Parking,Biometric,Exit,Authorized,N/A,Building B1 (Floor 3 - Parking),Low
+2026-03-20 14:05,EVT-01050,B3,Laboratory #B3-F4,CON-344,Contractor,Laboratory,Biometric,Exit,Authorized,N/A,Building B3 (Floor 4 - Laboratory),Low
+2026-03-20 14:25,EVT-01051,B2,Server Room #B2-F4,CON-494,Contractor,Server Room,RFID,Entry,Authorized,N/A,Building B2 (Floor 4 - Server Room),Low
+2026-03-20 14:35,EVT-01052,B1,Emergency Exit #B1-F4,ADM-13,Administrator,Emergency Exit,Biometric,Exit,Authorized,N/A,Building B1 (Floor 4 - Emergency Exit),Low
+2026-03-20 14:45,EVT-01053,B3,Laboratory #B3-F5,ADM-87,Administrator,Laboratory,Visitor Pass,Entry,Authorized,N/A,Building B3 (Floor 5 - Laboratory),Low
+2026-03-20 15:05,EVT-01054,B3,Restricted Area #B3-F4,VIS-879,Visitor,Restricted Area,PIN,Exit,Authorized,VIS-879,Building B3 (Floor 4 - Restricted Area),Low
+2026-03-20 15:35,EVT-01055,B3,Office #B3-F2,UNK-999,Unknown,Office,Biometric,Entry,Authorized,N/A,Building B3 (Floor 2 - Office),Low
+2026-03-20 16:05,EVT-01056,B1,Emergency Exit #B1-F3,EMP-681,Employee,Emergency Exit,RFID,Exit,Denied,N/A,Building B1 (Floor 3 - Emergency Exit),Medium
+2026-03-20 16:35,EVT-01057,B2,Parking #B2-F5,CON-401,Contractor,Parking,Biometric,Exit,Authorized,N/A,Building B2 (Floor 5 - Parking),Low
+2026-03-20 16:55,EVT-01058,B1,Restricted Area #B1-F5,CON-373,Contractor,Restricted Area,Access Card,Exit,Authorized,N/A,Building B1 (Floor 5 - Restricted Area),Low
+2026-03-20 17:25,EVT-01059,B1,Parking #B1-F1,UNK-999,Unknown,Parking,Biometric,Exit,Suspicious,N/A,Building B1 (Floor 1 - Parking),High
+2026-03-20 17:35,EVT-01060,B2,Main Entrance #B2-F2,UNK-999,Unknown,Main Entrance,Visitor Pass,Entry,Authorized,N/A,Building B2 (Floor 2 - Main Entrance),Low
+2026-03-20 17:55,EVT-01061,B2,Main Entrance #B2-F3,ADM-34,Administrator,Main Entrance,RFID,Entry,Authorized,N/A,Building B2 (Floor 3 - Main Entrance),Low
+2026-03-20 18:25,EVT-01062,B3,Restricted Area #B3-F1,CON-340,Contractor,Restricted Area,Visitor Pass,Exit,Authorized,N/A,Building B3 (Floor 1 - Restricted Area),Low
+2026-03-20 18:45,EVT-01063,B1,Main Entrance #B1-F4,ADM-47,Administrator,Main Entrance,Biometric,Exit,Authorized,N/A,Building B1 (Floor 4 - Main Entrance),Low
+2026-03-20 19:15,EVT-01064,B1,Parking #B1-F2,ADM-78,Administrator,Parking,Biometric,Exit,Authorized,N/A,Building B1 (Floor 2 - Parking),Low
+2026-03-20 19:35,EVT-01065,B2,Laboratory #B2-F1,UNK-999,Unknown,Laboratory,RFID,Entry,Authorized,N/A,Building B2 (Floor 1 - Laboratory),Low
+2026-03-20 20:20,EVT-01066,B3,Server Room #B3-F3,EMP-406,Employee,Server Room,Visitor Pass,Exit,Authorized,N/A,Building B3 (Floor 3 - Server Room),Low
+2026-03-20 20:50,EVT-01067,B3,Server Room #B3-F4,ADM-26,Administrator,Server Room,Access Card,Entry,Authorized,N/A,Building B3 (Floor 4 - Server Room),Low
+2026-03-20 21:35,EVT-01068,B1,Laboratory #B1-F5,VIS-529,Visitor,Laboratory,PIN,Exit,Authorized,VIS-529,Building B1 (Floor 5 - Laboratory),Low
+2026-03-20 21:45,EVT-01069,B3,Restricted Area #B3-F1,VIS-824,Visitor,Restricted Area,RFID,Exit,Authorized,VIS-824,Building B3 (Floor 1 - Restricted Area),Low
+2026-03-20 22:15,EVT-01070,B3,Server Room #B3-F4,CON-415,Contractor,Server Room,Visitor Pass,Exit,Authorized,N/A,Building B3 (Floor 4 - Server Room),Low
+2026-03-20 22:45,EVT-01071,B2,Emergency Exit #B2-F2,EMP-290,Employee,Emergency Exit,RFID,Entry,Authorized,N/A,Building B2 (Floor 2 - Emergency Exit),Low
+2026-03-20 23:30,EVT-01072,B2,Server Room #B2-F1,EMP-820,Employee,Server Room,PIN,Entry,Authorized,N/A,Building B2 (Floor 1 - Server Room),Low
+2026-03-20 23:50,EVT-01073,B3,Office #B3-F4,ADM-95,Administrator,Office,Biometric,Exit,Authorized,N/A,Building B3 (Floor 4 - Office),Low
+2026-03-21 00:00,EVT-01074,B1,Emergency Exit #B1-F2,CON-491,Contractor,Emergency Exit,RFID,Exit,Denied,N/A,Building B1 (Floor 2 - Emergency Exit),Medium
+2026-03-21 00:45,EVT-01075,B3,Main Entrance #B3-F2,CON-442,Contractor,Main Entrance,Visitor Pass,Entry,Authorized,N/A,Building B3 (Floor 2 - Main Entrance),Low
+2026-03-21 00:55,EVT-01076,B2,Parking #B2-F1,VIS-502,Visitor,Parking,RFID,Entry,Authorized,VIS-502,Building B2 (Floor 1 - Parking),Low
+2026-03-21 01:40,EVT-01077,B2,Laboratory #B2-F1,ADM-72,Administrator,Laboratory,RFID,Exit,Authorized,N/A,Building B2 (Floor 1 - Laboratory),Low
+2026-03-21 02:10,EVT-01078,B1,Restricted Area #B1-F5,UNK-999,Unknown,Restricted Area,PIN,Exit,Authorized,N/A,Building B1 (Floor 5 - Restricted Area),Low
+2026-03-21 02:40,EVT-01079,B3,Main Entrance #B3-F1,UNK-999,Unknown,Main Entrance,PIN,Entry,Authorized,N/A,Building B3 (Floor 1 - Main Entrance),Low
+2026-03-21 03:10,EVT-01080,B1,Emergency Exit #B1-F1,VIS-861,Visitor,Emergency Exit,RFID,Exit,Denied,VIS-861,Building B1 (Floor 1 - Emergency Exit),Medium
+2026-03-21 03:30,EVT-01081,B3,Main Entrance #B3-F1,EMP-653,Employee,Main Entrance,RFID,Entry,Authorized,N/A,Building B3 (Floor 1 - Main Entrance),Low
+2026-03-21 03:50,EVT-01082,B3,Emergency Exit #B3-F3,UNK-999,Unknown,Emergency Exit,Visitor Pass,Entry,Authorized,N/A,Building B3 (Floor 3 - Emergency Exit),Low
+2026-03-21 04:00,EVT-01083,B3,Server Room #B3-F1,EMP-788,Employee,Server Room,Visitor Pass,Entry,Authorized,N/A,Building B3 (Floor 1 - Server Room),Low
+2026-03-21 04:30,EVT-01084,B3,Restricted Area #B3-F1,VIS-649,Visitor,Restricted Area,RFID,Entry,Authorized,VIS-649,Building B3 (Floor 1 - Restricted Area),Low
+2026-03-21 04:50,EVT-01085,B3,Server Room #B3-F3,ADM-63,Administrator,Server Room,PIN,Exit,Authorized,N/A,Building B3 (Floor 3 - Server Room),Low
+2026-03-21 05:20,EVT-01086,B3,Parking #B3-F5,UNK-999,Unknown,Parking,Visitor Pass,Exit,Denied,N/A,Building B3 (Floor 5 - Parking),Medium
+2026-03-21 05:30,EVT-01087,B3,Office #B3-F5,EMP-659,Employee,Office,Visitor Pass,Entry,Authorized,N/A,Building B3 (Floor 5 - Office),Low
+2026-03-21 05:50,EVT-01088,B3,Office #B3-F2,UNK-999,Unknown,Office,Access Card,Entry,Authorized,N/A,Building B3 (Floor 2 - Office),Low
+2026-03-21 06:20,EVT-01089,B1,Emergency Exit #B1-F4,VIS-794,Visitor,Emergency Exit,Visitor Pass,Entry,Authorized,VIS-794,Building B1 (Floor 4 - Emergency Exit),Low
+2026-03-21 06:30,EVT-01090,B2,Server Room #B2-F2,EMP-640,Employee,Server Room,RFID,Exit,Authorized,N/A,Building B2 (Floor 2 - Server Room),Low
+2026-03-21 07:00,EVT-01091,B1,Emergency Exit #B1-F2,CON-322,Contractor,Emergency Exit,RFID,Entry,Authorized,N/A,Building B1 (Floor 2 - Emergency Exit),Low
+2026-03-21 07:45,EVT-01092,B3,Emergency Exit #B3-F1,ADM-26,Administrator,Emergency Exit,RFID,Entry,Authorized,N/A,Building B3 (Floor 1 - Emergency Exit),Low
+2026-03-21 08:05,EVT-01093,B3,Emergency Exit #B3-F5,ADM-33,Administrator,Emergency Exit,Visitor Pass,Entry,Authorized,N/A,Building B3 (Floor 5 - Emergency Exit),Low
+2026-03-21 08:50,EVT-01094,B3,Emergency Exit #B3-F4,CON-329,Contractor,Emergency Exit,PIN,Entry,Authorized,N/A,Building B3 (Floor 4 - Emergency Exit),Low
+2026-03-21 09:35,EVT-01095,B2,Emergency Exit #B2-F1,ADM-41,Administrator,Emergency Exit,Access Card,Exit,Authorized,N/A,Building B2 (Floor 1 - Emergency Exit),Low
+2026-03-21 09:55,EVT-01096,B2,Office #B2-F3,EMP-644,Employee,Office,PIN,Exit,Authorized,N/A,Building B2 (Floor 3 - Office),Low
+2026-03-21 10:25,EVT-01097,B1,Emergency Exit #B1-F5,UNK-999,Unknown,Emergency Exit,Access Card,Entry,Authorized,N/A,Building B1 (Floor 5 - Emergency Exit),Low
+2026-03-21 10:35,EVT-01098,B2,Restricted Area #B2-F4,UNK-999,Unknown,Restricted Area,PIN,Exit,Denied,N/A,Building B2 (Floor 4 - Office),Critical
+2026-03-21 10:45,EVT-01099,B2,Main Entrance #B2-F3,ADM-38,Administrator,Main Entrance,RFID,Entry,Authorized,N/A,Building B2 (Floor 3 - Main Entrance),Low
+2026-03-21 11:15,EVT-01100,B1,Server Room #B1-F1,CON-464,Contractor,Server Room,RFID,Entry,Authorized,N/A,Building B1 (Floor 1 - Server Room),Low
+2026-03-21 11:35,EVT-01101,B1,Laboratory #B1-F1,CON-463,Contractor,Laboratory,Access Card,Entry,Authorized,N/A,Building B1 (Floor 1 - Laboratory),Low
+2026-03-21 11:45,EVT-01102,B3,Office #B3-F4,CON-440,Contractor,Office,Access Card,Exit,Authorized,N/A,Building B3 (Floor 4 - Office),Low
+2026-03-21 11:55,EVT-01103,B2,Office #B2-F1,CON-406,Contractor,Office,Access Card,Entry,Authorized,N/A,Building B2 (Floor 1 - Office),Low
+2026-03-21 12:25,EVT-01104,B3,Main Entrance #B3-F3,CON-353,Contractor,Main Entrance,PIN,Exit,Authorized,N/A,Building B3 (Floor 3 - Main Entrance),Low
+2026-03-21 13:10,EVT-01105,B3,Office #B3-F5,CON-429,Contractor,Office,PIN,Exit,Authorized,N/A,Building B3 (Floor 5 - Office),Low
+2026-03-21 13:55,EVT-01106,B3,Parking #B3-F1,ADM-96,Administrator,Parking,Access Card,Entry,Authorized,N/A,Building B3 (Floor 1 - Parking),Low
+2026-03-21 14:40,EVT-01107,B3,Parking #B3-F5,EMP-794,Employee,Parking,PIN,Entry,Authorized,N/A,Building B3 (Floor 5 - Parking),Low
+2026-03-21 15:00,EVT-01108,B2,Server Room #B2-F5,CON-444,Contractor,Server Room,Visitor Pass,Exit,Suspicious,N/A,Building B2 (Floor 5 - Server Room),High
+2026-03-21 15:10,EVT-01109,B3,Parking #B3-F3,ADM-57,Administrator,Parking,Biometric,Entry,Suspicious,N/A,Building B3 (Floor 3 - Parking),High
+2026-03-21 15:30,EVT-01110,B1,Main Entrance #B1-F1,EMP-111,Employee,Main Entrance,Access Card,Entry,Authorized,N/A,Building B1 (Floor 1 - Main Entrance),Low
+2026-03-21 16:15,EVT-01111,B3,Restricted Area #B3-F4,ADM-58,Administrator,Restricted Area,Access Card,Exit,Authorized,N/A,Building B3 (Floor 4 - Restricted Area),Low
+2026-03-21 16:45,EVT-01112,B2,Parking #B2-F1,UNK-999,Unknown,Parking,Biometric,Exit,Authorized,N/A,Building B2 (Floor 1 - Parking),Low
+2026-03-21 17:15,EVT-01113,B2,Parking #B2-F1,UNK-999,Unknown,Parking,RFID,Exit,Authorized,N/A,Building B2 (Floor 1 - Parking),Low
+2026-03-21 17:35,EVT-01114,B3,Emergency Exit #B3-F2,EMP-595,Employee,Emergency Exit,Biometric,Entry,Authorized,N/A,Building B3 (Floor 2 - Emergency Exit),Low
+2026-03-21 18:05,EVT-01115,B1,Parking #B1-F4,VIS-797,Visitor,Parking,Biometric,Exit,Authorized,VIS-797,Building B1 (Floor 4 - Parking),Low
+2026-03-21 18:25,EVT-01116,B3,Server Room #B3-F3,EMP-919,Employee,Server Room,RFID,Entry,Authorized,N/A,Building B3 (Floor 3 - Server Room),Low
+2026-03-21 18:45,EVT-01117,B2,Office #B2-F1,VIS-899,Visitor,Office,PIN,Entry,Authorized,VIS-899,Building B2 (Floor 1 - Office),Low
+2026-03-21 19:05,EVT-01118,B2,Main Entrance #B2-F5,ADM-37,Administrator,Main Entrance,RFID,Entry,Authorized,N/A,Building B2 (Floor 5 - Main Entrance),Low
+2026-03-21 19:50,EVT-01119,B3,Emergency Exit #B3-F5,VIS-734,Visitor,Emergency Exit,PIN,Exit,Authorized,VIS-734,Building B3 (Floor 5 - Emergency Exit),Low
+2026-03-21 20:10,EVT-01120,B3,Parking #B3-F3,VIS-893,Visitor,Parking,Visitor Pass,Exit,Authorized,VIS-893,Building B3 (Floor 3 - Parking),Low
+2026-03-21 20:40,EVT-01121,B1,Main Entrance #B1-F4,UNK-999,Unknown,Main Entrance,Visitor Pass,Entry,Authorized,N/A,Building B1 (Floor 4 - Main Entrance),Low
+2026-03-21 20:50,EVT-01122,B1,Parking #B1-F1,VIS-706,Visitor,Parking,RFID,Exit,Authorized,VIS-706,Building B1 (Floor 1 - Parking),Low
+2026-03-21 21:10,EVT-01123,B2,Parking #B2-F3,ADM-55,Administrator,Parking,RFID,Exit,Suspicious,N/A,Building B2 (Floor 3 - Parking),High
+2026-03-21 21:55,EVT-01124,B2,Server Room #B2-F4,CON-370,Contractor,Server Room,PIN,Exit,Authorized,N/A,Building B2 (Floor 4 - Server Room),Low
+2026-03-21 22:25,EVT-01125,B2,Restricted Area #B2-F5,EMP-231,Employee,Restricted Area,Visitor Pass,Exit,Authorized,N/A,Building B2 (Floor 5 - Restricted Area),Low
+2026-03-21 23:10,EVT-01126,B2,Parking #B2-F1,CON-483,Contractor,Parking,RFID,Exit,Authorized,N/A,Building B2 (Floor 1 - Parking),Low
+2026-03-21 23:40,EVT-01127,B2,Emergency Exit #B2-F5,ADM-28,Administrator,Emergency Exit,PIN,Exit,Authorized,N/A,Building B2 (Floor 5 - Emergency Exit),Low
+2026-03-21 23:50,EVT-01128,B1,Laboratory #B1-F5,ADM-53,Administrator,Laboratory,Access Card,Exit,Authorized,N/A,Building B1 (Floor 5 - Laboratory),Low
+2026-03-22 00:35,EVT-01129,B1,Office #B1-F1,ADM-64,Administrator,Office,RFID,Exit,Suspicious,N/A,Building B1 (Floor 1 - Office),High
+2026-03-22 00:55,EVT-01130,B1,Restricted Area #B1-F4,EMP-713,Employee,Restricted Area,PIN,Entry,Authorized,N/A,Building B1 (Floor 4 - Restricted Area),Low
+2026-03-22 01:15,EVT-01131,B2,Server Room #B2-F1,UNK-999,Unknown,Server Room,RFID,Exit,Denied,N/A,Building B2 (Floor 1 - Server Room),High
+2026-03-22 01:25,EVT-01132,B3,Parking #B3-F1,UNK-999,Unknown,Parking,RFID,Exit,Authorized,N/A,Building B3 (Floor 1 - Parking),Low
+2026-03-22 01:35,EVT-01133,B3,Emergency Exit #B3-F4,CON-481,Contractor,Emergency Exit,PIN,Entry,Denied,N/A,Building B3 (Floor 4 - Emergency Exit),Medium
+2026-03-22 01:55,EVT-01134,B3,Emergency Exit #B3-F4,ADM-33,Administrator,Emergency Exit,Biometric,Exit,Suspicious,N/A,Building B3 (Floor 4 - Emergency Exit),High
+2026-03-22 02:15,EVT-01135,B1,Main Entrance #B1-F5,UNK-999,Unknown,Main Entrance,Biometric,Exit,Authorized,N/A,Building B1 (Floor 5 - Main Entrance),Low
+2026-03-22 02:45,EVT-01136,B2,Parking #B2-F2,EMP-470,Employee,Parking,RFID,Exit,Authorized,N/A,Building B2 (Floor 2 - Parking),Low
+2026-03-22 02:55,EVT-01137,B1,Parking #B1-F2,ADM-79,Administrator,Parking,PIN,Entry,Suspicious,N/A,Building B1 (Floor 2 - Parking),High
+2026-03-22 03:40,EVT-01138,B2,Parking #B2-F1,EMP-465,Employee,Parking,PIN,Entry,Authorized,N/A,Building B2 (Floor 1 - Parking),Low
+2026-03-22 03:50,EVT-01139,B3,Server Room #B3-F1,UNK-999,Unknown,Server Room,PIN,Entry,Authorized,N/A,Building B3 (Floor 1 - Server Room),Low
+2026-03-22 04:35,EVT-01140,B3,Main Entrance #B3-F1,CON-466,Contractor,Main Entrance,Access Card,Exit,Denied,N/A,Building B3 (Floor 1 - Main Entrance),Medium
+2026-03-22 04:55,EVT-01141,B3,Restricted Area #B3-F5,EMP-849,Employee,Restricted Area,Access Card,Exit,Authorized,N/A,Building B3 (Floor 5 - Restricted Area),Low
+2026-03-22 05:25,EVT-01142,B2,Office #B2-F2,CON-369,Contractor,Office,Access Card,Exit,Authorized,N/A,Building B2 (Floor 2 - Office),Low
+2026-03-22 06:10,EVT-01143,B3,Server Room #B3-F1,UNK-999,Unknown,Server Room,RFID,Exit,Authorized,N/A,Building B3 (Floor 1 - Server Room),Low
+2026-03-22 06:20,EVT-01144,B1,Laboratory #B1-F2,VIS-547,Visitor,Laboratory,PIN,Entry,Authorized,VIS-547,Building B1 (Floor 2 - Laboratory),Low
+2026-03-22 07:05,EVT-01145,B2,Restricted Area #B2-F1,CON-408,Contractor,Restricted Area,RFID,Exit,Authorized,N/A,Building B2 (Floor 1 - Restricted Area),Low
+2026-03-22 07:25,EVT-01146,B2,Parking #B2-F2,VIS-619,Visitor,Parking,Visitor Pass,Exit,Authorized,VIS-619,Building B2 (Floor 2 - Parking),Low
+2026-03-22 08:10,EVT-01147,B1,Server Room #B1-F2,CON-341,Contractor,Server Room,Access Card,Exit,Authorized,N/A,Building B1 (Floor 2 - Server Room),Low
+2026-03-22 08:40,EVT-01148,B1,Main Entrance #B1-F3,ADM-46,Administrator,Main Entrance,Visitor Pass,Exit,Authorized,N/A,Building B1 (Floor 3 - Main Entrance),Low
+2026-03-22 09:00,EVT-01149,B2,Emergency Exit #B2-F3,UNK-999,Unknown,Emergency Exit,RFID,Exit,Authorized,N/A,Building B2 (Floor 3 - Emergency Exit),Low
+2026-03-22 09:30,EVT-01150,B2,Laboratory #B2-F2,CON-409,Contractor,Laboratory,Visitor Pass,Exit,Authorized,N/A,Building B2 (Floor 2 - Laboratory),Low
