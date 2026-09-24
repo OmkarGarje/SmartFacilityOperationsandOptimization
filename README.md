@@ -1,6 +1,6 @@
 # Agentic FacilityOps AI Platform — Building Operations & Facility Intelligence System
 
-An enterprise-grade, browser-native AI Facility Operations & Building Intelligence System implementing **Milestone 1: Energy Intelligence & Monitoring**, **Milestone 2: Predictive Maintenance**, and **Milestone 3: Occupancy & Security Intelligence**.
+An enterprise-grade, browser-native AI Facility Operations & Building Intelligence System implementing **Milestone 1: Energy Intelligence & Monitoring**, **Milestone 2: Predictive Maintenance**, **Milestone 3: Occupancy & Security Intelligence**, and **Milestone 4: AI-Driven Facility Optimization & Decision Support**.
 
 ---
 
@@ -14,41 +14,39 @@ facilityops/
 ├── pages/
 │   ├── energy.html               # Milestone 1: Energy Intelligence & Anomaly Dashboard
 │   ├── maintenance.html          # Milestone 2: Predictive Maintenance & Asset Health
-│   ├── occupancy.html            # [NEW] Milestone 3: Occupancy Intelligence & Heatmaps
-│   ├── security.html             # [NEW] Milestone 3: Security Intelligence & Access Workflows
+│   ├── occupancy.html            # Milestone 3: Occupancy Intelligence & Heatmaps
+│   ├── security.html             # Milestone 3: Security Intelligence & Access Workflows
+│   ├── optimization.html         # [NEW] Milestone 4: AI Facility Optimization & Decision Support
 │   └── alerts.html               # Multi-Agent Unified Operations Alert Command Center
 │
 ├── css/
 │   ├── style.css                 # Core CSS variables, typography, sidebar & grid layout
-│   ├── dashboard.css             # Milestone 1-3 components: Heatmaps, Workflows, KPI cards
+│   ├── dashboard.css             # Milestone 1-4 components: Heatmaps, Workflows, KPI cards, Timelines
 │   └── responsive.css            # Responsive breakpoints (Desktop / Tablet / Mobile)
 │
 ├── js/
-│   ├── dataLoader.js             # Async CSV parser & browser fallback generators (M1-M3)
+│   ├── dataLoader.js             # Async CSV parser & browser fallback generators (M1-M4)
 │   ├── dashboard.js              # Executive Overview Controller & Agent Summaries
 │   ├── energy.js                 # Energy Agent & statistical anomaly engine (M1)
 │   ├── maintenance.js            # Maintenance Agent & telemetry health scoring (M2)
-│   ├── occupancy.js              # [NEW] Occupancy Agent, room utilization & heatmap engine (M3)
-│   ├── security.js               # [NEW] Security Agent, threat scoring & workflow engine (M3)
+│   ├── occupancy.js              # Occupancy Agent, room utilization & heatmap engine (M3)
+│   ├── security.js               # Security Agent, threat scoring & workflow engine (M3)
+│   ├── optimization.js           # [NEW] Optimization Agent, Cross-Milestone AI decision engine (M4)
 │   └── alerts.js                 # Multi-Agent Unified Alert Stream Controller
 │
 ├── data/
-│   ├── energy_data.csv           # 750 realistic utility IoT records
+│   ├── energy_data.csv           # 750 utility IoT telemetry records
 │   ├── maintenance_data.csv      # 520 equipment telemetry records
-│   ├── occupancy_data.csv        # [NEW] 1,100 room occupancy records
-│   └── security_data.csv         # [NEW] 1,150 access control event records
+│   ├── occupancy_data.csv        # 1,100 room occupancy records
+│   ├── security_data.csv         # 1,150 access control event records
+│   └── facility_optimization.csv # [NEW] 800 cross-domain optimization telemetry records
 │
 └── README.md                     # Technical system documentation & execution guide
 ```
 
 ---
 
-## 🚀 How to Run the Application & Fix Local CSV Fetch Issues
-
-### IMPORTANT NOTE ON BROWSER CORS / LOCAL CSV FETCH:
-Modern web browsers block `fetch()` requests to local CSV files (`../data/occupancy_data.csv` and `../data/security_data.csv`) when HTML pages are opened directly using the file protocol (`file:///`).
-
-To ensure Chart.js and all 11 visualizations load the actual CSV datasets correctly without CORS errors:
+## 🚀 How to Run the Application
 
 ### Recommended Local HTTP Server Execution:
 1. Open terminal/PowerShell in the project directory:
@@ -58,52 +56,54 @@ To ensure Chart.js and all 11 visualizations load the actual CSV datasets correc
    ```
 2. Open your web browser and navigate to:
    **[http://localhost:8000](http://localhost:8000)**
-3. Explore the Milestone 3 dashboards:
-   - Occupancy Dashboard: **`http://localhost:8000/pages/occupancy.html`**
-   - Security Dashboard: **`http://localhost:8000/pages/security.html`**
+3. Explore the dashboards:
+   - Executive Overview: **`http://localhost:8000/index.html`**
+   - Milestone 1 Energy: **`http://localhost:8000/pages/energy.html`**
+   - Milestone 2 Maintenance: **`http://localhost:8000/pages/maintenance.html`**
+   - Milestone 3 Occupancy: **`http://localhost:8000/pages/occupancy.html`**
+   - Milestone 3 Security: **`http://localhost:8000/pages/security.html`**
+   - Milestone 4 AI Optimization: **`http://localhost:8000/pages/optimization.html`**
    - Unified Alert Command Center: **`http://localhost:8000/pages/alerts.html`**
 
 ---
 
-## 👥 1. Occupancy Agent & Space Intelligence (Milestone 3)
+## 🤖 Milestone 4 — AI Facility Optimization & Decision Support
 
-The **Occupancy Agent** continuously monitors room occupancy telemetry, space capacity, entry/exit counters, and hourly utilization to prevent overcrowding and optimize floor allocation.
+The **Optimization Agent** operates as an intelligent decision-support layer synthesizing telemetry from Energy, Maintenance, Occupancy, and Security Agents to answer key facility questions:
+* *What problems are happening right now?*
+* *Which problem needs attention first?*
+* *Where can energy or operational efficiency be improved?*
+* *Which equipment or area requires attention?*
+* *Are occupancy and security conditions affecting facility operations?*
+* *What action should the facility manager take?*
 
-### Occupancy Analytics & Insights Logic:
-1. **Utilization Classification**:
-   - **Overcrowded**: Occupancy percentage $> 90\%$ of room capacity.
-   - **Highly Utilized**: Occupancy percentage $70\% - 90\%$.
-   - **Normally Utilized**: Occupancy percentage $25\% - 69\%$.
-   - **Underutilized**: Occupancy percentage $< 25\%$ during office hours ($9\text{ AM} - 5\text{ PM}$).
-2. **Dynamic Occupancy Heatmap**:
-   - Renders a Days (Mon–Sun) $\times$ Hours ($8\text{ AM} - 7\text{ PM}$) visual grid dynamically color-coded from emerald green (normal) to amber (high) and crimson red (overcrowded).
-3. **AI Occupancy Recommendations**:
-   - Generates prioritized room reallocation suggestions (e.g., staggering lunch schedules or moving meetings from overcrowded rooms).
+### 1. Cross-Milestone Architecture Pipeline
+```text
+  [Energy Data] ---> [Maintenance Data] ---> [Occupancy Data] ---> [Security Data]
+                                                                        │
+                                                                        ▼
+   [Facility Manager Action] <--- [AI Recommendations] <--- [Optimization Agent]
+```
+
+### 2. Facility Health Score Formula (0–100)
+- **Energy Health**: $100 - (\text{Anomaly Penalty})$
+- **Maintenance Health**: Average Asset Health Score across equipment telemetry.
+- **Occupancy Health**: $100 - (\text{Overcrowding Penalty})$.
+- **Security Health**: $100 - (\text{Critical/High Breach Penalty})$.
+- **Overall Score**: $\text{Weighted Average} = (0.3 \cdot \text{Energy}) + (0.3 \cdot \text{Maintenance}) + (0.2 \cdot \text{Occupancy}) + (0.2 \cdot \text{Security})$.
+
+### 3. Priority Matrix (Risk vs Impact)
+- **Risk vs Operational Impact Scatter Chart** (`riskImpactChart`) mapping issues into 4 quadrants to highlight critical action items.
+
+### 4. AI Recommendation Center & Combined Rules
+- Evaluates individual rules (High Energy Setbacks, Critical Maintenance, Overcrowding Reallocation, Security Lockdowns) and **Combined Cross-Domain Rules** (e.g., High Occupancy + High Energy in Zone B1-F2 $\rightarrow$ Priority Alert).
 
 ---
 
-## 🛡️ 2. Security Agent & Access Monitoring Workflows (Milestone 3)
+## 📊 Datasets Dictionary
 
-The **Security Agent** analyzes access control events across facility entrances, server rooms, laboratories, and restricted zones.
-
-### Access Monitoring Workflow:
-```
-  [Access Event]  --->  [Auth Check]  --->  [Clearance Check]  --->  [Risk Analysis]  --->  [Decision & Alert]
- (Badge / Biometric)    (RFID / PIN)      (Role / Time Window)     (Zone / Off-hours)     (Grant / Dispatch Alert)
-```
-
-### Risk Detection & Alert Generation Rules:
-- **Critical Risk**: Unknown person badge attempt at Server Room / Restricted Area $\rightarrow$ Immediate security team dispatch.
-- **High Risk**: Denied access attempt at restricted zones or suspicious off-hours access ($11\text{ PM} - 5\text{ AM}$).
-- **Medium Risk**: Failed authorization attempt at main office or parking areas.
-- **Low Risk**: Normal authorized employee entry/exit.
-
----
-
-## 📊 Datasets Dictionary (Milestone 3)
-
-### 1. `data/occupancy_data.csv` (1,100 Records)
-Columns: `timestamp`, `building_id`, `floor`, `room_id`, `room_type`, `capacity`, `current_occupancy`, `occupancy_percentage`, `entry_count`, `exit_count`, `day_type`, `hour`, `temperature`, `utilization_status`.
-
-### 2. `data/security_data.csv` (1,150 Records)
-Columns: `timestamp`, `event_id`, `building_id`, `access_point`, `person_id`, `person_type`, `access_type`, `authentication_method`, `entry_exit`, `access_status`, `visitor_id`, `location`, `risk_level`.
+1. **`data/energy_data.csv`** (750 Records): Electricity kWh, water liters, HVAC, lighting, equipment, temperatures, energy cost.
+2. **`data/maintenance_data.csv`** (520 Records): Operating hours, temperature, vibration, pressure, health score, failure risk.
+3. **`data/occupancy_data.csv`** (1,100 Records): Room capacity, current occupancy, percentage, entries, exits, hour, utilization status.
+4. **`data/security_data.csv`** (1,150 Records): Access points, person type, authentication method, access status, location, risk level.
+5. **`data/facility_optimization.csv`** (800 Records): Zone ID, building, floor, area, energy anomaly score, asset health score, occupancy percentage, security risk level, combined priority score, primary category, recommended action, annual savings.

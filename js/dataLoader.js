@@ -7,6 +7,7 @@ const DataLoader = {
     maintenanceData: [],
     occupancyData: [],
     securityData: [],
+    optimizationData: [],
     chartInstances: {},
 
     /**
@@ -297,6 +298,19 @@ const DataLoader = {
         return this.securityData;
     },
 
+    async loadOptimizationData() {
+        if (this.optimizationData.length > 0) return this.optimizationData;
+        try {
+            const response = await fetch('../data/facility_optimization.csv').catch(() => fetch('./data/facility_optimization.csv'));
+            if (!response.ok) throw new Error('HTTP error ' + response.status);
+            const text = await response.text();
+            this.optimizationData = this.parseCSV(text);
+        } catch (err) {
+            this.optimizationData = this.generateFallbackOptimizationData();
+        }
+        return this.optimizationData;
+    },
+
     generateFallbackEnergyData() {
         const buildings = ["B1", "B2", "B3"];
         const floors = [1, 2, 3, 4, 5];
@@ -493,6 +507,50 @@ const DataLoader = {
                 timestamp, event_id: `EVT-${String(i).padStart(5,'0')}`, building_id: b_id, access_point: acc_point,
                 person_id: p_id, person_type: p_type, access_type: acc_type, authentication_method: authMethods[i % authMethods.length],
                 entry_exit: i % 2 === 0 ? "Entry" : "Exit", access_status: acc_status, visitor_id: vis_id, location, risk_level
+            });
+        }
+        return data;
+    },
+
+    generateFallbackOptimizationData() {
+        const buildings = ["B1", "B2", "B3"];
+        const floors = [1, 2, 3, 4, 5];
+        const categories = ["ENERGY", "MAINTENANCE", "OCCUPANCY", "SECURITY", "CROSS_DOMAIN"];
+        const priorities = ["Low", "Medium", "High", "Critical"];
+        const data = [];
+        let date = new Date(2026, 2, 1, 8, 0);
+
+        for (let i = 1; i <= 500; i++) {
+            date = new Date(date.getTime() + (30 * 60 * 1000));
+            const b_id = buildings[i % buildings.length];
+            const fl = floors[i % floors.length];
+            const cat = categories[i % categories.length];
+            const prio = priorities[i % priorities.length];
+
+            data.push({
+                timestamp: `${date.getFullYear()}-03-${String((i%28)+1).padStart(2,'0')} ${String(date.getHours()).padStart(2,'0')}:00`,
+                zone_id: `ZONE-${b_id}-F${fl}`,
+                building_id: b_id,
+                floor: fl,
+                area_name: `Facility Area ${fl}`,
+                energy_kwh: Number((30 + Math.random() * 50).toFixed(2)),
+                energy_cost_usd: Number((5 + Math.random() * 12).toFixed(2)),
+                energy_anomaly_score: Number((Math.random() * 0.9).toFixed(2)),
+                asset_id: `HVAC-${b_id}${fl}001`,
+                asset_type: "HVAC Unit",
+                asset_health_score: Number((50 + Math.random() * 45).toFixed(1)),
+                asset_failure_risk_pct: Number((5 + Math.random() * 45).toFixed(1)),
+                room_id: `R-${b_id}${fl}01`,
+                current_occupancy: Math.floor(10 + Math.random() * 20),
+                capacity: 25,
+                occupancy_pct: Number((40 + Math.random() * 60).toFixed(1)),
+                security_event_count: Math.floor(1 + Math.random() * 5),
+                security_risk_level: prio,
+                combined_priority_score: Number((40 + Math.random() * 55).toFixed(1)),
+                primary_category: cat,
+                priority: prio,
+                recommended_action: cat === "CROSS_DOMAIN" ? "Priority Action: Reallocate headcount and optimize HVAC stage load" : "Optimize facility operations schedule",
+                annual_savings_usd: Number((500 + Math.random() * 2500).toFixed(2))
             });
         }
         return data;

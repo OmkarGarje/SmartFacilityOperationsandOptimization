@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Facility Optimization — Agentic FacilityOps AI Platform</title>
+    
+    <!-- CSS Dependencies -->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/dashboard.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+    
+    <!-- Chart.js CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+    <div class="app-container" id="optimization-page-identifier">
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar">
+            <div class="brand-header">
+                <div class="brand-icon">⚡</div>
+                <div class="brand-text">
+                    <h1>FacilityOps AI</h1>
+                    <span>Enterprise v1.3</span>
+                </div>
+            </div>
+            
+            <ul class="sidebar-menu">
+                <li><a href="../index.html"><span class="menu-icon">📊</span> Overview Dashboard</a></li>
+                <li><a href="energy.html"><span class="menu-icon">⚡</span> Energy Intelligence</a></li>
+                <li><a href="maintenance.html"><span class="menu-icon">🔧</span> Predictive Maintenance</a></li>
+                <li><a href="occupancy.html"><span class="menu-icon">👥</span> Occupancy Intelligence</a></li>
+                <li><a href="security.html"><span class="menu-icon">🛡️</span> Security Intelligence</a></li>
+                <li class="active"><a href="optimization.html"><span class="menu-icon">🤖</span> AI Facility Optimization</a></li>
+                <li><a href="alerts.html"><span class="menu-icon">🔔</span> Operations Alerts</a></li>
+            </ul>
+
+            <div class="sidebar-footer">
+                <p>Status: <strong>5 AI Agents Active</strong></p>
+                <p>© 2026 FacilityOps AI</p>
+            </div>
+        </aside>
+
+        <!-- Main Wrapper -->
+        <div class="main-wrapper">
+            <!-- Top Header -->
+            <header class="top-header">
+                <div class="header-title-section">
+                    <h2>AI Facility Optimization</h2>
+                    <p>AI-powered decision support for smarter facility operations (Milestone 4)</p>
+                </div>
+                <div class="header-controls">
+                    <div class="system-status-indicator">
+                        <div class="status-dot"></div>
+                        <span>Optimization Agent Active</span>
+                    </div>
+                    <div class="clock-display" id="live-clock">2026-09-24 19:15</div>
+                </div>
+            </header>
+
+            <!-- Page Content -->
+            <main class="page-content">
+                
+                <!-- Filter Bar -->
+                <div class="filter-bar">
+                    <div class="filter-group">
+                        <label for="filter-opt-building">Building:</label>
+                        <select id="filter-opt-building" class="form-select">
+                            <option value="ALL">All Buildings (B1, B2, B3)</option>
+                            <option value="B1">Building B1</option>
+                            <option value="B2">Building B2</option>
+                            <option value="B3">Building B3</option>
+                        </select>
+
+                        <label for="filter-opt-floor">Floor:</label>
+                        <select id="filter-opt-floor" class="form-select">
+                            <option value="ALL">All Floors (1 - 5)</option>
+                            <option value="1">Floor 1</option>
+                            <option value="2">Floor 2</option>
+                            <option value="3">Floor 3</option>
+                            <option value="4">Floor 4</option>
+                            <option value="5">Floor 5</option>
+                        </select>
+
+                        <label for="filter-opt-type">Issue Type:</label>
+                        <select id="filter-opt-type" class="form-select">
+                            <option value="ALL">All Issue Types</option>
+                            <option value="ENERGY">⚡ Energy Anomaly</option>
+                            <option value="MAINTENANCE">🔧 Predictive Maintenance</option>
+                            <option value="OCCUPANCY">👥 Space Utilization</option>
+                            <option value="SECURITY">🛡️ Security Threat</option>
+                            <option value="CROSS_DOMAIN">⚡👥 Cross-Domain Priority</option>
+                        </select>
+
+                        <label for="filter-opt-priority">Priority:</label>
+                        <select id="filter-opt-priority" class="form-select">
+                            <option value="ALL">All Priorities</option>
+                            <option value="Critical">Critical</option>
+                            <option value="High">High</option>
+                            <option value="Medium">Medium</option>
+                            <option value="Low">Low</option>
+                        </select>
+
+                        <label for="filter-opt-status">Status:</label>
+                        <select id="filter-opt-status" class="form-select">
+                            <option value="ALL">All Statuses</option>
+                            <option value="New">New</option>
+                            <option value="In Progress">In Progress</option>
+                            <option value="Resolved">Resolved</option>
+                        </select>
+                    </div>
+
+                    <button class="btn btn-primary" onclick="OptimizationEngine.init()">🔄 Refresh Decision Engine</button>
+                </div>
+
+                <!-- 6 Dynamic KPI Cards -->
+                <div class="kpi-grid kpi-grid-6">
+                    <div class="kpi-card">
+                        <div class="kpi-header">
+                            <span class="kpi-title">Overall Facility Health</span>
+                            <div class="kpi-icon">🏥</div>
+                        </div>
+                        <div class="kpi-value" id="kpi-facility-health">--</div>
+                        <div class="kpi-subtext">Composite index (0–100)</div>
+                    </div>
+
+                    <div class="kpi-card">
+                        <div class="kpi-header">
+                            <span class="kpi-title">Active Issues</span>
+                            <div class="kpi-icon">⚠️</div>
+                        </div>
+                        <div class="kpi-value" id="kpi-active-issues">--</div>
+                        <div class="kpi-subtext">Cross-agent telemetry</div>
+                    </div>
+
+                    <div class="kpi-card">
+                        <div class="kpi-header">
+                            <span class="kpi-title">Critical Issues</span>
+                            <div class="kpi-icon">🚨</div>
+                        </div>
+                        <div class="kpi-value" id="kpi-critical-issues">--</div>
+                        <div class="kpi-subtext">Immediate action required</div>
+                    </div>
+
+                    <div class="kpi-card">
+                        <div class="kpi-header">
+                            <span class="kpi-title">Energy Saving Opp.</span>
+                            <div class="kpi-icon">💰</div>
+                        </div>
+                        <div class="kpi-value" id="kpi-energy-opportunity">--</div>
+                        <div class="kpi-subtext">Potential annual savings</div>
+                    </div>
+
+                    <div class="kpi-card">
+                        <div class="kpi-header">
+                            <span class="kpi-title">Maintenance Priority</span>
+                            <div class="kpi-icon">🔧</div>
+                        </div>
+                        <div class="kpi-value" id="kpi-maint-priority">--</div>
+                        <div class="kpi-subtext">High risk asset telemetry</div>
+                    </div>
+
+                    <div class="kpi-card">
+                        <div class="kpi-header">
+                            <span class="kpi-title">AI Recommendations</span>
+                            <div class="kpi-icon">💡</div>
+                        </div>
+                        <div class="kpi-value" id="kpi-ai-recommendations">--</div>
+                        <div class="kpi-subtext">Actionable decision queue</div>
+                    </div>
+                </div>
+
+                <!-- Main Grid: Facility Health Gauge Left & Optimization Agent Visual Panel Right -->
+                <div class="dashboard-grid">
+                    <!-- Left: Facility Health Score & Breakdown -->
+                    <div class="card-box">
+                        <div class="card-box-header">
+                            <h3 class="card-box-title">🏥 Facility Health Score & Domain Metrics</h3>
+                            <span class="badge badge-healthy" id="health-status-badge">HEALTHY (84/100)</span>
+                        </div>
+                        
+                        <div class="health-container-grid">
+                            <div class="chart-container chart-container-sm" style="height: 220px;">
+                                <canvas id="healthScoreChart"></canvas>
+                            </div>
+                            
+                            <div class="health-breakdown-list">
+                                <div class="health-breakdown-item">
+                                    <div class="health-label-row">
+                                        <span>⚡ Energy Efficiency</span>
+                                        <strong id="health-val-energy">82%</strong>
+                                    </div>
+                                    <div class="health-bar-container" style="width: 100%;">
+                                        <div class="health-bar-fill" id="health-bar-energy" style="width: 82%; background-color: #3b82f6;"></div>
+                                    </div>
+                                </div>
+
+                                <div class="health-breakdown-item">
+                                    <div class="health-label-row">
+                                        <span>🔧 Maintenance Health</span>
+                                        <strong id="health-val-maint">74%</strong>
+                                    </div>
+                                    <div class="health-bar-container" style="width: 100%;">
+                                        <div class="health-bar-fill" id="health-bar-maint" style="width: 74%; background-color: #f59e0b;"></div>
+                                    </div>
+                                </div>
+
+                                <div class="health-breakdown-item">
+                                    <div class="health-label-row">
+                                        <span>👥 Space Utilization</span>
+                                        <strong id="health-val-occ">88%</strong>
+                                    </div>
+                                    <div class="health-bar-container" style="width: 100%;">
+                                        <div class="health-bar-fill" id="health-bar-occ" style="width: 88%; background-color: #10b981;"></div>
+                                    </div>
+                                </div>
+
+                                <div class="health-breakdown-item">
+                                    <div class="health-label-row">
+                                        <span>🛡️ Security Clearance</span>
+                                        <strong id="health-val-sec">92%</strong>
+                                    </div>
+                                    <div class="health-bar-container" style="width: 100%;">
+                                        <div class="health-bar-fill" id="health-bar-sec" style="width: 92%; background-color: #8b5cf6;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right: Optimization Agent Visual Panel -->
+                    <div class="agent-panel-card">
+                        <div class="agent-header">
+                            <div class="agent-identity">
+                                <div class="agent-avatar">🤖</div>
+                                <div class="agent-name-box">
+                                    <h3>Optimization Agent</h3>
+                                    <p>AI Decision Support Engine</p>
+                                </div>
+                            </div>
+                            <span class="badge badge-healthy">ACTIVE</span>
+                        </div>
+
+                        <ul class="agent-tasks-list">
+                            <li><span class="task-check">✓</span> Ingesting Energy telemetry</li>
+                            <li><span class="task-check">✓</span> Ingesting Maintenance telemetry</li>
+                            <li><span class="task-check">✓</span> Ingesting Occupancy telemetry</li>
+                            <li><span class="task-check">✓</span> Ingesting Security events</li>
+                            <li><span class="task-check">✓</span> Evaluating Risk vs Impact matrix</li>
+                            <li><span class="task-check">✓</span> Generating Combined AI Insights</li>
+                        </ul>
+
+                        <div class="agent-metrics-grid">
+                            <div class="agent-metric-item">
+                                <h4 id="opt-agent-zones">15</h4>
+                                <p>Monitored Zones</p>
+                            </div>
+                            <div class="agent-metric-item">
+                                <h4 id="opt-agent-prio-issues">3</h4>
+                                <p>Priority Alerts</p>
+                            </div>
+                            <div class="agent-metric-item">
+                                <h4 id="opt-agent-savings">$24.8k</h4>
+                                <p>Est. Savings</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cross-Milestone AI Intelligence Architecture Flowchart -->
+                <div class="card-box">
+                    <div class="card-box-header">
+                        <h3 class="card-box-title">🔄 Cross-Milestone Intelligence & Decision Architecture</h3>
+                        <span class="badge badge-good">Unified Multi-Agent Pipeline</span>
+                    </div>
+                    <div id="crossMilestoneFlowContainer">
+                        <!-- Populated dynamically by optimization.js -->
+                    </div>
+                </div>
+
+                <!-- Charts Row 2: Priority Matrix & Active Issue Distribution -->
+                <div class="charts-grid-2">
+                    <div class="card-box">
+                        <div class="card-box-header">
+                            <h3 class="card-box-title">📊 Priority Matrix: Risk vs Operational Impact</h3>
+                        </div>
+                        <div class="chart-container">
+                            <canvas id="riskImpactChart"></canvas>
+                        </div>
+                    </div>
+
+                    <div class="card-box">
+                        <div class="card-box-header">
+                            <h3 class="card-box-title">🍩 Active Issue Distribution by Category</h3>
+                        </div>
+                        <div class="chart-container">
+                            <canvas id="issueDistributionChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Charts Row 3: Optimization Opportunities & AI Action Timeline -->
+                <div class="charts-grid-2">
+                    <div class="card-box">
+                        <div class="card-box-header">
+                            <h3 class="card-box-title">📈 Optimization Opportunities by Focus Area ($ Savings)</h3>
+                        </div>
+                        <div class="chart-container">
+                            <canvas id="optimizationOpportunitiesChart"></canvas>
+                        </div>
+                    </div>
+
+                    <div class="card-box">
+                        <div class="card-box-header">
+                            <h3 class="card-box-title">⏱️ AI Action & Event Timeline Stream</h3>
+                        </div>
+                        <div id="aiTimelineContainer" style="max-height: 280px; overflow-y: auto;">
+                            <!-- Populated dynamically by optimization.js -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- AI Recommendation Center Section -->
+                <div class="card-box">
+                    <div class="card-box-header">
+                        <h3 class="card-box-title">💡 AI Recommendation Center & Action Plan</h3>
+                        <span class="badge badge-healthy" id="rec-count-badge">0 Active Recommendations</span>
+                    </div>
+                    <div id="ai-recommendations-container" class="alert-card-list">
+                        <!-- Populated dynamically by optimization.js -->
+                    </div>
+                </div>
+
+                <!-- Facility Efficiency Index Section -->
+                <div class="card-box">
+                    <div class="card-box-header">
+                        <h3 class="card-box-title">⚡ Facility Operational Efficiency & Performance Index</h3>
+                    </div>
+                    <div class="kpi-grid kpi-grid-6" style="margin-bottom: 0;">
+                        <div class="kpi-card" style="padding: 16px;">
+                            <span class="kpi-title">Energy Efficiency</span>
+                            <div class="kpi-value" id="eff-energy-pct" style="color: #3b82f6;">86%</div>
+                            <div class="kpi-subtext">HVAC & Lighting COP</div>
+                        </div>
+
+                        <div class="kpi-card" style="padding: 16px;">
+                            <span class="kpi-title">Space Utilization</span>
+                            <div class="kpi-value" id="eff-space-pct" style="color: #10b981;">78%</div>
+                            <div class="kpi-subtext">Active desk utilization</div>
+                        </div>
+
+                        <div class="kpi-card" style="padding: 16px;">
+                            <span class="kpi-title">Equipment Reliability</span>
+                            <div class="kpi-value" id="eff-equip-pct" style="color: #f59e0b;">82%</div>
+                            <div class="kpi-subtext">MTBF Telemetry Index</div>
+                        </div>
+
+                        <div class="kpi-card" style="padding: 16px;">
+                            <span class="kpi-title">Security Compliance</span>
+                            <div class="kpi-value" id="eff-sec-pct" style="color: #8b5cf6;">94%</div>
+                            <div class="kpi-subtext">Verified authorization</div>
+                        </div>
+
+                        <div class="kpi-card" style="padding: 16px;">
+                            <span class="kpi-title">Water Efficiency</span>
+                            <div class="kpi-value" id="eff-water-pct" style="color: #06b6d4;">89%</div>
+                            <div class="kpi-subtext">Plumbing flow rate</div>
+                        </div>
+
+                        <div class="kpi-card" style="padding: 16px;">
+                            <span class="kpi-title">Indoor Air Quality</span>
+                            <div class="kpi-value" id="eff-iaq-pct" style="color: #ec4899;">91%</div>
+                            <div class="kpi-subtext">CO2 & Temp Balance</div>
+                        </div>
+                    </div>
+                </div>
+
+            </main>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="../js/dataLoader.js"></script>
+    <script src="../js/optimization.js"></script>
+
+</body>
+</html>
